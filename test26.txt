@@ -1,0 +1,1687 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3598): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3598): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/auditd  ( 3598): type=1403 audit(0.0:11): policy loaded auid=4294967295 ses=4294967295
+W/auditd  ( 3598): type=1404 audit(0.0:12): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+W/init    ( 3537): type=1400 audit(0.0:13): avc: denied { write } for name="etc" dev="mmcblk0p18" ino=357 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=dir
+W/init    ( 3537): type=1300 audit(0.0:13): arch=40000028 syscall=322 per=800000 success=no exit=-13 a0=ffffff9c a1=b6d3ba60 a2=20241 a3=1b6 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:13): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:13): item=0 name="/etc/" inode=357 dev=103:0a mode=040755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:13): 
+W/init    ( 3537): type=1400 audit(0.0:14): avc: denied { write } for name="etc" dev="mmcblk0p18" ino=357 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=dir
+W/init    ( 3537): type=1300 audit(0.0:14): arch=40000028 syscall=322 per=800000 success=no exit=-13 a0=ffffff9c a1=b6d3ba60 a2=20241 a3=1b6 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:14): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:14): item=0 name="/etc/" inode=357 dev=103:0a mode=040755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:14): 
+W/init    ( 3537): type=1400 audit(0.0:15): avc: denied { write } for name="etc" dev="mmcblk0p18" ino=357 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=dir
+W/init    ( 3537): type=1300 audit(0.0:15): arch=40000028 syscall=322 per=800000 success=no exit=-13 a0=ffffff9c a1=b6d3ba60 a2=20241 a3=1b6 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:15): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:15): item=0 name="/etc/" inode=357 dev=103:0a mode=040755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:15): 
+W/init    ( 3537): type=1400 audit(0.0:16): avc: denied { write } for name="etc" dev="mmcblk0p18" ino=357 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=dir
+W/init    ( 3537): type=1300 audit(0.0:16): arch=40000028 syscall=322 per=800000 success=no exit=-13 a0=ffffff9c a1=b6d3ba60 a2=20241 a3=1b6 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:16): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:16): item=0 name="/etc/" inode=357 dev=103:0a mode=040755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:16): 
+W/init    (    1): type=1400 audit(0.0:17): avc: denied { mounton } for path="/preload" dev="mmcblk0p20" ino=2 scontext=u:r:init:s0 tcontext=u:object_r:system_file:s0 tclass=dir
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+W/auditd  ( 3598): type=1305 audit(0.0:18): audit_pid=3571 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3598):  subj=u:r:logd:s0 res=1
+W/auditd  ( 3598): type=1305 audit(0.0:19): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3598):  subj=u:r:logd:s0 res=1
+I/cm      ( 3579): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/lowmemorykiller( 3573): Using in-kernel low memory killer interface
+W/init    ( 3584): type=1400 audit(0.0:20): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 3584): type=1300 audit(0.0:20): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:20): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:20): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:20): 
+E/sdcard  ( 3596): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3596):     -u: specify UID to run as
+E/sdcard  ( 3596):     -g: specify GID to run as
+E/sdcard  ( 3596):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3596):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3596):     -d: derive file permissions based on path
+E/sdcard  ( 3596):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3596):     -s: split derived permissions for pics, av
+E/sdcard  ( 3596): 
+I/DEBUG   ( 3587): debuggerd: Jun 17 2015 15:28:56
+E/sdcard  ( 3595): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3595):     -u: specify UID to run as
+E/sdcard  ( 3595):     -g: specify GID to run as
+E/sdcard  ( 3595):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3595):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3595):     -d: derive file permissions based on path
+E/sdcard  ( 3595):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3595):     -s: split derived permissions for pics, av
+E/sdcard  ( 3595): 
+I/installd( 3591): installd firing up
+I/cm      ( 3603): Welcome to Android 5.0.2 / CyanogenMod-12-20150624-UNOFFICIAL-k3gxx 
+--------- beginning of system
+I/Vold    ( 3576): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3576): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3576): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3576): Check if PFE is activated on Boot
+I/Netd    ( 3586): Netd 1.0 starting
+E/Cryptfs ( 3576): Bad magic for real block device /dev/block/platform/12200000.dwmmc0/by-name/USERDATA
+E/Cryptfs ( 3576): Error getting crypt footer and key
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3586): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3577): SurfaceFlinger is starting
+I/SurfaceFlinger( 3577): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:21): table=filter family=2 entries=4
+W/iptables( 3672): type=1300 audit(0.0:21): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c29100 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:21): 
+W/auditd  ( 3598): type=1325 audit(0.0:22): table=filter family=10 entries=4
+W/ip6tables( 3673): type=1300 audit(0.0:22): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c2b400 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:22): 
+W/auditd  ( 3598): type=1325 audit(0.0:23): table=filter family=2 entries=6
+W/iptables( 3674): type=1300 audit(0.0:23): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c23100 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:23): 
+W/auditd  ( 3598): type=1325 audit(0.0:24): table=filter family=10 entries=6
+W/ip6tables( 3675): type=1300 audit(0.0:24): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c36600 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:24): 
+D/libEGL  ( 3577): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:25): table=filter family=2 entries=7
+W/iptables( 3682): type=1300 audit(0.0:25): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30400 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:25): 
+W/auditd  ( 3598): type=1325 audit(0.0:26): table=filter family=10 entries=7
+W/ip6tables( 3685): type=1300 audit(0.0:26): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32800 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:26): 
+W/rild    ( 3671): type=1400 audit(0.0:27): avc: denied { search } for name="block" dev="tmpfs" ino=5911 scontext=u:r:rild:s0 tcontext=u:object_r:block_device:s0 tclass=dir
+W/rild    ( 3671): type=1300 audit(0.0:27): arch=40000028 syscall=322 per=800000 success=no exit=-13 a0=ffffff9c a1=b635f36c a2=20000 a3=0 items=1 ppid=1 auid=4294967295 uid=1001 gid=1001 euid=1001 suid=1001 fsuid=1001 egid=1001 sgid=1001 fsgid=1001 ses=4294967295 tty=(none) exe="/system/bin/rild" subj=u:r:rild:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:27): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:27): item=0 name="/dev/mbin0"
+W/auditd  ( 3598): type=1320 audit(0.0:27): 
+W/rild    ( 3671): type=1400 audit(0.0:28): avc: denied { getattr } for path="/efs/nv_data.bin" dev="mmcblk0p3" ino=30 scontext=u:r:rild:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/rild    ( 3671): type=1300 audit(0.0:28): arch=40000028 syscall=327 per=800000 success=no exit=-13 a0=ffffff9c a1=b635f28c a2=b652da78 a3=0 items=1 ppid=1 auid=4294967295 uid=1001 gid=1001 euid=1001 suid=1001 fsuid=1001 egid=1001 sgid=1001 fsgid=1001 ses=4294967295 tty=(none) exe="/system/bin/rild" subj=u:r:rild:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:28): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:28): item=0 name="/efs/nv_data.bin" inode=30 dev=b3:03 mode=0100700 ouid=1001 ogid=1001 rdev=00:00 obj=u:object_r:unlabeled:s0
+W/auditd  ( 3598): type=1320 audit(0.0:28): 
+W/auditd  ( 3598): type=1325 audit(0.0:29): table=filter family=2 entries=9
+W/iptables( 3686): type=1300 audit(0.0:29): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6b33600 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:29): 
+W/rild    ( 3671): type=1400 audit(0.0:30): avc: denied { getattr } for path="/efs/nv_data.bin" dev="mmcblk0p3" ino=30 scontext=u:r:rild:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/rild    ( 3671): type=1300 audit(0.0:30): arch=40000028 syscall=327 per=800000 success=no exit=-13 a0=ffffff9c a1=b635f28c a2=b652d990 a3=0 items=1 ppid=1 auid=4294967295 uid=1001 gid=1001 euid=1001 suid=1001 fsuid=1001 egid=1001 sgid=1001 fsgid=1001 ses=4294967295 tty=(none) exe="/system/bin/rild" subj=u:r:rild:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:30): cwd="/"
+I/        ( 3577): PLATFORM VERSION : JB-MR-2
+I/mediaserver( 3590): ServiceManager: 0xb60500c0
+I/AudioFlinger( 3590): Using default 3000 mSec as standby time.
+I/ServiceManager( 3590): Waiting for service batterystats...
+I/gralloc ( 3577): using (fd=12)
+I/gralloc ( 3577): id           = 
+I/gralloc ( 3577): xres         = 1080 px
+I/gralloc ( 3577): yres         = 1920 px
+I/gralloc ( 3577): xres_virtual = 1080 px
+I/gralloc ( 3577): yres_virtual = 3840 px
+I/gralloc ( 3577): bpp          = 32
+I/gralloc ( 3577): r            = 16:8
+I/gralloc ( 3577): g            =  8:8
+I/gralloc ( 3577): b            =  0:8
+I/gralloc ( 3577): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3577): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3577): refresh rate = 60.00 Hz
+D/WVMDrmPlugIn( 3589): WVMDrmPlugin::onGetSupportInfo : 0
+D/AndroidRuntime( 3594): 
+D/AndroidRuntime( 3594): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3594): CheckJNI is OFF
+I/art     ( 3594): option[0]=-Xzygote
+I/art     ( 3594): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3594): option[2]=exit
+I/art     ( 3594): option[3]=vfprintf
+I/art     ( 3594): option[4]=sensitiveThread
+I/art     ( 3594): option[5]=-verbose:gc
+I/art     ( 3594): option[6]=-Xms8m
+I/art     ( 3594): option[7]=-Xmx512m
+I/art     ( 3594): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3594): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3594): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3594): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3594): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3594): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3594): option[14]=-Xlockprofthreshold:500
+I/art     ( 3594): option[15]=-Ximage-compiler-option
+I/art     ( 3594): option[16]=--runtime-arg
+I/art     ( 3594): option[17]=-Ximage-compiler-option
+I/art     ( 3594): option[18]=-Xms64m
+I/art     ( 3594): option[19]=-Ximage-compiler-option
+I/art     ( 3594): option[20]=--runtime-arg
+I/art     ( 3594): option[21]=-Ximage-compiler-option
+I/art     ( 3594): option[22]=-Xmx64m
+I/art     ( 3594): option[23]=-Ximage-compiler-option
+I/art     ( 3594): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3594): option[25]=-Ximage-compiler-option
+I/art     ( 3594): option[26]=--image-classes=preloaded-classes
+I/art     ( 3594): option[27]=-Xcompiler-option
+I/art     ( 3594): option[28]=--runtime-arg
+I/art     ( 3594): option[29]=-Xcompiler-option
+I/art     ( 3594): option[30]=-Xms64m
+I/art     ( 3594): option[31]=-Xcompiler-option
+I/art     ( 3594): option[32]=--runtime-arg
+I/art     ( 3594): option[33]=-Xcompiler-option
+I/art     ( 3594): option[34]=-Xmx512m
+I/art     ( 3594): option[35]=-Duser.language=es
+I/art     ( 3594): option[36]=-Duser.region=US
+I/art     ( 3594): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3594): Unexpected file type of 
+W/art     ( 3594):  encountered.
+I/art     ( 3594): Using an offset of 0xffb75000 from default art base address of 0x70000000
+I/art     ( 3594): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fb75000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+W/art     ( 3594): Unexpected file type of 
+W/art     ( 3594):  encountered.
+W/art     ( 3594): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fb75000 --runtime-arg -Xms64
+D/hwcomposer( 3577): using
+D/hwcomposer( 3577): xres         = 1080 px
+D/hwcomposer( 3577): yres         = 1920 px
+D/hwcomposer( 3577): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3577): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3577): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3577): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3577): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3577): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3577): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3577): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3577): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3577): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3577): Using composer version 1.3
+I/SurfaceFlinger( 3577): EGL information:
+I/SurfaceFlinger( 3577): vendor    : Android
+I/SurfaceFlinger( 3577): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3577): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3577): Client API: OpenGL_ES
+I/SurfaceFlinger( 3577): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3577): OpenGL ES informations:
+I/SurfaceFlinger( 3577): vendor    : ARM
+I/SurfaceFlinger( 3577): renderer  : Mali-T628
+I/SurfaceFlinger( 3577): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3577): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3577): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3577): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3577): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3577): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3577): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3577): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3577): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 3577): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 3577): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3577): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+--------- beginning of crash
+F/libc    ( 3577): Fatal signal 6 (SIGABRT), code -6 in tid 3577 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 3577, tid: 3577, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 00000df9  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6ffd114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 becffbd0  sl b6a54210  fp becffbd0
+I/DEBUG   ( 3587):     ip 00000df9  sp becff650  lr b6f877b9  pc b6fab4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:92): table=mangle family=2 entries=9
+W/iptables( 3831): type=1300 audit(0.0:92): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30800 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:92): 
+W/auditd  ( 3598): type=1325 audit(0.0:93): table=mangle family=10 entries=9
+W/ip6tables( 3832): type=1300 audit(0.0:93): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c42800 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:93): 
+W/auditd  ( 3598): type=1325 audit(0.0:94): table=mangle family=2 entries=11
+W/iptables( 3833): type=1300 audit(0.0:94): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c34800 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:94): 
+W/auditd  ( 3598): type=1325 audit(0.0:95): table=mangle family=10 entries=11
+W/ip6tables( 3834): type=1300 audit(0.0:95): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c47c00 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:95): 
+W/auditd  ( 3598): type=1325 audit(0.0:96): table=mangle family=2 entries=12
+W/iptables( 3838): type=1300 audit(0.0:96): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c41800 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:96): 
+W/auditd  ( 3598): type=1325 audit(0.0:97): table=mangle family=2 entries=14
+W/iptables( 3839): type=1300 audit(0.0:97): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1c200 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:97): 
+I/ServiceManager( 3590): Waiting for service batterystats...
+W/auditd  ( 3598): type=1325 audit(0.0:98): table=nat family=2 entries=5
+W/iptables( 3843): type=1300 audit(0.0:98): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c2a100 items=0 ppid=3586 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+V/NatController( 3586): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3586): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3586): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3586): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3586): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3586): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3586): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_05
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+W/SurfaceComposerClient( 3747): ComposerService remote (surfaceflinger) died [0xb62591c0]
+E/BootAnimation( 3747): linkToComposerDeath failed (Broken pipe) 
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 3884): type=1400 audit(0.0:120): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 3884): type=1300 audit(0.0:120): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:120): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:120): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:120): 
+I/Netd    ( 3885): Netd 1.0 starting
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/auditd  ( 3598): type=1325 audit(0.0:121): table=filter family=2 entries=36
+W/iptables( 3892): type=1300 audit(0.0:121): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:121): 
+I/SurfaceFlinger( 3888): SurfaceFlinger is starting
+I/SurfaceFlinger( 3888): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:122): table=filter family=10 entries=33
+W/ip6tables( 3895): type=1300 audit(0.0:122): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:122): 
+W/auditd  ( 3598): type=1325 audit(0.0:123): table=filter family=2 entries=35
+W/iptables( 3898): type=1300 audit(0.0:123): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:123): 
+D/libEGL  ( 3888): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:124): table=filter family=10 entries=32
+W/ip6tables( 3899): type=1300 audit(0.0:124): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:124): 
+W/auditd  ( 3598): type=1325 audit(0.0:125): table=filter family=2 entries=35
+W/iptables( 3900): type=1300 audit(0.0:125): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:125): 
+I/        ( 3888): PLATFORM VERSION : JB-MR-2
+D/AndroidRuntime( 3891): 
+D/AndroidRuntime( 3891): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3891): CheckJNI is OFF
+I/art     ( 3891): option[0]=-Xzygote
+I/art     ( 3891): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3891): option[2]=exit
+I/art     ( 3891): option[3]=vfprintf
+I/art     ( 3891): option[4]=sensitiveThread
+I/art     ( 3891): option[5]=-verbose:gc
+I/art     ( 3891): option[6]=-Xms8m
+I/art     ( 3891): option[7]=-Xmx512m
+I/art     ( 3891): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3891): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3891): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3891): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3891): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3891): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3891): option[14]=-Xlockprofthreshold:500
+I/art     ( 3891): option[15]=-Ximage-compiler-option
+I/art     ( 3891): option[16]=--runtime-arg
+I/art     ( 3891): option[17]=-Ximage-compiler-option
+I/art     ( 3891): option[18]=-Xms64m
+I/art     ( 3891): option[19]=-Ximage-compiler-option
+I/art     ( 3891): option[20]=--runtime-arg
+I/art     ( 3891): option[21]=-Ximage-compiler-option
+I/art     ( 3891): option[22]=-Xmx64m
+I/art     ( 3891): option[23]=-Ximage-compiler-option
+I/art     ( 3891): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3891): option[25]=-Ximage-compiler-option
+I/art     ( 3891): option[26]=--image-classes=preloaded-classes
+I/art     ( 3891): option[27]=-Xcompiler-option
+I/art     ( 3891): option[28]=--runtime-arg
+I/art     ( 3891): option[29]=-Xcompiler-option
+I/art     ( 3891): option[30]=-Xms64m
+I/art     ( 3891): option[31]=-Xcompiler-option
+I/art     ( 3891): option[32]=--runtime-arg
+I/art     ( 3891): option[33]=-Xcompiler-option
+I/art     ( 3891): option[34]=-Xmx512m
+I/art     ( 3891): option[35]=-Duser.language=es
+I/art     ( 3891): option[36]=-Duser.region=US
+I/art     ( 3891): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3891): Unexpected file type of 
+W/art     ( 3891):  encountered.
+I/art     ( 3891): Using an offset of 0x891000 from default art base address of 0x70000000
+I/art     ( 3891): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70891000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/mediaserver( 3889): ServiceManager: 0xb60500c0
+I/AudioFlinger( 3889): Using default 3000 mSec as standby time.
+I/ServiceManager( 3889): Waiting for service batterystats...
+W/art     ( 3891): Unexpected file type of 
+W/art     ( 3891):  encountered.
+W/art     ( 3891): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70891000 --runtime-arg -Xms64
+I/gralloc ( 3888): using (fd=12)
+I/gralloc ( 3888): id           = 
+I/gralloc ( 3888): xres         = 1080 px
+I/gralloc ( 3888): yres         = 1920 px
+I/gralloc ( 3888): xres_virtual = 1080 px
+I/gralloc ( 3888): yres_virtual = 3840 px
+I/gralloc ( 3888): bpp          = 32
+I/gralloc ( 3888): r            = 16:8
+I/gralloc ( 3888): g            =  8:8
+I/gralloc ( 3888): b            =  0:8
+I/gralloc ( 3888): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3888): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3888): refresh rate = 60.00 Hz
+D/hwcomposer( 3888): using
+D/hwcomposer( 3888): xres         = 1080 px
+D/hwcomposer( 3888): yres         = 1920 px
+D/hwcomposer( 3888): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3888): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3888): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3888): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3888): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3888): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3888): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3888): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3888): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3888): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3888): Using composer version 1.3
+I/SurfaceFlinger( 3888): EGL information:
+I/SurfaceFlinger( 3888): vendor    : Android
+I/SurfaceFlinger( 3888): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3888): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3888): Client API: OpenGL_ES
+I/SurfaceFlinger( 3888): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3888): OpenGL ES informations:
+I/SurfaceFlinger( 3888): vendor    : ARM
+I/SurfaceFlinger( 3888): renderer  : Mali-T628
+I/SurfaceFlinger( 3888): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3888): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3888): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3888): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3888): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3888): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3888): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3888): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3888): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 3888): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 3888): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3888): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3888): Fatal signal 6 (SIGABRT), code -6 in tid 3888 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 3888, tid: 3888, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 00000f30  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f5a114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 bea81bd0  sl b6a54210  fp bea81bd0
+I/DEBUG   ( 3587):     ip 00000f30  sp bea81650  lr b6ee47b9  pc b6f084e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:251): table=raw family=10 entries=6
+W/ip6tables( 4037): type=1300 audit(0.0:251): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:251): 
+W/auditd  ( 3598): type=1325 audit(0.0:252): table=raw family=2 entries=8
+W/iptables( 4038): type=1300 audit(0.0:252): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:252): 
+W/auditd  ( 3598): type=1325 audit(0.0:253): table=raw family=10 entries=8
+W/ip6tables( 4039): type=1300 audit(0.0:253): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c37800 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:253): 
+W/auditd  ( 3598): type=1325 audit(0.0:254): table=mangle family=2 entries=16
+W/iptables( 4040): type=1300 audit(0.0:254): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c48800 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:254): 
+W/auditd  ( 3598): type=1325 audit(0.0:255): table=mangle family=10 entries=12
+W/ip6tables( 4041): type=1300 audit(0.0:255): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c47800 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:255): 
+W/auditd  ( 3598): type=1325 audit(0.0:256): table=mangle family=2 entries=15
+W/iptables( 4042): type=1300 audit(0.0:256): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1c200 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:256): 
+W/auditd  ( 3598): type=1325 audit(0.0:257): table=mangle family=10 entries=11
+W/ip6tables( 4043): type=1300 audit(0.0:257): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c1c200 items=0 ppid=3885 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 3889): Waiting for service batterystats...
+V/NatController( 3885): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3885): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_06
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 4098): type=1400 audit(0.0:305): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 4098): type=1300 audit(0.0:305): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:305): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:305): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:305): 
+I/Netd    ( 4099): Netd 1.0 starting
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4099): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/auditd  ( 3598): type=1325 audit(0.0:306): table=filter family=2 entries=36
+W/iptables( 4105): type=1300 audit(0.0:306): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:306): 
+I/SurfaceFlinger( 4101): SurfaceFlinger is starting
+I/SurfaceFlinger( 4101): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:307): table=filter family=10 entries=33
+W/ip6tables( 4108): type=1300 audit(0.0:307): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:307): 
+W/auditd  ( 3598): type=1325 audit(0.0:308): table=filter family=2 entries=35
+W/iptables( 4111): type=1300 audit(0.0:308): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:308): 
+D/libEGL  ( 4101): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:309): table=filter family=10 entries=32
+W/ip6tables( 4112): type=1300 audit(0.0:309): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:309): 
+I/        ( 4101): PLATFORM VERSION : JB-MR-2
+W/auditd  ( 3598): type=1325 audit(0.0:310): table=filter family=2 entries=35
+W/iptables( 4125): type=1300 audit(0.0:310): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:310): 
+I/gralloc ( 4101): using (fd=12)
+I/gralloc ( 4101): id           = 
+I/gralloc ( 4101): xres         = 1080 px
+I/gralloc ( 4101): yres         = 1920 px
+I/gralloc ( 4101): xres_virtual = 1080 px
+I/gralloc ( 4101): yres_virtual = 3840 px
+I/gralloc ( 4101): bpp          = 32
+I/gralloc ( 4101): r            = 16:8
+I/gralloc ( 4101): g            =  8:8
+I/gralloc ( 4101): b            =  0:8
+I/gralloc ( 4101): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4101): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4101): refresh rate = 60.00 Hz
+D/AndroidRuntime( 4104): 
+D/AndroidRuntime( 4104): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4104): CheckJNI is OFF
+I/art     ( 4104): option[0]=-Xzygote
+I/art     ( 4104): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4104): option[2]=exit
+I/art     ( 4104): option[3]=vfprintf
+I/art     ( 4104): option[4]=sensitiveThread
+I/art     ( 4104): option[5]=-verbose:gc
+I/art     ( 4104): option[6]=-Xms8m
+I/art     ( 4104): option[7]=-Xmx512m
+I/art     ( 4104): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4104): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 4104): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4104): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4104): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4104): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4104): option[14]=-Xlockprofthreshold:500
+I/art     ( 4104): option[15]=-Ximage-compiler-option
+I/art     ( 4104): option[16]=--runtime-arg
+I/art     ( 4104): option[17]=-Ximage-compiler-option
+I/art     ( 4104): option[18]=-Xms64m
+I/art     ( 4104): option[19]=-Ximage-compiler-option
+I/art     ( 4104): option[20]=--runtime-arg
+I/art     ( 4104): option[21]=-Ximage-compiler-option
+I/art     ( 4104): option[22]=-Xmx64m
+I/art     ( 4104): option[23]=-Ximage-compiler-option
+I/art     ( 4104): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4104): option[25]=-Ximage-compiler-option
+I/art     ( 4104): option[26]=--image-classes=preloaded-classes
+I/art     ( 4104): option[27]=-Xcompiler-option
+I/art     ( 4104): option[28]=--runtime-arg
+I/art     ( 4104): option[29]=-Xcompiler-option
+I/art     ( 4104): option[30]=-Xms64m
+I/art     ( 4104): option[31]=-Xcompiler-option
+I/art     ( 4104): option[32]=--runtime-arg
+I/art     ( 4104): option[33]=-Xcompiler-option
+I/art     ( 4104): option[34]=-Xmx512m
+I/art     ( 4104): option[35]=-Duser.language=es
+I/art     ( 4104): option[36]=-Duser.region=US
+I/art     ( 4104): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4104): Unexpected file type of 
+W/art     ( 4104):  encountered.
+I/mediaserver( 4102): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4102): Using default 3000 mSec as standby time.
+I/art     ( 4104): Using an offset of 0x896000 from default art base address of 0x70000000
+I/art     ( 4104): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70896000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/ServiceManager( 4102): Waiting for service batterystats...
+W/art     ( 4104): Unexpected file type of 
+W/art     ( 4104):  encountered.
+W/art     ( 4104): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70896000 --runtime-arg -Xms64
+D/hwcomposer( 4101): using
+D/hwcomposer( 4101): xres         = 1080 px
+D/hwcomposer( 4101): yres         = 1920 px
+D/hwcomposer( 4101): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 4101): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 4101): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 4101): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 4101): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 4101): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4101): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4101): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 4101): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 4101): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 4101): Using composer version 1.3
+I/SurfaceFlinger( 4101): EGL information:
+I/SurfaceFlinger( 4101): vendor    : Android
+I/SurfaceFlinger( 4101): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4101): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4101): Client API: OpenGL_ES
+I/SurfaceFlinger( 4101): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4101): OpenGL ES informations:
+I/SurfaceFlinger( 4101): vendor    : ARM
+I/SurfaceFlinger( 4101): renderer  : Mali-T628
+I/SurfaceFlinger( 4101): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4101): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4101): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4101): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4101): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4101): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4101): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4101): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 4101): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 4101): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 4101): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4101): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4101): Fatal signal 6 (SIGABRT), code -6 in tid 4101 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 4101, tid: 4101, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 00001005  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6fde114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 bec5ebd0  sl b6a54210  fp bec5ebd0
+I/DEBUG   ( 3587):     ip 00001005  sp bec5e650  lr b6f687b9  pc b6f8c4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:432): table=raw family=10 entries=8
+W/ip6tables( 4246): type=1300 audit(0.0:432): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32800 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:432): 
+W/auditd  ( 3598): type=1325 audit(0.0:433): table=raw family=2 entries=8
+W/iptables( 4247): type=1300 audit(0.0:433): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30100 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:433): 
+W/auditd  ( 3598): type=1325 audit(0.0:434): table=raw family=10 entries=8
+W/ip6tables( 4248): type=1300 audit(0.0:434): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32400 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:434): 
+W/auditd  ( 3598): type=1325 audit(0.0:435): table=raw family=2 entries=6
+W/iptables( 4249): type=1300 audit(0.0:435): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c20400 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:435): 
+W/auditd  ( 3598): type=1325 audit(0.0:436): table=raw family=10 entries=6
+W/ip6tables( 4250): type=1300 audit(0.0:436): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:436): 
+W/auditd  ( 3598): type=1325 audit(0.0:437): table=raw family=2 entries=8
+W/iptables( 4251): type=1300 audit(0.0:437): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:437): 
+W/auditd  ( 3598): type=1325 audit(0.0:438): table=raw family=10 entries=8
+W/ip6tables( 4252): type=1300 audit(0.0:438): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c37800 items=0 ppid=4099 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 4102): Waiting for service batterystats...
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_07
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+V/NatController( 4099): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 4298): type=1400 audit(0.0:476): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 4298): type=1300 audit(0.0:476): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:476): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:476): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:476): 
+I/Netd    ( 4299): Netd 1.0 starting
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4299): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4301): SurfaceFlinger is starting
+W/auditd  ( 3598): type=1325 audit(0.0:477): table=filter family=2 entries=35
+I/SurfaceFlinger( 4301): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/iptables( 4305): type=1300 audit(0.0:477): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:477): 
+W/auditd  ( 3598): type=1325 audit(0.0:478): table=filter family=10 entries=33
+W/ip6tables( 4308): type=1300 audit(0.0:478): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:478): 
+W/auditd  ( 3598): type=1325 audit(0.0:479): table=filter family=2 entries=34
+W/iptables( 4310): type=1300 audit(0.0:479): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:479): 
+D/libEGL  ( 4301): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:480): table=filter family=10 entries=32
+W/ip6tables( 4312): type=1300 audit(0.0:480): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:480): 
+I/        ( 4301): PLATFORM VERSION : JB-MR-2
+W/auditd  ( 3598): type=1325 audit(0.0:481): table=filter family=2 entries=34
+W/iptables( 4325): type=1300 audit(0.0:481): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:481): 
+I/gralloc ( 4301): using (fd=12)
+I/gralloc ( 4301): id           = 
+I/gralloc ( 4301): xres         = 1080 px
+I/gralloc ( 4301): yres         = 1920 px
+I/gralloc ( 4301): xres_virtual = 1080 px
+I/gralloc ( 4301): yres_virtual = 3840 px
+I/gralloc ( 4301): bpp          = 32
+I/gralloc ( 4301): r            = 16:8
+I/gralloc ( 4301): g            =  8:8
+I/gralloc ( 4301): b            =  0:8
+I/gralloc ( 4301): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4301): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4301): refresh rate = 60.00 Hz
+I/mediaserver( 4302): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4302): Using default 3000 mSec as standby time.
+I/ServiceManager( 4302): Waiting for service batterystats...
+D/AndroidRuntime( 4304): 
+D/AndroidRuntime( 4304): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4304): CheckJNI is OFF
+I/art     ( 4304): option[0]=-Xzygote
+I/art     ( 4304): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4304): option[2]=exit
+I/art     ( 4304): option[3]=vfprintf
+I/art     ( 4304): option[4]=sensitiveThread
+I/art     ( 4304): option[5]=-verbose:gc
+I/art     ( 4304): option[6]=-Xms8m
+I/art     ( 4304): option[7]=-Xmx512m
+I/art     ( 4304): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4304): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 4304): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4304): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4304): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4304): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4304): option[14]=-Xlockprofthreshold:500
+I/art     ( 4304): option[15]=-Ximage-compiler-option
+I/art     ( 4304): option[16]=--runtime-arg
+I/art     ( 4304): option[17]=-Ximage-compiler-option
+I/art     ( 4304): option[18]=-Xms64m
+I/art     ( 4304): option[19]=-Ximage-compiler-option
+I/art     ( 4304): option[20]=--runtime-arg
+I/art     ( 4304): option[21]=-Ximage-compiler-option
+I/art     ( 4304): option[22]=-Xmx64m
+I/art     ( 4304): option[23]=-Ximage-compiler-option
+I/art     ( 4304): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4304): option[25]=-Ximage-compiler-option
+I/art     ( 4304): option[26]=--image-classes=preloaded-classes
+I/art     ( 4304): option[27]=-Xcompiler-option
+I/art     ( 4304): option[28]=--runtime-arg
+I/art     ( 4304): option[29]=-Xcompiler-option
+I/art     ( 4304): option[30]=-Xms64m
+I/art     ( 4304): option[31]=-Xcompiler-option
+I/art     ( 4304): option[32]=--runtime-arg
+I/art     ( 4304): option[33]=-Xcompiler-option
+I/art     ( 4304): option[34]=-Xmx512m
+I/art     ( 4304): option[35]=-Duser.language=es
+I/art     ( 4304): option[36]=-Duser.region=US
+I/art     ( 4304): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4304): Unexpected file type of 
+W/art     ( 4304):  encountered.
+I/art     ( 4304): Using an offset of 0xffbad000 from default art base address of 0x70000000
+I/art     ( 4304): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fbad000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+W/art     ( 4304): Unexpected file type of 
+W/art     ( 4304):  encountered.
+W/art     ( 4304): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fbad000 --runtime-arg -Xms64
+D/hwcomposer( 4301): using
+D/hwcomposer( 4301): xres         = 1080 px
+D/hwcomposer( 4301): yres         = 1920 px
+D/hwcomposer( 4301): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 4301): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 4301): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 4301): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 4301): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 4301): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4301): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4301): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 4301): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 4301): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 4301): Using composer version 1.3
+I/SurfaceFlinger( 4301): EGL information:
+I/SurfaceFlinger( 4301): vendor    : Android
+I/SurfaceFlinger( 4301): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4301): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4301): Client API: OpenGL_ES
+I/SurfaceFlinger( 4301): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 4301): OpenGL ES informations:
+I/SurfaceFlinger( 4301): vendor    : ARM
+I/SurfaceFlinger( 4301): renderer  : Mali-T628
+I/SurfaceFlinger( 4301): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4301): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4301): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4301): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4301): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4301): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4301): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4301): Set power mode=2, type=0 flinger=0xb6962000
+I/hwcomposer( 4301): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 4301): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 4301): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4301): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4301): Fatal signal 6 (SIGABRT), code -6 in tid 4301 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 4301, tid: 4301, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 000010cd  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f1e114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 be880bd0  sl b6954210  fp be880bd0
+I/DEBUG   ( 3587):     ip 000010cd  sp be880650  lr b6ea87b9  pc b6ecc4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:602): table=raw family=2 entries=8
+W/iptables( 4445): type=1300 audit(0.0:602): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:602): 
+W/auditd  ( 3598): type=1325 audit(0.0:603): table=raw family=10 entries=8
+W/ip6tables( 4446): type=1300 audit(0.0:603): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32800 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:603): 
+W/auditd  ( 3598): type=1325 audit(0.0:604): table=raw family=2 entries=8
+W/iptables( 4447): type=1300 audit(0.0:604): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30100 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:604): 
+W/auditd  ( 3598): type=1325 audit(0.0:605): table=raw family=10 entries=8
+W/ip6tables( 4448): type=1300 audit(0.0:605): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32400 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:605): 
+W/auditd  ( 3598): type=1325 audit(0.0:606): table=raw family=2 entries=6
+W/iptables( 4449): type=1300 audit(0.0:606): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c20400 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:606): 
+W/auditd  ( 3598): type=1325 audit(0.0:607): table=raw family=10 entries=6
+W/ip6tables( 4450): type=1300 audit(0.0:607): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:607): 
+W/auditd  ( 3598): type=1325 audit(0.0:608): table=raw family=2 entries=8
+W/iptables( 4451): type=1300 audit(0.0:608): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4299 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 4302): Waiting for service batterystats...
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_08
+V/NatController( 4299): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 4299): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 4299): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 4299): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+V/NatController( 4299): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 4497): type=1400 audit(0.0:651): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 4497): type=1300 audit(0.0:651): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:651): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:651): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:651): 
+I/Netd    ( 4498): Netd 1.0 starting
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4498): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4500): SurfaceFlinger is starting
+I/SurfaceFlinger( 4500): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:652): table=filter family=2 entries=34
+W/iptables( 4504): type=1300 audit(0.0:652): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:652): 
+W/auditd  ( 3598): type=1325 audit(0.0:653): table=filter family=10 entries=33
+W/ip6tables( 4507): type=1300 audit(0.0:653): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:653): 
+W/auditd  ( 3598): type=1325 audit(0.0:654): table=filter family=2 entries=33
+W/iptables( 4509): type=1300 audit(0.0:654): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:654): 
+D/libEGL  ( 4500): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:655): table=filter family=10 entries=32
+W/ip6tables( 4510): type=1300 audit(0.0:655): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:655): 
+W/auditd  ( 3598): type=1325 audit(0.0:656): table=filter family=2 entries=33
+W/iptables( 4512): type=1300 audit(0.0:656): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:656): 
+I/        ( 4500): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4500): using (fd=12)
+I/gralloc ( 4500): id           = 
+I/gralloc ( 4500): xres         = 1080 px
+I/gralloc ( 4500): yres         = 1920 px
+I/gralloc ( 4500): xres_virtual = 1080 px
+I/gralloc ( 4500): yres_virtual = 3840 px
+I/gralloc ( 4500): bpp          = 32
+I/gralloc ( 4500): r            = 16:8
+I/gralloc ( 4500): g            =  8:8
+I/gralloc ( 4500): b            =  0:8
+I/gralloc ( 4500): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4500): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4500): refresh rate = 60.00 Hz
+D/AndroidRuntime( 4503): 
+D/AndroidRuntime( 4503): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4503): CheckJNI is OFF
+I/art     ( 4503): option[0]=-Xzygote
+I/art     ( 4503): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4503): option[2]=exit
+I/art     ( 4503): option[3]=vfprintf
+I/art     ( 4503): option[4]=sensitiveThread
+I/art     ( 4503): option[5]=-verbose:gc
+I/art     ( 4503): option[6]=-Xms8m
+I/art     ( 4503): option[7]=-Xmx512m
+I/art     ( 4503): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4503): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 4503): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4503): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4503): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4503): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4503): option[14]=-Xlockprofthreshold:500
+I/art     ( 4503): option[15]=-Ximage-compiler-option
+I/art     ( 4503): option[16]=--runtime-arg
+I/art     ( 4503): option[17]=-Ximage-compiler-option
+I/art     ( 4503): option[18]=-Xms64m
+I/art     ( 4503): option[19]=-Ximage-compiler-option
+I/art     ( 4503): option[20]=--runtime-arg
+I/art     ( 4503): option[21]=-Ximage-compiler-option
+I/art     ( 4503): option[22]=-Xmx64m
+I/art     ( 4503): option[23]=-Ximage-compiler-option
+I/art     ( 4503): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4503): option[25]=-Ximage-compiler-option
+I/art     ( 4503): option[26]=--image-classes=preloaded-classes
+I/art     ( 4503): option[27]=-Xcompiler-option
+I/art     ( 4503): option[28]=--runtime-arg
+I/art     ( 4503): option[29]=-Xcompiler-option
+I/art     ( 4503): option[30]=-Xms64m
+I/art     ( 4503): option[31]=-Xcompiler-option
+I/art     ( 4503): option[32]=--runtime-arg
+I/art     ( 4503): option[33]=-Xcompiler-option
+I/art     ( 4503): option[34]=-Xmx512m
+I/art     ( 4503): option[35]=-Duser.language=es
+I/art     ( 4503): option[36]=-Duser.region=US
+I/art     ( 4503): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4503): Unexpected file type of 
+W/art     ( 4503):  encountered.
+I/art     ( 4503): Using an offset of 0xff421000 from default art base address of 0x70000000
+I/art     ( 4503): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f421000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/mediaserver( 4501): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4501): Using default 3000 mSec as standby time.
+I/ServiceManager( 4501): Waiting for service batterystats...
+W/art     ( 4503): Unexpected file type of 
+W/art     ( 4503):  encountered.
+W/art     ( 4503): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f421000 --runtime-arg -Xms64
+D/hwcomposer( 4500): using
+D/hwcomposer( 4500): xres         = 1080 px
+D/hwcomposer( 4500): yres         = 1920 px
+D/hwcomposer( 4500): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 4500): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 4500): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 4500): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 4500): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 4500): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4500): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4500): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 4500): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 4500): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 4500): Using composer version 1.3
+I/SurfaceFlinger( 4500): EGL information:
+I/SurfaceFlinger( 4500): vendor    : Android
+I/SurfaceFlinger( 4500): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4500): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4500): Client API: OpenGL_ES
+I/SurfaceFlinger( 4500): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4500): OpenGL ES informations:
+I/SurfaceFlinger( 4500): vendor    : ARM
+I/SurfaceFlinger( 4500): renderer  : Mali-T628
+I/SurfaceFlinger( 4500): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4500): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4500): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4500): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4500): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4500): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4500): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4500): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 4500): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 4500): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 4500): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4500): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4500): Fatal signal 6 (SIGABRT), code -6 in tid 4500 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 4500, tid: 4500, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 00001194  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f51114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 beb15bd0  sl b6a54210  fp beb15bd0
+I/DEBUG   ( 3587):     ip 00001194  sp beb15650  lr b6edb7b9  pc b6eff4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:780): table=raw family=10 entries=8
+W/ip6tables( 4647): type=1300 audit(0.0:780): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32400 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:780): 
+W/auditd  ( 3598): type=1325 audit(0.0:781): table=raw family=2 entries=6
+W/iptables( 4648): type=1300 audit(0.0:781): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c20400 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:781): 
+W/auditd  ( 3598): type=1325 audit(0.0:782): table=raw family=10 entries=6
+W/ip6tables( 4649): type=1300 audit(0.0:782): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:782): 
+W/auditd  ( 3598): type=1325 audit(0.0:783): table=raw family=2 entries=8
+W/iptables( 4650): type=1300 audit(0.0:783): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:783): 
+W/auditd  ( 3598): type=1325 audit(0.0:784): table=raw family=10 entries=8
+W/ip6tables( 4651): type=1300 audit(0.0:784): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c37800 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:784): 
+W/auditd  ( 3598): type=1325 audit(0.0:785): table=mangle family=2 entries=15
+W/iptables( 4652): type=1300 audit(0.0:785): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1c200 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:785): 
+W/auditd  ( 3598): type=1325 audit(0.0:786): table=mangle family=10 entries=12
+W/ip6tables( 4653): type=1300 audit(0.0:786): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c47800 items=0 ppid=4498 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 4501): Waiting for service batterystats...
+V/NatController( 4498): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 4498): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 4498): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_09
+V/NatController( 4498): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 4498): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 4498): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 4498): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 4700): type=1400 audit(0.0:828): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 4700): type=1300 audit(0.0:828): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:828): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:828): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:828): 
+I/Netd    ( 4701): Netd 1.0 starting
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4701): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/auditd  ( 3598): type=1325 audit(0.0:829): table=filter family=2 entries=36
+W/iptables( 4707): type=1300 audit(0.0:829): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:829): 
+I/SurfaceFlinger( 4703): SurfaceFlinger is starting
+I/SurfaceFlinger( 4703): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:830): table=filter family=10 entries=33
+W/ip6tables( 4709): type=1300 audit(0.0:830): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:830): 
+W/auditd  ( 3598): type=1325 audit(0.0:831): table=filter family=2 entries=35
+W/iptables( 4712): type=1300 audit(0.0:831): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:831): 
+W/auditd  ( 3598): type=1325 audit(0.0:832): table=filter family=10 entries=32
+W/ip6tables( 4714): type=1300 audit(0.0:832): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:832): 
+D/libEGL  ( 4703): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:833): table=filter family=2 entries=35
+W/iptables( 4715): type=1300 audit(0.0:833): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:833): 
+I/        ( 4703): PLATFORM VERSION : JB-MR-2
+I/mediaserver( 4704): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4704): Using default 3000 mSec as standby time.
+I/ServiceManager( 4704): Waiting for service batterystats...
+D/AndroidRuntime( 4706): 
+D/AndroidRuntime( 4706): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4706): CheckJNI is OFF
+I/art     ( 4706): option[0]=-Xzygote
+I/art     ( 4706): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4706): option[2]=exit
+I/art     ( 4706): option[3]=vfprintf
+I/art     ( 4706): option[4]=sensitiveThread
+I/art     ( 4706): option[5]=-verbose:gc
+I/art     ( 4706): option[6]=-Xms8m
+I/art     ( 4706): option[7]=-Xmx512m
+I/art     ( 4706): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4706): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 4706): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4706): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4706): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4706): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4706): option[14]=-Xlockprofthreshold:500
+I/art     ( 4706): option[15]=-Ximage-compiler-option
+I/art     ( 4706): option[16]=--runtime-arg
+I/art     ( 4706): option[17]=-Ximage-compiler-option
+I/art     ( 4706): option[18]=-Xms64m
+I/art     ( 4706): option[19]=-Ximage-compiler-option
+I/art     ( 4706): option[20]=--runtime-arg
+I/art     ( 4706): option[21]=-Ximage-compiler-option
+I/art     ( 4706): option[22]=-Xmx64m
+I/art     ( 4706): option[23]=-Ximage-compiler-option
+I/art     ( 4706): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4706): option[25]=-Ximage-compiler-option
+I/art     ( 4706): option[26]=--image-classes=preloaded-classes
+I/art     ( 4706): option[27]=-Xcompiler-option
+I/art     ( 4706): option[28]=--runtime-arg
+I/art     ( 4706): option[29]=-Xcompiler-option
+I/art     ( 4706): option[30]=-Xms64m
+I/art     ( 4706): option[31]=-Xcompiler-option
+I/art     ( 4706): option[32]=--runtime-arg
+I/art     ( 4706): option[33]=-Xcompiler-option
+I/art     ( 4706): option[34]=-Xmx512m
+I/art     ( 4706): option[35]=-Duser.language=es
+I/art     ( 4706): option[36]=-Duser.region=US
+I/art     ( 4706): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4706): Unexpected file type of 
+W/art     ( 4706):  encountered.
+I/art     ( 4706): Using an offset of 0xff422000 from default art base address of 0x70000000
+I/art     ( 4706): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f422000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+W/art     ( 4706): Unexpected file type of 
+W/art     ( 4706):  encountered.
+W/art     ( 4706): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f422000 --runtime-arg -Xms64
+I/gralloc ( 4703): using (fd=12)
+I/gralloc ( 4703): id           = 
+I/gralloc ( 4703): xres         = 1080 px
+I/gralloc ( 4703): yres         = 1920 px
+I/gralloc ( 4703): xres_virtual = 1080 px
+I/gralloc ( 4703): yres_virtual = 3840 px
+I/gralloc ( 4703): bpp          = 32
+I/gralloc ( 4703): r            = 16:8
+I/gralloc ( 4703): g            =  8:8
+I/gralloc ( 4703): b            =  0:8
+I/gralloc ( 4703): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4703): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4703): refresh rate = 60.00 Hz
+D/hwcomposer( 4703): using
+D/hwcomposer( 4703): xres         = 1080 px
+D/hwcomposer( 4703): yres         = 1920 px
+D/hwcomposer( 4703): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 4703): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 4703): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 4703): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 4703): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 4703): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4703): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4703): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 4703): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 4703): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 4703): Using composer version 1.3
+I/SurfaceFlinger( 4703): EGL information:
+I/SurfaceFlinger( 4703): vendor    : Android
+I/SurfaceFlinger( 4703): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4703): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4703): Client API: OpenGL_ES
+I/SurfaceFlinger( 4703): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4703): OpenGL ES informations:
+I/SurfaceFlinger( 4703): vendor    : ARM
+I/SurfaceFlinger( 4703): renderer  : Mali-T628
+I/SurfaceFlinger( 4703): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4703): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4703): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4703): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4703): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4703): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4703): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4703): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 4703): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 4703): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 4703): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4703): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4703): Fatal signal 6 (SIGABRT), code -6 in tid 4703 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 4703, tid: 4703, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 0000125f  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f9d114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 bec0fbd0  sl b6a54210  fp bec0fbd0
+I/DEBUG   ( 3587):     ip 0000125f  sp bec0f650  lr b6f277b9  pc b6f4b4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:957): table=raw family=10 entries=8
+W/ip6tables( 4850): type=1300 audit(0.0:957): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32400 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:957): 
+W/auditd  ( 3598): type=1325 audit(0.0:958): table=raw family=2 entries=6
+W/iptables( 4851): type=1300 audit(0.0:958): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c20400 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:958): 
+W/auditd  ( 3598): type=1325 audit(0.0:959): table=raw family=10 entries=6
+W/ip6tables( 4852): type=1300 audit(0.0:959): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:959): 
+W/auditd  ( 3598): type=1325 audit(0.0:960): table=raw family=2 entries=8
+W/iptables( 4853): type=1300 audit(0.0:960): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:960): 
+W/auditd  ( 3598): type=1325 audit(0.0:961): table=raw family=10 entries=8
+W/ip6tables( 4854): type=1300 audit(0.0:961): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c37800 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:961): 
+W/auditd  ( 3598): type=1325 audit(0.0:962): table=mangle family=2 entries=16
+W/iptables( 4855): type=1300 audit(0.0:962): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c48800 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:962): 
+W/auditd  ( 3598): type=1325 audit(0.0:963): table=mangle family=10 entries=12
+W/ip6tables( 4856): type=1300 audit(0.0:963): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c47800 items=0 ppid=4701 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 4704): Waiting for service batterystats...
+V/NatController( 4701): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 4701): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_00
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 4909): type=1400 audit(0.0:1013): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 4909): type=1300 audit(0.0:1013): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:1013): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:1013): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:1013): 
+I/Netd    ( 4910): Netd 1.0 starting
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4910): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/auditd  ( 3598): type=1325 audit(0.0:1014): table=filter family=2 entries=36
+W/iptables( 4917): type=1300 audit(0.0:1014): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1014): 
+I/SurfaceFlinger( 4913): SurfaceFlinger is starting
+I/SurfaceFlinger( 4913): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:1015): table=filter family=10 entries=33
+W/ip6tables( 4918): type=1300 audit(0.0:1015): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1015): 
+W/auditd  ( 3598): type=1325 audit(0.0:1016): table=filter family=2 entries=35
+W/iptables( 4922): type=1300 audit(0.0:1016): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1016): 
+D/libEGL  ( 4913): loaded /vendor/lib/egl/libGLES_mali.so
+W/auditd  ( 3598): type=1325 audit(0.0:1017): table=filter family=10 entries=32
+W/ip6tables( 4924): type=1300 audit(0.0:1017): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1017): 
+W/auditd  ( 3598): type=1325 audit(0.0:1018): table=filter family=2 entries=35
+W/iptables( 4925): type=1300 audit(0.0:1018): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1018): 
+I/        ( 4913): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4913): using (fd=12)
+I/gralloc ( 4913): id           = 
+I/gralloc ( 4913): xres         = 1080 px
+I/gralloc ( 4913): yres         = 1920 px
+I/gralloc ( 4913): xres_virtual = 1080 px
+I/gralloc ( 4913): yres_virtual = 3840 px
+I/gralloc ( 4913): bpp          = 32
+I/gralloc ( 4913): r            = 16:8
+I/gralloc ( 4913): g            =  8:8
+I/gralloc ( 4913): b            =  0:8
+I/gralloc ( 4913): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4913): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4913): refresh rate = 60.00 Hz
+I/mediaserver( 4914): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4914): Using default 3000 mSec as standby time.
+I/ServiceManager( 4914): Waiting for service batterystats...
+D/AndroidRuntime( 4916): 
+D/AndroidRuntime( 4916): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4916): CheckJNI is OFF
+I/art     ( 4916): option[0]=-Xzygote
+I/art     ( 4916): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4916): option[2]=exit
+I/art     ( 4916): option[3]=vfprintf
+I/art     ( 4916): option[4]=sensitiveThread
+I/art     ( 4916): option[5]=-verbose:gc
+I/art     ( 4916): option[6]=-Xms8m
+I/art     ( 4916): option[7]=-Xmx512m
+I/art     ( 4916): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4916): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 4916): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4916): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4916): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4916): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4916): option[14]=-Xlockprofthreshold:500
+I/art     ( 4916): option[15]=-Ximage-compiler-option
+I/art     ( 4916): option[16]=--runtime-arg
+I/art     ( 4916): option[17]=-Ximage-compiler-option
+I/art     ( 4916): option[18]=-Xms64m
+I/art     ( 4916): option[19]=-Ximage-compiler-option
+I/art     ( 4916): option[20]=--runtime-arg
+I/art     ( 4916): option[21]=-Ximage-compiler-option
+I/art     ( 4916): option[22]=-Xmx64m
+I/art     ( 4916): option[23]=-Ximage-compiler-option
+I/art     ( 4916): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4916): option[25]=-Ximage-compiler-option
+I/art     ( 4916): option[26]=--image-classes=preloaded-classes
+I/art     ( 4916): option[27]=-Xcompiler-option
+I/art     ( 4916): option[28]=--runtime-arg
+I/art     ( 4916): option[29]=-Xcompiler-option
+I/art     ( 4916): option[30]=-Xms64m
+I/art     ( 4916): option[31]=-Xcompiler-option
+I/art     ( 4916): option[32]=--runtime-arg
+I/art     ( 4916): option[33]=-Xcompiler-option
+I/art     ( 4916): option[34]=-Xmx512m
+I/art     ( 4916): option[35]=-Duser.language=es
+I/art     ( 4916): option[36]=-Duser.region=US
+I/art     ( 4916): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4916): Unexpected file type of 
+W/art     ( 4916):  encountered.
+I/art     ( 4916): Using an offset of 0xff6a2000 from default art base address of 0x70000000
+I/art     ( 4916): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f6a2000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+W/art     ( 4916): Unexpected file type of 
+W/art     ( 4916):  encountered.
+W/art     ( 4916): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f6a2000 --runtime-arg -Xms64
+D/hwcomposer( 4913): using
+D/hwcomposer( 4913): xres         = 1080 px
+D/hwcomposer( 4913): yres         = 1920 px
+D/hwcomposer( 4913): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 4913): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 4913): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 4913): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 4913): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 4913): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4913): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 4913): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 4913): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 4913): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 4913): Using composer version 1.3
+I/SurfaceFlinger( 4913): EGL information:
+I/SurfaceFlinger( 4913): vendor    : Android
+I/SurfaceFlinger( 4913): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4913): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4913): Client API: OpenGL_ES
+I/SurfaceFlinger( 4913): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4913): OpenGL ES informations:
+I/SurfaceFlinger( 4913): vendor    : ARM
+I/SurfaceFlinger( 4913): renderer  : Mali-T628
+I/SurfaceFlinger( 4913): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4913): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4913): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4913): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4913): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4913): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4913): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4913): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 4913): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 4913): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 4913): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4913): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4913): Fatal signal 6 (SIGABRT), code -6 in tid 4913 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 4913, tid: 4913, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 00001331  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f6e114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 bef69bd0  sl b6a54210  fp bef69bd0
+I/DEBUG   ( 3587):     ip 00001331  sp bef69650  lr b6ef87b9  pc b6f1c4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/iptables( 5057): type=1300 audit(0.0:1139): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1139): 
+W/auditd  ( 3598): type=1325 audit(0.0:1140): table=raw family=10 entries=8
+W/ip6tables( 5058): type=1300 audit(0.0:1140): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32800 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1140): 
+W/auditd  ( 3598): type=1325 audit(0.0:1141): table=raw family=2 entries=8
+W/iptables( 5059): type=1300 audit(0.0:1141): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30100 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1141): 
+W/auditd  ( 3598): type=1325 audit(0.0:1142): table=raw family=10 entries=8
+W/ip6tables( 5060): type=1300 audit(0.0:1142): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32400 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1142): 
+W/auditd  ( 3598): type=1325 audit(0.0:1143): table=raw family=2 entries=6
+W/iptables( 5061): type=1300 audit(0.0:1143): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c20400 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1143): 
+W/auditd  ( 3598): type=1325 audit(0.0:1144): table=raw family=10 entries=6
+W/ip6tables( 5062): type=1300 audit(0.0:1144): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c31800 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1144): 
+W/auditd  ( 3598): type=1325 audit(0.0:1145): table=raw family=2 entries=8
+W/iptables( 5063): type=1300 audit(0.0:1145): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=4910 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1145): 
+I/ServiceManager( 4914): Waiting for service batterystats...
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_01
+V/NatController( 4910): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 4910): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 4910): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 4910): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+V/NatController( 4910): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+V/NatController( 4910): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+V/NatController( 4910): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+I/ServiceManager( 3574): service 'media.audio_flinger' died
+W/init    ( 5110): type=1400 audit(0.0:1190): avc: denied { entrypoint } for path="/system/bin/auditd" dev="mmcblk0p18" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:system_file:s0 tclass=file
+W/init    ( 5110): type=1300 audit(0.0:1190): arch=40000028 syscall=11 per=800000 success=no exit=-13 a0=b6d80954 a1=b6d66770 a2=57e64 a3=ff0000 items=1 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/init" subj=u:r:init:s0 key=(null)
+W/auditd  ( 3598): type=1307 audit(0.0:1190): cwd="/"
+W/auditd  ( 3598): type=1302 audit(0.0:1190): item=0 name="/system/bin/auditd" inode=173 dev=103:0a mode=0100755 ouid=0 ogid=2000 rdev=00:00 obj=u:object_r:system_file:s0
+W/auditd  ( 3598): type=1320 audit(0.0:1190): 
+I/Netd    ( 5111): Netd 1.0 starting
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5111): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/auditd  ( 3598): type=1325 audit(0.0:1191): table=filter family=2 entries=36
+W/iptables( 5117): type=1300 audit(0.0:1191): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c25000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1191): 
+W/auditd  ( 3598): type=1325 audit(0.0:1192): table=filter family=10 entries=33
+W/ip6tables( 5118): type=1300 audit(0.0:1192): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c28000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1192): 
+W/auditd  ( 3598): type=1325 audit(0.0:1193): table=filter family=2 entries=35
+W/iptables( 5119): type=1300 audit(0.0:1193): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1193): 
+I/SurfaceFlinger( 5113): SurfaceFlinger is starting
+I/SurfaceFlinger( 5113): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/auditd  ( 3598): type=1325 audit(0.0:1194): table=filter family=10 entries=32
+W/ip6tables( 5123): type=1300 audit(0.0:1194): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c23000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1194): 
+W/auditd  ( 3598): type=1325 audit(0.0:1195): table=filter family=2 entries=35
+W/iptables( 5125): type=1300 audit(0.0:1195): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c22000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1195): 
+D/libEGL  ( 5113): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 5113): PLATFORM VERSION : JB-MR-2
+I/mediaserver( 5114): ServiceManager: 0xb60500c0
+I/AudioFlinger( 5114): Using default 3000 mSec as standby time.
+I/ServiceManager( 5114): Waiting for service batterystats...
+D/AndroidRuntime( 5116): 
+D/AndroidRuntime( 5116): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/gralloc ( 5113): using (fd=12)
+I/gralloc ( 5113): id           = 
+I/gralloc ( 5113): xres         = 1080 px
+I/gralloc ( 5113): yres         = 1920 px
+I/gralloc ( 5113): xres_virtual = 1080 px
+I/gralloc ( 5113): yres_virtual = 3840 px
+I/gralloc ( 5113): bpp          = 32
+I/gralloc ( 5113): r            = 16:8
+I/gralloc ( 5113): g            =  8:8
+I/gralloc ( 5113): b            =  0:8
+I/gralloc ( 5113): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5113): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5113): refresh rate = 60.00 Hz
+D/AndroidRuntime( 5116): CheckJNI is OFF
+I/art     ( 5116): option[0]=-Xzygote
+I/art     ( 5116): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5116): option[2]=exit
+I/art     ( 5116): option[3]=vfprintf
+I/art     ( 5116): option[4]=sensitiveThread
+I/art     ( 5116): option[5]=-verbose:gc
+I/art     ( 5116): option[6]=-Xms8m
+I/art     ( 5116): option[7]=-Xmx512m
+I/art     ( 5116): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5116): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 5116): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5116): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5116): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5116): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5116): option[14]=-Xlockprofthreshold:500
+I/art     ( 5116): option[15]=-Ximage-compiler-option
+I/art     ( 5116): option[16]=--runtime-arg
+I/art     ( 5116): option[17]=-Ximage-compiler-option
+I/art     ( 5116): option[18]=-Xms64m
+I/art     ( 5116): option[19]=-Ximage-compiler-option
+I/art     ( 5116): option[20]=--runtime-arg
+I/art     ( 5116): option[21]=-Ximage-compiler-option
+I/art     ( 5116): option[22]=-Xmx64m
+I/art     ( 5116): option[23]=-Ximage-compiler-option
+I/art     ( 5116): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5116): option[25]=-Ximage-compiler-option
+I/art     ( 5116): option[26]=--image-classes=preloaded-classes
+I/art     ( 5116): option[27]=-Xcompiler-option
+I/art     ( 5116): option[28]=--runtime-arg
+I/art     ( 5116): option[29]=-Xcompiler-option
+I/art     ( 5116): option[30]=-Xms64m
+I/art     ( 5116): option[31]=-Xcompiler-option
+I/art     ( 5116): option[32]=--runtime-arg
+I/art     ( 5116): option[33]=-Xcompiler-option
+I/art     ( 5116): option[34]=-Xmx512m
+I/art     ( 5116): option[35]=-Duser.language=es
+I/art     ( 5116): option[36]=-Duser.region=US
+I/art     ( 5116): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 5116): Unexpected file type of 
+W/art     ( 5116):  encountered.
+I/art     ( 5116): Using an offset of 0xff3a0000 from default art base address of 0x70000000
+I/art     ( 5116): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f3a0000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+W/art     ( 5116): Unexpected file type of 
+W/art     ( 5116):  encountered.
+W/art     ( 5116): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f3a0000 --runtime-arg -Xms64
+D/hwcomposer( 5113): using
+D/hwcomposer( 5113): xres         = 1080 px
+D/hwcomposer( 5113): yres         = 1920 px
+D/hwcomposer( 5113): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 5113): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 5113): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 5113): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 5113): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 5113): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 5113): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 5113): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 5113): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 5113): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 5113): Using composer version 1.3
+I/SurfaceFlinger( 5113): EGL information:
+I/SurfaceFlinger( 5113): vendor    : Android
+I/SurfaceFlinger( 5113): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5113): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5113): Client API: OpenGL_ES
+I/SurfaceFlinger( 5113): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 5113): OpenGL ES informations:
+I/SurfaceFlinger( 5113): vendor    : ARM
+I/SurfaceFlinger( 5113): renderer  : Mali-T628
+I/SurfaceFlinger( 5113): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5113): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5113): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5113): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5113): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5113): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5113): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5113): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 5113): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 5113): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 5113): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5113): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 5113): Fatal signal 6 (SIGABRT), code -6 in tid 5113 (surfaceflinger)
+I/DEBUG   ( 3587): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3587): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3587): HINT: adb forward tcp:5039 tcp:5039
+W/SurfaceFlinger( 5113): Ignoring duplicate VSYNC event from HWC (t=42285183462)
+I/DEBUG   ( 3587): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3587): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/8900861058:userdebug/test-keys'
+I/DEBUG   ( 3587): Revision: '10'
+I/DEBUG   ( 3587): ABI: 'arm'
+I/DEBUG   ( 3587): pid: 5113, tid: 5113, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3587): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3587): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3587):     r0 00000000  r1 000013f9  r2 00000006  r3 00000000
+I/DEBUG   ( 3587):     r4 b6f8f114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3587):     r8 00000000  r9 bedbbbd0  sl b6a54210  fp bedbbbd0
+I/DEBUG   ( 3587):     ip 000013f9  sp bedbb650  lr b6f197b9  pc b6f3d4e4  cpsr 600f0010
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): backtrace:
+I/DEBUG   ( 3587):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3587):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3587):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3587):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3587):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3587):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3587):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3587):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3587):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3587):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3587):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3587):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3587):     #17 pc 000008d8  /system/bin/surfaceflinger
+W/auditd  ( 3598): type=1325 audit(0.0:1312): table=raw family=2 entries=8
+W/iptables( 5253): type=1300 audit(0.0:1312): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1312): 
+W/auditd  ( 3598): type=1325 audit(0.0:1313): table=raw family=10 entries=8
+W/ip6tables( 5254): type=1300 audit(0.0:1313): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c37800 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1313): 
+W/auditd  ( 3598): type=1325 audit(0.0:1314): table=raw family=2 entries=9
+W/iptables( 5255): type=1300 audit(0.0:1314): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1314): 
+W/auditd  ( 3598): type=1325 audit(0.0:1315): table=raw family=10 entries=9
+W/ip6tables( 5256): type=1300 audit(0.0:1315): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c1d000 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1315): 
+W/auditd  ( 3598): type=1325 audit(0.0:1316): table=raw family=2 entries=8
+W/iptables( 5257): type=1300 audit(0.0:1316): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c1ba00 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1316): 
+W/auditd  ( 3598): type=1325 audit(0.0:1317): table=raw family=10 entries=8
+W/ip6tables( 5258): type=1300 audit(0.0:1317): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=29 a2=40 a3=b6c32800 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/ip6tables" subj=u:r:netd:s0 key=(null)
+W/auditd  ( 3598): type=1320 audit(0.0:1317): 
+W/auditd  ( 3598): type=1325 audit(0.0:1318): table=raw family=2 entries=8
+W/iptables( 5259): type=1300 audit(0.0:1318): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=4 a1=0 a2=40 a3=b6c30100 items=0 ppid=5111 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 ses=4294967295 tty=(none) exe="/system/bin/iptables" subj=u:r:netd:s0 key=(null)
+I/ServiceManager( 5114): Waiting for service batterystats...
+I/DEBUG   ( 3587): 
+I/DEBUG   ( 3587): Tombstone written to: /data/tombstones/tombstone_02
+I/ServiceManager( 3574): service 'SurfaceFlinger' died
+I/ServiceManager( 3574): service 'Exynos.HWCService' died
+I/ServiceManager( 3574): service 'media.wifi_display' died
+V/NatController( 5111): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+I/ServiceManager( 3574): service 'media.audio_flinger' died

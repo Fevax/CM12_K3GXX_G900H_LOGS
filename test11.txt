@@ -1,0 +1,1304 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3585): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3585): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/auditd  ( 3585): type=1403 audit(0.0:11): policy loaded auid=4294967295 ses=4294967295
+W/auditd  ( 3585): type=1404 audit(0.0:12): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+W/auditd  ( 3585): type=1305 audit(0.0:13): audit_pid=3565 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3585):  subj=u:r:logd:s0 res=1
+W/auditd  ( 3585): type=1305 audit(0.0:14): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3585):  subj=u:r:logd:s0 res=1
+I/cm      ( 3574): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/lowmemorykiller( 3568): Using in-kernel low memory killer interface
+--------- beginning of system
+I/auditd  ( 3580): Starting up
+I/audit_log( 3580): Previous audit logfile detected, rotating
+W/libaudit( 3580): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3580): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/Vold    ( 3570): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3570): Volume extSdCard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveA state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveB state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveC state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveD state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveE state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3570): Volume UsbDriveF state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3570): Check if PFE is activated on Boot
+E/Cryptfs ( 3570): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3570): Error getting crypt footer and key
+I/DEBUG   ( 3582): debuggerd: Jun 17 2015 15:28:56
+I/cm      ( 3596): Welcome to Android 5.0.2 / CyanogenMod-12-20150622-UNOFFICIAL-k3gxx 
+E/sdcard  ( 3593): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3593):     -u: specify UID to run as
+E/sdcard  ( 3593):     -g: specify GID to run as
+E/sdcard  ( 3593):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3593):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3593):     -d: derive file permissions based on path
+E/sdcard  ( 3593):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3593):     -s: split derived permissions for pics, av
+E/sdcard  ( 3593): 
+E/sdcard  ( 3592): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3592):     -u: specify UID to run as
+E/sdcard  ( 3592):     -g: specify GID to run as
+E/sdcard  ( 3592):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3592):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3592):     -d: derive file permissions based on path
+E/sdcard  ( 3592):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3592):     -s: split derived permissions for pics, av
+E/sdcard  ( 3592): 
+I/installd( 3587): installd firing up
+I/Netd    ( 3581): Netd 1.0 starting
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3581): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3571): SurfaceFlinger is starting
+I/SurfaceFlinger( 3571): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3571): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3571): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3571): using (fd=12)
+I/gralloc ( 3571): id           = 
+I/gralloc ( 3571): xres         = 1080 px
+I/gralloc ( 3571): yres         = 1920 px
+I/gralloc ( 3571): xres_virtual = 1080 px
+I/gralloc ( 3571): yres_virtual = 3840 px
+I/gralloc ( 3571): bpp          = 32
+I/gralloc ( 3571): r            = 16:8
+I/gralloc ( 3571): g            =  8:8
+I/gralloc ( 3571): b            =  0:8
+I/gralloc ( 3571): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3571): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3571): refresh rate = 60.00 Hz
+E/HAL     ( 3571): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3571): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3571): hwcomposer module not found
+I/SurfaceFlinger( 3571): EGL information:
+I/SurfaceFlinger( 3571): vendor    : Android
+I/SurfaceFlinger( 3571): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3571): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3571): Client API: OpenGL_ES
+I/SurfaceFlinger( 3571): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3571): OpenGL ES informations:
+I/SurfaceFlinger( 3571): vendor    : ARM
+I/SurfaceFlinger( 3571): renderer  : Mali-T628
+I/SurfaceFlinger( 3571): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3571): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3571): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3571): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3571): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3571): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3571): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3571): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3571): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3571): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+--------- beginning of crash
+F/libc    ( 3571): Fatal signal 6 (SIGABRT), code -6 in tid 3571 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3571, tid: 3571, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000df3  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6fc8114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 bebfbbd0  sl b6a540d0  fp bebfbbd0
+I/DEBUG   ( 3582):     ip 00000df3  sp bebfb650  lr b6f527b9  pc b6f764e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_01
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3708): Netd 1.0 starting
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3708): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3710): SurfaceFlinger is starting
+I/SurfaceFlinger( 3710): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3710): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3710): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3710): using (fd=12)
+I/gralloc ( 3710): id           = 
+I/gralloc ( 3710): xres         = 1080 px
+I/gralloc ( 3710): yres         = 1920 px
+I/gralloc ( 3710): xres_virtual = 1080 px
+I/gralloc ( 3710): yres_virtual = 3840 px
+I/gralloc ( 3710): bpp          = 32
+I/gralloc ( 3710): r            = 16:8
+I/gralloc ( 3710): g            =  8:8
+I/gralloc ( 3710): b            =  0:8
+I/gralloc ( 3710): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3710): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3710): refresh rate = 60.00 Hz
+E/HAL     ( 3710): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3710): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3710): hwcomposer module not found
+I/SurfaceFlinger( 3710): EGL information:
+I/SurfaceFlinger( 3710): vendor    : Android
+I/SurfaceFlinger( 3710): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3710): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3710): Client API: OpenGL_ES
+I/SurfaceFlinger( 3710): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3710): OpenGL ES informations:
+I/SurfaceFlinger( 3710): vendor    : ARM
+I/SurfaceFlinger( 3710): renderer  : Mali-T628
+I/SurfaceFlinger( 3710): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3710): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3710): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3710): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3710): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3710): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3710): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3710): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3710): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3710): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3710): Fatal signal 6 (SIGABRT), code -6 in tid 3710 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3710, tid: 3710, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000e7e  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f94114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 bead7bd0  sl b6a540d0  fp bead7bd0
+I/DEBUG   ( 3582):     ip 00000e7e  sp bead7650  lr b6f1e7b9  pc b6f424e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_02
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3752): Netd 1.0 starting
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3752): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3754): SurfaceFlinger is starting
+I/SurfaceFlinger( 3754): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3754): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3754): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3754): using (fd=12)
+I/gralloc ( 3754): id           = 
+I/gralloc ( 3754): xres         = 1080 px
+I/gralloc ( 3754): yres         = 1920 px
+I/gralloc ( 3754): xres_virtual = 1080 px
+I/gralloc ( 3754): yres_virtual = 3840 px
+I/gralloc ( 3754): bpp          = 32
+I/gralloc ( 3754): r            = 16:8
+I/gralloc ( 3754): g            =  8:8
+I/gralloc ( 3754): b            =  0:8
+I/gralloc ( 3754): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3754): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3754): refresh rate = 60.00 Hz
+E/HAL     ( 3754): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3754): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3754): hwcomposer module not found
+I/SurfaceFlinger( 3754): EGL information:
+I/SurfaceFlinger( 3754): vendor    : Android
+I/SurfaceFlinger( 3754): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3754): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3754): Client API: OpenGL_ES
+I/SurfaceFlinger( 3754): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3754): OpenGL ES informations:
+I/SurfaceFlinger( 3754): vendor    : ARM
+I/SurfaceFlinger( 3754): renderer  : Mali-T628
+I/SurfaceFlinger( 3754): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3754): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3754): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3754): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3754): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3754): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3754): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3754): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3754): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3754): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3754): Fatal signal 6 (SIGABRT), code -6 in tid 3754 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3754, tid: 3754, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000eaa  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6ff1114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 bee24bd0  sl b6a540d0  fp bee24bd0
+I/DEBUG   ( 3582):     ip 00000eaa  sp bee24650  lr b6f7b7b9  pc b6f9f4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_03
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3801): Netd 1.0 starting
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3801): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3803): SurfaceFlinger is starting
+I/SurfaceFlinger( 3803): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3803): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3803): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3803): using (fd=12)
+I/gralloc ( 3803): id           = 
+I/gralloc ( 3803): xres         = 1080 px
+I/gralloc ( 3803): yres         = 1920 px
+I/gralloc ( 3803): xres_virtual = 1080 px
+I/gralloc ( 3803): yres_virtual = 3840 px
+I/gralloc ( 3803): bpp          = 32
+I/gralloc ( 3803): r            = 16:8
+I/gralloc ( 3803): g            =  8:8
+I/gralloc ( 3803): b            =  0:8
+I/gralloc ( 3803): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3803): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3803): refresh rate = 60.00 Hz
+E/HAL     ( 3803): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3803): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3803): hwcomposer module not found
+I/SurfaceFlinger( 3803): EGL information:
+I/SurfaceFlinger( 3803): vendor    : Android
+I/SurfaceFlinger( 3803): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3803): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3803): Client API: OpenGL_ES
+I/SurfaceFlinger( 3803): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 3803): OpenGL ES informations:
+I/SurfaceFlinger( 3803): vendor    : ARM
+I/SurfaceFlinger( 3803): renderer  : Mali-T628
+I/SurfaceFlinger( 3803): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3803): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3803): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3803): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3803): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3803): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3803): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3803): Set power mode=2, type=0 flinger=0xb6962000
+E/libEGL  ( 3803): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3803): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3803): Fatal signal 6 (SIGABRT), code -6 in tid 3803 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3803, tid: 3803, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000edb  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f0a114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 beb33bd0  sl b69540d0  fp beb33bd0
+I/DEBUG   ( 3582):     ip 00000edb  sp beb33650  lr b6e947b9  pc b6eb84e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_04
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3849): Netd 1.0 starting
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3851): SurfaceFlinger is starting
+I/SurfaceFlinger( 3851): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3851): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3851): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3851): using (fd=12)
+I/gralloc ( 3851): id           = 
+I/gralloc ( 3851): xres         = 1080 px
+I/gralloc ( 3851): yres         = 1920 px
+I/gralloc ( 3851): xres_virtual = 1080 px
+I/gralloc ( 3851): yres_virtual = 3840 px
+I/gralloc ( 3851): bpp          = 32
+I/gralloc ( 3851): r            = 16:8
+I/gralloc ( 3851): g            =  8:8
+I/gralloc ( 3851): b            =  0:8
+I/gralloc ( 3851): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3851): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3851): refresh rate = 60.00 Hz
+E/HAL     ( 3851): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3851): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3851): hwcomposer module not found
+I/SurfaceFlinger( 3851): EGL information:
+I/SurfaceFlinger( 3851): vendor    : Android
+I/SurfaceFlinger( 3851): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3851): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3851): Client API: OpenGL_ES
+I/SurfaceFlinger( 3851): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3851): OpenGL ES informations:
+I/SurfaceFlinger( 3851): vendor    : ARM
+I/SurfaceFlinger( 3851): renderer  : Mali-T628
+I/SurfaceFlinger( 3851): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3851): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3851): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3851): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3851): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3851): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3851): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3851): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3851): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3851): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3851): Fatal signal 6 (SIGABRT), code -6 in tid 3851 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3851, tid: 3851, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000f0b  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f5c114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 be91dbd0  sl b6a540d0  fp be91dbd0
+I/DEBUG   ( 3582):     ip 00000f0b  sp be91d650  lr b6ee67b9  pc b6f0a4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_05
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3894): Netd 1.0 starting
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3894): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3896): SurfaceFlinger is starting
+I/SurfaceFlinger( 3896): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3896): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3896): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3896): using (fd=12)
+I/gralloc ( 3896): id           = 
+I/gralloc ( 3896): xres         = 1080 px
+I/gralloc ( 3896): yres         = 1920 px
+I/gralloc ( 3896): xres_virtual = 1080 px
+I/gralloc ( 3896): yres_virtual = 3840 px
+I/gralloc ( 3896): bpp          = 32
+I/gralloc ( 3896): r            = 16:8
+I/gralloc ( 3896): g            =  8:8
+I/gralloc ( 3896): b            =  0:8
+I/gralloc ( 3896): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3896): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3896): refresh rate = 60.00 Hz
+E/HAL     ( 3896): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3896): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3896): hwcomposer module not found
+I/SurfaceFlinger( 3896): EGL information:
+I/SurfaceFlinger( 3896): vendor    : Android
+I/SurfaceFlinger( 3896): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3896): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3896): Client API: OpenGL_ES
+I/SurfaceFlinger( 3896): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3896): OpenGL ES informations:
+I/SurfaceFlinger( 3896): vendor    : ARM
+I/SurfaceFlinger( 3896): renderer  : Mali-T628
+I/SurfaceFlinger( 3896): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3896): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3896): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3896): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3896): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3896): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3896): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3896): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3896): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3896): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3896): Fatal signal 6 (SIGABRT), code -6 in tid 3896 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3896, tid: 3896, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000f38  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f5c114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 befc0bd0  sl b6a540d0  fp befc0bd0
+I/DEBUG   ( 3582):     ip 00000f38  sp befc0650  lr b6ee67b9  pc b6f0a4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_06
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3941): Netd 1.0 starting
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3941): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3943): SurfaceFlinger is starting
+I/SurfaceFlinger( 3943): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3943): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3943): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3943): using (fd=12)
+I/gralloc ( 3943): id           = 
+I/gralloc ( 3943): xres         = 1080 px
+I/gralloc ( 3943): yres         = 1920 px
+I/gralloc ( 3943): xres_virtual = 1080 px
+I/gralloc ( 3943): yres_virtual = 3840 px
+I/gralloc ( 3943): bpp          = 32
+I/gralloc ( 3943): r            = 16:8
+I/gralloc ( 3943): g            =  8:8
+I/gralloc ( 3943): b            =  0:8
+I/gralloc ( 3943): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3943): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3943): refresh rate = 60.00 Hz
+E/HAL     ( 3943): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3943): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3943): hwcomposer module not found
+I/SurfaceFlinger( 3943): EGL information:
+I/SurfaceFlinger( 3943): vendor    : Android
+I/SurfaceFlinger( 3943): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3943): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3943): Client API: OpenGL_ES
+I/SurfaceFlinger( 3943): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3943): OpenGL ES informations:
+I/SurfaceFlinger( 3943): vendor    : ARM
+I/SurfaceFlinger( 3943): renderer  : Mali-T628
+I/SurfaceFlinger( 3943): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3943): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3943): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3943): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3943): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3943): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3943): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3943): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3943): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3943): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3943): Fatal signal 6 (SIGABRT), code -6 in tid 3943 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3943, tid: 3943, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000f67  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6ff7114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 be8b8bd0  sl b6a540d0  fp be8b8bd0
+I/DEBUG   ( 3582):     ip 00000f67  sp be8b8650  lr b6f817b9  pc b6fa54e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_07
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 3987): Netd 1.0 starting
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3987): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3989): SurfaceFlinger is starting
+I/SurfaceFlinger( 3989): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3989): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3989): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3989): using (fd=12)
+I/gralloc ( 3989): id           = 
+I/gralloc ( 3989): xres         = 1080 px
+I/gralloc ( 3989): yres         = 1920 px
+I/gralloc ( 3989): xres_virtual = 1080 px
+I/gralloc ( 3989): yres_virtual = 3840 px
+I/gralloc ( 3989): bpp          = 32
+I/gralloc ( 3989): r            = 16:8
+I/gralloc ( 3989): g            =  8:8
+I/gralloc ( 3989): b            =  0:8
+I/gralloc ( 3989): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3989): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3989): refresh rate = 60.00 Hz
+E/HAL     ( 3989): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3989): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 3989): hwcomposer module not found
+I/SurfaceFlinger( 3989): EGL information:
+I/SurfaceFlinger( 3989): vendor    : Android
+I/SurfaceFlinger( 3989): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3989): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3989): Client API: OpenGL_ES
+I/SurfaceFlinger( 3989): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3989): OpenGL ES informations:
+I/SurfaceFlinger( 3989): vendor    : ARM
+I/SurfaceFlinger( 3989): renderer  : Mali-T628
+I/SurfaceFlinger( 3989): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3989): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3989): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3989): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3989): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3989): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3989): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3989): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3989): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3989): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3989): Fatal signal 6 (SIGABRT), code -6 in tid 3989 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 3989, tid: 3989, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000f95  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6fbc114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 be8e4bd0  sl b6a540d0  fp be8e4bd0
+I/DEBUG   ( 3582):     ip 00000f95  sp be8e4650  lr b6f467b9  pc b6f6a4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_08
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4045): Netd 1.0 starting
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4045): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4047): SurfaceFlinger is starting
+I/SurfaceFlinger( 4047): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4047): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4047): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4047): using (fd=12)
+I/gralloc ( 4047): id           = 
+I/gralloc ( 4047): xres         = 1080 px
+I/gralloc ( 4047): yres         = 1920 px
+I/gralloc ( 4047): xres_virtual = 1080 px
+I/gralloc ( 4047): yres_virtual = 3840 px
+I/gralloc ( 4047): bpp          = 32
+I/gralloc ( 4047): r            = 16:8
+I/gralloc ( 4047): g            =  8:8
+I/gralloc ( 4047): b            =  0:8
+I/gralloc ( 4047): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4047): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4047): refresh rate = 60.00 Hz
+E/HAL     ( 4047): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4047): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4047): hwcomposer module not found
+I/SurfaceFlinger( 4047): EGL information:
+I/SurfaceFlinger( 4047): vendor    : Android
+I/SurfaceFlinger( 4047): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4047): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4047): Client API: OpenGL_ES
+I/SurfaceFlinger( 4047): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 4047): OpenGL ES informations:
+I/SurfaceFlinger( 4047): vendor    : ARM
+I/SurfaceFlinger( 4047): renderer  : Mali-T628
+I/SurfaceFlinger( 4047): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4047): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4047): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4047): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4047): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4047): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4047): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4047): Set power mode=2, type=0 flinger=0xb6962000
+E/libEGL  ( 4047): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4047): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4047): Fatal signal 6 (SIGABRT), code -6 in tid 4047 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4047, tid: 4047, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00000fcf  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f0d114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 beb66bd0  sl b69540d0  fp beb66bd0
+I/DEBUG   ( 3582):     ip 00000fcf  sp beb66650  lr b6e977b9  pc b6ebb4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_09
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4108): Netd 1.0 starting
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4108): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4110): SurfaceFlinger is starting
+I/SurfaceFlinger( 4110): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4110): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4110): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4110): using (fd=12)
+I/gralloc ( 4110): id           = 
+I/gralloc ( 4110): xres         = 1080 px
+I/gralloc ( 4110): yres         = 1920 px
+I/gralloc ( 4110): xres_virtual = 1080 px
+I/gralloc ( 4110): yres_virtual = 3840 px
+I/gralloc ( 4110): bpp          = 32
+I/gralloc ( 4110): r            = 16:8
+I/gralloc ( 4110): g            =  8:8
+I/gralloc ( 4110): b            =  0:8
+I/gralloc ( 4110): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4110): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4110): refresh rate = 60.00 Hz
+E/HAL     ( 4110): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4110): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4110): hwcomposer module not found
+I/SurfaceFlinger( 4110): EGL information:
+I/SurfaceFlinger( 4110): vendor    : Android
+I/SurfaceFlinger( 4110): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4110): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4110): Client API: OpenGL_ES
+I/SurfaceFlinger( 4110): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4110): OpenGL ES informations:
+I/SurfaceFlinger( 4110): vendor    : ARM
+I/SurfaceFlinger( 4110): renderer  : Mali-T628
+I/SurfaceFlinger( 4110): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4110): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4110): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4110): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4110): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4110): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4110): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4110): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4110): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4110): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4110): Fatal signal 6 (SIGABRT), code -6 in tid 4110 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4110, tid: 4110, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 0000100e  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6fa3114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 bea6fbd0  sl b6a540d0  fp bea6fbd0
+I/DEBUG   ( 3582):     ip 0000100e  sp bea6f650  lr b6f2d7b9  pc b6f514e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_00
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4261): Netd 1.0 starting
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4261): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4263): SurfaceFlinger is starting
+I/SurfaceFlinger( 4263): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4263): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4263): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4263): using (fd=12)
+I/gralloc ( 4263): id           = 
+I/gralloc ( 4263): xres         = 1080 px
+I/gralloc ( 4263): yres         = 1920 px
+I/gralloc ( 4263): xres_virtual = 1080 px
+I/gralloc ( 4263): yres_virtual = 3840 px
+I/gralloc ( 4263): bpp          = 32
+I/gralloc ( 4263): r            = 16:8
+I/gralloc ( 4263): g            =  8:8
+I/gralloc ( 4263): b            =  0:8
+I/gralloc ( 4263): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4263): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4263): refresh rate = 60.00 Hz
+E/HAL     ( 4263): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4263): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4263): hwcomposer module not found
+I/SurfaceFlinger( 4263): EGL information:
+I/SurfaceFlinger( 4263): vendor    : Android
+I/SurfaceFlinger( 4263): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4263): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4263): Client API: OpenGL_ES
+I/SurfaceFlinger( 4263): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4263): OpenGL ES informations:
+I/SurfaceFlinger( 4263): vendor    : ARM
+I/SurfaceFlinger( 4263): renderer  : Mali-T628
+I/SurfaceFlinger( 4263): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4263): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4263): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4263): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4263): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4263): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4263): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4263): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4263): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4263): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4263): Fatal signal 6 (SIGABRT), code -6 in tid 4263 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4263, tid: 4263, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 000010a7  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f4e114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 bec43bd0  sl b6a540d0  fp bec43bd0
+I/DEBUG   ( 3582):     ip 000010a7  sp bec43650  lr b6ed87b9  pc b6efc4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_01
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4410): Netd 1.0 starting
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4410): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4412): SurfaceFlinger is starting
+I/SurfaceFlinger( 4412): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4412): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4412): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4412): using (fd=12)
+I/gralloc ( 4412): id           = 
+I/gralloc ( 4412): xres         = 1080 px
+I/gralloc ( 4412): yres         = 1920 px
+I/gralloc ( 4412): xres_virtual = 1080 px
+I/gralloc ( 4412): yres_virtual = 3840 px
+I/gralloc ( 4412): bpp          = 32
+I/gralloc ( 4412): r            = 16:8
+I/gralloc ( 4412): g            =  8:8
+I/gralloc ( 4412): b            =  0:8
+I/gralloc ( 4412): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4412): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4412): refresh rate = 60.00 Hz
+E/HAL     ( 4412): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4412): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4412): hwcomposer module not found
+I/SurfaceFlinger( 4412): EGL information:
+I/SurfaceFlinger( 4412): vendor    : Android
+I/SurfaceFlinger( 4412): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4412): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4412): Client API: OpenGL_ES
+I/SurfaceFlinger( 4412): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4412): OpenGL ES informations:
+I/SurfaceFlinger( 4412): vendor    : ARM
+I/SurfaceFlinger( 4412): renderer  : Mali-T628
+I/SurfaceFlinger( 4412): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4412): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4412): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4412): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4412): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4412): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4412): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4412): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4412): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4412): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4412): Fatal signal 6 (SIGABRT), code -6 in tid 4412 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4412, tid: 4412, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 0000113c  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f77114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 befdbbd0  sl b6a540d0  fp befdbbd0
+I/DEBUG   ( 3582):     ip 0000113c  sp befdb650  lr b6f017b9  pc b6f254e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_02
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4472): Netd 1.0 starting
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4472): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4474): SurfaceFlinger is starting
+I/SurfaceFlinger( 4474): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4474): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4474): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4474): using (fd=12)
+I/gralloc ( 4474): id           = 
+I/gralloc ( 4474): xres         = 1080 px
+I/gralloc ( 4474): yres         = 1920 px
+I/gralloc ( 4474): xres_virtual = 1080 px
+I/gralloc ( 4474): yres_virtual = 3840 px
+I/gralloc ( 4474): bpp          = 32
+I/gralloc ( 4474): r            = 16:8
+I/gralloc ( 4474): g            =  8:8
+I/gralloc ( 4474): b            =  0:8
+I/gralloc ( 4474): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4474): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4474): refresh rate = 60.00 Hz
+E/HAL     ( 4474): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4474): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4474): hwcomposer module not found
+I/SurfaceFlinger( 4474): EGL information:
+I/SurfaceFlinger( 4474): vendor    : Android
+I/SurfaceFlinger( 4474): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4474): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4474): Client API: OpenGL_ES
+I/SurfaceFlinger( 4474): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4474): OpenGL ES informations:
+I/SurfaceFlinger( 4474): vendor    : ARM
+I/SurfaceFlinger( 4474): renderer  : Mali-T628
+I/SurfaceFlinger( 4474): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4474): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4474): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4474): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4474): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4474): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4474): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4474): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4474): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4474): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4474): Fatal signal 6 (SIGABRT), code -6 in tid 4474 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4474, tid: 4474, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 0000117a  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6f81114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 be999bd0  sl b6a540d0  fp be999bd0
+I/DEBUG   ( 3582):     ip 0000117a  sp be999650  lr b6f0b7b9  pc b6f2f4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_03
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4624): Netd 1.0 starting
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4624): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4626): SurfaceFlinger is starting
+I/SurfaceFlinger( 4626): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4626): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4626): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4626): using (fd=12)
+I/gralloc ( 4626): id           = 
+I/gralloc ( 4626): xres         = 1080 px
+I/gralloc ( 4626): yres         = 1920 px
+I/gralloc ( 4626): xres_virtual = 1080 px
+I/gralloc ( 4626): yres_virtual = 3840 px
+I/gralloc ( 4626): bpp          = 32
+I/gralloc ( 4626): r            = 16:8
+I/gralloc ( 4626): g            =  8:8
+I/gralloc ( 4626): b            =  0:8
+I/gralloc ( 4626): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4626): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4626): refresh rate = 60.00 Hz
+E/HAL     ( 4626): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4626): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4626): hwcomposer module not found
+I/SurfaceFlinger( 4626): EGL information:
+I/SurfaceFlinger( 4626): vendor    : Android
+I/SurfaceFlinger( 4626): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4626): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4626): Client API: OpenGL_ES
+I/SurfaceFlinger( 4626): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4626): OpenGL ES informations:
+I/SurfaceFlinger( 4626): vendor    : ARM
+I/SurfaceFlinger( 4626): renderer  : Mali-T628
+I/SurfaceFlinger( 4626): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4626): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4626): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4626): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4626): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4626): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4626): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4626): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4626): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4626): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4626): Fatal signal 6 (SIGABRT), code -6 in tid 4626 (surfaceflinger)
+I/DEBUG   ( 3582): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3582): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3582): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3582): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3582): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3582): Revision: '10'
+I/DEBUG   ( 3582): ABI: 'arm'
+I/DEBUG   ( 3582): pid: 4626, tid: 4626, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3582): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3582): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3582):     r0 00000000  r1 00001212  r2 00000006  r3 00000000
+I/DEBUG   ( 3582):     r4 b6ff1114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3582):     r8 00000000  r9 beebbbd0  sl b6a540d0  fp beebbbd0
+I/DEBUG   ( 3582):     ip 00001212  sp beebb650  lr b6f7b7b9  pc b6f9f4e4  cpsr 600f0010
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): backtrace:
+I/DEBUG   ( 3582):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3582):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3582):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3582):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3582):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3582):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3582):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3582):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3582):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3582):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3582):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3582):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3582):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3582): 
+I/DEBUG   ( 3582): Tombstone written to: /data/tombstones/tombstone_04
+I/ServiceManager( 3569): service 'SurfaceFlinger' died
+I/Netd    ( 4687): Netd 1.0 starting
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4687): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4689): SurfaceFlinger is starting
+I/SurfaceFlinger( 4689): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4689): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4689): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4689): using (fd=12)
+I/gralloc ( 4689): id           = 
+I/gralloc ( 4689): xres         = 1080 px
+I/gralloc ( 4689): yres         = 1920 px
+I/gralloc ( 4689): xres_virtual = 1080 px
+I/gralloc ( 4689): yres_virtual = 3840 px
+I/gralloc ( 4689): bpp          = 32
+I/gralloc ( 4689): r            = 16:8
+I/gralloc ( 4689): g            =  8:8
+I/gralloc ( 4689): b            =  0:8
+I/gralloc ( 4689): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4689): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4689): refresh rate = 60.00 Hz
+E/HAL     ( 4689): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4689): dlopen failed: could not load library "libmedia.so" needed by "hwcomposer.exynos5.so"; caused by could not load library "libsamsungvad.so" needed by "libmedia.so"; caused by library "libsamsungvad.so" not found
+E/SurfaceFlinger( 4689): hwcomposer module not found
+I/SurfaceFlinger( 4689): EGL information:
+I/SurfaceFlinger( 4689): vendor    : Android
+I/SurfaceFlinger( 4689): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4689): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4689): Client API: OpenGL_ES
+I/SurfaceFlinger( 4689): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4689): OpenGL ES informations:
+I/SurfaceFlinger( 4689): vendor    : ARM
+I/SurfaceFlinger( 4689): renderer  : Mali-T628
+I/SurfaceFlinger( 4689): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4689): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4689): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4689): GL_MAX_VIEWPORT_DIMS = 8192

@@ -1,0 +1,2028 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3592): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3592): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/auditd  ( 3592): type=1403 audit(0.0:11): policy loaded auid=4294967295 ses=4294967295
+W/auditd  ( 3592): type=1404 audit(0.0:12): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3592): type=1305 audit(0.0:13): audit_pid=3566 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3592):  subj=u:r:logd:s0 res=1
+W/auditd  ( 3592): type=1305 audit(0.0:14): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3592):  subj=u:r:logd:s0 res=1
+I/cm      ( 3573): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+--------- beginning of system
+I/auditd  ( 3574): Starting up
+I/cm      ( 3582): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/lowmemorykiller( 3569): Using in-kernel low memory killer interface
+I/audit_log( 3574): Previous audit logfile detected, rotating
+I/DEBUG   ( 3580): debuggerd: Jun 17 2015 15:28:56
+E/audit_rules( 3574): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+E/sdcard  ( 3589): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3589):     -u: specify UID to run as
+E/sdcard  ( 3589):     -g: specify GID to run as
+E/sdcard  ( 3589):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3589):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3589):     -d: derive file permissions based on path
+E/sdcard  ( 3589):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3589):     -s: split derived permissions for pics, av
+E/sdcard  ( 3589): 
+E/sdcard  ( 3590): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3590):     -u: specify UID to run as
+E/sdcard  ( 3590):     -g: specify GID to run as
+E/sdcard  ( 3590):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3590):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3590):     -d: derive file permissions based on path
+E/sdcard  ( 3590):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3590):     -s: split derived permissions for pics, av
+E/sdcard  ( 3590): 
+I/installd( 3585): installd firing up
+I/Vold    ( 3571): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3571): Volume extSdCard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveA state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveB state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveC state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveD state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveE state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3571): Volume UsbDriveF state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3571): Check if PFE is activated on Boot
+E/Cryptfs ( 3571): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3571): Error getting crypt footer and key
+I/Netd    ( 3578): Netd 1.0 starting
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3578): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/cm      ( 3599): Welcome to Android 5.0.2 / CyanogenMod-12-20150622-UNOFFICIAL-k3gxx 
+I/SurfaceFlinger( 3572): SurfaceFlinger is starting
+I/SurfaceFlinger( 3572): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3572): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3572): PLATFORM VERSION : JB-MR-2
+I/mediaserver( 3584): ServiceManager: 0xb61500c0
+I/AudioFlinger( 3584): Using default 3000 mSec as standby time.
+I/ServiceManager( 3584): Waiting for service batterystats...
+I/gralloc ( 3572): using (fd=12)
+I/gralloc ( 3572): id           = 
+I/gralloc ( 3572): xres         = 1080 px
+I/gralloc ( 3572): yres         = 1920 px
+I/gralloc ( 3572): xres_virtual = 1080 px
+I/gralloc ( 3572): yres_virtual = 3840 px
+I/gralloc ( 3572): bpp          = 32
+I/gralloc ( 3572): r            = 16:8
+I/gralloc ( 3572): g            =  8:8
+I/gralloc ( 3572): b            =  0:8
+I/gralloc ( 3572): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3572): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3572): refresh rate = 60.00 Hz
+D/AndroidRuntime( 3588): 
+D/AndroidRuntime( 3588): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+E/HAL     ( 3572): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3572): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 3572): hwcomposer module not found
+I/SurfaceFlinger( 3572): EGL information:
+I/SurfaceFlinger( 3572): vendor    : Android
+I/SurfaceFlinger( 3572): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3572): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3572): Client API: OpenGL_ES
+I/SurfaceFlinger( 3572): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 3588): CheckJNI is OFF
+I/SurfaceFlinger( 3572): OpenGL ES informations:
+I/SurfaceFlinger( 3572): vendor    : ARM
+I/SurfaceFlinger( 3572): renderer  : Mali-T628
+I/SurfaceFlinger( 3572): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3572): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3572): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3572): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3572): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3572): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3572): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3572): Set power mode=2, type=0 flinger=0xb6a62000
+I/art     ( 3588): option[0]=-Xzygote
+I/art     ( 3588): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3588): option[2]=exit
+I/art     ( 3588): option[3]=vfprintf
+I/art     ( 3588): option[4]=sensitiveThread
+I/art     ( 3588): option[5]=-verbose:gc
+I/art     ( 3588): option[6]=-Xms16m
+I/art     ( 3588): option[7]=-Xmx512m
+I/art     ( 3588): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3588): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3588): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3588): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3588): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3588): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3588): option[14]=-Xlockprofthreshold:500
+I/art     ( 3588): option[15]=-Ximage-compiler-option
+I/art     ( 3588): option[16]=--runtime-arg
+I/art     ( 3588): option[17]=-Ximage-compiler-option
+I/art     ( 3588): option[18]=-Xms64m
+I/art     ( 3588): option[19]=-Ximage-compiler-option
+I/art     ( 3588): option[20]=--runtime-arg
+I/art     ( 3588): option[21]=-Ximage-compiler-option
+I/art     ( 3588): option[22]=-Xmx64m
+I/art     ( 3588): option[23]=-Ximage-compiler-option
+I/art     ( 3588): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3588): option[25]=-Ximage-compiler-option
+I/art     ( 3588): option[26]=--image-classes=preloaded-classes
+I/art     ( 3588): option[27]=-Xcompiler-option
+I/art     ( 3588): option[28]=--runtime-arg
+I/art     ( 3588): option[29]=-Xcompiler-option
+I/art     ( 3588): option[30]=-Xms64m
+I/art     ( 3588): option[31]=-Xcompiler-option
+I/art     ( 3588): option[32]=--runtime-arg
+I/art     ( 3588): option[33]=-Xcompiler-option
+I/art     ( 3588): option[34]=-Xmx512m
+I/art     ( 3588): option[35]=-Duser.language=es
+I/art     ( 3588): option[36]=-Duser.region=US
+E/libEGL  ( 3572): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3572): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+--------- beginning of crash
+F/libc    ( 3572): Fatal signal 6 (SIGABRT), code -6 in tid 3572 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/art     ( 3588): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3588): Unexpected file type of 
+W/art     ( 3588):  encountered.
+I/art     ( 3588): Using an offset of 0x66e000 from default art base address of 0x70000000
+I/art     ( 3588): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7066e000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 3722): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 3588): Unexpected file type of 
+W/art     ( 3588):  encountered.
+W/art     ( 3588): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7066e000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 3572, tid: 3572, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00000df4  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6fe8114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 bee89bd0  sl b6a540d0  fp bee89bd0
+I/DEBUG   ( 3580):     ip 00000df4  sp bee89650  lr b6f727b9  pc b6f964e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_06
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+W/SurfaceComposerClient( 3719): ComposerService remote (surfaceflinger) died [0xb63591c0]
+D/BootAnimation( 3719): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 3832): Netd 1.0 starting
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3832): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3834): SurfaceFlinger is starting
+I/SurfaceFlinger( 3834): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3834): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3834): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3834): using (fd=12)
+I/gralloc ( 3834): id           = 
+I/gralloc ( 3834): xres         = 1080 px
+I/gralloc ( 3834): yres         = 1920 px
+I/gralloc ( 3834): xres_virtual = 1080 px
+I/gralloc ( 3834): yres_virtual = 3840 px
+I/gralloc ( 3834): bpp          = 32
+I/gralloc ( 3834): r            = 16:8
+I/gralloc ( 3834): g            =  8:8
+I/gralloc ( 3834): b            =  0:8
+I/gralloc ( 3834): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3834): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3834): refresh rate = 60.00 Hz
+E/HAL     ( 3834): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3834): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 3834): hwcomposer module not found
+I/SurfaceFlinger( 3834): EGL information:
+I/SurfaceFlinger( 3834): vendor    : Android
+I/SurfaceFlinger( 3834): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3834): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3834): Client API: OpenGL_ES
+I/SurfaceFlinger( 3834): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3834): OpenGL ES informations:
+I/SurfaceFlinger( 3834): vendor    : ARM
+I/SurfaceFlinger( 3834): renderer  : Mali-T628
+I/SurfaceFlinger( 3834): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3834): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3834): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3834): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3834): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3834): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3834): call to OpenGL ES API with no current context (logged once per thread)
+I/mediaserver( 3835): ServiceManager: 0xb60500c0
+I/AudioFlinger( 3835): Using default 3000 mSec as standby time.
+D/SurfaceFlinger( 3834): Set power mode=2, type=0 flinger=0xb6a62000
+I/ServiceManager( 3835): Waiting for service batterystats...
+E/libEGL  ( 3834): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3834): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3834): Fatal signal 6 (SIGABRT), code -6 in tid 3834 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+D/AndroidRuntime( 3837): 
+D/AndroidRuntime( 3837): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3837): CheckJNI is OFF
+I/art     ( 3837): option[0]=-Xzygote
+I/art     ( 3837): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3837): option[2]=exit
+I/art     ( 3837): option[3]=vfprintf
+I/art     ( 3837): option[4]=sensitiveThread
+I/art     ( 3837): option[5]=-verbose:gc
+I/art     ( 3837): option[6]=-Xms16m
+I/art     ( 3837): option[7]=-Xmx512m
+I/art     ( 3837): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3837): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3837): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3837): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3837): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3837): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3837): option[14]=-Xlockprofthreshold:500
+I/art     ( 3837): option[15]=-Ximage-compiler-option
+I/art     ( 3837): option[16]=--runtime-arg
+I/art     ( 3837): option[17]=-Ximage-compiler-option
+I/art     ( 3837): option[18]=-Xms64m
+I/art     ( 3837): option[19]=-Ximage-compiler-option
+I/art     ( 3837): option[20]=--runtime-arg
+I/art     ( 3837): option[21]=-Ximage-compiler-option
+I/art     ( 3837): option[22]=-Xmx64m
+I/art     ( 3837): option[23]=-Ximage-compiler-option
+I/art     ( 3837): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3837): option[25]=-Ximage-compiler-option
+I/art     ( 3837): option[26]=--image-classes=preloaded-classes
+I/art     ( 3837): option[27]=-Xcompiler-option
+I/art     ( 3837): option[28]=--runtime-arg
+I/art     ( 3837): option[29]=-Xcompiler-option
+I/art     ( 3837): option[30]=-Xms64m
+I/art     ( 3837): option[31]=-Xcompiler-option
+I/art     ( 3837): option[32]=--runtime-arg
+I/art     ( 3837): option[33]=-Xcompiler-option
+I/art     ( 3837): option[34]=-Xmx512m
+I/art     ( 3837): option[35]=-Duser.language=es
+I/art     ( 3837): option[36]=-Duser.region=US
+I/art     ( 3837): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3837): Unexpected file type of 
+W/art     ( 3837):  encountered.
+I/art     ( 3837): Using an offset of 0x38e000 from default art base address of 0x70000000
+I/art     ( 3837): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7038e000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 3873): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 3837): Unexpected file type of 
+W/art     ( 3837):  encountered.
+W/art     ( 3837): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7038e000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 3834, tid: 3834, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00000efa  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6fba114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 be995bd0  sl b6a540d0  fp be995bd0
+I/DEBUG   ( 3580):     ip 00000efa  sp be995650  lr b6f447b9  pc b6f684e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_07
+W/SurfaceComposerClient( 3870): ComposerService remote (surfaceflinger) died [0xb63591c0]
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+D/BootAnimation( 3870): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 3993): Netd 1.0 starting
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3993): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3995): SurfaceFlinger is starting
+I/SurfaceFlinger( 3995): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3995): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3995): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3995): using (fd=12)
+I/gralloc ( 3995): id           = 
+I/gralloc ( 3995): xres         = 1080 px
+I/gralloc ( 3995): yres         = 1920 px
+I/gralloc ( 3995): xres_virtual = 1080 px
+I/gralloc ( 3995): yres_virtual = 3840 px
+I/gralloc ( 3995): bpp          = 32
+I/gralloc ( 3995): r            = 16:8
+I/gralloc ( 3995): g            =  8:8
+I/gralloc ( 3995): b            =  0:8
+I/gralloc ( 3995): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3995): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3995): refresh rate = 60.00 Hz
+E/HAL     ( 3995): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 3995): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 3995): hwcomposer module not found
+I/SurfaceFlinger( 3995): EGL information:
+I/SurfaceFlinger( 3995): vendor    : Android
+I/SurfaceFlinger( 3995): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3995): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3995): Client API: OpenGL_ES
+I/SurfaceFlinger( 3995): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 3998): 
+D/AndroidRuntime( 3998): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3998): CheckJNI is OFF
+I/art     ( 3998): option[0]=-Xzygote
+I/art     ( 3998): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3998): option[2]=exit
+I/art     ( 3998): option[3]=vfprintf
+I/art     ( 3998): option[4]=sensitiveThread
+I/art     ( 3998): option[5]=-verbose:gc
+I/art     ( 3998): option[6]=-Xms16m
+I/art     ( 3998): option[7]=-Xmx512m
+I/art     ( 3998): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3998): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3998): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3998): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3998): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3998): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3998): option[14]=-Xlockprofthreshold:500
+I/art     ( 3998): option[15]=-Ximage-compiler-option
+I/art     ( 3998): option[16]=--runtime-arg
+I/art     ( 3998): option[17]=-Ximage-compiler-option
+I/art     ( 3998): option[18]=-Xms64m
+I/art     ( 3998): option[19]=-Ximage-compiler-option
+I/art     ( 3998): option[20]=--runtime-arg
+I/art     ( 3998): option[21]=-Ximage-compiler-option
+I/art     ( 3998): option[22]=-Xmx64m
+I/art     ( 3998): option[23]=-Ximage-compiler-option
+I/art     ( 3998): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3998): option[25]=-Ximage-compiler-option
+I/art     ( 3998): option[26]=--image-classes=preloaded-classes
+I/art     ( 3998): option[27]=-Xcompiler-option
+I/art     ( 3998): option[28]=--runtime-arg
+I/art     ( 3998): option[29]=-Xcompiler-option
+I/art     ( 3998): option[30]=-Xms64m
+I/art     ( 3998): option[31]=-Xcompiler-option
+I/art     ( 3998): option[32]=--runtime-arg
+I/art     ( 3998): option[33]=-Xcompiler-option
+I/art     ( 3998): option[34]=-Xmx512m
+I/art     ( 3998): option[35]=-Duser.language=es
+I/art     ( 3998): option[36]=-Duser.region=US
+I/SurfaceFlinger( 3995): OpenGL ES informations:
+I/SurfaceFlinger( 3995): vendor    : ARM
+I/SurfaceFlinger( 3995): renderer  : Mali-T628
+I/SurfaceFlinger( 3995): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3995): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3995): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3995): GL_MAX_VIEWPORT_DIMS = 8192
+I/art     ( 3998): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3998): Unexpected file type of 
+W/art     ( 3998):  encountered.
+I/art     ( 3998): Using an offset of 0xff80c000 from default art base address of 0x70000000
+I/art     ( 3998): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f80c000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/libEGL  ( 3995): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3995): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3995): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3995): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 3995): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3995): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 3995): Fatal signal 6 (SIGABRT), code -6 in tid 3995 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/mediaserver( 3996): ServiceManager: 0xb60500c0
+I/AudioFlinger( 3996): Using default 3000 mSec as standby time.
+I/ServiceManager( 3996): Waiting for service batterystats...
+E/dex2oat ( 4031): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 3998): Unexpected file type of 
+W/art     ( 3998):  encountered.
+W/art     ( 3998): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f80c000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 3995, tid: 3995, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00000f9b  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6fc7114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 beec8bd0  sl b6a540d0  fp beec8bd0
+I/DEBUG   ( 3580):     ip 00000f9b  sp beec8650  lr b6f517b9  pc b6f754e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_08
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+E/SurfaceControl( 4032): invalid handle (0x0) or client (0xb6317118)
+W/SurfaceComposerClient( 4032): ComposerService remote (surfaceflinger) died [0xb63591c0]
+D/BootAnimation( 4032): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4154): Netd 1.0 starting
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4154): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4156): SurfaceFlinger is starting
+I/SurfaceFlinger( 4156): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4156): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4156): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4156): using (fd=12)
+I/gralloc ( 4156): id           = 
+I/gralloc ( 4156): xres         = 1080 px
+I/gralloc ( 4156): yres         = 1920 px
+I/gralloc ( 4156): xres_virtual = 1080 px
+I/gralloc ( 4156): yres_virtual = 3840 px
+I/gralloc ( 4156): bpp          = 32
+I/gralloc ( 4156): r            = 16:8
+I/gralloc ( 4156): g            =  8:8
+I/gralloc ( 4156): b            =  0:8
+I/gralloc ( 4156): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4156): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4156): refresh rate = 60.00 Hz
+E/HAL     ( 4156): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4156): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4156): hwcomposer module not found
+I/mediaserver( 4157): ServiceManager: 0xb61500c0
+I/AudioFlinger( 4157): Using default 3000 mSec as standby time.
+I/SurfaceFlinger( 4156): EGL information:
+I/SurfaceFlinger( 4156): vendor    : Android
+I/SurfaceFlinger( 4156): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4156): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4156): Client API: OpenGL_ES
+I/SurfaceFlinger( 4156): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/ServiceManager( 4157): Waiting for service batterystats...
+D/AndroidRuntime( 4159): 
+D/AndroidRuntime( 4159): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4159): CheckJNI is OFF
+I/art     ( 4159): option[0]=-Xzygote
+I/art     ( 4159): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4159): option[2]=exit
+I/art     ( 4159): option[3]=vfprintf
+I/art     ( 4159): option[4]=sensitiveThread
+I/art     ( 4159): option[5]=-verbose:gc
+I/art     ( 4159): option[6]=-Xms16m
+I/art     ( 4159): option[7]=-Xmx512m
+I/art     ( 4159): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4159): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4159): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4159): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4159): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4159): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4159): option[14]=-Xlockprofthreshold:500
+I/art     ( 4159): option[15]=-Ximage-compiler-option
+I/art     ( 4159): option[16]=--runtime-arg
+I/art     ( 4159): option[17]=-Ximage-compiler-option
+I/art     ( 4159): option[18]=-Xms64m
+I/art     ( 4159): option[19]=-Ximage-compiler-option
+I/art     ( 4159): option[20]=--runtime-arg
+I/art     ( 4159): option[21]=-Ximage-compiler-option
+I/art     ( 4159): option[22]=-Xmx64m
+I/art     ( 4159): option[23]=-Ximage-compiler-option
+I/art     ( 4159): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4159): option[25]=-Ximage-compiler-option
+I/art     ( 4159): option[26]=--image-classes=preloaded-classes
+I/art     ( 4159): option[27]=-Xcompiler-option
+I/art     ( 4159): option[28]=--runtime-arg
+I/art     ( 4159): option[29]=-Xcompiler-option
+I/art     ( 4159): option[30]=-Xms64m
+I/art     ( 4159): option[31]=-Xcompiler-option
+I/art     ( 4159): option[32]=--runtime-arg
+I/art     ( 4159): option[33]=-Xcompiler-option
+I/art     ( 4159): option[34]=-Xmx512m
+I/art     ( 4159): option[35]=-Duser.language=es
+I/art     ( 4159): option[36]=-Duser.region=US
+I/art     ( 4159): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4159): Unexpected file type of 
+W/art     ( 4159):  encountered.
+I/art     ( 4159): Using an offset of 0x476000 from default art base address of 0x70000000
+I/art     ( 4159): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70476000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/SurfaceFlinger( 4156): OpenGL ES informations:
+I/SurfaceFlinger( 4156): vendor    : ARM
+I/SurfaceFlinger( 4156): renderer  : Mali-T628
+I/SurfaceFlinger( 4156): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4156): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4156): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4156): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4156): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4156): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4156): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4156): Set power mode=2, type=0 flinger=0xb6962000
+E/libEGL  ( 4156): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4156): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4156): Fatal signal 6 (SIGABRT), code -6 in tid 4156 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+E/dex2oat ( 4188): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4159): Unexpected file type of 
+W/art     ( 4159):  encountered.
+W/art     ( 4159): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70476000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4156, tid: 4156, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 0000103c  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f07114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 beeaebd0  sl b69540d0  fp beeaebd0
+I/DEBUG   ( 3580):     ip 0000103c  sp beeae650  lr b6e917b9  pc b6eb54e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_09
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+W/SurfaceComposerClient( 4195): ComposerService remote (surfaceflinger) died [0xb63591c0]
+D/BootAnimation( 4195): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4310): Netd 1.0 starting
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4310): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4312): SurfaceFlinger is starting
+I/SurfaceFlinger( 4312): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4312): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4312): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4312): using (fd=12)
+I/gralloc ( 4312): id           = 
+I/gralloc ( 4312): xres         = 1080 px
+I/gralloc ( 4312): yres         = 1920 px
+I/gralloc ( 4312): xres_virtual = 1080 px
+I/gralloc ( 4312): yres_virtual = 3840 px
+I/gralloc ( 4312): bpp          = 32
+I/gralloc ( 4312): r            = 16:8
+I/gralloc ( 4312): g            =  8:8
+I/gralloc ( 4312): b            =  0:8
+I/gralloc ( 4312): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4312): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4312): refresh rate = 60.00 Hz
+E/HAL     ( 4312): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4312): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4312): hwcomposer module not found
+I/SurfaceFlinger( 4312): EGL information:
+I/SurfaceFlinger( 4312): vendor    : Android
+I/SurfaceFlinger( 4312): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4312): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4312): Client API: OpenGL_ES
+I/SurfaceFlinger( 4312): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/mediaserver( 4313): ServiceManager: 0xb60500c0
+I/AudioFlinger( 4313): Using default 3000 mSec as standby time.
+I/SurfaceFlinger( 4312): OpenGL ES informations:
+I/SurfaceFlinger( 4312): vendor    : ARM
+I/SurfaceFlinger( 4312): renderer  : Mali-T628
+I/SurfaceFlinger( 4312): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4312): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4312): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4312): GL_MAX_VIEWPORT_DIMS = 8192
+I/ServiceManager( 4313): Waiting for service batterystats...
+E/libEGL  ( 4312): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4312): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4312): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4312): Set power mode=2, type=0 flinger=0xb6a62000
+D/AndroidRuntime( 4315): 
+D/AndroidRuntime( 4315): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+E/libEGL  ( 4312): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4312): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4312): Fatal signal 6 (SIGABRT), code -6 in tid 4312 (surfaceflinger)
+D/AndroidRuntime( 4315): CheckJNI is OFF
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/art     ( 4315): option[0]=-Xzygote
+I/art     ( 4315): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4315): option[2]=exit
+I/art     ( 4315): option[3]=vfprintf
+I/art     ( 4315): option[4]=sensitiveThread
+I/art     ( 4315): option[5]=-verbose:gc
+I/art     ( 4315): option[6]=-Xms16m
+I/art     ( 4315): option[7]=-Xmx512m
+I/art     ( 4315): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4315): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4315): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4315): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4315): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4315): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4315): option[14]=-Xlockprofthreshold:500
+I/art     ( 4315): option[15]=-Ximage-compiler-option
+I/art     ( 4315): option[16]=--runtime-arg
+I/art     ( 4315): option[17]=-Ximage-compiler-option
+I/art     ( 4315): option[18]=-Xms64m
+I/art     ( 4315): option[19]=-Ximage-compiler-option
+I/art     ( 4315): option[20]=--runtime-arg
+I/art     ( 4315): option[21]=-Ximage-compiler-option
+I/art     ( 4315): option[22]=-Xmx64m
+I/art     ( 4315): option[23]=-Ximage-compiler-option
+I/art     ( 4315): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4315): option[25]=-Ximage-compiler-option
+I/art     ( 4315): option[26]=--image-classes=preloaded-classes
+I/art     ( 4315): option[27]=-Xcompiler-option
+I/art     ( 4315): option[28]=--runtime-arg
+I/art     ( 4315): option[29]=-Xcompiler-option
+I/art     ( 4315): option[30]=-Xms64m
+I/art     ( 4315): option[31]=-Xcompiler-option
+I/art     ( 4315): option[32]=--runtime-arg
+I/art     ( 4315): option[33]=-Xcompiler-option
+I/art     ( 4315): option[34]=-Xmx512m
+I/art     ( 4315): option[35]=-Duser.language=es
+I/art     ( 4315): option[36]=-Duser.region=US
+I/art     ( 4315): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4315): Unexpected file type of 
+W/art     ( 4315):  encountered.
+I/art     ( 4315): Using an offset of 0xff11c000 from default art base address of 0x70000000
+I/art     ( 4315): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f11c000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 4349): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4315): Unexpected file type of 
+W/art     ( 4315):  encountered.
+W/art     ( 4315): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f11c000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4312, tid: 4312, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 000010d8  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f4b114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 bea17bd0  sl b6a540d0  fp bea17bd0
+I/DEBUG   ( 3580):     ip 000010d8  sp bea17650  lr b6ed57b9  pc b6ef94e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_00
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+W/SurfaceComposerClient( 4348): ComposerService remote (surfaceflinger) died [0xb62591c0]
+D/BootAnimation( 4348): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4465): Netd 1.0 starting
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4465): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4467): SurfaceFlinger is starting
+I/SurfaceFlinger( 4467): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4467): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4467): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4467): using (fd=12)
+I/gralloc ( 4467): id           = 
+I/gralloc ( 4467): xres         = 1080 px
+I/gralloc ( 4467): yres         = 1920 px
+I/gralloc ( 4467): xres_virtual = 1080 px
+I/gralloc ( 4467): yres_virtual = 3840 px
+I/gralloc ( 4467): bpp          = 32
+I/gralloc ( 4467): r            = 16:8
+I/gralloc ( 4467): g            =  8:8
+I/gralloc ( 4467): b            =  0:8
+I/gralloc ( 4467): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4467): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4467): refresh rate = 60.00 Hz
+E/HAL     ( 4467): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4467): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4467): hwcomposer module not found
+I/SurfaceFlinger( 4467): EGL information:
+I/SurfaceFlinger( 4467): vendor    : Android
+I/SurfaceFlinger( 4467): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4467): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4467): Client API: OpenGL_ES
+I/SurfaceFlinger( 4467): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 4467): OpenGL ES informations:
+I/SurfaceFlinger( 4467): vendor    : ARM
+I/SurfaceFlinger( 4467): renderer  : Mali-T628
+I/SurfaceFlinger( 4467): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4467): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4467): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4467): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4467): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4467): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4467): call to OpenGL ES API with no current context (logged once per thread)
+I/mediaserver( 4468): ServiceManager: 0xb61500c0
+I/AudioFlinger( 4468): Using default 3000 mSec as standby time.
+I/ServiceManager( 4468): Waiting for service batterystats...
+D/SurfaceFlinger( 4467): Set power mode=2, type=0 flinger=0xb6a62000
+D/AndroidRuntime( 4470): 
+D/AndroidRuntime( 4470): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+E/libEGL  ( 4467): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4467): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4467): Fatal signal 6 (SIGABRT), code -6 in tid 4467 (surfaceflinger)
+D/AndroidRuntime( 4470): CheckJNI is OFF
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/art     ( 4470): option[0]=-Xzygote
+I/art     ( 4470): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4470): option[2]=exit
+I/art     ( 4470): option[3]=vfprintf
+I/art     ( 4470): option[4]=sensitiveThread
+I/art     ( 4470): option[5]=-verbose:gc
+I/art     ( 4470): option[6]=-Xms16m
+I/art     ( 4470): option[7]=-Xmx512m
+I/art     ( 4470): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4470): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4470): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4470): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4470): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4470): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4470): option[14]=-Xlockprofthreshold:500
+I/art     ( 4470): option[15]=-Ximage-compiler-option
+I/art     ( 4470): option[16]=--runtime-arg
+I/art     ( 4470): option[17]=-Ximage-compiler-option
+I/art     ( 4470): option[18]=-Xms64m
+I/art     ( 4470): option[19]=-Ximage-compiler-option
+I/art     ( 4470): option[20]=--runtime-arg
+I/art     ( 4470): option[21]=-Ximage-compiler-option
+I/art     ( 4470): option[22]=-Xmx64m
+I/art     ( 4470): option[23]=-Ximage-compiler-option
+I/art     ( 4470): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4470): option[25]=-Ximage-compiler-option
+I/art     ( 4470): option[26]=--image-classes=preloaded-classes
+I/art     ( 4470): option[27]=-Xcompiler-option
+I/art     ( 4470): option[28]=--runtime-arg
+I/art     ( 4470): option[29]=-Xcompiler-option
+I/art     ( 4470): option[30]=-Xms64m
+I/art     ( 4470): option[31]=-Xcompiler-option
+I/art     ( 4470): option[32]=--runtime-arg
+I/art     ( 4470): option[33]=-Xcompiler-option
+I/art     ( 4470): option[34]=-Xmx512m
+I/art     ( 4470): option[35]=-Duser.language=es
+I/art     ( 4470): option[36]=-Duser.region=US
+I/art     ( 4470): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4470): Unexpected file type of 
+W/art     ( 4470):  encountered.
+I/art     ( 4470): Using an offset of 0xff1e0000 from default art base address of 0x70000000
+I/art     ( 4470): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f1e0000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 4504): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4470): Unexpected file type of 
+W/art     ( 4470):  encountered.
+W/art     ( 4470): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f1e0000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4467, tid: 4467, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00001173  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f55114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 bebf2bd0  sl b6a540d0  fp bebf2bd0
+I/DEBUG   ( 3580):     ip 00001173  sp bebf2650  lr b6edf7b9  pc b6f034e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_01
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+E/SurfaceControl( 4502): invalid handle (0x0) or client (0xb6317118)
+W/SurfaceComposerClient( 4502): ComposerService remote (surfaceflinger) died [0xb63591c0]
+D/BootAnimation( 4502): SurfaceFlinger died, exiting...
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4623): Netd 1.0 starting
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4623): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4625): SurfaceFlinger is starting
+I/SurfaceFlinger( 4625): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4625): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4625): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4625): using (fd=12)
+I/gralloc ( 4625): id           = 
+I/gralloc ( 4625): xres         = 1080 px
+I/gralloc ( 4625): yres         = 1920 px
+I/gralloc ( 4625): xres_virtual = 1080 px
+I/gralloc ( 4625): yres_virtual = 3840 px
+I/gralloc ( 4625): bpp          = 32
+I/gralloc ( 4625): r            = 16:8
+I/gralloc ( 4625): g            =  8:8
+I/gralloc ( 4625): b            =  0:8
+I/gralloc ( 4625): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4625): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4625): refresh rate = 60.00 Hz
+E/HAL     ( 4625): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4625): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4625): hwcomposer module not found
+I/mediaserver( 4626): ServiceManager: 0xb61500c0
+I/AudioFlinger( 4626): Using default 3000 mSec as standby time.
+I/SurfaceFlinger( 4625): EGL information:
+I/SurfaceFlinger( 4625): vendor    : Android
+I/SurfaceFlinger( 4625): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4625): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4625): Client API: OpenGL_ES
+I/SurfaceFlinger( 4625): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/ServiceManager( 4626): Waiting for service batterystats...
+D/AndroidRuntime( 4628): 
+D/AndroidRuntime( 4628): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/SurfaceFlinger( 4625): OpenGL ES informations:
+I/SurfaceFlinger( 4625): vendor    : ARM
+I/SurfaceFlinger( 4625): renderer  : Mali-T628
+I/SurfaceFlinger( 4625): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4625): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4625): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4625): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4625): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4625): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4625): call to OpenGL ES API with no current context (logged once per thread)
+D/AndroidRuntime( 4628): CheckJNI is OFF
+I/art     ( 4628): option[0]=-Xzygote
+I/art     ( 4628): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4628): option[2]=exit
+I/art     ( 4628): option[3]=vfprintf
+I/art     ( 4628): option[4]=sensitiveThread
+I/art     ( 4628): option[5]=-verbose:gc
+I/art     ( 4628): option[6]=-Xms16m
+I/art     ( 4628): option[7]=-Xmx512m
+I/art     ( 4628): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4628): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4628): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4628): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4628): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4628): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4628): option[14]=-Xlockprofthreshold:500
+I/art     ( 4628): option[15]=-Ximage-compiler-option
+I/art     ( 4628): option[16]=--runtime-arg
+I/art     ( 4628): option[17]=-Ximage-compiler-option
+I/art     ( 4628): option[18]=-Xms64m
+I/art     ( 4628): option[19]=-Ximage-compiler-option
+I/art     ( 4628): option[20]=--runtime-arg
+I/art     ( 4628): option[21]=-Ximage-compiler-option
+I/art     ( 4628): option[22]=-Xmx64m
+I/art     ( 4628): option[23]=-Ximage-compiler-option
+I/art     ( 4628): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4628): option[25]=-Ximage-compiler-option
+I/art     ( 4628): option[26]=--image-classes=preloaded-classes
+I/art     ( 4628): option[27]=-Xcompiler-option
+I/art     ( 4628): option[28]=--runtime-arg
+I/art     ( 4628): option[29]=-Xcompiler-option
+I/art     ( 4628): option[30]=-Xms64m
+I/art     ( 4628): option[31]=-Xcompiler-option
+I/art     ( 4628): option[32]=--runtime-arg
+I/art     ( 4628): option[33]=-Xcompiler-option
+I/art     ( 4628): option[34]=-Xmx512m
+I/art     ( 4628): option[35]=-Duser.language=es
+I/art     ( 4628): option[36]=-Duser.region=US
+I/art     ( 4628): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4628): Unexpected file type of 
+W/art     ( 4628):  encountered.
+I/art     ( 4628): Using an offset of 0xff1ca000 from default art base address of 0x70000000
+I/art     ( 4628): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f1ca000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+D/SurfaceFlinger( 4625): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4625): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4625): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4625): Fatal signal 6 (SIGABRT), code -6 in tid 4625 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+E/dex2oat ( 4661): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4628): Unexpected file type of 
+W/art     ( 4628):  encountered.
+W/art     ( 4628): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f1ca000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4625, tid: 4625, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00001211  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6fb9114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 befddbd0  sl b6a540d0  fp befddbd0
+I/DEBUG   ( 3580):     ip 00001211  sp befdd650  lr b6f437b9  pc b6f674e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_02
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+W/SurfaceComposerClient( 4659): ComposerService remote (surfaceflinger) died [0xb63591c0]
+E/BootAnimation( 4659): linkToComposerDeath failed (Broken pipe) 
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4769): Netd 1.0 starting
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4769): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4771): SurfaceFlinger is starting
+I/SurfaceFlinger( 4771): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4771): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4771): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4771): using (fd=12)
+I/gralloc ( 4771): id           = 
+I/gralloc ( 4771): xres         = 1080 px
+I/gralloc ( 4771): yres         = 1920 px
+I/gralloc ( 4771): xres_virtual = 1080 px
+I/gralloc ( 4771): yres_virtual = 3840 px
+I/gralloc ( 4771): bpp          = 32
+I/gralloc ( 4771): r            = 16:8
+I/gralloc ( 4771): g            =  8:8
+I/gralloc ( 4771): b            =  0:8
+I/gralloc ( 4771): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4771): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4771): refresh rate = 60.00 Hz
+E/HAL     ( 4771): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4771): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4771): hwcomposer module not found
+I/SurfaceFlinger( 4771): EGL information:
+I/SurfaceFlinger( 4771): vendor    : Android
+I/SurfaceFlinger( 4771): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4771): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4771): Client API: OpenGL_ES
+I/SurfaceFlinger( 4771): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 4774): 
+D/AndroidRuntime( 4774): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4774): CheckJNI is OFF
+I/art     ( 4774): option[0]=-Xzygote
+I/art     ( 4774): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4774): option[2]=exit
+I/art     ( 4774): option[3]=vfprintf
+I/art     ( 4774): option[4]=sensitiveThread
+I/art     ( 4774): option[5]=-verbose:gc
+I/art     ( 4774): option[6]=-Xms16m
+I/art     ( 4774): option[7]=-Xmx512m
+I/art     ( 4774): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4774): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4774): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4774): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4774): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4774): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4774): option[14]=-Xlockprofthreshold:500
+I/art     ( 4774): option[15]=-Ximage-compiler-option
+I/art     ( 4774): option[16]=--runtime-arg
+I/art     ( 4774): option[17]=-Ximage-compiler-option
+I/art     ( 4774): option[18]=-Xms64m
+I/art     ( 4774): option[19]=-Ximage-compiler-option
+I/art     ( 4774): option[20]=--runtime-arg
+I/art     ( 4774): option[21]=-Ximage-compiler-option
+I/art     ( 4774): option[22]=-Xmx64m
+I/art     ( 4774): option[23]=-Ximage-compiler-option
+I/art     ( 4774): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4774): option[25]=-Ximage-compiler-option
+I/art     ( 4774): option[26]=--image-classes=preloaded-classes
+I/art     ( 4774): option[27]=-Xcompiler-option
+I/art     ( 4774): option[28]=--runtime-arg
+I/art     ( 4774): option[29]=-Xcompiler-option
+I/art     ( 4774): option[30]=-Xms64m
+I/art     ( 4774): option[31]=-Xcompiler-option
+I/art     ( 4774): option[32]=--runtime-arg
+I/art     ( 4774): option[33]=-Xcompiler-option
+I/art     ( 4774): option[34]=-Xmx512m
+I/art     ( 4774): option[35]=-Duser.language=es
+I/art     ( 4774): option[36]=-Duser.region=US
+I/art     ( 4774): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4774): Unexpected file type of 
+W/art     ( 4774):  encountered.
+I/art     ( 4774): Using an offset of 0x28f000 from default art base address of 0x70000000
+I/art     ( 4774): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7028f000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/SurfaceFlinger( 4771): OpenGL ES informations:
+I/SurfaceFlinger( 4771): vendor    : ARM
+I/SurfaceFlinger( 4771): renderer  : Mali-T628
+I/SurfaceFlinger( 4771): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4771): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4771): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4771): GL_MAX_VIEWPORT_DIMS = 8192
+I/mediaserver( 4772): ServiceManager: 0xb61500c0
+I/AudioFlinger( 4772): Using default 3000 mSec as standby time.
+E/libEGL  ( 4771): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4771): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4771): call to OpenGL ES API with no current context (logged once per thread)
+I/ServiceManager( 4772): Waiting for service batterystats...
+D/SurfaceFlinger( 4771): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 4771): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4771): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4771): Fatal signal 6 (SIGABRT), code -6 in tid 4771 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+E/dex2oat ( 4803): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4774): Unexpected file type of 
+W/art     ( 4774):  encountered.
+W/art     ( 4774): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x7028f000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4771, tid: 4771, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 000012a3  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f6a114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 beb52bd0  sl b6a540d0  fp beb52bd0
+I/DEBUG   ( 3580):     ip 000012a3  sp beb52650  lr b6ef47b9  pc b6f184e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_03
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 4898): Netd 1.0 starting
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 4898): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 4900): SurfaceFlinger is starting
+I/SurfaceFlinger( 4900): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 4900): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 4900): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 4900): using (fd=12)
+I/gralloc ( 4900): id           = 
+I/gralloc ( 4900): xres         = 1080 px
+I/gralloc ( 4900): yres         = 1920 px
+I/gralloc ( 4900): xres_virtual = 1080 px
+I/gralloc ( 4900): yres_virtual = 3840 px
+I/gralloc ( 4900): bpp          = 32
+I/gralloc ( 4900): r            = 16:8
+I/gralloc ( 4900): g            =  8:8
+I/gralloc ( 4900): b            =  0:8
+I/gralloc ( 4900): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 4900): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 4900): refresh rate = 60.00 Hz
+E/HAL     ( 4900): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 4900): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 4900): hwcomposer module not found
+I/SurfaceFlinger( 4900): EGL information:
+I/SurfaceFlinger( 4900): vendor    : Android
+I/SurfaceFlinger( 4900): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 4900): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 4900): Client API: OpenGL_ES
+I/SurfaceFlinger( 4900): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/mediaserver( 4901): ServiceManager: 0xb61500c0
+I/AudioFlinger( 4901): Using default 3000 mSec as standby time.
+I/ServiceManager( 4901): Waiting for service batterystats...
+I/SurfaceFlinger( 4900): OpenGL ES informations:
+I/SurfaceFlinger( 4900): vendor    : ARM
+I/SurfaceFlinger( 4900): renderer  : Mali-T628
+I/SurfaceFlinger( 4900): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 4900): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 4900): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 4900): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 4900): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4900): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 4900): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 4900): Set power mode=2, type=0 flinger=0xb6962000
+D/AndroidRuntime( 4903): 
+D/AndroidRuntime( 4903): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 4903): CheckJNI is OFF
+I/art     ( 4903): option[0]=-Xzygote
+I/art     ( 4903): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 4903): option[2]=exit
+I/art     ( 4903): option[3]=vfprintf
+I/art     ( 4903): option[4]=sensitiveThread
+I/art     ( 4903): option[5]=-verbose:gc
+I/art     ( 4903): option[6]=-Xms16m
+I/art     ( 4903): option[7]=-Xmx512m
+I/art     ( 4903): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 4903): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 4903): option[10]=-XX:HeapMinFree=2m
+I/art     ( 4903): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 4903): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 4903): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 4903): option[14]=-Xlockprofthreshold:500
+I/art     ( 4903): option[15]=-Ximage-compiler-option
+I/art     ( 4903): option[16]=--runtime-arg
+I/art     ( 4903): option[17]=-Ximage-compiler-option
+I/art     ( 4903): option[18]=-Xms64m
+I/art     ( 4903): option[19]=-Ximage-compiler-option
+I/art     ( 4903): option[20]=--runtime-arg
+I/art     ( 4903): option[21]=-Ximage-compiler-option
+I/art     ( 4903): option[22]=-Xmx64m
+I/art     ( 4903): option[23]=-Ximage-compiler-option
+I/art     ( 4903): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 4903): option[25]=-Ximage-compiler-option
+I/art     ( 4903): option[26]=--image-classes=preloaded-classes
+I/art     ( 4903): option[27]=-Xcompiler-option
+I/art     ( 4903): option[28]=--runtime-arg
+I/art     ( 4903): option[29]=-Xcompiler-option
+I/art     ( 4903): option[30]=-Xms64m
+I/art     ( 4903): option[31]=-Xcompiler-option
+I/art     ( 4903): option[32]=--runtime-arg
+I/art     ( 4903): option[33]=-Xcompiler-option
+I/art     ( 4903): option[34]=-Xmx512m
+I/art     ( 4903): option[35]=-Duser.language=es
+I/art     ( 4903): option[36]=-Duser.region=US
+I/art     ( 4903): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 4903): Unexpected file type of 
+W/art     ( 4903):  encountered.
+I/art     ( 4903): Using an offset of 0xff167000 from default art base address of 0x70000000
+I/art     ( 4903): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f167000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/libEGL  ( 4900): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 4900): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 4900): Fatal signal 6 (SIGABRT), code -6 in tid 4900 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+E/dex2oat ( 4938): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 4903): Unexpected file type of 
+W/art     ( 4903):  encountered.
+W/art     ( 4903): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f167000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 4900, tid: 4900, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 00001324  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f3f114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 be8d3bd0  sl b69540d0  fp be8d3bd0
+I/DEBUG   ( 3580):     ip 00001324  sp be8d3650  lr b6ec97b9  pc b6eed4e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_04
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5047): Netd 1.0 starting
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5047): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 5049): SurfaceFlinger is starting
+I/SurfaceFlinger( 5049): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 5049): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 5049): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 5049): using (fd=12)
+I/gralloc ( 5049): id           = 
+I/gralloc ( 5049): xres         = 1080 px
+I/gralloc ( 5049): yres         = 1920 px
+I/gralloc ( 5049): xres_virtual = 1080 px
+I/gralloc ( 5049): yres_virtual = 3840 px
+I/gralloc ( 5049): bpp          = 32
+I/gralloc ( 5049): r            = 16:8
+I/gralloc ( 5049): g            =  8:8
+I/gralloc ( 5049): b            =  0:8
+I/gralloc ( 5049): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5049): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5049): refresh rate = 60.00 Hz
+E/HAL     ( 5049): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 5049): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 5049): hwcomposer module not found
+I/SurfaceFlinger( 5049): EGL information:
+I/SurfaceFlinger( 5049): vendor    : Android
+I/SurfaceFlinger( 5049): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5049): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5049): Client API: OpenGL_ES
+I/SurfaceFlinger( 5049): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 5049): OpenGL ES informations:
+I/SurfaceFlinger( 5049): vendor    : ARM
+I/SurfaceFlinger( 5049): renderer  : Mali-T628
+I/SurfaceFlinger( 5049): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5049): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5049): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5049): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5049): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5049): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5049): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5049): Set power mode=2, type=0 flinger=0xb6a62000
+I/mediaserver( 5050): ServiceManager: 0xb60500c0
+I/AudioFlinger( 5050): Using default 3000 mSec as standby time.
+I/ServiceManager( 5050): Waiting for service batterystats...
+D/AndroidRuntime( 5052): 
+D/AndroidRuntime( 5052): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 5052): CheckJNI is OFF
+I/art     ( 5052): option[0]=-Xzygote
+I/art     ( 5052): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5052): option[2]=exit
+I/art     ( 5052): option[3]=vfprintf
+I/art     ( 5052): option[4]=sensitiveThread
+I/art     ( 5052): option[5]=-verbose:gc
+I/art     ( 5052): option[6]=-Xms16m
+I/art     ( 5052): option[7]=-Xmx512m
+I/art     ( 5052): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5052): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 5052): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5052): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5052): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5052): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5052): option[14]=-Xlockprofthreshold:500
+I/art     ( 5052): option[15]=-Ximage-compiler-option
+I/art     ( 5052): option[16]=--runtime-arg
+I/art     ( 5052): option[17]=-Ximage-compiler-option
+I/art     ( 5052): option[18]=-Xms64m
+I/art     ( 5052): option[19]=-Ximage-compiler-option
+I/art     ( 5052): option[20]=--runtime-arg
+I/art     ( 5052): option[21]=-Ximage-compiler-option
+I/art     ( 5052): option[22]=-Xmx64m
+I/art     ( 5052): option[23]=-Ximage-compiler-option
+I/art     ( 5052): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5052): option[25]=-Ximage-compiler-option
+I/art     ( 5052): option[26]=--image-classes=preloaded-classes
+I/art     ( 5052): option[27]=-Xcompiler-option
+I/art     ( 5052): option[28]=--runtime-arg
+I/art     ( 5052): option[29]=-Xcompiler-option
+I/art     ( 5052): option[30]=-Xms64m
+I/art     ( 5052): option[31]=-Xcompiler-option
+I/art     ( 5052): option[32]=--runtime-arg
+I/art     ( 5052): option[33]=-Xcompiler-option
+I/art     ( 5052): option[34]=-Xmx512m
+I/art     ( 5052): option[35]=-Duser.language=es
+I/art     ( 5052): option[36]=-Duser.region=US
+E/libEGL  ( 5049): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5049): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+I/art     ( 5052): Pruning dalvik-cache since we are generating an image and will need to recompile
+F/libc    ( 5049): Fatal signal 6 (SIGABRT), code -6 in tid 5049 (surfaceflinger)
+W/art     ( 5052): Unexpected file type of 
+W/art     ( 5052):  encountered.
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/art     ( 5052): Using an offset of 0xff3b7000 from default art base address of 0x70000000
+I/art     ( 5052): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f3b7000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 5087): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 5052): Unexpected file type of 
+W/art     ( 5052):  encountered.
+W/art     ( 5052): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f3b7000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 5049, tid: 5049, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 000013b9  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f81114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 be88abd0  sl b6a540d0  fp be88abd0
+I/DEBUG   ( 3580):     ip 000013b9  sp be88a650  lr b6f0b7b9  pc b6f2f4e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_05
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5195): Netd 1.0 starting
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5195): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 5197): SurfaceFlinger is starting
+I/SurfaceFlinger( 5197): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 5197): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 5197): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 5197): using (fd=12)
+I/gralloc ( 5197): id           = 
+I/gralloc ( 5197): xres         = 1080 px
+I/gralloc ( 5197): yres         = 1920 px
+I/gralloc ( 5197): xres_virtual = 1080 px
+I/gralloc ( 5197): yres_virtual = 3840 px
+I/gralloc ( 5197): bpp          = 32
+I/gralloc ( 5197): r            = 16:8
+I/gralloc ( 5197): g            =  8:8
+I/gralloc ( 5197): b            =  0:8
+I/gralloc ( 5197): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5197): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5197): refresh rate = 60.00 Hz
+E/HAL     ( 5197): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 5197): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 5197): hwcomposer module not found
+I/SurfaceFlinger( 5197): EGL information:
+I/SurfaceFlinger( 5197): vendor    : Android
+I/SurfaceFlinger( 5197): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5197): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5197): Client API: OpenGL_ES
+I/SurfaceFlinger( 5197): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 5197): OpenGL ES informations:
+I/SurfaceFlinger( 5197): vendor    : ARM
+I/SurfaceFlinger( 5197): renderer  : Mali-T628
+I/SurfaceFlinger( 5197): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5197): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5197): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5197): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5197): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5197): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5197): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5197): Set power mode=2, type=0 flinger=0xb6a62000
+I/mediaserver( 5198): ServiceManager: 0xb61500c0
+I/AudioFlinger( 5198): Using default 3000 mSec as standby time.
+I/ServiceManager( 5198): Waiting for service batterystats...
+E/libEGL  ( 5197): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5197): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 5197): Fatal signal 6 (SIGABRT), code -6 in tid 5197 (surfaceflinger)
+D/AndroidRuntime( 5200): 
+D/AndroidRuntime( 5200): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+D/AndroidRuntime( 5200): CheckJNI is OFF
+I/art     ( 5200): option[0]=-Xzygote
+I/art     ( 5200): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5200): option[2]=exit
+I/art     ( 5200): option[3]=vfprintf
+I/art     ( 5200): option[4]=sensitiveThread
+I/art     ( 5200): option[5]=-verbose:gc
+I/art     ( 5200): option[6]=-Xms16m
+I/art     ( 5200): option[7]=-Xmx512m
+I/art     ( 5200): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5200): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 5200): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5200): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5200): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5200): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5200): option[14]=-Xlockprofthreshold:500
+I/art     ( 5200): option[15]=-Ximage-compiler-option
+I/art     ( 5200): option[16]=--runtime-arg
+I/art     ( 5200): option[17]=-Ximage-compiler-option
+I/art     ( 5200): option[18]=-Xms64m
+I/art     ( 5200): option[19]=-Ximage-compiler-option
+I/art     ( 5200): option[20]=--runtime-arg
+I/art     ( 5200): option[21]=-Ximage-compiler-option
+I/art     ( 5200): option[22]=-Xmx64m
+I/art     ( 5200): option[23]=-Ximage-compiler-option
+I/art     ( 5200): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5200): option[25]=-Ximage-compiler-option
+I/art     ( 5200): option[26]=--image-classes=preloaded-classes
+I/art     ( 5200): option[27]=-Xcompiler-option
+I/art     ( 5200): option[28]=--runtime-arg
+I/art     ( 5200): option[29]=-Xcompiler-option
+I/art     ( 5200): option[30]=-Xms64m
+I/art     ( 5200): option[31]=-Xcompiler-option
+I/art     ( 5200): option[32]=--runtime-arg
+I/art     ( 5200): option[33]=-Xcompiler-option
+I/art     ( 5200): option[34]=-Xmx512m
+I/art     ( 5200): option[35]=-Duser.language=es
+I/art     ( 5200): option[36]=-Duser.region=US
+I/art     ( 5200): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 5200): Unexpected file type of 
+W/art     ( 5200):  encountered.
+I/art     ( 5200): Using an offset of 0xffb37000 from default art base address of 0x70000000
+I/art     ( 5200): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fb37000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 5235): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 5200): Unexpected file type of 
+W/art     ( 5200):  encountered.
+W/art     ( 5200): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fb37000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 5197, tid: 5197, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 0000144d  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6ffa114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 be85ebd0  sl b6a540d0  fp be85ebd0
+I/DEBUG   ( 3580):     ip 0000144d  sp be85e650  lr b6f847b9  pc b6fa84e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_06
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5338): Netd 1.0 starting
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5338): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 5340): SurfaceFlinger is starting
+I/SurfaceFlinger( 5340): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 5340): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 5340): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 5340): using (fd=12)
+I/gralloc ( 5340): id           = 
+I/gralloc ( 5340): xres         = 1080 px
+I/gralloc ( 5340): yres         = 1920 px
+I/gralloc ( 5340): xres_virtual = 1080 px
+I/gralloc ( 5340): yres_virtual = 3840 px
+I/gralloc ( 5340): bpp          = 32
+I/gralloc ( 5340): r            = 16:8
+I/gralloc ( 5340): g            =  8:8
+I/gralloc ( 5340): b            =  0:8
+I/gralloc ( 5340): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5340): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5340): refresh rate = 60.00 Hz
+E/HAL     ( 5340): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 5340): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 5340): hwcomposer module not found
+I/SurfaceFlinger( 5340): EGL information:
+I/SurfaceFlinger( 5340): vendor    : Android
+I/SurfaceFlinger( 5340): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5340): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5340): Client API: OpenGL_ES
+I/SurfaceFlinger( 5340): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 5340): OpenGL ES informations:
+I/SurfaceFlinger( 5340): vendor    : ARM
+I/SurfaceFlinger( 5340): renderer  : Mali-T628
+I/SurfaceFlinger( 5340): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5340): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5340): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5340): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5340): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5340): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5340): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5340): Set power mode=2, type=0 flinger=0xb6962000
+D/AndroidRuntime( 5343): 
+D/AndroidRuntime( 5343): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/mediaserver( 5341): ServiceManager: 0xb60500c0
+I/AudioFlinger( 5341): Using default 3000 mSec as standby time.
+D/AndroidRuntime( 5343): CheckJNI is OFF
+I/ServiceManager( 5341): Waiting for service batterystats...
+I/art     ( 5343): option[0]=-Xzygote
+I/art     ( 5343): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5343): option[2]=exit
+I/art     ( 5343): option[3]=vfprintf
+I/art     ( 5343): option[4]=sensitiveThread
+I/art     ( 5343): option[5]=-verbose:gc
+I/art     ( 5343): option[6]=-Xms16m
+I/art     ( 5343): option[7]=-Xmx512m
+I/art     ( 5343): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5343): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 5343): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5343): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5343): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5343): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5343): option[14]=-Xlockprofthreshold:500
+I/art     ( 5343): option[15]=-Ximage-compiler-option
+I/art     ( 5343): option[16]=--runtime-arg
+I/art     ( 5343): option[17]=-Ximage-compiler-option
+I/art     ( 5343): option[18]=-Xms64m
+I/art     ( 5343): option[19]=-Ximage-compiler-option
+I/art     ( 5343): option[20]=--runtime-arg
+I/art     ( 5343): option[21]=-Ximage-compiler-option
+I/art     ( 5343): option[22]=-Xmx64m
+I/art     ( 5343): option[23]=-Ximage-compiler-option
+I/art     ( 5343): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5343): option[25]=-Ximage-compiler-option
+I/art     ( 5343): option[26]=--image-classes=preloaded-classes
+I/art     ( 5343): option[27]=-Xcompiler-option
+I/art     ( 5343): option[28]=--runtime-arg
+I/art     ( 5343): option[29]=-Xcompiler-option
+I/art     ( 5343): option[30]=-Xms64m
+I/art     ( 5343): option[31]=-Xcompiler-option
+I/art     ( 5343): option[32]=--runtime-arg
+I/art     ( 5343): option[33]=-Xcompiler-option
+I/art     ( 5343): option[34]=-Xmx512m
+I/art     ( 5343): option[35]=-Duser.language=es
+I/art     ( 5343): option[36]=-Duser.region=US
+I/art     ( 5343): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 5343): Unexpected file type of 
+W/art     ( 5343):  encountered.
+I/art     ( 5343): Using an offset of 0xff207000 from default art base address of 0x70000000
+I/art     ( 5343): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f207000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/libEGL  ( 5340): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5340): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 5340): Fatal signal 6 (SIGABRT), code -6 in tid 5340 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+E/dex2oat ( 5378): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 5343): Unexpected file type of 
+W/art     ( 5343):  encountered.
+W/art     ( 5343): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f207000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 5340, tid: 5340, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 000014dc  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f27114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 bee15bd0  sl b69540d0  fp bee15bd0
+I/DEBUG   ( 3580):     ip 000014dc  sp bee15650  lr b6eb17b9  pc b6ed54e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_07
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5485): Netd 1.0 starting
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5485): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 5487): SurfaceFlinger is starting
+I/SurfaceFlinger( 5487): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 5487): loaded /vendor/lib/egl/libGLES_mali.so
+I/mediaserver( 5488): ServiceManager: 0xb61500c0
+I/AudioFlinger( 5488): Using default 3000 mSec as standby time.
+I/ServiceManager( 5488): Waiting for service batterystats...
+D/AndroidRuntime( 5490): 
+D/AndroidRuntime( 5490): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 5490): CheckJNI is OFF
+I/art     ( 5490): option[0]=-Xzygote
+I/art     ( 5490): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5490): option[2]=exit
+I/art     ( 5490): option[3]=vfprintf
+I/art     ( 5490): option[4]=sensitiveThread
+I/art     ( 5490): option[5]=-verbose:gc
+I/art     ( 5490): option[6]=-Xms16m
+I/art     ( 5490): option[7]=-Xmx512m
+I/art     ( 5490): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5490): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 5490): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5490): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5490): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5490): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5490): option[14]=-Xlockprofthreshold:500
+I/art     ( 5490): option[15]=-Ximage-compiler-option
+I/art     ( 5490): option[16]=--runtime-arg
+I/art     ( 5490): option[17]=-Ximage-compiler-option
+I/art     ( 5490): option[18]=-Xms64m
+I/art     ( 5490): option[19]=-Ximage-compiler-option
+I/art     ( 5490): option[20]=--runtime-arg
+I/art     ( 5490): option[21]=-Ximage-compiler-option
+I/art     ( 5490): option[22]=-Xmx64m
+I/art     ( 5490): option[23]=-Ximage-compiler-option
+I/art     ( 5490): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5490): option[25]=-Ximage-compiler-option
+I/art     ( 5490): option[26]=--image-classes=preloaded-classes
+I/art     ( 5490): option[27]=-Xcompiler-option
+I/art     ( 5490): option[28]=--runtime-arg
+I/art     ( 5490): option[29]=-Xcompiler-option
+I/art     ( 5490): option[30]=-Xms64m
+I/art     ( 5490): option[31]=-Xcompiler-option
+I/art     ( 5490): option[32]=--runtime-arg
+I/art     ( 5490): option[33]=-Xcompiler-option
+I/art     ( 5490): option[34]=-Xmx512m
+I/art     ( 5490): option[35]=-Duser.language=es
+I/art     ( 5490): option[36]=-Duser.region=US
+I/art     ( 5490): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 5490): Unexpected file type of 
+W/art     ( 5490):  encountered.
+I/art     ( 5490): Using an offset of 0xff67d000 from default art base address of 0x70000000
+I/art     ( 5490): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f67d000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/        ( 5487): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 5487): using (fd=12)
+I/gralloc ( 5487): id           = 
+I/gralloc ( 5487): xres         = 1080 px
+I/gralloc ( 5487): yres         = 1920 px
+I/gralloc ( 5487): xres_virtual = 1080 px
+I/gralloc ( 5487): yres_virtual = 3840 px
+I/gralloc ( 5487): bpp          = 32
+I/gralloc ( 5487): r            = 16:8
+I/gralloc ( 5487): g            =  8:8
+I/gralloc ( 5487): b            =  0:8
+I/gralloc ( 5487): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5487): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5487): refresh rate = 60.00 Hz
+E/HAL     ( 5487): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 5487): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 5487): hwcomposer module not found
+E/dex2oat ( 5507): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+I/SurfaceFlinger( 5487): EGL information:
+I/SurfaceFlinger( 5487): vendor    : Android
+I/SurfaceFlinger( 5487): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5487): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5487): Client API: OpenGL_ES
+I/SurfaceFlinger( 5487): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+W/art     ( 5490): Unexpected file type of 
+W/art     ( 5490):  encountered.
+W/art     ( 5490): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f67d000 --runtime-arg -Xms64
+I/SurfaceFlinger( 5487): OpenGL ES informations:
+I/SurfaceFlinger( 5487): vendor    : ARM
+I/SurfaceFlinger( 5487): renderer  : Mali-T628
+I/SurfaceFlinger( 5487): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5487): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5487): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5487): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5487): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5487): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5487): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5487): Set power mode=2, type=0 flinger=0xb6a62000
+E/libEGL  ( 5487): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5487): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 5487): Fatal signal 6 (SIGABRT), code -6 in tid 5487 (surfaceflinger)
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 5487, tid: 5487, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 0000156f  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6f76114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 beb99bd0  sl b6a540d0  fp beb99bd0
+I/DEBUG   ( 3580):     ip 0000156f  sp beb99650  lr b6f007b9  pc b6f244e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_08
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5640): Netd 1.0 starting
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5640): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 5642): SurfaceFlinger is starting
+I/SurfaceFlinger( 5642): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 5642): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 5642): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 5642): using (fd=12)
+I/gralloc ( 5642): id           = 
+I/gralloc ( 5642): xres         = 1080 px
+I/gralloc ( 5642): yres         = 1920 px
+I/gralloc ( 5642): xres_virtual = 1080 px
+I/gralloc ( 5642): yres_virtual = 3840 px
+I/gralloc ( 5642): bpp          = 32
+I/gralloc ( 5642): r            = 16:8
+I/gralloc ( 5642): g            =  8:8
+I/gralloc ( 5642): b            =  0:8
+I/gralloc ( 5642): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 5642): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 5642): refresh rate = 60.00 Hz
+E/HAL     ( 5642): load: module=/system/lib/hw/hwcomposer.exynos5.so
+E/HAL     ( 5642): dlopen failed: could not load library "libdisplaymodule.so" needed by "hwcomposer.exynos5.so"; caused by library "libdisplaymodule.so" not found
+E/SurfaceFlinger( 5642): hwcomposer module not found
+I/SurfaceFlinger( 5642): EGL information:
+I/SurfaceFlinger( 5642): vendor    : Android
+I/SurfaceFlinger( 5642): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 5642): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 5642): Client API: OpenGL_ES
+I/SurfaceFlinger( 5642): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 5642): OpenGL ES informations:
+I/SurfaceFlinger( 5642): vendor    : ARM
+I/SurfaceFlinger( 5642): renderer  : Mali-T628
+I/SurfaceFlinger( 5642): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 5642): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 5642): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 5642): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 5642): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5642): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 5642): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 5642): Set power mode=2, type=0 flinger=0xb6a62000
+I/mediaserver( 5643): ServiceManager: 0xb60500c0
+I/AudioFlinger( 5643): Using default 3000 mSec as standby time.
+I/ServiceManager( 5643): Waiting for service batterystats...
+E/libEGL  ( 5642): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 5642): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+F/libc    ( 5642): Fatal signal 6 (SIGABRT), code -6 in tid 5642 (surfaceflinger)
+D/AndroidRuntime( 5645): 
+D/AndroidRuntime( 5645): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/DEBUG   ( 3580): property debug.db.uid not set; NOT waiting for gdb.
+I/DEBUG   ( 3580): HINT: adb shell setprop debug.db.uid 100000
+I/DEBUG   ( 3580): HINT: adb forward tcp:5039 tcp:5039
+D/AndroidRuntime( 5645): CheckJNI is OFF
+I/art     ( 5645): option[0]=-Xzygote
+I/art     ( 5645): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 5645): option[2]=exit
+I/art     ( 5645): option[3]=vfprintf
+I/art     ( 5645): option[4]=sensitiveThread
+I/art     ( 5645): option[5]=-verbose:gc
+I/art     ( 5645): option[6]=-Xms16m
+I/art     ( 5645): option[7]=-Xmx512m
+I/art     ( 5645): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 5645): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 5645): option[10]=-XX:HeapMinFree=2m
+I/art     ( 5645): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 5645): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 5645): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 5645): option[14]=-Xlockprofthreshold:500
+I/art     ( 5645): option[15]=-Ximage-compiler-option
+I/art     ( 5645): option[16]=--runtime-arg
+I/art     ( 5645): option[17]=-Ximage-compiler-option
+I/art     ( 5645): option[18]=-Xms64m
+I/art     ( 5645): option[19]=-Ximage-compiler-option
+I/art     ( 5645): option[20]=--runtime-arg
+I/art     ( 5645): option[21]=-Ximage-compiler-option
+I/art     ( 5645): option[22]=-Xmx64m
+I/art     ( 5645): option[23]=-Ximage-compiler-option
+I/art     ( 5645): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 5645): option[25]=-Ximage-compiler-option
+I/art     ( 5645): option[26]=--image-classes=preloaded-classes
+I/art     ( 5645): option[27]=-Xcompiler-option
+I/art     ( 5645): option[28]=--runtime-arg
+I/art     ( 5645): option[29]=-Xcompiler-option
+I/art     ( 5645): option[30]=-Xms64m
+I/art     ( 5645): option[31]=-Xcompiler-option
+I/art     ( 5645): option[32]=--runtime-arg
+I/art     ( 5645): option[33]=-Xcompiler-option
+I/art     ( 5645): option[34]=-Xmx512m
+I/art     ( 5645): option[35]=-Duser.language=es
+I/art     ( 5645): option[36]=-Duser.region=US
+I/art     ( 5645): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 5645): Unexpected file type of 
+W/art     ( 5645):  encountered.
+I/art     ( 5645): Using an offset of 0xff9d5000 from default art base address of 0x70000000
+I/art     ( 5645): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f9d5000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/dex2oat ( 5680): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 5645): Unexpected file type of 
+W/art     ( 5645):  encountered.
+W/art     ( 5645): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6f9d5000 --runtime-arg -Xms64
+I/DEBUG   ( 3580): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3580): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d4ad8f67ab:userdebug/test-keys'
+I/DEBUG   ( 3580): Revision: '10'
+I/DEBUG   ( 3580): ABI: 'arm'
+I/DEBUG   ( 3580): pid: 5642, tid: 5642, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3580): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3580): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3580):     r0 00000000  r1 0000160a  r2 00000006  r3 00000000
+I/DEBUG   ( 3580):     r4 b6fbd114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3580):     r8 00000000  r9 beaf0bd0  sl b6a540d0  fp beaf0bd0
+I/DEBUG   ( 3580):     ip 0000160a  sp beaf0650  lr b6f477b9  pc b6f6b4e4  cpsr 600f0010
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): backtrace:
+I/DEBUG   ( 3580):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3580):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3580):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3580):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3580):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3580):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3580):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3580):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3580):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3580):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3580):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3580):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3580):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3580): 
+I/DEBUG   ( 3580): Tombstone written to: /data/tombstones/tombstone_09
+I/ServiceManager( 3570): service 'SurfaceFlinger' died
+I/ServiceManager( 3570): service 'media.audio_flinger' died
+I/Netd    ( 5783): Netd 1.0 starting
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 5783): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
