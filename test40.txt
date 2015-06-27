@@ -1,0 +1,314 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3701): type=2000 audit(0.0:1): initialized
+W/auditd  ( 3701): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3701): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/lowmemorykiller(    0): Using in-kernel low memory killer interface
+W/auditd  ( 3701): type=1305 audit(0.0:11): audit_pid=3670 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3701):  res=1
+W/auditd  ( 3701): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3701):  res=1
+--------- beginning of system
+I/auditd  ( 3679): Starting up
+I/cm      ( 3689): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/DEBUG   ( 3681): debuggerd: Jun 17 2015 15:28:56
+I/installd( 3685): installd firing up
+I/audit_log( 3679): Previous audit logfile detected, rotating
+E/audit_rules( 3679): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+E/sdcard  ( 3694): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3694):     -u: specify UID to run as
+E/sdcard  ( 3694):     -g: specify GID to run as
+E/sdcard  ( 3694):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3694):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3694):     -d: derive file permissions based on path
+E/sdcard  ( 3694):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3694):     -s: split derived permissions for pics, av
+E/sdcard  ( 3694): 
+E/sdcard  ( 3695): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3695):     -u: specify UID to run as
+E/sdcard  ( 3695):     -g: specify GID to run as
+E/sdcard  ( 3695):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3695):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3695):     -d: derive file permissions based on path
+E/sdcard  ( 3695):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3695):     -s: split derived permissions for pics, av
+E/sdcard  ( 3695): 
+I/Vold    ( 3675): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3675): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3675): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3675): Check if PFE is activated on Boot
+E/Cryptfs ( 3675): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3675): Error getting crypt footer and key
+I/cm      ( 3703): Welcome to Android 5.0.2 / CyanogenMod-12-20150625-UNOFFICIAL-k3gxx 
+I/Netd    ( 3680): Netd 1.0 starting
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3680): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/keystore( 3686): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3676): SurfaceFlinger is starting
+I/SurfaceFlinger( 3676): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3676): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3676): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3676): using (id=)
+I/gralloc ( 3676): xres         = 1080 px
+I/gralloc ( 3676): yres         = 1920 px
+I/gralloc ( 3676): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3676): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3676): refresh rate = 60.00 Hz
+I/mediaserver( 3684): ServiceManager: 0xb60500c0
+I/AudioFlinger( 3684): Using default 3000 mSec as standby time.
+I/ServiceManager( 3684): Waiting for service batterystats...
+D/AndroidRuntime( 3688): 
+D/AndroidRuntime( 3688): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/hwcomposer( 3676): using
+D/hwcomposer( 3676): xres         = 1080 px
+D/hwcomposer( 3676): yres         = 1920 px
+D/hwcomposer( 3676): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3676): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3676): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3676): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3676): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3676): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3676): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3676): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3676): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3676): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3676): Using composer version 1.3
+I/SurfaceFlinger( 3676): EGL information:
+I/SurfaceFlinger( 3676): vendor    : Android
+I/SurfaceFlinger( 3676): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3676): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3676): Client API: OpenGL_ES
+I/SurfaceFlinger( 3676): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 3688): CheckJNI is OFF
+I/art     ( 3688): option[0]=-Xzygote
+I/art     ( 3688): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3688): option[2]=exit
+I/art     ( 3688): option[3]=vfprintf
+I/art     ( 3688): option[4]=sensitiveThread
+I/art     ( 3688): option[5]=-verbose:gc
+I/art     ( 3688): option[6]=-Xms8m
+I/art     ( 3688): option[7]=-Xmx512m
+I/art     ( 3688): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3688): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3688): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3688): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3688): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3688): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3688): option[14]=-Xlockprofthreshold:500
+I/art     ( 3688): option[15]=-Ximage-compiler-option
+I/art     ( 3688): option[16]=--runtime-arg
+I/art     ( 3688): option[17]=-Ximage-compiler-option
+I/art     ( 3688): option[18]=-Xms64m
+I/art     ( 3688): option[19]=-Ximage-compiler-option
+I/art     ( 3688): option[20]=--runtime-arg
+I/art     ( 3688): option[21]=-Ximage-compiler-option
+I/art     ( 3688): option[22]=-Xmx64m
+I/art     ( 3688): option[23]=-Ximage-compiler-option
+I/art     ( 3688): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3688): option[25]=-Ximage-compiler-option
+I/art     ( 3688): option[26]=--image-classes=preloaded-classes
+I/art     ( 3688): option[27]=-Xcompiler-option
+I/art     ( 3688): option[28]=--runtime-arg
+I/art     ( 3688): option[29]=-Xcompiler-option
+I/art     ( 3688): option[30]=-Xms64m
+I/art     ( 3688): option[31]=-Xcompiler-option
+I/art     ( 3688): option[32]=--runtime-arg
+I/art     ( 3688): option[33]=-Xcompiler-option
+I/art     ( 3688): option[34]=-Xmx512m
+I/art     ( 3688): option[35]=-Duser.language=es
+I/art     ( 3688): option[36]=-Duser.region=US
+W/art     ( 3688): Failed to open oat file '/data/dalvik-cache/arm/system@framework@boot.oat' referenced from image /data/dalvik-cache/arm/system@framework@boot.art: Failed to open oat filename for reading: No such file or directory
+I/art     ( 3688): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3688): Prune Dex Cache
+I/SurfaceFlinger( 3676): OpenGL ES informations:
+I/SurfaceFlinger( 3676): vendor    : ARM
+I/SurfaceFlinger( 3676): renderer  : Mali-T628
+I/SurfaceFlinger( 3676): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3676): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3676): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3676): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3676): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3676): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 3676): unblank ioctl failed (display already unblanked)
+D/WVMDrmPlugIn( 3683): WVMDrmPlugin::onGetSupportInfo : 0
+D/SurfaceFlinger( 3676): SF. shader cache generated - 26 shaders in 84.526337 ms
+I/art     ( 3688): Using an offset of 0xffbc1000 from default art base address of 0x70000000
+I/art     ( 3688): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fbc1000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+D/libEGL  ( 3865): loaded /vendor/lib/egl/libGLES_mali.so
+W/art     ( 3688): Prune Dex Cache
+I/        ( 3865): PLATFORM VERSION : JB-MR-2
+W/art     ( 3688): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fbc1000 --runtime-arg -Xms64
+E/BootAnimation( 3865): couldn't find audio_conf.txt
+D/BootAnimation( 3865): Use save memory method, maybe small fps in actual.
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+I/ServiceManager( 3684): Waiting for service batterystats...
+E/display ( 3676): invalid gralloc handle (at 0x0)
+V/NatController( 3680): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3680): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3680): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3680): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+E/display ( 3676): invalid gralloc handle (at 0x0)
+V/NatController( 3680): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3680): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3680): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+E/display ( 3676): invalid gralloc handle (at 0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398] Check failed: java_lang_String.Get() == String_class (java_lang_String.Get()=0x12c0a400, String_class=0x12c0b400) ----- class 'Ljava/lang/String;' cl=0x0 -----
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   objectSize=640 (412 from super)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   access=0x0000.0011
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   super='java.lang.Class<java.lang.Object>' (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   interfaces (3):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: java.lang.Class<java.io.Serializable> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: java.lang.Class<java.lang.Comparable> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: java.lang.Class<java.lang.CharSequence> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   class not yet loaded
+F/art     ( 3688): sart/runtime/class_linker.cc:398] 
+F/art     ( 3688): sart/runtime/class_linker.cc:398] ----- class 'Ljava/lang/String;' cl=0x0 -----
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   objectSize=636 (412 from super)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   access=0x0000.0011
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   super='java.lang.Class<java.lang.Object>' (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   interfaces (3):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: java.lang.Class<java.io.Serializable> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: java.lang.Class<java.lang.Comparable> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: java.lang.Class<java.lang.CharSequence> (cl=0x0)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   vtable (54 entries, 11 in super):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: void java.lang.String._getChars(int, int, char[], int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: char java.lang.String.charAt(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: int java.lang.String.codePointAt(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      3: int java.lang.String.codePointBefore(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      4: int java.lang.String.codePointCount(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      5: int java.lang.String.compareTo(java.lang.Object)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      6: int java.lang.String.compareTo(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      7: int java.lang.String.compareToIgnoreCase(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      8: java.lang.String java.lang.String.concat(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      9: boolean java.lang.String.contains(java.lang.CharSequence)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     10: boolean java.lang.String.contentEquals(java.lang.CharSequence)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     11: boolean java.lang.String.contentEquals(java.lang.StringBuffer)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     12: boolean java.lang.String.endsWith(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     13: boolean java.lang.String.equals(java.lang.Object)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     14: boolean java.lang.String.equalsIgnoreCase(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     15: void java.lang.String.getBytes(int, int, byte[], int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     16: byte[] java.lang.String.getBytes()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     17: byte[] java.lang.String.getBytes(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     18: byte[] java.lang.String.getBytes(java.nio.charset.Charset)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     19: void java.lang.String.getChars(int, int, char[], int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     20: int java.lang.String.hashCode()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     21: int java.lang.String.indexOf(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     22: int java.lang.String.indexOf(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     23: int java.lang.String.indexOf(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     24: int java.lang.String.indexOf(java.lang.String, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     25: java.lang.String java.lang.String.intern()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     26: boolean java.lang.String.isEmpty()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     27: int java.lang.String.lastIndexOf(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     28: int java.lang.String.lastIndexOf(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     29: int java.lang.String.lastIndexOf(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     30: int java.lang.String.lastIndexOf(java.lang.String, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     31: int java.lang.String.length()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     32: boolean java.lang.String.matches(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     33: int java.lang.String.offsetByCodePoints(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     34: boolean java.lang.String.regionMatches(int, java.lang.String, int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     35: boolean java.lang.String.regionMatches(boolean, int, java.lang.String, int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     36: java.lang.String java.lang.String.replace(char, char)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     37: java.lang.String java.lang.String.replace(java.lang.CharSequence, java.lang.CharSequence)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     38: java.lang.String java.lang.String.replaceAll(java.lang.String, java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     39: java.lang.String java.lang.String.replaceFirst(java.lang.String, java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     40: java.lang.String[] java.lang.String.split(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     41: java.lang.String[] java.lang.String.split(java.lang.String, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     42: boolean java.lang.String.startsWith(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     43: boolean java.lang.String.startsWith(java.lang.String, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     44: java.lang.CharSequence java.lang.String.subSequence(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     45: java.lang.String java.lang.String.substring(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     46: java.lang.String java.lang.String.substring(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     47: char[] java.lang.String.toCharArray()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     48: java.lang.String java.lang.String.toLowerCase()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     49: java.lang.String java.lang.String.toLowerCase(java.util.Locale)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     50: java.lang.String java.lang.String.toString()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     51: java.lang.String java.lang.String.toUpperCase()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     52: java.lang.String java.lang.String.toUpperCase(java.util.Locale)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     53: java.lang.String java.lang.String.trim()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   direct methods (38 entries):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: void java.lang.String.<clinit>()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: void java.lang.String.<init>()
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: void java.lang.String.<init>(int, int, char[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      3: void java.lang.String.<init>(java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      4: void java.lang.String.<init>(java.lang.StringBuffer)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      5: void java.lang.String.<init>(java.lang.StringBuilder)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      6: void java.lang.String.<init>(byte[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      7: void java.lang.String.<init>(byte[], int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      8: void java.lang.String.<init>(byte[], int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      9: void java.lang.String.<init>(byte[], int, int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     10: void java.lang.String.<init>(byte[], int, int, java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     11: void java.lang.String.<init>(byte[], int, int, java.nio.charset.Charset)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     12: void java.lang.String.<init>(byte[], java.lang.String)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     13: void java.lang.String.<init>(byte[], java.nio.charset.Charset)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     14: void java.lang.String.<init>(char[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     15: void java.lang.String.<init>(char[], int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     16: void java.lang.String.<init>(int[], int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     17: java.lang.String java.lang.String.copyValueOf(char[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     18: java.lang.String java.lang.String.copyValueOf(char[], int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     19: java.lang.StringIndexOutOfBoundsException java.lang.String.failedBoundsCheck(int, int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     20: int java.lang.String.fastIndexOf(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     21: char java.lang.String.foldCase(char)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     22: java.lang.String java.lang.String.format(java.lang.String, java.lang.Object[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     23: java.lang.String java.lang.String.format(java.util.Locale, java.lang.String, java.lang.Object[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     24: java.lang.StringIndexOutOfBoundsException java.lang.String.indexAndLength(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     25: int java.lang.String.indexOf(java.lang.String, java.lang.String, int, int, char)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     26: int java.lang.String.indexOfSupplementary(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     27: int java.lang.String.lastIndexOfSupplementary(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     28: java.lang.StringIndexOutOfBoundsException java.lang.String.startEndAndLength(int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     29: java.lang.String java.lang.String.valueOf(char)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     30: java.lang.String java.lang.String.valueOf(double)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     31: java.lang.String java.lang.String.valueOf(float)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     32: java.lang.String java.lang.String.valueOf(int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     33: java.lang.String java.lang.String.valueOf(long)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     34: java.lang.String java.lang.String.valueOf(java.lang.Object)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     35: java.lang.String java.lang.String.valueOf(boolean)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     36: java.lang.String java.lang.String.valueOf(char[])
+F/art     ( 3688): sart/runtime/class_linker.cc:398]     37: java.lang.String java.lang.String.valueOf(char[], int, int)
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   static fields (4 entries):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: char[] java.lang.String.ASCII
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: java.util.Comparator java.lang.String.CASE_INSENSITIVE_ORDER
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: long java.lang.String.serialVersionUID
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      3: char java.lang.String.REPLACEMENT_CHAR
+F/art     ( 3688): sart/runtime/class_linker.cc:398]   instance fields (4 entries):
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      0: char[] java.lang.String.value
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      1: int java.lang.String.count
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      2: int java.lang.String.hashCode
+F/art     ( 3688): sart/runtime/class_linker.cc:398]      3: int java.lang.String.offset
+F/art     ( 3688): sart/runtime/class_linker.cc:398] 
+E/display ( 3676): invalid gralloc handle (at 0x0)
+F/art     ( 3688): sart/runtime/runtime.cc:286] Runtime aborting...
+F/art     ( 3688): sart/runtime/runtime.cc:286] Aborting thread:
+F/art     ( 3688): sart/runtime/runtime.cc:286] "main" prio=5 tid=1 Runnable (still starting up)
+F/art     ( 368
