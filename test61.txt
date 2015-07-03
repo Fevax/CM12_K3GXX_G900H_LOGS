@@ -1,0 +1,341 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3694): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3694): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+W/auditd  ( 3694): type=1305 audit(0.0:11): audit_pid=3665 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3694):  res=1
+W/auditd  ( 3694): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3694):  res=1
+I/cm      ( 3675): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/installd( 3681): installd firing up
+I/DEBUG   ( 3676): debuggerd: Jun 17 2015 15:28:56
+I/lowmemorykiller( 3667): Using in-kernel low memory killer interface
+I/cm      ( 3696): Welcome to Android 5.0.2 / CyanogenMod-12-20150702-UNOFFICIAL-k3gxx 
+--------- beginning of system
+I/auditd  ( 3673): Starting up
+I/audit_log( 3673): Previous audit logfile detected, rotating
+W/libaudit( 3673): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3673): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/keystore( 3683): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3671): SurfaceFlinger is starting
+I/SurfaceFlinger( 3671): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/Vold    ( 3669): Vold 2.1 (the revenge) firing up
+I/Netd    ( 3674): Netd 1.0 starting
+D/Vold    ( 3669): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3669): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3669): Check if PFE is activated on Boot
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+E/Cryptfs ( 3669): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3669): Error getting crypt footer and key
+D/libEGL  ( 3671): loaded /vendor/lib/egl/libGLES_mali.so
+D/AndroidRuntime( 3685): 
+D/AndroidRuntime( 3685): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3685): CheckJNI is OFF
+I/        ( 3671): PLATFORM VERSION : JB-MR-2
+I/art     ( 3685): option[0]=-Xzygote
+I/art     ( 3685): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3685): option[2]=exit
+I/art     ( 3685): option[3]=vfprintf
+I/art     ( 3685): option[4]=sensitiveThread
+I/art     ( 3685): option[5]=-verbose:gc
+I/art     ( 3685): option[6]=-Xms8m
+I/art     ( 3685): option[7]=-Xmx512m
+I/art     ( 3685): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3685): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3685): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3685): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3685): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3685): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3685): option[14]=-Xlockprofthreshold:500
+I/art     ( 3685): option[15]=-Ximage-compiler-option
+I/art     ( 3685): option[16]=--runtime-arg
+I/art     ( 3685): option[17]=-Ximage-compiler-option
+I/art     ( 3685): option[18]=-Xms64m
+I/art     ( 3685): option[19]=-Ximage-compiler-option
+I/art     ( 3685): option[20]=--runtime-arg
+I/art     ( 3685): option[21]=-Ximage-compiler-option
+I/art     ( 3685): option[22]=-Xmx64m
+I/art     ( 3685): option[23]=-Ximage-compiler-option
+I/art     ( 3685): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3685): option[25]=-Ximage-compiler-option
+I/art     ( 3685): option[26]=--image-classes=preloaded-classes
+I/art     ( 3685): option[27]=-Xcompiler-option
+I/art     ( 3685): option[28]=--runtime-arg
+I/art     ( 3685): option[29]=-Xcompiler-option
+I/art     ( 3685): option[30]=-Xms64m
+I/art     ( 3685): option[31]=-Xcompiler-option
+I/art     ( 3685): option[32]=--runtime-arg
+I/art     ( 3685): option[33]=-Xcompiler-option
+I/art     ( 3685): option[34]=-Xmx512m
+I/art     ( 3685): option[35]=-Duser.language=es
+I/art     ( 3685): option[36]=-Duser.region=US
+D/WVMDrmPlugIn( 3678): WVMDrmPlugin::onGetSupportInfo : 0
+I/gralloc ( 3671): using (fd=12)
+I/gralloc ( 3671): id           = 
+I/gralloc ( 3671): xres         = 1080 px
+I/gralloc ( 3671): yres         = 1920 px
+I/gralloc ( 3671): xres_virtual = 1080 px
+I/gralloc ( 3671): yres_virtual = 3840 px
+I/gralloc ( 3671): bpp          = 32
+I/gralloc ( 3671): r            = 16:8
+I/gralloc ( 3671): g            =  8:8
+I/gralloc ( 3671): b            =  0:8
+I/gralloc ( 3671): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3671): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3671): refresh rate = 60.00 Hz
+D/hwcomposer( 3671): using
+D/hwcomposer( 3671): xres         = 1080 px
+D/hwcomposer( 3671): yres         = 1920 px
+D/hwcomposer( 3671): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3671): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3671): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3671): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3671): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3671): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3671): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3671): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3671): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3671): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3671): Using composer version 1.3
+I/SurfaceFlinger( 3671): EGL information:
+I/SurfaceFlinger( 3671): vendor    : Android
+I/SurfaceFlinger( 3671): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3671): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3671): Client API: OpenGL_ES
+I/SurfaceFlinger( 3671): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3671): OpenGL ES informations:
+I/SurfaceFlinger( 3671): vendor    : ARM
+I/SurfaceFlinger( 3671): renderer  : Mali-T628
+I/SurfaceFlinger( 3671): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3671): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3671): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3671): GL_MAX_VIEWPORT_DIMS = 8192
+E/libEGL  ( 3671): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3671): eglQuerySurface:607 error 300d (EGL_BAD_SURFACE)
+E/libEGL  ( 3671): call to OpenGL ES API with no current context (logged once per thread)
+D/SurfaceFlinger( 3671): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3671): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 3671): unblank ioctl failed (display already unblanked)
+E/libEGL  ( 3671): eglSwapBuffers:1071 error 300d (EGL_BAD_SURFACE)
+F/SurfaceFlinger( 3671): eglSwapBuffers(0x1, 0x0) failed with 0x0000300d
+--------- beginning of crash
+F/libc    ( 3671): Fatal signal 6 (SIGABRT), code -6 in tid 3671 (surfaceflinger)
+I/DEBUG   ( 3676): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3676): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/f6367390ba:userdebug/test-keys'
+I/DEBUG   ( 3676): Revision: '10'
+I/DEBUG   ( 3676): ABI: 'arm'
+I/DEBUG   ( 3676): pid: 3671, tid: 3671, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+I/DEBUG   ( 3676): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3676): Abort message: 'eglSwapBuffers(0x1, 0x0) failed with 0x0000300d'
+I/DEBUG   ( 3676):     r0 00000000  r1 00000e57  r2 00000006  r3 00000000
+I/DEBUG   ( 3676):     r4 b6f56114  r5 00000006  r6 0000000b  r7 0000010c
+I/DEBUG   ( 3676):     r8 00000000  r9 bed5fbd0  sl b6a54210  fp bed5fbd0
+I/DEBUG   ( 3676):     ip 00000e57  sp bed5f650  lr b6ee07b9  pc b6f044e4  cpsr 600f0010
+I/DEBUG   ( 3676): 
+I/DEBUG   ( 3676): backtrace:
+I/DEBUG   ( 3676):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3676):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3676):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3676):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3676):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3676):     #05 pc 00007739  /system/lib/libcutils.so (__android_log_assert+88)
+I/DEBUG   ( 3676):     #06 pc 0000f4df  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #07 pc 0001b9fd  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #08 pc 0001abe7  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #09 pc 00019fc3  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #10 pc 00019d49  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #11 pc 00010ed3  /system/lib/libutils.so (android::Looper::pollInner(int)+410)
+I/DEBUG   ( 3676):     #12 pc 00010fc5  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+I/DEBUG   ( 3676):     #13 pc 000174c5  /system/lib/libsurfaceflinger.so
+I/DEBUG   ( 3676):     #14 pc 0001993d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+I/DEBUG   ( 3676):     #15 pc 0000083d  /system/bin/surfaceflinger
+I/DEBUG   ( 3676):     #16 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3676):     #17 pc 000008d8  /system/bin/surfaceflinger
+I/DEBUG   ( 3676): 
+I/DEBUG   ( 3676): Tombstone written to: /data/tombstones/tombstone_03
+I/DEBUG   ( 3676): ********************************************************
+I/DEBUG   ( 3676): * Process 3671 has been suspended while crashing.
+I/DEBUG   ( 3676): * To attach gdbserver for a gdb connection on port 5039
+I/DEBUG   ( 3676): * and start gdbclient:
+I/DEBUG   ( 3676): *
+I/DEBUG   ( 3676): *     gdbclient /system/bin/surfaceflinger :5039 3671
+I/DEBUG   ( 3676): * or
+I/DEBUG   ( 3676): *     dddclient /system/bin/surfaceflinger :5039 3671
+I/DEBUG   ( 3676): *
+I/DEBUG   ( 3676): * Wait for gdb to start, then press the VOLUME DOWN key
+I/DEBUG   ( 3676): * to let the process continue crashing.
+I/DEBUG   ( 3676): ********************************************************
+E/memtrack( 3685): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3685): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 3685): Profiling disabled.
+D/Zygote  ( 3685): begin preload
+I/Zygote  ( 3685): Preloading classes...
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 1001(56KB) AllocSpace objects, 0(0B) LOS objects, 98% free, 71KB/4MB, paused 138us total 13.858ms
+I/art     ( 3685): Counter: 1
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3685): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+V/NatController( 3674): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3674): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3674): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3674): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3674): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3674): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3674): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.AmrInputStream: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.CamcorderProfile: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.CameraProfile: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.DecoderCapabilities: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.EncoderCapabilities: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.ImageReader: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaCodec: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaCodecList: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaCrypto: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaDrm: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaExtractor: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaHTTPConnection: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaMetadataRetriever: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaMuxer: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaPlayer: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaRecorder: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.MediaScanner: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.ResampleInputStream: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libaudioeffect_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android10Visualizer21cancelCaptureCallBackEv" referenced by "libaudioeffect_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.media.audiofx.AudioEffect: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android10Visualizer21cancelCaptureCallBackEv" referenced by "libaudioeffect_jni.so"...
+I/art     ( 3685): Rejecting re-init on previously-failed class java.lang.Class<android.media.audiofx.AudioEffect>
+W/Zygote  ( 3685): Problem preloading android.media.audiofx.LoudnessEnhancer: java.lang.UnsatisfiedLinkError: android.media.audiofx.AudioEffect
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.mtp.MtpDatabase: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.mtp.MtpDevice: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+E/art     ( 3685): dlopen("/system/lib/libmedia_jni.so", RTLD_LAZY) failed: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+W/Zygote  ( 3685): Problem preloading android.mtp.MtpServer: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN7android11MediaPlayer6resumeEv" referenced by "libmedia_jni.so"...
+D/MDnsDS  ( 3674): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 3674): MDnsSdListener starting to monitor
+D/MDnsDS  ( 3674): Going to poll with pollCount 1
+I/System  ( 3685): Loaded time zone names for "" in 48ms (44ms in ICU)
+I/System  ( 3685): Loaded time zone names for "en_US" in 26ms (22ms in ICU)
+I/System  ( 3685): Loaded time zone names for "es_US" in 30ms (26ms in ICU)
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 32717(2001KB) AllocSpace objects, 0(0B) LOS objects, 72% free, 1588KB/5MB, paused 126us total 11.842ms
+I/Zygote  ( 3685): ...preloaded 2982 classes in 1002ms.
+I/art     ( 3685): VMRuntime.preloadDexCaches starting
+I/art     ( 3685): VMRuntime.preloadDexCaches strings total=217316 before=40182 after=40182
+I/art     ( 3685): VMRuntime.preloadDexCaches types total=18704 before=6335 after=6365
+I/art     ( 3685): VMRuntime.preloadDexCaches fields total=87408 before=32054 after=32329
+I/art     ( 3685): VMRuntime.preloadDexCaches methods total=154031 before=66779 after=67589
+I/art     ( 3685): VMRuntime.preloadDexCaches finished
+I/art     ( 3685): Counter: 0
+I/art     ( 3685): Counter: 1
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 175(20KB) AllocSpace objects, 0(0B) LOS objects, 72% free, 1568KB/5MB, paused 123us total 6.630ms
+D/idmap   ( 4031): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3685): Preloading resources...
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 3804(133KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 183us total 7.849ms
+I/Zygote  ( 3685): ...preloaded 430 resources in 375ms.
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 446(27KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 192us total 7.572ms
+I/Zygote  ( 3685): ...preloaded 41 resources in 16ms.
+I/art     ( 3685): Counter: 0
+D/libEGL  ( 3685): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3685): Preloading shared libraries...
+D/Zygote  ( 3685): end preload
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 461(21KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 232us total 7.441ms
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 177us total 7.083ms
+I/art     ( 3685): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 176us total 7.140ms
+I/Zygote  ( 3685): System server process 4032 has been created
+I/Zygote  ( 3685): Accepting command socket connections
+I/InstallerConnection( 4032): disconnecting...
+I/SystemServer( 4032): Entered the Android system server!
+V/Fingerprint-JNI( 4032): FingerprintManager JNI ready.
+I/        ( 4032): System server: starting sensor init.
+D/SensorService( 4032): nuSensorService starting...
+E/Sensors ( 4032): GeoMagneticSensor, ERROR dev_num = -19
+I/Sensors ( 4032): Proximity old sensor_state 0, new sensor_state : 128 en : 1
+I/SystemServiceManager( 4032): Starting com.android.server.pm.Installer
+I/Sensors ( 4032): Light old sensor_state 128, new sensor_state : 640 en : 1
+I/Installer( 4032): Waiting for installd to be ready.
+I/InstallerConnection( 4032): connecting...
+I/installd( 3681): new connection
+E/Sensors ( 4032): UncalMagneticSensor, ERROR dev_num = -19
+I/SystemServiceManager( 4032): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/Sensors ( 4032): SigMotionSensor old sensor_state 640, new sensor_state : 8832 en : 1
+E/Sensors ( 4032): UncalGyroSensor, ERROR dev_num = -19
+E/Sensors ( 4032): GameRotationVector, ERROR dev_num = -19
+I/Sensors ( 4032): StepCounterSensor old sensor_state 8832, new sensor_state : 139904 en : 1
+D/Sensors ( 4032): HrmSpO2Sensor::libhr open failed : dlopen failed: library "libhr.so" not found
+D/Sensors ( 4032): HrmSpO2Sensor::HrmSpO2Sensor: Shared version Registered 
+E/SensorService( 4032): >>>> WARNING <<< Upgrade sensor HAL to version 1_3
+I/Sensors ( 4032): Proximity old sensor_state 139904, new sensor_state : 139776 en : 0
+I/Sensors ( 4032): Light old sensor_state 139776, new sensor_state : 139264 en : 0
+I/Sensors ( 4032): StepCounterSensor old sensor_state 139264, new sensor_state : 8192 en : 0
+I/Sensors ( 4032): SigMotionSensor old sensor_state 8192, new sensor_state : 0 en : 0
+I/Sensors ( 4032): HrmSpO2Sensor::enable, handle(16), en(0), what(1/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4032): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4032): HrmSpO2Sensor::enable, handle(17), en(0), what(0/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4032): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4032): HrmSpO2Sensor::enable, handle(18), en(0), what(2/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4032): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/        ( 4032): System server: sensor init done.
+D/SensorService( 4032): nuSensorService thread starting...
+I/Sensors ( 4032): ProximitySensor - 8(cm)
+D/SensorService( 4032): new thread SensorEventAckReceiver
+I/ActivityManager( 4032): Memory class: 128
+I/ServiceThread( 4032): Enabled StrictMode logging for ActivityManager looper.
+I/IntentFirewall( 4032): Read new rules (A:0 B:1 S:1)
+I/ServiceThread( 4032): Enabled StrictMode logging for android.ui looper.
+I/ServiceThread( 4032): Enabled StrictMode logging for android.display looper.
+D/AppOps  ( 4032): AppOpsService published
+I/SystemServiceManager( 4032): Starting com.android.server.power.PowerManagerService
+I/ServiceThread( 4032): Enabled StrictMode logging for PowerManagerService looper.
+E/HAL     ( 4032): load: module=/system/lib/hw/power.exynos5.so
+E/HAL     ( 4032): dlopen failed: could not load library "libsecril-client.so" needed by "power.exynos5.so"; caused by library "libsecril-client.so" not found
+E/PowerManagerService-JNI( 4032): Couldn't load power module (Invalid argument)
+W/libsuspend( 4032): Error writing 'on' to /sys/power/state: Invalid argument
+I/libsuspend( 4032): Selected wakeup count
+I/SystemServiceManager( 4032): Starting com.android.server.display.DisplayManagerService
+I/SystemServiceManager( 4032): Starting phase 100
