@@ -1,0 +1,182 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3685): type=2000 audit(0.0:1): initialized
+W/auditd  ( 3685): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+W/auditd  ( 3685): type=1305 audit(0.0:11): audit_pid=3666 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+W/auditd  ( 3685): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+I/cm      (    0): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/lowmemorykiller( 3668): Using in-kernel low memory killer interface
+--------- beginning of system
+I/auditd  ( 3682): Starting up
+I/cm      ( 3699): Welcome to Android 5.0.2 / CyanogenMod-12-20150703-UNOFFICIAL-k3gxx 
+I/DEBUG   ( 3684): debuggerd: Jul  3 2015 03:58:19
+I/Netd    ( 3683): Netd 1.0 starting
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3683): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/installd( 3690): installd firing up
+I/Vold    ( 3670): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3670): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3670): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3670): Check if PFE is activated on Boot
+E/Cryptfs ( 3670): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3670): Error getting crypt footer and key
+I/audit_log( 3682): Previous audit logfile detected, rotating
+W/libaudit( 3682): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3682): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/keystore( 3691): SELinux: Keystore SELinux is disabled.
+D/gpsd    ( 3692): WakeLock(Release,GPSD)
+D/gpsd    ( 3692): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3692): GNSS: 219420
+D/wrapperGPS( 3692): wrapperOpenClient_RILD
+E/wrapperGPS( 3692): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3692): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3692): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6aed6e9)
+D/wrapperGPS( 3692): wrapperRegisterErrorCallback
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/WVMDrmPlugIn( 3688): WVMDrmPlugin::onGetSupportInfo : 0
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+I/Netd    ( 3782): Netd 1.0 starting
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3782): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+I/Netd    ( 3789): Netd 1.0 starting
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3789): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+I/Netd    ( 3799): Netd 1.0 starting
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3799): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+I/Netd    ( 3809): Netd 1.0 starting
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3809): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+D/wrapperGPS( 3692): wrapperConnect_RILD
+I/Netd    ( 3815): Netd 1.0 starting
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3815): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3692): wrapperCloseClient_RILD
+I/Netd    ( 3822): Netd 1.0 starting
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3822): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3828): Netd 1.0 starting
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3828): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3836): Netd 1.0 starting
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3836): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3842): Netd 1.0 starting
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3842): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3849): Netd 1.0 starting
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3849): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3855): Netd 1.0 starting
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3855): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3862): Netd 1.0 starting
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sy
