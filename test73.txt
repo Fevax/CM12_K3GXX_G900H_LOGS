@@ -1,0 +1,680 @@
+--------- beginning of main
+I/McDaemon(    0): Daemon starting up...
+W/auditd  ( 3687): type=2000 audit(0.0:1): initialized
+W/auditd  ( 3687): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3687): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon(    0): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon(    0):   *** Detected in mapMCI/126()
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon(    0):   *** Detected in getMciInstance/387()
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon(    0):   *** Detected in run/128()
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *****************************
+E/McDaemon(    0):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon(    0):   *** Detected in main/1202()
+E/McDaemon(    0):   *****************************
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3687): type=1305 audit(0.0:11): audit_pid=3664 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3687):  res=1
+W/auditd  ( 3687): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3687):  res=1
+I/lowmemorykiller( 3666): Using in-kernel low memory killer interface
+I/cm      ( 3672): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+--------- beginning of system
+I/auditd  ( 3678): Starting up
+I/cm      ( 3677): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/installd( 3684): installd firing up
+I/audit_log( 3678): Previous audit logfile detected, rotating
+E/audit_rules( 3678): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/DEBUG   ( 3680): debuggerd: Jul  3 2015 03:58:19
+I/macloader( 3689): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3689): Change permissions of /data/.cid.info
+I/Netd    ( 3679): Netd 1.0 starting
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/cm      ( 3702): Welcome to Android 5.0.2 / CyanogenMod-12-20150706-UNOFFICIAL-k3gxx 
+I/Vold    ( 3668): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3668): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3668): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3668): Check if PFE is activated on Boot
+E/Cryptfs ( 3668): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3668): Error getting crypt footer and key
+I/keystore( 3685): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3669): SurfaceFlinger is starting
+I/SurfaceFlinger( 3669): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/mediaserver( 3683): ServiceManager: 0xb61500c0
+I/AudioFlinger( 3683): Using default 3000 mSec as standby time.
+I/ServiceManager( 3683): Waiting for service batterystats...
+D/libEGL  ( 3669): loaded /vendor/lib/egl/libGLES_mali.so
+D/gpsd    ( 3688): WakeLock(Release,GPSD)
+D/gpsd    ( 3688): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3688): GNSS: 219420
+D/wrapperGPS( 3688): wrapperOpenClient_RILD
+E/wrapperGPS( 3688): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3688): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3688): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6af06e9)
+D/wrapperGPS( 3688): wrapperRegisterErrorCallback
+D/wrapperGPS( 3688): wrapperConnect_RILD
+I/        ( 3669): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3669): using (id=)
+I/gralloc ( 3669): xres         = 1080 px
+I/gralloc ( 3669): yres         = 1920 px
+I/gralloc ( 3669): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3669): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3669): refresh rate = 60.00 Hz
+D/WVMDrmPlugIn( 3682): WVMDrmPlugin::onGetSupportInfo : 0
+D/AndroidRuntime( 3690): 
+D/AndroidRuntime( 3690): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/hwcomposer( 3669): using
+D/hwcomposer( 3669): xres         = 1080 px
+D/hwcomposer( 3669): yres         = 1920 px
+D/hwcomposer( 3669): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3669): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3669): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3669): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3669): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3669): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3669): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3669): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3669): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3669): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3669): Using composer version 1.3
+I/SurfaceFlinger( 3669): EGL information:
+I/SurfaceFlinger( 3669): vendor    : Android
+I/SurfaceFlinger( 3669): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3669): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3669): Client API: OpenGL_ES
+I/SurfaceFlinger( 3669): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 3690): CheckJNI is OFF
+I/art     ( 3690): option[0]=-Xzygote
+I/art     ( 3690): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3690): option[2]=exit
+I/art     ( 3690): option[3]=vfprintf
+I/art     ( 3690): option[4]=sensitiveThread
+I/art     ( 3690): option[5]=-verbose:gc
+I/art     ( 3690): option[6]=-Xms8m
+I/art     ( 3690): option[7]=-Xmx512m
+I/art     ( 3690): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3690): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3690): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3690): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3690): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3690): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3690): option[14]=-Xlockprofthreshold:500
+I/art     ( 3690): option[15]=-Ximage-compiler-option
+I/art     ( 3690): option[16]=--runtime-arg
+I/art     ( 3690): option[17]=-Ximage-compiler-option
+I/art     ( 3690): option[18]=-Xms64m
+I/art     ( 3690): option[19]=-Ximage-compiler-option
+I/art     ( 3690): option[20]=--runtime-arg
+I/art     ( 3690): option[21]=-Ximage-compiler-option
+I/art     ( 3690): option[22]=-Xmx64m
+I/art     ( 3690): option[23]=-Ximage-compiler-option
+I/art     ( 3690): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3690): option[25]=-Ximage-compiler-option
+I/art     ( 3690): option[26]=--image-classes=preloaded-classes
+I/art     ( 3690): option[27]=-Xcompiler-option
+I/art     ( 3690): option[28]=--runtime-arg
+I/art     ( 3690): option[29]=-Xcompiler-option
+I/art     ( 3690): option[30]=-Xms64m
+I/art     ( 3690): option[31]=-Xcompiler-option
+I/art     ( 3690): option[32]=--runtime-arg
+I/art     ( 3690): option[33]=-Xcompiler-option
+I/art     ( 3690): option[34]=-Xmx512m
+I/art     ( 3690): option[35]=-Duser.language=es
+I/art     ( 3690): option[36]=-Duser.region=US
+I/art     ( 3690): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3690): Unexpected file type of 
+W/art     ( 3690):  encountered.
+I/art     ( 3690): Using an offset of 0x7c2000 from default art base address of 0x70000000
+I/art     ( 3690): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x707c2000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/SurfaceFlinger( 3669): OpenGL ES informations:
+I/SurfaceFlinger( 3669): vendor    : ARM
+I/SurfaceFlinger( 3669): renderer  : Mali-T628
+I/SurfaceFlinger( 3669): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3669): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3669): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3669): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3669): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3669): unblank ioctl failed (display already unblanked)
+E/dex2oat ( 3846): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 3690): Unexpected file type of 
+W/art     ( 3690):  encountered.
+W/art     ( 3690): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x707c2000 --runtime-arg -Xms64
+D/SurfaceFlinger( 3669): SF. shader cache generated - 26 shaders in 68.417458 ms
+D/libEGL  ( 3854): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3854): PLATFORM VERSION : JB-MR-2
+E/BootAnimation( 3854): couldn't find audio_conf.txt
+D/BootAnimation( 3854): Use save memory method, maybe small fps in actual.
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=5850193999)
+I/ServiceManager( 3683): Waiting for service batterystats...
+D/wrapperGPS( 3688): wrapperConnect_RILD
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=6525082500)
+V/NatController( 3679): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3679): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3679): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=6795065750)
+D/MDnsDS  ( 3679): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 3679): MDnsSdListener starting to monitor
+D/MDnsDS  ( 3679): Going to poll with pollCount 1
+I/ServiceManager( 3683): Waiting for service batterystats...
+D/wrapperGPS( 3688): wrapperConnect_RILD
+E/memtrack( 3690): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3690): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 3690): Profiling disabled.
+D/Zygote  ( 3690): begin preload
+I/Zygote  ( 3690): Preloading classes...
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 4379(640KB) AllocSpace objects, 0(0B) LOS objects, 41% free, 5MB/9MB, paused 97us total 17.092ms
+I/art     ( 3690): Counter: 1
+I/ServiceManager( 3683): Waiting for service batterystats...
+D/wrapperGPS( 3688): wrapperConnect_RILD
+D/BootAnimation( 3854): Use save memory method, maybe small fps in actual.
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3690): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+I/art     ( 3690): Thread[1,tid=3690,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI( 3690): register_android_mtp_MtpDevice
+I/art     ( 3690): Thread[1,tid=3690,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     ( 3690): Thread[1,tid=3690,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/ServiceManager( 3683): Waiting for service batterystats...
+D/wrapperGPS( 3688): wrapperConnect_RILD
+I/McDaemon( 4056): Daemon starting up...
+I/McDaemon( 4056): Socket interface version is 0.2
+I/McDaemon( 4056): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4056): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4056):   *** Detected in mapMCI/126()
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4056):   *** Detected in getMciInstance/387()
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4056):   *** Detected in run/128()
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *****************************
+E/McDaemon( 4056):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4056):   *** Detected in main/1202()
+E/McDaemon( 4056):   *****************************
+E/MediaPlayerFactory( 3683): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 3683): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+I/CameraService( 3683): CameraService started (pid=3683)
+D/wrapperGPS( 3688): wrapperConnect_RILD
+E/HAL     ( 3683): load: module=/system/lib/hw/camera.universal5422.so
+E/HAL     ( 3683): dlopen failed: could not load library "libexynoscamera.so" needed by "camera.universal5422.so"; caused by cannot locate symbol "_ZN7android16CameraParameters17EFFECT_POINT_BLUEE" referenced by "libexynoscamera.so"...
+E/CameraService( 3683): Could not load camera HAL module
+I/AudioPolicyService( 3683): AudioPolicyService CSTOR in new mode
+W/AudioPolicyManager( 3683): loadOutput() invalid supported devices
+W/AudioPolicyManager( 3683): loadInput() invalid supported devices
+I/AudioPolicyManager( 3683): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+W/linker  ( 3683): lib_Samsung_AudioZoom_v102.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+E/HAL     ( 3683): load: module=/system/lib/hw/audio.primary.universal5422.so
+E/HAL     ( 3683): dlopen failed: cannot locate symbol "mixer_update" referenced by "audio.primary.universal5422.so"...
+E/AudioFlinger( 3683): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.primary (Invalid argument)
+I/AudioFlinger( 3683): loadHwModule() error -22 loading module primary 
+W/AudioPolicyManager( 3683): could not open HW module primary
+I/audio_a2dp_hw( 3683): adev_open:  adev_open in A2dp_hw module
+I/AudioFlinger( 3683): loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 1
+I/AudioFlinger( 3683): loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 2
+I/r_submix( 3683): adev_open(name=audio_hw_if)
+I/r_submix( 3683): adev_init_check()
+I/AudioFlinger( 3683): loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 3
+D/r_submix( 3683): adev_open_input_stream()
+D/r_submix( 3683): submix_audio_device_create_pipe()
+E/MonoPipe( 3683): Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+I/AudioFlinger( 3683): AudioFlinger's thread 0xb61a1000 ready to run
+D/r_submix( 3683): adev_close_input_stream()
+D/r_submix( 3683): submix_audio_device_release_pipe()
+D/r_submix( 3683): submix_audio_device_destroy_pipe(): pipe destroyed
+W/AudioPolicyManager( 3683): Input device 00000001 unreachable
+W/AudioPolicyManager( 3683): Input device 00000002 unreachable
+W/AudioPolicyManager( 3683): Input device 80000004 unreachable
+W/AudioPolicyManager( 3683): Input device 80000080 unreachable
+W/AudioPolicyManager( 3683): Input device 80000040 unreachable
+E/AudioPolicyManager( 3683): Default device 00000002 is unreachable
+E/AudioPolicyManager( 3683): Failed to open primary output
+E/AudioPolicyManager( 3683): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyManager( 3683): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+W/AudioPolicyEffects( 3683): loadInputSource() empty element camcorder
+--------- beginning of crash
+F/libc    ( 3683): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3683 (mediaserver)
+I/DEBUG   ( 3680): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3680): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/d9e2541ae6:userdebug/test-keys'
+I/DEBUG   ( 3680): Revision: '10'
+I/DEBUG   ( 3680): ABI: 'arm'
+I/DEBUG   ( 3680): pid: 3683, tid: 3683, name: mediaserver  >>> /system/bin/mediaserver <<<
+I/DEBUG   ( 3680): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+I/DEBUG   ( 3680):     r0 b61932e8  r1 00000000  r2 65732020  r3 b68afb58
+I/DEBUG   ( 3680):     r4 00000008  r5 b61932e6  r6 b68afb38  r7 b61932e6
+I/DEBUG   ( 3680):     r8 be8437dc  r9 b6153ca0  sl b68add75  fp b68ade80
+I/DEBUG   ( 3680):     ip 00000000  sp be843798  lr b68ab261  pc b6f7bfac  cpsr 60000010
+I/DEBUG   ( 3680): 
+I/DEBUG   ( 3680): backtrace:
+I/DEBUG   ( 3680):     #00 pc 00010fac  /system/lib/libc.so (strcmp+152)
+I/DEBUG   ( 3680):     #01 pc 0000825d  /system/lib/libaudiopolicyservice.so
+I/DEBUG   ( 3680):     #02 pc 000207d8  [stack]
+I/DEBUG   ( 3680): 
+I/DEBUG   ( 3680): Tombstone written to: /data/tombstones/tombstone_03
+I/DEBUG   ( 3680): ********************************************************
+I/DEBUG   ( 3680): * Process 3683 has been suspended while crashing.
+I/DEBUG   ( 3680): * To attach gdbserver for a gdb connection on port 5039
+I/DEBUG   ( 3680): * and start gdbclient:
+I/DEBUG   ( 3680): *
+I/DEBUG   ( 3680): *     gdbclient /system/bin/mediaserver :5039 3683
+I/DEBUG   ( 3680): * or
+I/DEBUG   ( 3680): *     dddclient /system/bin/mediaserver :5039 3683
+I/DEBUG   ( 3680): *
+I/DEBUG   ( 3680): * Wait for gdb to start, then press the VOLUME DOWN key
+I/DEBUG   ( 3680): * to let the process continue crashing.
+I/DEBUG   ( 3680): ********************************************************
+D/wrapperGPS( 3688): wrapperConnect_RILD
+I/System  ( 3690): Loaded time zone names for "" in 58ms (40ms in ICU)
+I/System  ( 3690): Loaded time zone names for "en_US" in 51ms (23ms in ICU)
+I/System  ( 3690): Loaded time zone names for "es_US" in 56ms (29ms in ICU)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=12160074792)
+D/wrapperGPS( 3688): wrapperConnect_RILD
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 2945(158KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 14MB/21MB, paused 134us total 47.695ms
+I/Zygote  ( 3690): ...preloaded 3005 classes in 5691ms.
+I/art     ( 3690): VMRuntime.preloadDexCaches starting
+D/wrapperGPS( 3688): wrapperConnect_RILD
+D/gpsd    ( 3688): WakeLock(Acquire,GPSD)
+D/gpsd    ( 3688): WakeLock(Release,GPSD)
+I/art     ( 3690): VMRuntime.preloadDexCaches strings total=217316 before=8974 after=8974
+I/art     ( 3690): VMRuntime.preloadDexCaches types total=18704 before=7488 after=9178
+I/art     ( 3690): VMRuntime.preloadDexCaches fields total=87408 before=31755 after=42301
+I/art     ( 3690): VMRuntime.preloadDexCaches methods total=154031 before=60846 after=75556
+I/art     ( 3690): VMRuntime.preloadDexCaches finished
+I/art     ( 3690): Counter: 0
+I/art     ( 3690): Counter: 1
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 31(14KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 14MB/23MB, paused 129us total 46.642ms
+D/idmap   ( 4087): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3690): Preloading resources...
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=13830180417)
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 5496(203KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 208us total 52.001ms
+I/Zygote  ( 3690): ...preloaded 430 resources in 700ms.
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 964(49KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 224us total 51.375ms
+I/Zygote  ( 3690): ...preloaded 41 resources in 77ms.
+I/art     ( 3690): Counter: 0
+D/libEGL  ( 3690): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3690): Preloading shared libraries...
+D/Zygote  ( 3690): end preload
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 463(21KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 209us total 50.383ms
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 202us total 49.622ms
+I/art     ( 3690): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 253us total 50.144ms
+I/McDaemon( 4089): Daemon starting up...
+I/McDaemon( 4089): Socket interface version is 0.2
+I/McDaemon( 4089): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4089): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4089):   *** Detected in mapMCI/126()
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4089):   *** Detected in getMciInstance/387()
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4089):   *** Detected in run/128()
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *****************************
+E/McDaemon( 4089):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4089):   *** Detected in main/1202()
+E/McDaemon( 4089):   *****************************
+I/Zygote  ( 3690): System server process 4090 has been created
+I/Zygote  ( 3690): Accepting command socket connections
+I/art     ( 4090): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4090): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/InstallerConnection( 4090): connecting...
+I/installd( 3684): new connection
+I/dex2oat ( 4110): /system/bin/dex2oat --zip-fd=5 --zip-location=/system/framework/org.cyanogenmod.hardware.jar --oat-fd=6 --oat-location=/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex --instruction-set=arm --instruction-set-features=div --runtime-arg -Xms64m --runtime-arg -Xmx512m
+W/dex2oat ( 4110): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+E/installd( 3684): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x000b, process failed
+I/art     ( 4090): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@services.jar@classes.dex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4090): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/services.odex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/dex2oat ( 4112): /system/bin/dex2oat --zip-fd=5 --zip-location=/system/framework/services.jar --oat-fd=6 --oat-location=/data/dalvik-cache/arm/system@framework@services.jar@classes.dex --instruction-set=arm --instruction-set-features=div --runtime-arg -Xms64m --runtime-arg -Xmx512m
+W/dex2oat ( 4112): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+F/dex2oat ( 4112): art/runtime/runtime.cc:820] Check failed: options->boot_class_path_ != nullptr 
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] Runtime aborting...
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] Aborting thread:
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] "main" prio=5 tid=1 Runnable (still starting up)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xb6507400
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | sysTid=4112 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb6f8eec8
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | state=R schedstat=( 23592459 375251 6 ) utm=0 stm=2 core=4 HZ=100
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | stack=0xbe04d000-0xbe04f000 stackSize=8MB
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | held mutexes= "abort lock" "mutator lock"(shared held)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #00 pc 000045b4  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #01 pc 00002e1d  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #02 pc 002516d5  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+84)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #03 pc 00235453  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+162)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #04 pc 00225111  /system/lib/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, art::Thread*)+32)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #05 pc 0022537b  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+354)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #06 pc 00225573  /system/lib/libart.so (art::Runtime::Abort()+82)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #07 pc 000a6819  /system/lib/libart.so (art::LogMessage::~LogMessage()+1360)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #08 pc 00227a73  /system/lib/libart.so (art::Runtime::Init(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+5046)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #09 pc 002286e3  /system/lib/libart.so (art::Runtime::Create(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+58)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #10 pc 0000afd1  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #11 pc 0000e5b3  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #12 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #13 pc 00006518  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   (no managed stack frames)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] Dumping all threads without appropriate locks held: thread list lock
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] All threads:
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] DALVIK THREADS (1):
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] "main" prio=5 tid=1 Runnable (still starting up)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xb6507400
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | sysTid=4112 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb6f8eec8
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | state=R schedstat=( 33648750 428709 9 ) utm=0 stm=2 core=4 HZ=100
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | stack=0xbe04d000-0xbe04f000 stackSize=8MB
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   | held mutexes= "abort lock" "mutator lock"(shared held)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #00 pc 000045b4  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #01 pc 00002e1d  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #02 pc 002516d5  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+84)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #03 pc 00235453  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+162)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #04 pc 0023e345  /system/lib/libart.so (art::ThreadList::DumpLocked(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+120)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #05 pc 00225329  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+272)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #06 pc 00225573  /system/lib/libart.so (art::Runtime::Abort()+82)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #07 pc 000a6819  /system/lib/libart.so (art::LogMessage::~LogMessage()+1360)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #08 pc 00227a73  /system/lib/libart.so (art::Runtime::Init(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+5046)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #09 pc 002286e3  /system/lib/libart.so (art::Runtime::Create(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+58)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #10 pc 0000afd1  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #11 pc 0000e5b3  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #12 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   native: #13 pc 00006518  /system/bin/dex2oat (???)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284]   (no managed stack frames)
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] 
+F/dex2oat ( 4112): art/runtime/runtime.cc:284] 
+F/libc    ( 4112): Fatal signal 6 (SIGABRT), code -6 in tid 4112 (main)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=18065113668)
+I/McDaemon( 4118): Daemon starting up...
+I/McDaemon( 4118): Socket interface version is 0.2
+I/McDaemon( 4118): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4118): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4118):   *** Detected in mapMCI/126()
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4118):   *** Detected in getMciInstance/387()
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4118):   *** Detected in run/128()
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *****************************
+E/McDaemon( 4118):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4118):   *** Detected in main/1202()
+E/McDaemon( 4118):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=22940091085)
+I/McDaemon( 4123): Daemon starting up...
+I/McDaemon( 4123): Socket interface version is 0.2
+I/McDaemon( 4123): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4123): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4123):   *** Detected in mapMCI/126()
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4123):   *** Detected in getMciInstance/387()
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4123):   *** Detected in run/128()
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *****************************
+E/McDaemon( 4123):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4123):   *** Detected in main/1202()
+E/McDaemon( 4123):   *****************************
+I/McDaemon( 4124): Daemon starting up...
+I/McDaemon( 4124): Socket interface version is 0.2
+I/McDaemon( 4124): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4124): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4124):   *** Detected in mapMCI/126()
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4124):   *** Detected in getMciInstance/387()
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4124):   *** Detected in run/128()
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *****************************
+E/McDaemon( 4124):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4124):   *** Detected in main/1202()
+E/McDaemon( 4124):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=30245193586)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=30650210627)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=32810124253)
+I/McDaemon( 4126): Daemon starting up...
+I/McDaemon( 4126): Socket interface version is 0.2
+I/McDaemon( 4126): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4126): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4126):   *** Detected in mapMCI/126()
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4126):   *** Detected in getMciInstance/387()
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4126):   *** Detected in run/128()
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *****************************
+E/McDaemon( 4126):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4126):   *** Detected in main/1202()
+E/McDaemon( 4126):   *****************************
+I/McDaemon( 4127): Daemon starting up...
+I/McDaemon( 4127): Socket interface version is 0.2
+I/McDaemon( 4127): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4127): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4127):   *** Detected in mapMCI/126()
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4127):   *** Detected in getMciInstance/387()
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4127):   *** Detected in run/128()
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *****************************
+E/McDaemon( 4127):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4127):   *** Detected in main/1202()
+E/McDaemon( 4127):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=40300102420)
+I/McDaemon( 4129): Daemon starting up...
+I/McDaemon( 4129): Socket interface version is 0.2
+I/McDaemon( 4129): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4129): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4129):   *** Detected in mapMCI/126()
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4129):   *** Detected in getMciInstance/387()
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4129):   *** Detected in run/128()
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *****************************
+E/McDaemon( 4129):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4129):   *** Detected in main/1202()
+E/McDaemon( 4129):   *****************************
+I/McDaemon( 4130): Daemon starting up...
+I/McDaemon( 4130): Socket interface version is 0.2
+I/McDaemon( 4130): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4130): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4130):   *** Detected in mapMCI/126()
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4130):   *** Detected in getMciInstance/387()
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4130):   *** Detected in run/128()
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *****************************
+E/McDaemon( 4130):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4130):   *** Detected in main/1202()
+E/McDaemon( 4130):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=50170139630)
+I/McDaemon( 4132): Daemon starting up...
+I/McDaemon( 4132): Socket interface version is 0.2
+I/McDaemon( 4132): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4132): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4132):   *** Detected in mapMCI/126()
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4132):   *** Detected in getMciInstance/387()
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4132):   *** Detected in run/128()
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *****************************
+E/McDaemon( 4132):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4132):   *** Detected in main/1202()
+E/McDaemon( 4132):   *****************************
+I/McDaemon( 4133): Daemon starting up...
+I/McDaemon( 4133): Socket interface version is 0.2
+I/McDaemon( 4133): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4133): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4133):   *** Detected in mapMCI/126()
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4133):   *** Detected in getMciInstance/387()
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4133):   *** Detected in run/128()
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *****************************
+E/McDaemon( 4133):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4133):   *** Detected in main/1202()
+E/McDaemon( 4133):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=63700265381)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=64510122631)
+I/McDaemon( 4135): Daemon starting up...
+I/McDaemon( 4135): Socket interface version is 0.2
+I/McDaemon( 4135): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4135): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4135):   *** Detected in mapMCI/126()
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4135):   *** Detected in getMciInstance/387()
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4135):   *** Detected in run/128()
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *****************************
+E/McDaemon( 4135):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4135):   *** Detected in main/1202()
+E/McDaemon( 4135):   *****************************
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=67750229132)
+W/SurfaceFlinger( 3669): Ignoring duplicate VSYNC event from HWC (t=67885264174)
+I/McDaemon( 4136): Daemon starting up...
+I/McDaemon( 4136): Socket interface version is 0.2
+I/McDaemon( 4136): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4136): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4136):   *** Detected in mapMCI/126()
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4136):   *** Detected in getMciInstance/387()
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4136):   *** Detected in run/128()
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *****************************
+E/McDaemon( 4136):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4136):   *** Detected in main/1202()
+E/McDaemon( 4136):   *****************************
+I/McDaemon( 4138): Daemon starting up...
+I/McDaemon( 4138): Socket interface version is 0.2
+I/McDaemon( 4138): *** SAMSUNG Exynos 5420 tbase-200_V003 Engineering Release ###
+I/McDaemon( 4138): Build timestamp is Jul  6 2015 18:05:34
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *** ERROR: ioctl MC_IO_MAP_MCI failed with "Not a typewriter"(errno 25)
+E/McDaemon( 4138):   *** Detected in mapMCI/126()
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *** ERROR: pMcKMod->mmap() failed: 190012
+E/McDaemon( 4138):   *** Detected in getMciInstance/387()
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *** ERROR: Could not initialize MobiCore!
+E/McDaemon( 4138):   *** Detected in run/128()
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *****************************
+E/McDaemon( 4138):   *** ERROR: Exiting MobiCoreDaemon
+E/McDaemon( 4138):   *** Detected in main/1202()
+E/McDaemon( 4138):   *****************************

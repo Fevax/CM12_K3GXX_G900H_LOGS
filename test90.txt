@@ -1,0 +1,261 @@
+--------- beginning of main
+I/McDaemon(    0): Daemon starting up...
+W/auditd  ( 3691): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3691): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+I/McDaemon(    0): Checking version of <t-base
+I/McDaemon(    0): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+W/auditd  ( 3691): type=1305 audit(0.0:11): audit_pid=3660 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3691):  res=1
+W/auditd  ( 3691): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3691):  res=1
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+I/lowmemorykiller( 3662): Using in-kernel low memory killer interface
+--------- beginning of system
+I/auditd  ( 3673): Starting up
+I/cm      ( 3683): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/audit_log( 3673): Previous audit logfile detected, rotating
+E/audit_rules( 3673): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/DEBUG   ( 3675): debuggerd: Jul  3 2015 03:58:19
+I/cm      ( 3692): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/installd( 3684): installd firing up
+I/macloader( 3688): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3688): Change permissions of /data/.cid.info
+I/PrProvisioning( 3697): successfully - provisioning start !
+I/PrProvisioning( 3697): provisioning already done
+I/cm      ( 3706): Welcome to Android 5.0.2 / CyanogenMod-12-20150706-UNOFFICIAL-k3gxx 
+I/Vold    ( 3666): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3666): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3666): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3666): Check if PFE is activated on Boot
+E/Cryptfs ( 3666): Bad magic for real block device /dev/block/platform/12200000.dwmmc0/by-name/USERDATA
+E/Cryptfs ( 3666): Error getting crypt footer and key
+I/Netd    ( 3674): Netd 1.0 starting
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3674): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/keystore( 3685): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3667): SurfaceFlinger is starting
+I/SurfaceFlinger( 3667): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gpsd    ( 3687): WakeLock(Release,GPSD)
+D/gpsd    ( 3687): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3687): GNSS: 219420
+D/wrapperGPS( 3687): wrapperOpenClient_RILD
+E/wrapperGPS( 3687): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3687): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3687): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6b106e9)
+D/wrapperGPS( 3687): wrapperRegisterErrorCallback
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/libEGL  ( 3667): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3667): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3667): using (id=)
+I/gralloc ( 3667): xres         = 1080 px
+I/gralloc ( 3667): yres         = 1920 px
+I/gralloc ( 3667): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3667): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3667): refresh rate = 60.00 Hz
+D/hwcomposer( 3667): using
+D/hwcomposer( 3667): xres         = 1080 px
+D/hwcomposer( 3667): yres         = 1920 px
+D/hwcomposer( 3667): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3667): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3667): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3667): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3667): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3667): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3667): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3667): Using composer version 1.3
+I/SurfaceFlinger( 3667): EGL information:
+I/SurfaceFlinger( 3667): vendor    : Android
+I/SurfaceFlinger( 3667): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3667): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3667): Client API: OpenGL_ES
+I/SurfaceFlinger( 3667): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/WVMDrmPlugIn( 3677): WVMDrmPlugin::onGetSupportInfo : 0
+I/SurfaceFlinger( 3667): OpenGL ES informations:
+I/SurfaceFlinger( 3667): vendor    : ARM
+I/SurfaceFlinger( 3667): renderer  : Mali-T628
+I/SurfaceFlinger( 3667): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3667): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3667): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3667): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3667): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3667): unblank ioctl failed (display already unblanked)
+D/SurfaceFlinger( 3667): SF. shader cache generated - 26 shaders in 54.438126 ms
+D/libEGL  ( 3809): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3809): PLATFORM VERSION : JB-MR-2
+E/BootAnimation( 3809): couldn't find audio_conf.txt
+W/BootAnimation( 3809): Audio service is not initiated.
+D/BootAnimation( 3809): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/BootAnimation( 3809): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/wrapperGPS( 3687): wrapperConnect_RILD
+I/Netd    ( 3834): Netd 1.0 starting
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3834): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/wrapperGPS( 3687): wrapperConnect_RILD
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=12080270876)
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/wrapperGPS( 3687): wrapperConnect_RILD
+D/gpsd    ( 3687): WakeLock(Acquire,GPSD)
+D/gpsd    ( 3687): WakeLock(Release,GPSD)
+I/Netd    ( 3862): Netd 1.0 starting
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3862): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3874): Netd 1.0 starting
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3874): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3880): Netd 1.0 starting
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3880): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=26685231877)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=29165118628)
+I/Netd    ( 3885): Netd 1.0 starting
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3885): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3891): Netd 1.0 starting
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3891): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=36550154003)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=39180066504)
+I/Netd    ( 3896): Netd 1.0 starting
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3896): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=41490134379)
+I/Netd    ( 3902): Netd 1.0 starting
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3902): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3908): Netd 1.0 starting
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3908): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=52755139130)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=52890139380)
+I/Netd    ( 3915): Netd 1.0 starting
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3915): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/Netd    ( 3921): Netd 1.0 starting
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3921): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=64560311673)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=64695230340)
+I/Netd    ( 3928): Netd 1.0 starting
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3928): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=68035065091)
+I/Netd    ( 3933): Netd 1.0 starting
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3933): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=71610238883)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=72015112758)
+I/Netd    ( 3939): Netd 1.0 starting
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3939): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=78475227758)

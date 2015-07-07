@@ -1,0 +1,1326 @@
+--------- beginning of main
+I/McDaemon(    0): Daemon starting up...
+W/auditd  ( 3685): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+I/McDaemon(    0): Checking version of <t-base
+I/McDaemon(    0): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3685): type=1305 audit(0.0:11): audit_pid=3660 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+W/auditd  ( 3685): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+I/cm      ( 3673): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/lowmemorykiller( 3662): Using in-kernel low memory killer interface
+--------- beginning of system
+I/auditd  ( 3678): Starting up
+I/cm      ( 3684): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/DEBUG   ( 3680): debuggerd: Jul  3 2015 03:58:19
+I/installd( 3686): installd firing up
+I/audit_log( 3678): Previous audit logfile detected, rotating
+W/libaudit( 3678): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3678): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/macloader( 3690): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3690): Change permissions of /data/.cid.info
+I/cm      ( 3699): Welcome to Android 5.0.2 / CyanogenMod-12-20150706-UNOFFICIAL-k3gxx 
+I/Netd    ( 3679): Netd 1.0 starting
+I/Vold    ( 3666): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3666): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3666): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3666): Check if PFE is activated on Boot
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3679): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+E/Cryptfs ( 3666): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3666): Error getting crypt footer and key
+I/PrProvisioning( 3711): successfully - provisioning start !
+I/PrProvisioning( 3711): provisioning already done
+I/keystore( 3687): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3667): SurfaceFlinger is starting
+I/SurfaceFlinger( 3667): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gpsd    ( 3689): WakeLock(Release,GPSD)
+D/gpsd    ( 3689): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3689): GNSS: 219420
+D/wrapperGPS( 3689): wrapperOpenClient_RILD
+E/wrapperGPS( 3689): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3689): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3689): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6baa6e9)
+D/wrapperGPS( 3689): wrapperRegisterErrorCallback
+D/wrapperGPS( 3689): wrapperConnect_RILD
+D/libEGL  ( 3667): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3667): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3667): using (id=)
+I/gralloc ( 3667): xres         = 1080 px
+I/gralloc ( 3667): yres         = 1920 px
+I/gralloc ( 3667): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3667): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3667): refresh rate = 60.00 Hz
+D/hwcomposer( 3667): using
+D/hwcomposer( 3667): xres         = 1080 px
+D/hwcomposer( 3667): yres         = 1920 px
+D/hwcomposer( 3667): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3667): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3667): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3667): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3667): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3667): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3667): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3667): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3667): Using composer version 1.3
+I/SurfaceFlinger( 3667): EGL information:
+I/SurfaceFlinger( 3667): vendor    : Android
+I/SurfaceFlinger( 3667): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3667): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3667): Client API: OpenGL_ES
+I/SurfaceFlinger( 3667): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+I/SurfaceFlinger( 3667): OpenGL ES informations:
+I/SurfaceFlinger( 3667): vendor    : ARM
+I/SurfaceFlinger( 3667): renderer  : Mali-T628
+I/SurfaceFlinger( 3667): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3667): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3667): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3667): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3667): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3667): unblank ioctl failed (display already unblanked)
+D/WVMDrmPlugIn( 3682): WVMDrmPlugin::onGetSupportInfo : 0
+D/SurfaceFlinger( 3667): SF. shader cache generated - 26 shaders in 81.590042 ms
+D/AndroidRuntime( 3691): 
+D/AndroidRuntime( 3691): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/libEGL  ( 3846): loaded /vendor/lib/egl/libGLES_mali.so
+D/AndroidRuntime( 3691): CheckJNI is OFF
+I/        ( 3846): PLATFORM VERSION : JB-MR-2
+I/art     ( 3691): option[0]=-Xzygote
+I/art     ( 3691): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3691): option[2]=exit
+I/art     ( 3691): option[3]=vfprintf
+I/art     ( 3691): option[4]=sensitiveThread
+I/art     ( 3691): option[5]=-verbose:gc
+I/art     ( 3691): option[6]=-Xms8m
+I/art     ( 3691): option[7]=-Xmx512m
+I/art     ( 3691): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3691): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3691): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3691): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3691): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3691): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3691): option[14]=-Xlockprofthreshold:500
+I/art     ( 3691): option[15]=-Ximage-compiler-option
+I/art     ( 3691): option[16]=--runtime-arg
+I/art     ( 3691): option[17]=-Ximage-compiler-option
+I/art     ( 3691): option[18]=-Xms64m
+I/art     ( 3691): option[19]=-Ximage-compiler-option
+I/art     ( 3691): option[20]=--runtime-arg
+I/art     ( 3691): option[21]=-Ximage-compiler-option
+I/art     ( 3691): option[22]=-Xmx64m
+I/art     ( 3691): option[23]=-Ximage-compiler-option
+I/art     ( 3691): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3691): option[25]=-Ximage-compiler-option
+I/art     ( 3691): option[26]=--image-classes=preloaded-classes
+I/art     ( 3691): option[27]=-Xcompiler-option
+I/art     ( 3691): option[28]=--runtime-arg
+I/art     ( 3691): option[29]=-Xcompiler-option
+I/art     ( 3691): option[30]=-Xms64m
+I/art     ( 3691): option[31]=-Xcompiler-option
+I/art     ( 3691): option[32]=--runtime-arg
+I/art     ( 3691): option[33]=-Xcompiler-option
+I/art     ( 3691): option[34]=-Xmx512m
+I/art     ( 3691): option[35]=-Duser.language=es
+I/art     ( 3691): option[36]=-Duser.region=US
+I/art     ( 3691): Pruning dalvik-cache since we are generating an image and will need to recompile
+I/art     ( 3691): Using an offset of 0xfb8000 from default art base address of 0x70000000
+I/art     ( 3691): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70fb8000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+E/BootAnimation( 3846): couldn't find audio_conf.txt
+W/art     ( 3691): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70fb8000 --runtime-arg -Xms64
+W/BootAnimation( 3846): Audio service is not initiated.
+D/BootAnimation( 3846): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3689): wrapperConnect_RILD
+V/NatController( 3679): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3679): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3679): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3679): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+D/MDnsDS  ( 3679): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 3679): MDnsSdListener starting to monitor
+D/MDnsDS  ( 3679): Going to poll with pollCount 1
+D/wrapperGPS( 3689): wrapperConnect_RILD
+E/memtrack( 3691): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3691): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 3691): Profiling disabled.
+D/Zygote  ( 3691): begin preload
+I/Zygote  ( 3691): Preloading classes...
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 4379(640KB) AllocSpace objects, 0(0B) LOS objects, 41% free, 5MB/9MB, paused 92us total 16.906ms
+I/art     ( 3691): Counter: 1
+D/wrapperGPS( 3689): wrapperConnect_RILD
+D/BootAnimation( 3846): Use save memory method, maybe small fps in actual.
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3691): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+D/wrapperGPS( 3689): wrapperConnect_RILD
+I/art     ( 3691): Thread[1,tid=3691,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI( 3691): register_android_mtp_MtpDevice
+I/art     ( 3691): Thread[1,tid=3691,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     ( 3691): Thread[1,tid=3691,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/wrapperGPS( 3689): wrapperConnect_RILD
+D/wrapperGPS( 3689): wrapperConnect_RILD
+I/System  ( 3691): Loaded time zone names for "" in 58ms (40ms in ICU)
+I/System  ( 3691): Loaded time zone names for "en_US" in 51ms (22ms in ICU)
+I/System  ( 3691): Loaded time zone names for "es_US" in 54ms (27ms in ICU)
+D/wrapperGPS( 3689): wrapperConnect_RILD
+D/wrapperGPS( 3689): wrapperConnect_RILD
+D/gpsd    ( 3689): WakeLock(Acquire,GPSD)
+D/gpsd    ( 3689): WakeLock(Release,GPSD)
+I/art     ( 3691): WaitForGcToComplete blocked for 6.704ms for cause Explicit
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 723(50KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 14MB/21MB, paused 139us total 47.399ms
+I/Zygote  ( 3691): ...preloaded 3005 classes in 5636ms.
+I/art     ( 3691): VMRuntime.preloadDexCaches starting
+I/art     ( 3691): VMRuntime.preloadDexCaches strings total=217316 before=8974 after=8974
+I/art     ( 3691): VMRuntime.preloadDexCaches types total=18704 before=7488 after=9178
+I/art     ( 3691): VMRuntime.preloadDexCaches fields total=87408 before=31755 after=42301
+I/art     ( 3691): VMRuntime.preloadDexCaches methods total=154031 before=60846 after=75556
+I/art     ( 3691): VMRuntime.preloadDexCaches finished
+I/art     ( 3691): Counter: 0
+I/art     ( 3691): Counter: 1
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 33(14KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 14MB/23MB, paused 135us total 47.029ms
+D/idmap   ( 4081): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3691): Preloading resources...
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 5497(203KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 208us total 52.836ms
+I/Zygote  ( 3691): ...preloaded 430 resources in 658ms.
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 962(49KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 213us total 51.483ms
+I/Zygote  ( 3691): ...preloaded 41 resources in 75ms.
+I/art     ( 3691): Counter: 0
+D/libEGL  ( 3691): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3691): Preloading shared libraries...
+D/Zygote  ( 3691): end preload
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 463(21KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 205us total 50.364ms
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 205us total 51.024ms
+I/art     ( 3691): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 369us total 50.153ms
+I/Zygote  ( 3691): System server process 4084 has been created
+I/Zygote  ( 3691): Accepting command socket connections
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/InstallerConnection( 4084): connecting...
+I/installd( 3686): new connection
+E/installd( 3686): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@services.jar@classes.dex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/services.odex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/services.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@ethernet-service.jar@classes.dex' for file location '/system/framework/ethernet-service.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/ethernet-service.odex' for file location '/system/framework/ethernet-service.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/ethernet-service.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@wifi-service.jar@classes.dex' for file location '/system/framework/wifi-service.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/wifi-service.odex' for file location '/system/framework/wifi-service.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/wifi-service.jar' --- status=0x0100, process failed
+I/InstallerConnection( 4084): disconnecting...
+E/installd( 3686): eof
+E/installd( 3686): failed to read size
+I/installd( 3686): closing connection
+I/SystemServer( 4084): Entered the Android system server!
+V/Fingerprint-JNI( 4084): FingerprintManager JNI ready.
+I/        ( 4084): System server: starting sensor init.
+D/SensorService( 4084): nuSensorService starting...
+E/Sensors ( 4084): GeoMagneticSensor, ERROR dev_num = -19
+I/SystemServiceManager( 4084): Starting com.android.server.pm.Installer
+I/Sensors ( 4084): Proximity old sensor_state 0, new sensor_state : 128 en : 1
+I/Installer( 4084): Waiting for installd to be ready.
+I/InstallerConnection( 4084): connecting...
+I/installd( 3686): new connection
+I/SystemServiceManager( 4084): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/Sensors ( 4084): Light old sensor_state 128, new sensor_state : 640 en : 1
+E/Sensors ( 4084): UncalMagneticSensor, ERROR dev_num = -19
+I/Sensors ( 4084): SigMotionSensor old sensor_state 640, new sensor_state : 8832 en : 1
+E/Sensors ( 4084): UncalGyroSensor, ERROR dev_num = -19
+E/Sensors ( 4084): GameRotationVector, ERROR dev_num = -19
+I/Sensors ( 4084): StepCounterSensor old sensor_state 8832, new sensor_state : 139904 en : 1
+D/Sensors ( 4084): HrmSpO2Sensor::libhr open failed : dlopen failed: library "libhr.so" not found
+D/Sensors ( 4084): HrmSpO2Sensor::HrmSpO2Sensor: Shared version Registered 
+E/SensorService( 4084): >>>> WARNING <<< Upgrade sensor HAL to version 1_3
+I/Sensors ( 4084): Proximity old sensor_state 139904, new sensor_state : 139776 en : 0
+I/Sensors ( 4084): Light old sensor_state 139776, new sensor_state : 139264 en : 0
+I/Sensors ( 4084): StepCounterSensor old sensor_state 139264, new sensor_state : 8192 en : 0
+I/Sensors ( 4084): SigMotionSensor old sensor_state 8192, new sensor_state : 0 en : 0
+I/Sensors ( 4084): HrmSpO2Sensor::enable, handle(16), en(0), what(1/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4084): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4084): HrmSpO2Sensor::enable, handle(17), en(0), what(0/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4084): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4084): HrmSpO2Sensor::enable, handle(18), en(0), what(2/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4084): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/        ( 4084): System server: sensor init done.
+D/SensorService( 4084): nuSensorService thread starting...
+I/Sensors ( 4084): ProximitySensor - 8(cm)
+D/SensorService( 4084): new thread SensorEventAckReceiver
+I/ActivityManager( 4084): Memory class: 128
+I/ServiceThread( 4084): Enabled StrictMode logging for ActivityManager looper.
+I/IntentFirewall( 4084): Read new rules (A:0 B:0 S:0)
+I/ServiceThread( 4084): Enabled StrictMode logging for android.ui looper.
+I/ServiceThread( 4084): Enabled StrictMode logging for android.display looper.
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=16385193917)
+D/AppOps  ( 4084): AppOpsService published
+I/SystemServiceManager( 4084): Starting com.android.server.power.PowerManagerService
+I/ServiceThread( 4084): Enabled StrictMode logging for PowerManagerService looper.
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/multi_enter_load: 800
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/multi_enter_load: 800
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/single_enter_load: 200
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/single_enter_load: 200
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads: 70
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads: 70
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_load: 360
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_load: 360
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_load: 240
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_load: 240
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_time: 299000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_time: 299000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_load: 95
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_load: 95
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_time: 199000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_time: 199000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_load: 60
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_load: 60
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 75 1500000:80 1700000:85 1800000:90
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 75 1500000:80 1700000:85 1800000:90
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000 1100000:99000 1200000:119000 1700000:19000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000 1100000:99000 1200000:119000 1700000:19000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 1
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 1
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 59000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 59000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1200000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1200000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 95
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 95
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 65 1400000:68 1700000:73
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 65 1400000:68 1700000:73
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 2
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 2
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 79000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 79000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1400000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1400000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 90
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 90
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1700000:70
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1700000:70
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 3
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 3
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 99000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1600000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1600000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 85
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 85
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1900000:70
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1900000:70
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4084): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4084): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+W/libsuspend( 4084): Error writing 'on' to /sys/power/state: Invalid argument
+I/libsuspend( 4084): Selected wakeup count
+I/SystemServiceManager( 4084): Starting com.android.server.display.DisplayManagerService
+I/SystemServiceManager( 4084): Starting phase 100
+I/DisplayManagerService( 4084): Display device added: DisplayDeviceInfo{"Pantalla integrada": 1080 x 1920, 60.000004 fps, supportedRefreshRates [60.000004], density 480, 422.03 x 424.069 dpi, appVsyncOff 0, presDeadline 17666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 4084): Package Manager
+W/PackageManager( 4084): No security bridge jar found, using default
+W/SystemConfig( 4084): No directory /system/etc/sysconfig, skipping
+D/SELinuxMMAC( 4084): Using policy file /system/etc/security/mac_permissions.xml
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@android.test.runner.jar@classes.dex' for file location '/system/framework/android.test.runner.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/android.test.runner.odex' for file location '/system/framework/android.test.runner.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/android.test.runner.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.future.usb.accessory.jar@classes.dex' for file location '/system/framework/com.android.future.usb.accessory.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.future.usb.accessory.odex' for file location '/system/framework/com.android.future.usb.accessory.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/com.android.future.usb.accessory.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.media.remotedisplay.jar@classes.dex' for file location '/system/framework/com.android.media.remotedisplay.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.media.remotedisplay.odex' for file location '/system/framework/com.android.media.remotedisplay.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/com.android.media.remotedisplay.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.location.provider.jar@classes.dex' for file location '/system/framework/com.android.location.provider.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.location.provider.odex' for file location '/system/framework/com.android.location.provider.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/com.android.location.provider.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@javax.obex.jar@classes.dex' for file location '/system/framework/javax.obex.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/javax.obex.odex' for file location '/system/framework/javax.obex.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/javax.obex.jar' --- status=0x0100, process failed
+E/art     ( 4084): DexFile_isDexOptNeeded file '/system/framework/com.android.nfc_extras.jar' does not exist
+W/PackageManager( 4084): Library not found: /system/framework/com.android.nfc_extras.jar
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.mediadrm.signer.jar@classes.dex' for file location '/system/framework/com.android.mediadrm.signer.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.mediadrm.signer.odex' for file location '/system/framework/com.android.mediadrm.signer.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/com.android.mediadrm.signer.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@javax.btobex.jar@classes.dex' for file location '/system/framework/javax.btobex.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/javax.btobex.odex' for file location '/system/framework/javax.btobex.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/javax.btobex.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@am.jar@classes.dex' for file location '/system/framework/am.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/am.odex' for file location '/system/framework/am.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/am.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@appops.jar@classes.dex' for file location '/system/framework/appops.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/appops.odex' for file location '/system/framework/appops.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/appops.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@appwidget.jar@classes.dex' for file location '/system/framework/appwidget.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/appwidget.odex' for file location '/system/framework/appwidget.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/appwidget.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@bmgr.jar@classes.dex' for file location '/system/framework/bmgr.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/bmgr.odex' for file location '/system/framework/bmgr.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/bmgr.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@bu.jar@classes.dex' for file location '/system/framework/bu.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/bu.odex' for file location '/system/framework/bu.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/bu.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@content.jar@classes.dex' for file location '/system/framework/content.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/content.odex' for file location '/system/framework/content.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/content.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@dpm.jar@classes.dex' for file location '/system/framework/dpm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/dpm.odex' for file location '/system/framework/dpm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/dpm.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@ime.jar@classes.dex' for file location '/system/framework/ime.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/ime.odex' for file location '/system/framework/ime.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/ime.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@input.jar@classes.dex' for file location '/system/framework/input.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/input.odex' for file location '/system/framework/input.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/input.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@media_cmd.jar@classes.dex' for file location '/system/framework/media_cmd.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/media_cmd.odex' for file location '/system/framework/media_cmd.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/media_cmd.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@monkey.jar@classes.dex' for file location '/system/framework/monkey.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/monkey.odex' for file location '/system/framework/monkey.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/monkey.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@pm.jar@classes.dex' for file location '/system/framework/pm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/pm.odex' for file location '/system/framework/pm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/pm.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@requestsync.jar@classes.dex' for file location '/system/framework/requestsync.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/requestsync.odex' for file location '/system/framework/requestsync.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/requestsync.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@settings.jar@classes.dex' for file location '/system/framework/settings.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/settings.odex' for file location '/system/framework/settings.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/settings.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@svc.jar@classes.dex' for file location '/system/framework/svc.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/svc.odex' for file location '/system/framework/svc.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/svc.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@tm.jar@classes.dex' for file location '/system/framework/tm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/tm.odex' for file location '/system/framework/tm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/tm.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@uiautomator.jar@classes.dex' for file location '/system/framework/uiautomator.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/uiautomator.odex' for file location '/system/framework/uiautomator.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/uiautomator.jar' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@wm.jar@classes.dex' for file location '/system/framework/wm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/wm.odex' for file location '/system/framework/wm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3686): DexInv: --- END '/system/framework/wm.jar' --- status=0x0100, process failed
+D/PackageManager( 4084): No files in app dir /vendor/overlay
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@AudioFX@AudioFX.apk@classes.dex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/AudioFX/arm/AudioFX.odex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@BackupRestoreConfirmation@BackupRestoreConfirmation.apk@classes.dex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/BackupRestoreConfirmation/arm/BackupRestoreConfirmation.odex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMAccount@CMAccount.apk@classes.dex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMAccount/arm/CMAccount.odex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMUpdater@CMUpdater.apk@classes.dex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMUpdater/arm/CMUpdater.odex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CalendarProvider@CalendarProvider.apk@classes.dex' for file location '/system/priv-app/CalendarProvider/CalendarProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CalendarProvider/arm/CalendarProvider.odex' for file location '/system/priv-app/CalendarProvider/CalendarProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CellBroadcastReceiver@CellBroadcastReceiver.apk@classes.dex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CellBroadcastReceiver/arm/CellBroadcastReceiver.odex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+W/ResourceType( 4084): Failure getting entry for 0x7f0b023e (t=10 e=574) (error -75)
+W/PackageParser( 4084): No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #362
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Contacts@Contacts.apk@classes.dex' for file location '/system/priv-app/Contacts/Contacts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Contacts/arm/Contacts.odex' for file location '/system/priv-app/Contacts/Contacts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ContactsProvider@ContactsProvider.apk@classes.dex' for file location '/system/priv-app/ContactsProvider/ContactsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ContactsProvider/arm/ContactsProvider.odex' for file location '/system/priv-app/ContactsProvider/ContactsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CyanogenSetupWizard@CyanogenSetupWizard.apk@classes.dex' for file location '/system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CyanogenSetupWizard/arm/CyanogenSetupWizard.odex' for file location '/system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@DefaultContainerService@DefaultContainerService.apk@classes.dex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/DefaultContainerService/arm/DefaultContainerService.odex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4084): No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #185
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Dialer@Dialer.apk@classes.dex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Dialer/arm/Dialer.odex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@DownloadProvider@DownloadProvider.apk@classes.dex' for file location '/system/priv-app/DownloadProvider/DownloadProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/DownloadProvider/arm/DownloadProvider.odex' for file location '/system/priv-app/DownloadProvider/DownloadProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ExternalStorageProvider@ExternalStorageProvider.apk@classes.dex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ExternalStorageProvider/arm/ExternalStorageProvider.odex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/FusedLocation/arm/FusedLocation.odex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@InputDevices@InputDevices.apk@classes.dex' for file location '/system/priv-app/InputDevices/InputDevices.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/InputDevices/arm/InputDevices.odex' for file location '/system/priv-app/InputDevices/InputDevices.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ManagedProvisioning@ManagedProvisioning.apk@classes.dex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ManagedProvisioning/arm/ManagedProvisioning.odex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@MediaProvider@MediaProvider.apk@classes.dex' for file location '/system/priv-app/MediaProvider/MediaProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/MediaProvider/arm/MediaProvider.odex' for file location '/system/priv-app/MediaProvider/MediaProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Mms@Mms.apk@classes.dex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Mms/arm/Mms.odex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@MmsService@MmsService.apk@classes.dex' for file location '/system/priv-app/MmsService/MmsService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/MmsService/arm/MmsService.odex' for file location '/system/priv-app/MmsService/MmsService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@OneTimeInitializer@OneTimeInitializer.apk@classes.dex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/OneTimeInitializer/arm/OneTimeInitializer.odex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ProxyHandler@ProxyHandler.apk@classes.dex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ProxyHandler/arm/ProxyHandler.odex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Settings@Settings.apk@classes.dex' for file location '/system/priv-app/Settings/Settings.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Settings/arm/Settings.odex' for file location '/system/priv-app/Settings/Settings.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SettingsProvider@SettingsProvider.apk@classes.dex' for file location '/system/priv-app/SettingsProvider/SettingsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SettingsProvider/arm/SettingsProvider.odex' for file location '/system/priv-app/SettingsProvider/SettingsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SharedStorageBackup@SharedStorageBackup.apk@classes.dex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SharedStorageBackup/arm/SharedStorageBackup.odex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Shell@Shell.apk@classes.dex' for file location '/system/priv-app/Shell/Shell.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Shell/arm/Shell.odex' for file location '/system/priv-app/Shell/Shell.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SystemUI@SystemUI.apk@classes.dex' for file location '/system/priv-app/SystemUI/SystemUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SystemUI/arm/SystemUI.odex' for file location '/system/priv-app/SystemUI/SystemUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@TeleService@TeleService.apk@classes.dex' for file location '/system/priv-app/TeleService/TeleService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/TeleService/arm/TeleService.odex' for file location '/system/priv-app/TeleService/TeleService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Telecom@Telecom.apk@classes.dex' for file location '/system/priv-app/Telecom/Telecom.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Telecom/arm/Telecom.odex' for file location '/system/priv-app/Telecom/Telecom.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@TelephonyProvider@TelephonyProvider.apk@classes.dex' for file location '/system/priv-app/TelephonyProvider/TelephonyProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/TelephonyProvider/arm/TelephonyProvider.odex' for file location '/system/priv-app/TelephonyProvider/TelephonyProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemeChooser@ThemeChooser.apk@classes.dex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemeChooser/arm/ThemeChooser.odex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemesProvider@ThemesProvider.apk@classes.dex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemesProvider/arm/ThemesProvider.odex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Trebuchet@Trebuchet.apk@classes.dex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Trebuchet/arm/Trebuchet.odex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@VpnDialogs@VpnDialogs.apk@classes.dex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/VpnDialogs/arm/VpnDialogs.odex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@WallpaperCropper@WallpaperCropper.apk@classes.dex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/WallpaperCropper/arm/WallpaperCropper.odex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@BasicDreams@BasicDreams.apk@classes.dex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/BasicDreams/arm/BasicDreams.odex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4084): No actions in intent filter at /system/app/Bluetooth/Bluetooth.apk Binary XML file line #229
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Bluetooth@Bluetooth.apk@classes.dex' for file location '/system/app/Bluetooth/Bluetooth.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Bluetooth/arm/Bluetooth.odex' for file location '/system/app/Bluetooth/Bluetooth.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Browser@Browser.apk@classes.dex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Browser/arm/Browser.odex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4084): No actions in intent filter at /system/app/CMFileManager/CMFileManager.apk Binary XML file line #155
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMFileManager@CMFileManager.apk@classes.dex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMFileManager/arm/CMFileManager.odex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMWallpapers@CMWallpapers.apk@classes.dex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMWallpapers/arm/CMWallpapers.odex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calculator@Calculator.apk@classes.dex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calculator/arm/Calculator.odex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calendar@Calendar.apk@classes.dex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calendar/arm/Calendar.odex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Camera2@Camera2.apk@classes.dex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Camera2/arm/Camera2.odex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CaptivePortalLogin@CaptivePortalLogin.apk@classes.dex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CaptivePortalLogin/arm/CaptivePortalLogin.odex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CertInstaller@CertInstaller.apk@classes.dex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CertInstaller/arm/CertInstaller.odex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DeskClock@DeskClock.apk@classes.dex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DeskClock/arm/DeskClock.odex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Development@Development.apk@classes.dex' for file location '/system/app/Development/Development.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Development/arm/Development.odex' for file location '/system/app/Development/Development.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DocumentsUI@DocumentsUI.apk@classes.dex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DocumentsUI/arm/DocumentsUI.odex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DownloadProviderUi@DownloadProviderUi.apk@classes.dex' for file location '/system/app/DownloadProviderUi/DownloadProviderUi.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DownloadProviderUi/arm/DownloadProviderUi.odex' for file location '/system/app/DownloadProviderUi/DownloadProviderUi.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Eleven@Eleven.apk@classes.dex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Eleven/arm/Eleven.odex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Email@Email.apk@classes.dex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Email/arm/Email.odex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Exchange2@Exchange2.apk@classes.dex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Exchange2/arm/Exchange2.odex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Galaxy4@Galaxy4.apk@classes.dex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Galaxy4/arm/Galaxy4.odex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4084): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #273
+W/PackageParser( 4084): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #276
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Gallery2@Gallery2.apk@classes.dex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Gallery2/arm/Gallery2.odex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HTMLViewer@HTMLViewer.apk@classes.dex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/HTMLViewer/arm/HTMLViewer.odex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HoloSpiralWallpaper@HoloSpiralWallpaper.apk@classes.dex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/HoloSpiralWallpaper/arm/HoloSpiralWallpaper.odex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@KeyChain@KeyChain.apk@classes.dex' for file location '/system/app/KeyChain/KeyChain.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/KeyChain/arm/KeyChain.odex' for file location '/system/app/KeyChain/KeyChain.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LatinIME@LatinIME.apk@classes.dex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LatinIME/arm/LatinIME.odex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapers@LiveWallpapers.apk@classes.dex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapers/arm/LiveWallpapers.odex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapersPicker@LiveWallpapersPicker.apk@classes.dex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapersPicker/arm/LiveWallpapersPicker.odex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LockClock@LockClock.apk@classes.dex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LockClock/arm/LockClock.odex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@NoiseField@NoiseField.apk@classes.dex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/NoiseField/arm/NoiseField.odex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PacProcessor@PacProcessor.apk@classes.dex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PacProcessor/arm/PacProcessor.odex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PackageInstaller@PackageInstaller.apk@classes.dex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PackageInstaller/arm/PackageInstaller.odex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhaseBeam@PhaseBeam.apk@classes.dex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhaseBeam/arm/PhaseBeam.odex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoPhase@PhotoPhase.apk@classes.dex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoPhase/arm/PhotoPhase.odex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoTable@PhotoTable.apk@classes.dex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoTable/arm/PhotoTable.odex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PicoTts@PicoTts.apk@classes.dex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PicoTts/arm/PicoTts.odex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PrintSpooler@PrintSpooler.apk@classes.dex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PrintSpooler/arm/PrintSpooler.odex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Provision@Provision.apk@classes.dex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Provision/arm/Provision.odex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=21495273084)
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@SoundRecorder@SoundRecorder.apk@classes.dex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/SoundRecorder/arm/SoundRecorder.odex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Stk@Stk.apk@classes.dex' for file location '/system/app/Stk/Stk.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Stk/arm/Stk.odex' for file location '/system/app/Stk/Stk.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Terminal@Terminal.apk@classes.dex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Terminal/arm/Terminal.odex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@UserDictionaryProvider@UserDictionaryProvider.apk@classes.dex' for file location '/system/app/UserDictionaryProvider/UserDictionaryProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/UserDictionaryProvider/arm/UserDictionaryProvider.odex' for file location '/system/app/UserDictionaryProvider/UserDictionaryProvider.apk': Failed to open oat filename for reading: No such file or directory
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=21630203459)
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@VisualizationWallpapers@VisualizationWallpapers.apk@classes.dex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/VisualizationWallpapers/arm/VisualizationWallpapers.odex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WAPPushManager@WAPPushManager.apk@classes.dex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/WAPPushManager/arm/WAPPushManager.odex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WhisperPush@WhisperPush.apk@classes.dex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/WhisperPush/arm/WhisperPush.odex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4084): Failed to parse /system/app/mcRegistry: Missing base APK in /system/app/mcRegistry
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@webview@webview.apk@classes.dex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/webview/arm/webview.odex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+D/PackageManager( 4084): No files in app dir /system/vendor/app
+D/PackageManager( 4084): No files in app dir /oem/app
+D/PackageManager( 4084): No files in app dir /vendor/bundled-app
+W/PackageManager( 4084): Failed to parse /data/app/mcRegistry: No packages found in split
+D/PackageManager( 4084): No files in app dir /data/app-private
+W/PackageManager( 4084): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+W/PackageManager( 4084): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+E/PackageManager( 4084): updateAllSharedLibrariesLPw failed: Package com.android.dialer requires unavailable shared library com.qualcomm.qti.smartsearch; failing!
+W/PackageManager( 4084): Package com.android.calculator2 desires unavailable shared library com.sec.android.app.multiwindow; ignoring!
+W/PackageManager( 4084): Package com.android.mms desires unavailable shared library com.qrd.wappush; ignoring!
+I/PackageManager( 4084): Adjusting ABI for : com.android.location.fused to armeabi-v7a
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/FusedLocation/arm/FusedLocation.odex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/FusedLocation/FusedLocation.apk pkg=com.android.location.fused isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/FusedLocation/FusedLocation.apk' --- status=0x0100, process failed
+I/PackageManager( 4084): Time to scan packages: 3.997 seconds
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager( 4084): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.dialer
+W/PackageManager( 4084): Unknown permission android.permission.ACCESS_SUPERUSER in package com.cyanogenmod.filemanager
+W/PackageManager( 4084): Unknown permission com.cyanogenmod.filemanager.permissions.READ_THEME in package com.cyanogenmod.filemanager
+W/PackageManager( 4084): Unknown permission com.cyngn.cmstats.SEND_ANALYTICS in package com.cyanogenmod.setupwizard
+W/PackageManager( 4084): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 4084): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 4084): Unknown permission com.google.android.c2dm.permission.RECEIVE in package org.whispersystems.whisperpush
+W/PackageManager( 4084): Not granting permission android.permission.BIND_WALLPAPER to package com.android.camera2 (protectionLevel=18 flags=0x58bc45)
+W/PackageManager( 4084): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 4084): Unknown permission com.google.android.c2dm.permission.RECEIVE in package com.cyanogenmod.account
+W/PackageManager( 4084): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager( 4084): Unknown permission com.android.deskclock.worldclock.permissions.WRITE_DATABASE in package com.android.deskclock
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager( 4084): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.soundrecorder (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 4084): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager( 4084): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.mms
+W/PackageManager( 4084): Not granting permission android.permission.MANAGE_DOCUMENTS to package com.android.mms (protectionLevel=2 flags=0x4049be65)
+W/PackageManager( 4084): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x49be45)
+W/PackageManager( 4084): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 4084): Unknown permission android.permission.CANCEL_NOTIFICATIONS in package org.cyanogenmod.theme.chooser
+V/PackageManager( 4084): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+W/PackageManager( 4084): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+V/PackageManager( 4084): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+W/PackageManager( 4084): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+V/PackageManager( 4084): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver
+W/PackageManager( 4084): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver
+V/PackageManager( 4084): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity
+W/PackageManager( 4084): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity
+V/PackageManager( 4084): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$Receiver
+W/PackageManager( 4084): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$Receiver
+V/PackageManager( 4084): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$ActiveReceiver
+W/PackageManager( 4084): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$ActiveReceiver
+V/PackageManager( 4084): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$SecretCodeReceiver
+W/PackageManager( 4084): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$SecretCodeReceiver
+V/PackageManager( 4084): Enabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+W/PackageManager( 4084): Unable to enable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+V/PackageManager( 4084): Enabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService
+W/PackageManager( 4084): Unable to enable com.google.android.gms/com.google.android.gms.update.SystemUpdateService
+I/art     ( 4084): Explicit concurrent mark sweep GC freed 141686(11MB) AllocSpace objects, 50(893KB) LOS objects, 33% free, 25MB/38MB, paused 943us total 105.858ms
+I/SystemServer( 4084): User Service
+I/lowmemorykiller( 3662): ActivityManager connected
+I/SystemServiceManager( 4084): Starting com.android.server.lights.LightsService
+I/SystemServiceManager( 4084): Starting com.android.server.BatteryService
+I/SystemServiceManager( 4084): Starting com.android.server.usage.UsageStatsService
+I/SystemServiceManager( 4084): Starting com.android.server.webkit.WebViewUpdateService
+I/SystemServer( 4084): Reading configuration...
+I/SystemServer( 4084): Scheduling Policy
+I/SystemServer( 4084): Telephony Registry
+I/SystemServer( 4084): Entropy Mixer
+I/EntropyMixer( 4084): Added HW RNG output to entropy pool
+I/EntropyMixer( 4084): Writing entropy...
+I/SystemServer( 4084): Account Manager
+I/SystemServer( 4084): Content Manager
+I/SystemServer( 4084): System Content Providers
+W/ActivityManager( 4084): Can't addPackageDependency on system process
+W/CoreSettingsObserver( 4084): Cannot find setting "debug_view_attributes"
+W/CoreSettingsObserver( 4084): android.provider.Settings$SettingNotFoundException: debug_view_attributes
+W/CoreSettingsObserver( 4084): 	at android.provider.Settings$Global.getInt(Settings.java:8060)
+W/CoreSettingsObserver( 4084): 	at com.android.server.am.CoreSettingsObserver.populateSettings(CoreSettingsObserver.java:129)
+W/CoreSettingsObserver( 4084): 	at com.android.server.am.CoreSettingsObserver.sendCoreSettings(CoreSettingsObserver.java:82)
+W/CoreSettingsObserver( 4084): 	at com.android.server.am.CoreSettingsObserver.<init>(CoreSettingsObserver.java:65)
+W/CoreSettingsObserver( 4084): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:9976)
+W/CoreSettingsObserver( 4084): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:482)
+W/CoreSettingsObserver( 4084): 	at com.android.server.SystemServer.run(SystemServer.java:284)
+W/CoreSettingsObserver( 4084): 	at com.android.server.SystemServer.main(SystemServer.java:185)
+W/CoreSettingsObserver( 4084): 	at java.lang.reflect.Method.invoke(Native Method)
+W/CoreSettingsObserver( 4084): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/CoreSettingsObserver( 4084): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+W/CoreSettingsObserver( 4084): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+I/SystemServer( 4084): Vibrator Service
+I/SystemServer( 4084): Consumer IR Service
+I/SystemServiceManager( 4084): Starting com.android.server.AlarmManagerService
+D/AlarmManagerService( 4084): Kernel timezone updated to 180 minutes west of GMT
+I/SystemServer( 4084): Init Watchdog
+I/SystemServer( 4084): Input Manager
+I/InputManager( 4084): Initializing input manager, mUseDevInputEventForAudioJack=false
+I/SystemServer( 4084): Window Manager
+I/WindowManager( 4084): No existing display settings /data/system/display_settings.xml; starting empty
+D/PermissionCache( 3667): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (585 us)
+W/Settings( 4084): Setting dev_force_show_navbar has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning Secure URI.
+I/InputManager( 4084): Starting input manager
+D/EventHub( 4084): No input device configuration file found for device 'hrm_sensor'.
+I/SystemServer( 4084): Bluetooth Manager Service
+D/BluetoothManagerService( 4084): Loading stored name and address
+D/BluetoothManagerService( 4084): Stored bluetooth Name=null,Address=null
+I/SystemServer( 4084): Input Method Service
+D/EventHub( 4084): No input device configuration file found for device 'ssp_context'.
+W/InputMethodManagerService( 4084): Couldn't create dir.: /data/system/inputmethod
+D/EventHub( 4084): No input device configuration file found for device 'meta_event'.
+D/EventHub( 4084): No input device configuration file found for device 'step_cnt_sensor'.
+W/InputMethodManagerService( 4084): No IME selected. Choose the most applicable IME.
+I/InputMethodManagerService( 4084): No default found, using com.android.inputmethod.latin/.LatinIME
+I/SystemServer( 4084): Accessibility Manager
+D/EventHub( 4084): No input device configuration file found for device 'uncal_gyro_sensor'.
+I/ActivityManager( 4084): Config changes=1df8 {1.0 ?mcc?mnc es_US ldltr sw360dp w360dp h640dp 480dpi nrml long port ?uimode ?night -touch -keyb/h/h -nav/h s.2 themeResource=null}
+I/ActivityManager( 4084): Config changes=400 {1.0 ?mcc?mnc es_US ldltr sw360dp w360dp h615dp 480dpi nrml long port ?uimode ?night -touch -keyb/h/h -nav/h s.3 themeResource=null}
+I/SystemServer( 4084): Mount Service
+D/MountService( 4084): got storage path: /storage/sdcard0 description: Almacenamiento interno primary: true removable: false emulated: true mtpReserve: 100 allowMassStorage: false maxFileSize: 0
+D/MountService( 4084): addVolumeLocked() StorageVolume:
+D/MountService( 4084):     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040999 
+D/MountService( 4084):     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=100 
+D/MountService( 4084):     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+D/MountService( 4084):     mUserLabel=null mState=null 
+D/MountService( 4084): got storage path: /storage/sdcard1 description: Tarjeta SD primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: true maxFileSize: 0
+D/MountService( 4084): addVolumeLocked() StorageVolume:
+D/MountService( 4084):     mStorageId=0 mPath=/storage/sdcard1 mDescriptionId=17041000 mPrimary=false 
+D/MountService( 4084):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=true 
+D/MountService( 4084):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+D/MountService( 4084): got storage path: /storage/usbdisk description: Almacenamiento USB primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService( 4084): addVolumeLocked() StorageVolume:
+D/MountService( 4084):     mStorageId=0 mPath=/storage/usbdisk mDescriptionId=17041001 mPrimary=false 
+D/MountService( 4084):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+D/MountService( 4084):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+D/MountService( 4084): volume state changed for /storage/sdcard1 (unmounted -> removed)
+D/MountService( 4084): volume state changed for /storage/usbdisk (unmounted -> removed)
+D/EventHub( 4084): No input device configuration file found for device 'sig_motion_sensor'.
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@TeleService@TeleService.apk@classes.dex' for file location '/system/priv-app/TeleService/TeleService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/TeleService/arm/TeleService.odex' for file location '/system/priv-app/TeleService/TeleService.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/TeleService/TeleService.apk pkg=com.android.phone isa=arm vmSafeMode=false
+I/PackageManager( 4084): No secure containers found
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager( 4084): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.dialer
+W/PackageManager( 4084): Unknown permission android.permission.ACCESS_SUPERUSER in package com.cyanogenmod.filemanager
+W/PackageManager( 4084): Unknown permission com.cyanogenmod.filemanager.permissions.READ_THEME in package com.cyanogenmod.filemanager
+E/installd( 3686): DexInv: --- END '/system/priv-app/TeleService/TeleService.apk' --- status=0x0100, process failed
+W/PackageManager( 4084): Unknown permission com.cyngn.cmstats.SEND_ANALYTICS in package com.cyanogenmod.setupwizard
+W/PackageManager( 4084): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Telecom@Telecom.apk@classes.dex' for file location '/system/priv-app/Telecom/Telecom.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Telecom/arm/Telecom.odex' for file location '/system/priv-app/Telecom/Telecom.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Telecom/Telecom.apk pkg=com.android.server.telecom isa=arm vmSafeMode=false
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 4084): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 4084): Unknown permission com.google.android.c2dm.permission.RECEIVE in package org.whispersystems.whisperpush
+W/PackageManager( 4084): Not granting permission android.permission.BIND_WALLPAPER to package com.android.camera2 (protectionLevel=18 flags=0x58bc45)
+D/EventHub( 4084): No input device configuration file found for device 'uncal_geomagnetic_sensor'.
+W/PackageManager( 4084): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 4084): Unknown permission com.google.android.c2dm.permission.RECEIVE in package com.cyanogenmod.account
+W/PackageManager( 4084): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager( 4084): Unknown permission com.android.deskclock.worldclock.permissions.WRITE_DATABASE in package com.android.deskclock
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager( 4084): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.soundrecorder (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 4084): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager( 4084): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.mms
+W/PackageManager( 4084): Not granting permission android.permission.MANAGE_DOCUMENTS to package com.android.mms (protectionLevel=2 flags=0x4049be65)
+W/PackageManager( 4084): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x49be45)
+W/PackageManager( 4084): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager( 4084): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 4084): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 4084): Unknown permission android.permission.CANCEL_NOTIFICATIONS in package org.cyanogenmod.theme.chooser
+E/installd( 3686): DexInv: --- END '/system/priv-app/Telecom/Telecom.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Shell@Shell.apk@classes.dex' for file location '/system/priv-app/Shell/Shell.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Shell/arm/Shell.odex' for file location '/system/priv-app/Shell/Shell.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Shell/Shell.apk pkg=com.android.shell isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/Shell/Shell.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SystemUI@SystemUI.apk@classes.dex' for file location '/system/priv-app/SystemUI/SystemUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SystemUI/arm/SystemUI.odex' for file location '/system/priv-app/SystemUI/SystemUI.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/SystemUI/SystemUI.apk pkg=com.android.systemui isa=arm vmSafeMode=false
+D/OpenGLRenderer( 4084): Render dirty regions requested: true
+D/EventHub( 4084): No input device configuration file found for device 'geomagnetic_sensor'.
+E/installd( 3686): DexInv: --- END '/system/priv-app/SystemUI/SystemUI.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@InputDevices@InputDevices.apk@classes.dex' for file location '/system/priv-app/InputDevices/InputDevices.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/InputDevices/arm/InputDevices.odex' for file location '/system/priv-app/InputDevices/InputDevices.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/InputDevices/InputDevices.apk pkg=com.android.inputdevices isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/InputDevices/InputDevices.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@TelephonyProvider@TelephonyProvider.apk@classes.dex' for file location '/system/priv-app/TelephonyProvider/TelephonyProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/TelephonyProvider/arm/TelephonyProvider.odex' for file location '/system/priv-app/TelephonyProvider/TelephonyProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/TelephonyProvider/TelephonyProvider.apk pkg=com.android.providers.telephony isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'gesture_sensor'.
+E/installd( 3686): DexInv: --- END '/system/priv-app/TelephonyProvider/TelephonyProvider.apk' --- status=0x0100, process failed
+I/UsageStatsService( 4084): User[0] Rollover scheduled @ 2015-07-07 21:00:00(1436313600000)
+D/EventHub( 4084): No input device configuration file found for device 'temp_humidity_sensor'.
+I/        ( 4084): PLATFORM VERSION : JB-MR-2
+I/OpenGLRenderer( 4084): Initialized EGL, version 1.4
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Dialer@Dialer.apk@classes.dex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Dialer/arm/Dialer.odex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Dialer/Dialer.apk pkg=com.android.dialer isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/Dialer/Dialer.apk' --- status=0x0100, process failed
+D/OpenGLRenderer( 4084): Enabling debug mode 0
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Settings@Settings.apk@classes.dex' for file location '/system/priv-app/Settings/Settings.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Settings/arm/Settings.odex' for file location '/system/priv-app/Settings/Settings.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Settings/Settings.apk pkg=com.android.settings isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'proximity_sensor'.
+E/installd( 3686): DexInv: --- END '/system/priv-app/Settings/Settings.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LatinIME@LatinIME.apk@classes.dex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LatinIME/arm/LatinIME.odex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/LatinIME/LatinIME.apk pkg=com.android.inputmethod.latin isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/LatinIME/LatinIME.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@DefaultContainerService@DefaultContainerService.apk@classes.dex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/DefaultContainerService/arm/DefaultContainerService.odex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/DefaultContainerService/DefaultContainerService.apk pkg=com.android.defcontainer isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'light_sensor'.
+E/installd( 3686): DexInv: --- END '/system/priv-app/DefaultContainerService/DefaultContainerService.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/FusedLocation/arm/FusedLocation.odex' for file location '/system/priv-app/FusedLocation/FusedLocation.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/FusedLocation/FusedLocation.apk pkg=com.android.location.fused isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/FusedLocation/FusedLocation.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SettingsProvider@SettingsProvider.apk@classes.dex' for file location '/system/priv-app/SettingsProvider/SettingsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SettingsProvider/arm/SettingsProvider.odex' for file location '/system/priv-app/SettingsProvider/SettingsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/SettingsProvider/SettingsProvider.apk pkg=com.android.providers.settings isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'sii8240_rcp'.
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+I/EventHub( 4084): New device: id=13, fd=105, path='/dev/input/event0', name='sii8240_rcp', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+E/installd( 3686): DexInv: --- END '/system/priv-app/SettingsProvider/SettingsProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@MmsService@MmsService.apk@classes.dex' for file location '/system/priv-app/MmsService/MmsService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/MmsService/arm/MmsService.odex' for file location '/system/priv-app/MmsService/MmsService.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/MmsService/MmsService.apk pkg=com.android.mms.service isa=arm vmSafeMode=false
+I/SurfaceFlinger( 3667): Boot is finished (18547 ms)
+E/installd( 3686): DexInv: --- END '/system/priv-app/MmsService/MmsService.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ProxyHandler@ProxyHandler.apk@classes.dex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ProxyHandler/arm/ProxyHandler.odex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ProxyHandler/ProxyHandler.apk pkg=com.android.proxyhandler isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ProxyHandler/ProxyHandler.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ManagedProvisioning@ManagedProvisioning.apk@classes.dex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ManagedProvisioning/arm/ManagedProvisioning.odex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ManagedProvisioning/ManagedProvisioning.apk pkg=com.android.managedprovisioning isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CalendarProvider@CalendarProvider.apk@classes.dex' for file location '/system/priv-app/CalendarProvider/CalendarProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CalendarProvider/arm/CalendarProvider.odex' for file location '/system/priv-app/CalendarProvider/CalendarProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/CalendarProvider/CalendarProvider.apk pkg=com.android.providers.calendar isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/CalendarProvider/CalendarProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@MediaProvider@MediaProvider.apk@classes.dex' for file location '/system/priv-app/MediaProvider/MediaProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/MediaProvider/arm/MediaProvider.odex' for file location '/system/priv-app/MediaProvider/MediaProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/MediaProvider/MediaProvider.apk pkg=com.android.providers.media isa=arm vmSafeMode=false
+E/EventHub( 4084): could not get driver version for /dev/input/mice, Not a typewriter
+E/installd( 3686): DexInv: --- END '/system/priv-app/MediaProvider/MediaProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ContactsProvider@ContactsProvider.apk@classes.dex' for file location '/system/priv-app/ContactsProvider/ContactsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ContactsProvider/arm/ContactsProvider.odex' for file location '/system/priv-app/ContactsProvider/ContactsProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ContactsProvider/ContactsProvider.apk pkg=com.android.providers.contacts isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ContactsProvider/ContactsProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMFileManager@CMFileManager.apk@classes.dex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMFileManager/arm/CMFileManager.odex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/CMFileManager/CMFileManager.apk pkg=com.cyanogenmod.filemanager isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/CMFileManager/CMFileManager.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CellBroadcastReceiver@CellBroadcastReceiver.apk@classes.dex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CellBroadcastReceiver/arm/CellBroadcastReceiver.odex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk pkg=com.android.cellbroadcastreceiver isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoPhase@PhotoPhase.apk@classes.dex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoPhase/arm/PhotoPhase.odex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PhotoPhase/PhotoPhase.apk pkg=org.cyanogenmod.wallpapers.photophase isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'hall'.
+E/installd( 3686): DexInv: --- END '/system/app/PhotoPhase/PhotoPhase.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CyanogenSetupWizard@CyanogenSetupWizard.apk@classes.dex' for file location '/system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CyanogenSetupWizard/arm/CyanogenSetupWizard.odex' for file location '/system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk pkg=com.cyanogenmod.setupwizard isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/CyanogenSetupWizard/CyanogenSetupWizard.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Eleven@Eleven.apk@classes.dex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Eleven/arm/Eleven.odex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Eleven/Eleven.apk pkg=com.cyanogenmod.eleven isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Eleven/Eleven.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMUpdater@CMUpdater.apk@classes.dex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMUpdater/arm/CMUpdater.odex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/CMUpdater/CMUpdater.apk pkg=com.cyanogenmod.updater isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/CMUpdater/CMUpdater.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HoloSpiralWallpaper@HoloSpiralWallpaper.apk@classes.dex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/HoloSpiralWallpaper/arm/HoloSpiralWallpaper.odex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk pkg=com.android.wallpaper.holospiral isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'gpio_keys.16'.
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event16: Function not implemented
+I/EventHub( 4084): New device: id=15, fd=108, path='/dev/input/event16', name='gpio_keys.16', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 4084): No input device configuration file found for device 'voicecontrol'.
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event14: Function not implemented
+I/EventHub( 4084): New device: id=16, fd=109, path='/dev/input/event14', name='voicecontrol', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 4084): No input device configuration file found for device 'Headset'.
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event15: Function not implemented
+I/EventHub( 4084): New device: id=17, fd=110, path='/dev/input/event15', name='Headset', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 4084): No input device configuration file found for device 'sec_touchkey'.
+E/installd( 3686): DexInv: --- END '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk' --- status=0x0100, process failed
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event17: Function not implemented
+I/EventHub( 4084): New device: id=18, fd=113, path='/dev/input/event17', name='sec_touchkey', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/sec_touchkey.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@VisualizationWallpapers@VisualizationWallpapers.apk@classes.dex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/VisualizationWallpapers/arm/VisualizationWallpapers.odex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+D/EventHub( 4084): No input device configuration file found for device 'w1'.
+I/PackageManager( 4084): Running dexopt on: /system/app/VisualizationWallpapers/VisualizationWallpapers.apk pkg=com.android.musicvis isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@SoundRecorder@SoundRecorder.apk@classes.dex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/SoundRecorder/arm/SoundRecorder.odex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/SoundRecorder/SoundRecorder.apk pkg=com.android.soundrecorder isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/SoundRecorder/SoundRecorder.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Mms@Mms.apk@classes.dex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Mms/arm/Mms.odex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Mms/Mms.apk pkg=com.android.mms isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/Mms/Mms.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Provision@Provision.apk@classes.dex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Provision/arm/Provision.odex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Provision/Provision.apk pkg=com.android.provision isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Provision/Provision.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calculator@Calculator.apk@classes.dex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calculator/arm/Calculator.odex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Calculator/Calculator.apk pkg=com.android.calculator2 isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Calculator/Calculator.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMAccount@CMAccount.apk@classes.dex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMAccount/arm/CMAccount.odex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/CMAccount/CMAccount.apk pkg=com.cyanogenmod.account isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/CMAccount/CMAccount.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoTable@PhotoTable.apk@classes.dex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoTable/arm/PhotoTable.odex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PhotoTable/PhotoTable.apk pkg=com.android.dreams.phototable isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PhotoTable/PhotoTable.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Terminal@Terminal.apk@classes.dex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Terminal/arm/Terminal.odex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Terminal/Terminal.apk pkg=com.android.terminal isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Terminal/Terminal.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DocumentsUI@DocumentsUI.apk@classes.dex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DocumentsUI/arm/DocumentsUI.odex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/DocumentsUI/DocumentsUI.apk pkg=com.android.documentsui isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/DocumentsUI/DocumentsUI.apk' --- status=0x0100, process failed
+E/EventHub( 4084): could not get driver version for /dev/input/mouse0, Not a typewriter
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WAPPushManager@WAPPushManager.apk@classes.dex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/WAPPushManager/arm/WAPPushManager.odex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/WAPPushManager/WAPPushManager.apk pkg=com.android.smspush isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/WAPPushManager/WAPPushManager.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PacProcessor@PacProcessor.apk@classes.dex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PacProcessor/arm/PacProcessor.odex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PacProcessor/PacProcessor.apk pkg=com.android.pacprocessor isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PacProcessor/PacProcessor.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMWallpapers@CMWallpapers.apk@classes.dex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMWallpapers/arm/CMWallpapers.odex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/CMWallpapers/CMWallpapers.apk pkg=com.cyanogenmod.wallpapers isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/CMWallpapers/CMWallpapers.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SharedStorageBackup@SharedStorageBackup.apk@classes.dex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SharedStorageBackup/arm/SharedStorageBackup.odex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/SharedStorageBackup/SharedStorageBackup.apk pkg=com.android.sharedstoragebackup isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@NoiseField@NoiseField.apk@classes.dex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/NoiseField/arm/NoiseField.odex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/NoiseField/NoiseField.apk pkg=com.android.noisefield isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/NoiseField/NoiseField.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Gallery2@Gallery2.apk@classes.dex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Gallery2/arm/Gallery2.odex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Gallery2/Gallery2.apk pkg=com.android.gallery3d isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Gallery2/Gallery2.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ExternalStorageProvider@ExternalStorageProvider.apk@classes.dex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ExternalStorageProvider/arm/ExternalStorageProvider.odex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk pkg=com.android.externalstorage isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@KeyChain@KeyChain.apk@classes.dex' for file location '/system/app/KeyChain/KeyChain.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/KeyChain/arm/KeyChain.odex' for file location '/system/app/KeyChain/KeyChain.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/KeyChain/KeyChain.apk pkg=com.android.keychain isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/KeyChain/KeyChain.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DownloadProviderUi@DownloadProviderUi.apk@classes.dex' for file location '/system/app/DownloadProviderUi/DownloadProviderUi.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DownloadProviderUi/arm/DownloadProviderUi.odex' for file location '/system/app/DownloadProviderUi/DownloadProviderUi.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/DownloadProviderUi/DownloadProviderUi.apk pkg=com.android.providers.downloads.ui isa=arm vmSafeMode=false
+D/EventHub( 4084): No input device configuration file found for device 'sec_touchscreen'.
+W/EventHub( 4084): Unable to disable kernel key repeat for /dev/input/event1: Function not implemented
+I/EventHub( 4084): New device: id=20, fd=114, path='/dev/input/event1', name='sec_touchscreen', classes=0x15, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+E/installd( 3686): DexInv: --- END '/system/app/DownloadProviderUi/DownloadProviderUi.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HTMLViewer@HTMLViewer.apk@classes.dex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/HTMLViewer/arm/HTMLViewer.odex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/HTMLViewer/HTMLViewer.apk pkg=com.android.htmlviewer isa=arm vmSafeMode=false
+I/InputReader( 4084): Device added: id=-1, name='Virtual', sources=0x00000301
+E/installd( 3686): DexInv: --- END '/system/app/HTMLViewer/HTMLViewer.apk' --- status=0x0100, process failed
+I/InputReader( 4084):   Touch device 'sec_touchscreen' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader( 4084): Device added: id=20, name='sec_touchscreen', sources=0x00005103
+I/InputReader( 4084): Device added: id=18, name='sec_touchkey', sources=0x00000101
+I/InputReader( 4084): Device added: id=17, name='Headset', sources=0x00000101
+I/InputReader( 4084): Device added: id=16, name='voicecontrol', sources=0x00000101
+I/InputReader( 4084): Device added: id=15, name='gpio_keys.16', sources=0x00000101
+I/InputReader( 4084): Device added: id=13, name='sii8240_rcp', sources=0x00000101
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapers@LiveWallpapers.apk@classes.dex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapers/arm/LiveWallpapers.odex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/LiveWallpapers/LiveWallpapers.apk pkg=com.android.wallpaper isa=arm vmSafeMode=false
+I/InputReader( 4084): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 4084): Device reconfigured: id=20, name='sec_touchscreen', size 1080x1920, orientation 0, mode 1, display id 0
+I/ActivityManager( 4084): Config changes=8 {1.0 ?mcc?mnc es_US ldltr sw360dp w360dp h615dp 480dpi nrml long port ?uimode ?night finger -keyb/h/h -nav/h s.4 themeResource=null}
+E/installd( 3686): DexInv: --- END '/system/app/LiveWallpapers/LiveWallpapers.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@webview@webview.apk@classes.dex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/webview/arm/webview.odex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/webview/webview.apk pkg=com.android.webview isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/webview/webview.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PicoTts@PicoTts.apk@classes.dex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PicoTts/arm/PicoTts.odex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PicoTts/PicoTts.apk pkg=com.svox.pico isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PicoTts/PicoTts.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemesProvider@ThemesProvider.apk@classes.dex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemesProvider/arm/ThemesProvider.odex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ThemesProvider/ThemesProvider.apk pkg=org.cyanogenmod.themes.provider isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ThemesProvider/ThemesProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Camera2@Camera2.apk@classes.dex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Camera2/arm/Camera2.odex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Camera2/Camera2.apk pkg=com.android.camera2 isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Camera2/Camera2.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PackageInstaller@PackageInstaller.apk@classes.dex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PackageInstaller/arm/PackageInstaller.odex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PackageInstaller/PackageInstaller.apk pkg=com.android.packageinstaller isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PackageInstaller/PackageInstaller.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DeskClock@DeskClock.apk@classes.dex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/DeskClock/arm/DeskClock.odex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/DeskClock/DeskClock.apk pkg=com.android.deskclock isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/DeskClock/DeskClock.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemeChooser@ThemeChooser.apk@classes.dex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemeChooser/arm/ThemeChooser.odex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/ThemeChooser/ThemeChooser.apk pkg=org.cyanogenmod.theme.chooser isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/ThemeChooser/ThemeChooser.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Bluetooth@Bluetooth.apk@classes.dex' for file location '/system/app/Bluetooth/Bluetooth.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Bluetooth/arm/Bluetooth.odex' for file location '/system/app/Bluetooth/Bluetooth.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Bluetooth/Bluetooth.apk pkg=com.android.bluetooth isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Bluetooth/Bluetooth.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Browser@Browser.apk@classes.dex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Browser/arm/Browser.odex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Browser/Browser.apk pkg=com.android.browser isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Browser/Browser.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@BasicDreams@BasicDreams.apk@classes.dex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/BasicDreams/arm/BasicDreams.odex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/BasicDreams/BasicDreams.apk pkg=com.android.dreams.basic isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/BasicDreams/BasicDreams.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@UserDictionaryProvider@UserDictionaryProvider.apk@classes.dex' for file location '/system/app/UserDictionaryProvider/UserDictionaryProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/UserDictionaryProvider/arm/UserDictionaryProvider.odex' for file location '/system/app/UserDictionaryProvider/UserDictionaryProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/UserDictionaryProvider/UserDictionaryProvider.apk pkg=com.android.providers.userdictionary isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/UserDictionaryProvider/UserDictionaryProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CertInstaller@CertInstaller.apk@classes.dex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CertInstaller/arm/CertInstaller.odex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/CertInstaller/CertInstaller.apk pkg=com.android.certinstaller isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/CertInstaller/CertInstaller.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Contacts@Contacts.apk@classes.dex' for file location '/system/priv-app/Contacts/Contacts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Contacts/arm/Contacts.odex' for file location '/system/priv-app/Contacts/Contacts.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Contacts/Contacts.apk pkg=com.android.contacts isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/Contacts/Contacts.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Stk@Stk.apk@classes.dex' for file location '/system/app/Stk/Stk.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Stk/arm/Stk.odex' for file location '/system/app/Stk/Stk.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Stk/Stk.apk pkg=com.android.stk isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Stk/Stk.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@OneTimeInitializer@OneTimeInitializer.apk@classes.dex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/OneTimeInitializer/arm/OneTimeInitializer.odex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/OneTimeInitializer/OneTimeInitializer.apk pkg=com.android.onetimeinitializer isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Galaxy4@Galaxy4.apk@classes.dex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Galaxy4/arm/Galaxy4.odex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Galaxy4/Galaxy4.apk pkg=com.android.galaxy4 isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Galaxy4/Galaxy4.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhaseBeam@PhaseBeam.apk@classes.dex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhaseBeam/arm/PhaseBeam.odex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PhaseBeam/PhaseBeam.apk pkg=com.android.phasebeam isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PhaseBeam/PhaseBeam.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LockClock@LockClock.apk@classes.dex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LockClock/arm/LockClock.odex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/LockClock/LockClock.apk pkg=com.cyanogenmod.lockclock isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/LockClock/LockClock.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Email@Email.apk@classes.dex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Email/arm/Email.odex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Email/Email.apk pkg=com.android.email isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Email/Email.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@AudioFX@AudioFX.apk@classes.dex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/AudioFX/arm/AudioFX.odex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/AudioFX/AudioFX.apk pkg=org.cyanogenmod.audiofx isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/AudioFX/AudioFX.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@BackupRestoreConfirmation@BackupRestoreConfirmation.apk@classes.dex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/BackupRestoreConfirmation/arm/BackupRestoreConfirmation.odex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk pkg=com.android.backupconfirm isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calendar@Calendar.apk@classes.dex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calendar/arm/Calendar.odex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Calendar/Calendar.apk pkg=com.android.calendar isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Calendar/Calendar.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WhisperPush@WhisperPush.apk@classes.dex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/WhisperPush/arm/WhisperPush.odex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/WhisperPush/WhisperPush.apk pkg=org.whispersystems.whisperpush isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/WhisperPush/WhisperPush.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PrintSpooler@PrintSpooler.apk@classes.dex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/PrintSpooler/arm/PrintSpooler.odex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/PrintSpooler/PrintSpooler.apk pkg=com.android.printspooler isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/PrintSpooler/PrintSpooler.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Trebuchet@Trebuchet.apk@classes.dex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Trebuchet/arm/Trebuchet.odex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/Trebuchet/Trebuchet.apk pkg=com.cyanogenmod.trebuchet isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/Trebuchet/Trebuchet.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@VpnDialogs@VpnDialogs.apk@classes.dex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/VpnDialogs/arm/VpnDialogs.odex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/VpnDialogs/VpnDialogs.apk pkg=com.android.vpndialogs isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/VpnDialogs/VpnDialogs.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapersPicker@LiveWallpapersPicker.apk@classes.dex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapersPicker/arm/LiveWallpapersPicker.odex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk pkg=com.android.wallpaper.livepicker isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@WallpaperCropper@WallpaperCropper.apk@classes.dex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/WallpaperCropper/arm/WallpaperCropper.odex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/WallpaperCropper/WallpaperCropper.apk pkg=com.android.wallpapercropper isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/WallpaperCropper/WallpaperCropper.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Development@Development.apk@classes.dex' for file location '/system/app/Development/Development.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Development/arm/Development.odex' for file location '/system/app/Development/Development.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Development/Development.apk pkg=com.android.development isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Development/Development.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@DownloadProvider@DownloadProvider.apk@classes.dex' for file location '/system/priv-app/DownloadProvider/DownloadProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/DownloadProvider/arm/DownloadProvider.odex' for file location '/system/priv-app/DownloadProvider/DownloadProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/priv-app/DownloadProvider/DownloadProvider.apk pkg=com.android.providers.downloads isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/priv-app/DownloadProvider/DownloadProvider.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CaptivePortalLogin@CaptivePortalLogin.apk@classes.dex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/CaptivePortalLogin/arm/CaptivePortalLogin.odex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/CaptivePortalLogin/CaptivePortalLogin.apk pkg=com.android.captiveportallogin isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk' --- status=0x0100, process failed
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Exchange2@Exchange2.apk@classes.dex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4084): DexFile_isDexOptNeeded failed to open oat file '/system/app/Exchange2/arm/Exchange2.odex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4084): Running dexopt on: /system/app/Exchange2/Exchange2.apk pkg=com.android.exchange isa=arm vmSafeMode=false
+E/installd( 3686): DexInv: --- END '/system/app/Exchange2/Exchange2.apk' --- status=0x0100, process failed
+I/SystemServer( 4084): LockSettingsService
+I/SystemServiceManager( 4084): Starting com.android.server.devicepolicy.DevicePolicyManagerService$Lifecycle
+I/SystemServer( 4084): Status Bar
+I/SystemServer( 4084): Clipboard Service
+W/ClipboardService( 4084): No security bridge jar found, using default
+I/SystemServer( 4084): TorchService
+I/CameraManager( 4084): getCameraServiceLocked: Reconnecting to camera service
+E/CameraManager( 4084): Camera service is unavailable
+E/TorchService( 4084): Couldn't initialize.
+E/TorchService( 4084): java.lang.NumberFormatException: Invalid int: "null"
+E/TorchService( 4084): 	at java.lang.Integer.invalidInt(Integer.java:138)
+E/TorchService( 4084): 	at java.lang.Integer.parseInt(Integer.java:358)
+E/TorchService( 4084): 	at java.lang.Integer.parseInt(Integer.java:334)
+E/TorchService( 4084): 	at java.lang.Integer.valueOf(Integer.java:525)
+E/TorchService( 4084): 	at com.android.server.TorchService.initialize(TorchService.java:104)
+E/TorchService( 4084): 	at com.android.server.TorchService.<init>(TorchService.java:99)
+E/TorchService( 4084): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:656)
+E/TorchService( 4084): 	at com.android.server.SystemServer.run(SystemServer.java:284)
+E/TorchService( 4084): 	at com.android.server.SystemServer.main(SystemServer.java:185)
+E/TorchService( 4084): 	at java.lang.reflect.Method.invoke(Native Method)
+E/TorchService( 4084): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/TorchService( 4084): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+E/TorchService( 4084): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+I/SystemServer( 4084): NetworkManagement Service
+I/SystemServer( 4084): Text Service Manager Service
+I/SystemServer( 4084): Network Score Service
+I/SystemServer( 4084): NetworkStats Service
+I/SystemServer( 4084): NetworkPolicy Service
+I/SystemServiceManager( 4084): Starting com.android.server.wifi.p2p.WifiP2pService
+I/WifiP2pService( 4084): Registering wifip2p
+I/SystemServiceManager( 4084): Starting com.android.server.wifi.WifiService
+E/WifiConfigStore( 4084): associatedPartialScanPeriodMilli set to 20000
+D/WifiController( 4084): isAirplaneModeOn = false, isWifiEnabled = false, isScanningAvailable = false
+I/WifiService( 4084): Registering wifi
+I/SystemServiceManager( 4084): Starting com.android.server.wifi.WifiScanningService
+I/WifiScanningService( 4084): Creating wifiscanner
+I/WifiScanningService( 4084): Starting wifiscanner
+I/SystemServiceManager( 4084): Starting com.android.server.wifi.RttService
+I/RttService( 4084): Creating rttmanager
+I/RttService( 4084): Starting rttmanager
+I/SystemServer( 4084): Connectivity Service
+D/ConnectivityService( 4084): ConnectivityService starting up
+D/ConnectivityService( 4084): wifiOnly=false
+E/ConnectivityService( 4084): Ignoring protectedNetwork 10
+E/ConnectivityService( 4084): Ignoring protectedNetwork 11
+E/ConnectivityService( 4084): Ignoring protectedNetwork 12
+E/ConnectivityService( 4084): Ignoring protectedNetwork 14
+E/ConnectivityService( 4084): Ignoring protectedNetwork 15
+I/SystemServer( 4084): Network Service Discovery Service
+D/NsdService( 4084): Network service discovery enabled true
+I/SystemServer( 4084): DPM Service
+I/SystemServer( 4084): DPM configuration set to 0
+I/SystemServer( 4084): UpdateLock Service
+I/SystemServiceManager( 4084): Starting com.android.server.notification.NotificationManagerService
+I/SystemServiceManager( 4084): Starting com.android.server.storage.DeviceStorageMonitorService
+I/DeviceStorageMonitorService( 4084): No boot image on disk due to lack of space. Sending notification
+I/SystemServer( 4084): Location Manager
+I/SystemServer( 4084): Country Detector
+I/SystemServer( 4084): Search Service
+I/SystemServer( 4084): DropBox Service
+I/SystemServer( 4084): Wallpaper Service
+W/WallpaperManagerService( 4084): no current wallpaper -- first boot?
+I/SystemServer( 4084): Profile Manager
+D/WifiService( 4084): New client listening to asynchronous messages
+V/ProfileTriggerHelper( 4084): Enabling
+D/ProfileService( 4084): Found active: 0d172b45-8fca-4751-875b-bd9b244dfd23
+D/ProfileService( 4084): Set active profile to: 0d172b45-8fca-4751-875b-bd9b244dfd23 - Por defecto
+D/ProfileService( 4084): Saving profile data...
+D/ProfileService( 4084): Save completed.
+I/SystemServer( 4084): Audio Service
+E/AudioService( 4084): Media server died.
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/TelecomManager( 4084): Telecom Service not found.
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=29910197585)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=32490255127)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=39860138628)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=42035451878)
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=42170424503)
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=47870428338)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=52220443130)
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=61425446172)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=63060577464)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=63330479298)
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=65100455006)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=67005445131)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=71910661049)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=73950538132)
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/AudioSystem( 4084): AudioPolicyService not published, waiting...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+I/ServiceManager( 4084): Waiting for service media.audio_policy...
+W/SurfaceFlinger( 3667): Ignoring duplicate VSYNC event from HWC (t=78890436341)

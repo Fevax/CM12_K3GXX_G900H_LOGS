@@ -1,0 +1,1393 @@
+--------- beginning of main
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3697): type=2000 audit(0.0:1): initialized
+W/auditd  ( 3697): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3697): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Daemon starting up...
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+W/auditd  ( 3697): type=1305 audit(0.0:11): audit_pid=3666 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3697):  res=1
+W/auditd  ( 3697): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3697):  res=1
+I/cm      (    0): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/McDaemon( 3674): Checking version of <t-base
+I/McDaemon( 3674): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon( 3674): (null)
+I/McDaemon( 3674): (null)
+I/McDaemon( 3674): (null)
+I/McDaemon( 3674): (null)
+I/lowmemorykiller( 3668): Using in-kernel low memory killer interface
+I/cm      ( 3677): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/installd( 3691): installd firing up
+--------- beginning of system
+I/Vold    ( 3671): Vold 2.1 (the revenge) firing up
+I/DEBUG   ( 3687): debuggerd: Jul  3 2015 03:58:19
+D/Vold    ( 3671): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3671): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3671): Check if PFE is activated on Boot
+E/Cryptfs ( 3671): Bad magic for real block device /dev/block/mmcblk0p21
+E/Cryptfs ( 3671): Error getting crypt footer and key
+I/auditd  ( 3685): Starting up
+I/macloader( 3695): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3695): Change permissions of /data/.cid.info
+I/audit_log( 3685): Previous audit logfile detected, rotating
+W/libaudit( 3685): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3685): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/cm      ( 3720): Welcome to Android 5.0.2 / CyanogenMod-12-20150706-UNOFFICIAL-k3gxx 
+I/PrProvisioning( 3742): successfully - provisioning start !
+I/PrProvisioning( 3742): provisioning already done
+I/Netd    ( 3686): Netd 1.0 starting
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3686): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/keystore( 3692): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3673): SurfaceFlinger is starting
+I/SurfaceFlinger( 3673): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3673): loaded /vendor/lib/egl/libGLES_mali.so
+D/gpsd    ( 3694): WakeLock(Release,GPSD)
+D/gpsd    ( 3694): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3694): GNSS: 219420
+D/wrapperGPS( 3694): wrapperOpenClient_RILD
+E/wrapperGPS( 3694): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3694): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3694): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6b386e9)
+D/wrapperGPS( 3694): wrapperRegisterErrorCallback
+D/wrapperGPS( 3694): wrapperConnect_RILD
+I/        ( 3673): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3673): using (id=)
+I/gralloc ( 3673): xres         = 1080 px
+I/gralloc ( 3673): yres         = 1920 px
+I/gralloc ( 3673): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3673): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3673): refresh rate = 60.00 Hz
+D/hwcomposer( 3673): using
+D/hwcomposer( 3673): xres         = 1080 px
+D/hwcomposer( 3673): yres         = 1920 px
+D/hwcomposer( 3673): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3673): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3673): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3673): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3673): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3673): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3673): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3673): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3673): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3673): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3673): Using composer version 1.3
+I/SurfaceFlinger( 3673): EGL information:
+I/SurfaceFlinger( 3673): vendor    : Android
+I/SurfaceFlinger( 3673): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3673): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3673): Client API: OpenGL_ES
+I/SurfaceFlinger( 3673): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+D/WVMDrmPlugIn( 3689): WVMDrmPlugin::onGetSupportInfo : 0
+I/SurfaceFlinger( 3673): OpenGL ES informations:
+I/SurfaceFlinger( 3673): vendor    : ARM
+I/SurfaceFlinger( 3673): renderer  : Mali-T628
+I/SurfaceFlinger( 3673): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3673): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3673): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3673): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3673): Set power mode=2, type=0 flinger=0xb6962000
+I/hwcomposer( 3673): unblank ioctl failed (display already unblanked)
+D/AndroidRuntime( 3698): 
+D/AndroidRuntime( 3698): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3698): CheckJNI is OFF
+I/art     ( 3698): option[0]=-Xzygote
+I/art     ( 3698): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3698): option[2]=exit
+I/art     ( 3698): option[3]=vfprintf
+I/art     ( 3698): option[4]=sensitiveThread
+I/art     ( 3698): option[5]=-verbose:gc
+I/art     ( 3698): option[6]=-Xms8m
+I/art     ( 3698): option[7]=-Xmx512m
+I/art     ( 3698): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3698): option[9]=-XX:HeapGrowthLimit=128m
+I/art     ( 3698): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3698): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3698): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3698): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3698): option[14]=-Xlockprofthreshold:500
+I/art     ( 3698): option[15]=-Ximage-compiler-option
+I/art     ( 3698): option[16]=--runtime-arg
+I/art     ( 3698): option[17]=-Ximage-compiler-option
+I/art     ( 3698): option[18]=-Xms64m
+I/art     ( 3698): option[19]=-Ximage-compiler-option
+I/art     ( 3698): option[20]=--runtime-arg
+I/art     ( 3698): option[21]=-Ximage-compiler-option
+I/art     ( 3698): option[22]=-Xmx64m
+I/art     ( 3698): option[23]=-Ximage-compiler-option
+I/art     ( 3698): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3698): option[25]=-Ximage-compiler-option
+I/art     ( 3698): option[26]=--image-classes=preloaded-classes
+I/art     ( 3698): option[27]=-Xcompiler-option
+I/art     ( 3698): option[28]=--runtime-arg
+I/art     ( 3698): option[29]=-Xcompiler-option
+I/art     ( 3698): option[30]=-Xms64m
+I/art     ( 3698): option[31]=-Xcompiler-option
+I/art     ( 3698): option[32]=--runtime-arg
+I/art     ( 3698): option[33]=-Xcompiler-option
+I/art     ( 3698): option[34]=-Xmx512m
+I/art     ( 3698): option[35]=-Duser.language=es
+I/art     ( 3698): option[36]=-Duser.region=US
+I/art     ( 3698): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3698): Unexpected file type of 
+W/art     ( 3698):  encountered.
+I/art     ( 3698): Using an offset of 0xffa4e000 from default art base address of 0x70000000
+I/art     ( 3698): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fa4e000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+D/SurfaceFlinger( 3673): SF. shader cache generated - 26 shaders in 74.264496 ms
+W/art     ( 3698): Unexpected file type of 
+W/art     ( 3698):  encountered.
+W/art     ( 3698): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x6fa4e000 --runtime-arg -Xms64
+D/libEGL  ( 3828): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3828): PLATFORM VERSION : JB-MR-2
+E/BootAnimation( 3828): couldn't find audio_conf.txt
+D/BootAnimation( 3828): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3694): wrapperConnect_RILD
+V/NatController( 3686): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3686): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3686): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3686): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3686): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3686): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3686): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+D/MDnsDS  ( 3686): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 3686): MDnsSdListener starting to monitor
+D/MDnsDS  ( 3686): Going to poll with pollCount 1
+D/wrapperGPS( 3694): wrapperConnect_RILD
+E/memtrack( 3698): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3698): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 3698): Profiling disabled.
+D/Zygote  ( 3698): begin preload
+I/Zygote  ( 3698): Preloading classes...
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 4379(640KB) AllocSpace objects, 0(0B) LOS objects, 41% free, 5MB/9MB, paused 94us total 16.768ms
+I/art     ( 3698): Counter: 1
+D/wrapperGPS( 3694): wrapperConnect_RILD
+D/BootAnimation( 3828): Use save memory method, maybe small fps in actual.
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=8665169291)
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3698): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+I/art     ( 3698): Thread[1,tid=3698,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI( 3698): register_android_mtp_MtpDevice
+I/art     ( 3698): Thread[1,tid=3698,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     ( 3698): Thread[1,tid=3698,WaitingForJniOnLoad,Thread*=0xb5107800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/wrapperGPS( 3694): wrapperConnect_RILD
+D/wrapperGPS( 3694): wrapperConnect_RILD
+D/wrapperGPS( 3694): wrapperConnect_RILD
+I/System  ( 3698): Loaded time zone names for "" in 60ms (40ms in ICU)
+I/System  ( 3698): Loaded time zone names for "en_US" in 50ms (24ms in ICU)
+I/System  ( 3698): Loaded time zone names for "es_US" in 55ms (27ms in ICU)
+D/wrapperGPS( 3694): wrapperConnect_RILD
+I/art     ( 3698): WaitForGcToComplete blocked for 6.187ms for cause Explicit
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 718(50KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 14MB/21MB, paused 138us total 46.884ms
+I/Zygote  ( 3698): ...preloaded 3005 classes in 5648ms.
+I/art     ( 3698): VMRuntime.preloadDexCaches starting
+D/wrapperGPS( 3694): wrapperConnect_RILD
+D/gpsd    ( 3694): WakeLock(Acquire,GPSD)
+D/gpsd    ( 3694): WakeLock(Release,GPSD)
+I/art     ( 3698): VMRuntime.preloadDexCaches strings total=217316 before=8974 after=8974
+I/art     ( 3698): VMRuntime.preloadDexCaches types total=18704 before=7488 after=9178
+I/art     ( 3698): VMRuntime.preloadDexCaches fields total=87408 before=31755 after=42301
+I/art     ( 3698): VMRuntime.preloadDexCaches methods total=154031 before=60846 after=75556
+I/art     ( 3698): VMRuntime.preloadDexCaches finished
+I/art     ( 3698): Counter: 0
+I/art     ( 3698): Counter: 1
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 35(14KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 14MB/23MB, paused 131us total 46.604ms
+D/idmap   ( 4085): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3698): Preloading resources...
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=14050178167)
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 5500(203KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 216us total 51.922ms
+I/Zygote  ( 3698): ...preloaded 430 resources in 681ms.
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 964(49KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 209us total 51.023ms
+I/Zygote  ( 3698): ...preloaded 41 resources in 75ms.
+I/art     ( 3698): Counter: 0
+D/libEGL  ( 3698): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3698): Preloading shared libraries...
+D/Zygote  ( 3698): end preload
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 463(21KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 214us total 50.654ms
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 205us total 49.511ms
+I/art     ( 3698): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 206us total 51.012ms
+I/Zygote  ( 3698): System server process 4088 has been created
+I/Zygote  ( 3698): Accepting command socket connections
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/InstallerConnection( 4088): connecting...
+I/installd( 3691): new connection
+E/installd( 3691): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@services.jar@classes.dex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/services.odex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/services.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@ethernet-service.jar@classes.dex' for file location '/system/framework/ethernet-service.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/ethernet-service.odex' for file location '/system/framework/ethernet-service.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/ethernet-service.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@wifi-service.jar@classes.dex' for file location '/system/framework/wifi-service.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/wifi-service.odex' for file location '/system/framework/wifi-service.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/wifi-service.jar' --- status=0x0100, process failed
+I/InstallerConnection( 4088): disconnecting...
+E/installd( 3691): eof
+E/installd( 3691): failed to read size
+I/installd( 3691): closing connection
+I/SystemServer( 4088): Entered the Android system server!
+V/Fingerprint-JNI( 4088): FingerprintManager JNI ready.
+I/        ( 4088): System server: starting sensor init.
+D/SensorService( 4088): nuSensorService starting...
+E/Sensors ( 4088): GeoMagneticSensor, ERROR dev_num = -19
+I/SystemServiceManager( 4088): Starting com.android.server.pm.Installer
+I/Installer( 4088): Waiting for installd to be ready.
+I/InstallerConnection( 4088): connecting...
+I/Sensors ( 4088): Proximity old sensor_state 0, new sensor_state : 128 en : 1
+I/installd( 3691): new connection
+I/SystemServiceManager( 4088): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/Sensors ( 4088): Light old sensor_state 128, new sensor_state : 640 en : 1
+E/Sensors ( 4088): UncalMagneticSensor, ERROR dev_num = -19
+I/Sensors ( 4088): SigMotionSensor old sensor_state 640, new sensor_state : 8832 en : 1
+E/Sensors ( 4088): UncalGyroSensor, ERROR dev_num = -19
+E/Sensors ( 4088): GameRotationVector, ERROR dev_num = -19
+I/Sensors ( 4088): StepCounterSensor old sensor_state 8832, new sensor_state : 139904 en : 1
+D/Sensors ( 4088): HrmSpO2Sensor::libhr open failed : dlopen failed: library "libhr.so" not found
+D/Sensors ( 4088): HrmSpO2Sensor::HrmSpO2Sensor: Shared version Registered 
+E/SensorService( 4088): >>>> WARNING <<< Upgrade sensor HAL to version 1_3
+I/Sensors ( 4088): Proximity old sensor_state 139904, new sensor_state : 139776 en : 0
+I/Sensors ( 4088): Light old sensor_state 139776, new sensor_state : 139264 en : 0
+I/Sensors ( 4088): StepCounterSensor old sensor_state 139264, new sensor_state : 8192 en : 0
+I/Sensors ( 4088): SigMotionSensor old sensor_state 8192, new sensor_state : 0 en : 0
+I/Sensors ( 4088): HrmSpO2Sensor::enable, handle(16), en(0), what(1/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4088): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4088): HrmSpO2Sensor::enable, handle(17), en(0), what(0/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4088): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 4088): HrmSpO2Sensor::enable, handle(18), en(0), what(2/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 4088): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/        ( 4088): System server: sensor init done.
+D/SensorService( 4088): nuSensorService thread starting...
+I/Sensors ( 4088): ProximitySensor - 8(cm)
+D/SensorService( 4088): new thread SensorEventAckReceiver
+I/ActivityManager( 4088): Memory class: 128
+I/ServiceThread( 4088): Enabled StrictMode logging for ActivityManager looper.
+I/IntentFirewall( 4088): Read new rules (A:0 B:1 S:1)
+I/ServiceThread( 4088): Enabled StrictMode logging for android.ui looper.
+I/ServiceThread( 4088): Enabled StrictMode logging for android.display looper.
+D/AppOps  ( 4088): AppOpsService published
+I/SystemServiceManager( 4088): Starting com.android.server.power.PowerManagerService
+I/ServiceThread( 4088): Enabled StrictMode logging for PowerManagerService looper.
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/multi_enter_load: 800
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/multi_enter_load: 800
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/single_enter_load: 200
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/single_enter_load: 200
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads: 70
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads: 70
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_load: 360
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_load: 360
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_enter_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_load: 240
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_load: 240
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_time: 299000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/multi_exit_time: 299000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_load: 95
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_load: 95
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_time: 199000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_enter_time: 199000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_load: 60
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_load: 60
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/single_exit_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 40000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1000000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 99
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 75 1500000:80 1700000:85 1800000:90
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 75 1500000:80 1700000:85 1800000:90
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000 1100000:99000 1200000:119000 1700000:19000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000 1100000:99000 1200000:119000 1700000:19000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/boostpulse_duration: 40000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 1
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 1
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 59000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 59000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1200000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1200000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 95
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 95
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 65 1400000:68 1700000:73
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 65 1400000:68 1700000:73
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 2
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 2
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 79000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 79000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1400000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1400000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 90
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 90
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1700000:70
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1700000:70
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 3
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 3
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate: 20000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time: 99000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1600000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/hispeed_freq: 1600000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 85
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load: 85
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1900000:70
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads: 60 1300000:63 1500000:65 1900000:70
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay: 19000
+D/SEC PowerHAL( 4088): sysfs_write +: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+D/SEC PowerHAL( 4088): sysfs_write -: /sys/devices/system/cpu/cpu4/cpufreq/interactive/param_index: 0
+W/libsuspend( 4088): Error writing 'on' to /sys/power/state: Invalid argument
+I/libsuspend( 4088): Selected wakeup count
+I/SystemServiceManager( 4088): Starting com.android.server.display.DisplayManagerService
+I/SystemServiceManager( 4088): Starting phase 100
+I/DisplayManagerService( 4088): Display device added: DisplayDeviceInfo{"Pantalla integrada": 1080 x 1920, 60.000004 fps, supportedRefreshRates [60.000004], density 480, 422.03 x 424.069 dpi, appVsyncOff 0, presDeadline 17666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 4088): Package Manager
+W/SELinuxMMAC( 4088): Error opening /data/system/seapp_hash. Assuming first boot.
+W/PackageManager( 4088): No security bridge jar found, using default
+W/SystemConfig( 4088): No directory /system/etc/sysconfig, skipping
+D/SELinuxMMAC( 4088): Using policy file /system/etc/security/mac_permissions.xml
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=17595146793)
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=18270271751)
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@android.test.runner.jar@classes.dex' for file location '/system/framework/android.test.runner.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/android.test.runner.odex' for file location '/system/framework/android.test.runner.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/android.test.runner.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.future.usb.accessory.jar@classes.dex' for file location '/system/framework/com.android.future.usb.accessory.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.future.usb.accessory.odex' for file location '/system/framework/com.android.future.usb.accessory.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/com.android.future.usb.accessory.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.media.remotedisplay.jar@classes.dex' for file location '/system/framework/com.android.media.remotedisplay.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.media.remotedisplay.odex' for file location '/system/framework/com.android.media.remotedisplay.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/com.android.media.remotedisplay.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.location.provider.jar@classes.dex' for file location '/system/framework/com.android.location.provider.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.location.provider.odex' for file location '/system/framework/com.android.location.provider.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/com.android.location.provider.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@javax.obex.jar@classes.dex' for file location '/system/framework/javax.obex.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/javax.obex.odex' for file location '/system/framework/javax.obex.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/javax.obex.jar' --- status=0x0100, process failed
+E/art     ( 4088): DexFile_isDexOptNeeded file '/system/framework/com.android.nfc_extras.jar' does not exist
+W/PackageManager( 4088): Library not found: /system/framework/com.android.nfc_extras.jar
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@com.android.mediadrm.signer.jar@classes.dex' for file location '/system/framework/com.android.mediadrm.signer.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/com.android.mediadrm.signer.odex' for file location '/system/framework/com.android.mediadrm.signer.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/com.android.mediadrm.signer.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@javax.btobex.jar@classes.dex' for file location '/system/framework/javax.btobex.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/javax.btobex.odex' for file location '/system/framework/javax.btobex.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/javax.btobex.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@am.jar@classes.dex' for file location '/system/framework/am.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/am.odex' for file location '/system/framework/am.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/am.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@appops.jar@classes.dex' for file location '/system/framework/appops.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/appops.odex' for file location '/system/framework/appops.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/appops.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@appwidget.jar@classes.dex' for file location '/system/framework/appwidget.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/appwidget.odex' for file location '/system/framework/appwidget.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/appwidget.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@bmgr.jar@classes.dex' for file location '/system/framework/bmgr.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/bmgr.odex' for file location '/system/framework/bmgr.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/bmgr.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@bu.jar@classes.dex' for file location '/system/framework/bu.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/bu.odex' for file location '/system/framework/bu.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/bu.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@content.jar@classes.dex' for file location '/system/framework/content.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/content.odex' for file location '/system/framework/content.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/content.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@dpm.jar@classes.dex' for file location '/system/framework/dpm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/dpm.odex' for file location '/system/framework/dpm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/dpm.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@ime.jar@classes.dex' for file location '/system/framework/ime.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/ime.odex' for file location '/system/framework/ime.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/ime.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@input.jar@classes.dex' for file location '/system/framework/input.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/input.odex' for file location '/system/framework/input.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/input.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@media_cmd.jar@classes.dex' for file location '/system/framework/media_cmd.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/media_cmd.odex' for file location '/system/framework/media_cmd.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/media_cmd.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@monkey.jar@classes.dex' for file location '/system/framework/monkey.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/monkey.odex' for file location '/system/framework/monkey.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/monkey.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@pm.jar@classes.dex' for file location '/system/framework/pm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/pm.odex' for file location '/system/framework/pm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/pm.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@requestsync.jar@classes.dex' for file location '/system/framework/requestsync.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/requestsync.odex' for file location '/system/framework/requestsync.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/requestsync.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@settings.jar@classes.dex' for file location '/system/framework/settings.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/settings.odex' for file location '/system/framework/settings.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/settings.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@svc.jar@classes.dex' for file location '/system/framework/svc.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/svc.odex' for file location '/system/framework/svc.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/svc.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@tm.jar@classes.dex' for file location '/system/framework/tm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/tm.odex' for file location '/system/framework/tm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/tm.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@uiautomator.jar@classes.dex' for file location '/system/framework/uiautomator.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/uiautomator.odex' for file location '/system/framework/uiautomator.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/uiautomator.jar' --- status=0x0100, process failed
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@wm.jar@classes.dex' for file location '/system/framework/wm.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/wm.odex' for file location '/system/framework/wm.jar': Failed to open oat filename for reading: No such file or directory
+E/installd( 3691): DexInv: --- END '/system/framework/wm.jar' --- status=0x0100, process failed
+E/SQLiteLog( 4088): (14) cannot open file at line 30046 of [9491ba7d73]
+E/SQLiteLog( 4088): (14) os_unix.c:30046: (2) open(/data/data/com.android.providers.settings/databases/settings.db) - 
+E/SQLiteDatabase( 4088): Failed to open database '/data/data/com.android.providers.settings/databases/settings.db'.
+E/SQLiteDatabase( 4088): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:806)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:791)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase( 4088): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase( 4088): 	at android.content.pm.ThemeUtils.getBootThemeDirty(ThemeUtils.java:697)
+E/SQLiteDatabase( 4088): 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1654)
+E/SQLiteDatabase( 4088): 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1352)
+E/SQLiteDatabase( 4088): 	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:376)
+E/SQLiteDatabase( 4088): 	at com.android.server.SystemServer.run(SystemServer.java:282)
+E/SQLiteDatabase( 4088): 	at com.android.server.SystemServer.main(SystemServer.java:185)
+E/SQLiteDatabase( 4088): 	at java.lang.reflect.Method.invoke(Native Method)
+E/SQLiteDatabase( 4088): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/SQLiteDatabase( 4088): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+E/SQLiteDatabase( 4088): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+W/ThemeUtils( 4088): Unable to open /data/data/com.android.providers.settings/databases/settings.db
+W/ThemeUtils( 4088): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:806)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:791)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+W/ThemeUtils( 4088): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+W/ThemeUtils( 4088): 	at android.content.pm.ThemeUtils.getBootThemeDirty(ThemeUtils.java:697)
+W/ThemeUtils( 4088): 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1654)
+W/ThemeUtils( 4088): 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1352)
+W/ThemeUtils( 4088): 	at com.android.server.SystemServer.startBootstrapServices(SystemServer.java:376)
+W/ThemeUtils( 4088): 	at com.android.server.SystemServer.run(SystemServer.java:282)
+W/ThemeUtils( 4088): 	at com.android.server.SystemServer.main(SystemServer.java:185)
+W/ThemeUtils( 4088): 	at java.lang.reflect.Method.invoke(Native Method)
+W/ThemeUtils( 4088): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/ThemeUtils( 4088): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+W/ThemeUtils( 4088): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+D/PackageManager( 4088): No files in app dir /vendor/overlay
+I/PackageManager( 4088): /system/framework/framework-res.apk changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=23655057210)
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=23925112418)
+W/PackageManager( 4088): Failed to parse /system/framework/framework-res.apk: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/AudioFX changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of org.cyanogenmod.audiofx issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@AudioFX@AudioFX.apk@classes.dex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/AudioFX/arm/AudioFX.odex' for file location '/system/priv-app/AudioFX/AudioFX.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/BackupRestoreConfirmation changed; collecting certs
+W/PackageManager( 4088): System package com.android.backupconfirm signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.backupconfirm issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@BackupRestoreConfirmation@BackupRestoreConfirmation.apk@classes.dex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/BackupRestoreConfirmation/arm/BackupRestoreConfirmation.odex' for file location '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/CMAccount changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.account issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMAccount@CMAccount.apk@classes.dex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMAccount/arm/CMAccount.odex' for file location '/system/priv-app/CMAccount/CMAccount.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/CMUpdater changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.updater issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CMUpdater@CMUpdater.apk@classes.dex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CMUpdater/arm/CMUpdater.odex' for file location '/system/priv-app/CMUpdater/CMUpdater.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/CalendarProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecCalendarProvider to /system/priv-app/CalendarProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/CalendarProvider: Signature mismatch for shared user : SharedUserSetting{b53cb76 android.uid.calendar/10046}
+I/PackageManager( 4088): /system/priv-app/CellBroadcastReceiver changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.cellbroadcastreceiver issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@CellBroadcastReceiver@CellBroadcastReceiver.apk@classes.dex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/CellBroadcastReceiver/arm/CellBroadcastReceiver.odex' for file location '/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk': Failed to open oat filename for reading: No such file or directory
+W/ResourceType( 4088): Failure getting entry for 0x7f0b023e (t=10 e=574) (error -75)
+W/PackageParser( 4088): No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #362
+I/PackageManager( 4088): /system/priv-app/Contacts changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=27250168210)
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecContacts to /system/priv-app/Contacts
+W/PackageManager( 4088): Failed to parse /system/priv-app/Contacts: Signature mismatch for shared user : SharedUserSetting{2ac1d6b2 android.uid.shared/10020}
+I/PackageManager( 4088): /system/priv-app/ContactsProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecContactsProvider to /system/priv-app/ContactsProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/ContactsProvider: Signature mismatch for shared user : SharedUserSetting{2ac1d6b2 android.uid.shared/10020}
+I/PackageManager( 4088): /system/priv-app/CyanogenSetupWizard changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/CyanogenSetupWizard: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/DefaultContainerService changed; collecting certs
+W/PackageManager( 4088): System package com.android.defcontainer signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.defcontainer issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@DefaultContainerService@DefaultContainerService.apk@classes.dex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/DefaultContainerService/arm/DefaultContainerService.odex' for file location '/system/priv-app/DefaultContainerService/DefaultContainerService.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4088): No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #185
+I/PackageManager( 4088): /system/priv-app/Dialer changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=30525224086)
+I/PackageManager( 4088): New shared user com.android.dialer: id=10215
+I/PackageManager( 4088): SELinux relabeling of com.android.dialer issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Dialer@Dialer.apk@classes.dex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Dialer/arm/Dialer.odex' for file location '/system/priv-app/Dialer/Dialer.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/DownloadProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecDownloadProvider to /system/priv-app/DownloadProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/DownloadProvider: Signature mismatch for shared user : SharedUserSetting{17935a5b android.media/10047}
+I/PackageManager( 4088): /system/priv-app/ExternalStorageProvider changed; collecting certs
+W/PackageManager( 4088): System package com.android.externalstorage signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.externalstorage issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ExternalStorageProvider@ExternalStorageProvider.apk@classes.dex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ExternalStorageProvider/arm/ExternalStorageProvider.odex' for file location '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/FusedLocation changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/FusedLocation: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/InputDevices changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/InputDevices: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/ManagedProvisioning changed; collecting certs
+W/PackageManager( 4088): System package com.android.managedprovisioning signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.managedprovisioning issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ManagedProvisioning@ManagedProvisioning.apk@classes.dex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ManagedProvisioning/arm/ManagedProvisioning.odex' for file location '/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/MediaProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecMediaProvider to /system/priv-app/MediaProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/MediaProvider: Signature mismatch for shared user : SharedUserSetting{17935a5b android.media/10047}
+I/PackageManager( 4088): /system/priv-app/Mms changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=35185076753)
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecMms_Candy to /system/priv-app/Mms
+W/PackageManager( 4088): System package com.android.mms signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.mms issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Mms@Mms.apk@classes.dex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Mms/arm/Mms.odex' for file location '/system/priv-app/Mms/Mms.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.mms changing from /system/priv-app/SecMms_Candy to /system/priv-app/Mms
+W/PackageManager( 4088): Resource path for pkg : com.android.mms changing from /system/priv-app/SecMms_Candy to /system/priv-app/Mms
+I/PackageManager( 4088): /system/priv-app/MmsService changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/MmsService: Signature mismatch for shared user : SharedUserSetting{1c217efc android.uid.phone/1001}
+I/PackageManager( 4088): /system/priv-app/OneTimeInitializer changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.onetimeinitializer issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@OneTimeInitializer@OneTimeInitializer.apk@classes.dex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/OneTimeInitializer/arm/OneTimeInitializer.odex' for file location '/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/ProxyHandler changed; collecting certs
+W/PackageManager( 4088): System package com.android.proxyhandler signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.proxyhandler issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ProxyHandler@ProxyHandler.apk@classes.dex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ProxyHandler/arm/ProxyHandler.odex' for file location '/system/priv-app/ProxyHandler/ProxyHandler.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/Settings changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecSettings to /system/priv-app/Settings
+W/PackageManager( 4088): Failed to parse /system/priv-app/Settings: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/SettingsProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecSettingsProvider to /system/priv-app/SettingsProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/SettingsProvider: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/priv-app/SharedStorageBackup changed; collecting certs
+W/PackageManager( 4088): System package com.android.sharedstoragebackup signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.sharedstoragebackup issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@SharedStorageBackup@SharedStorageBackup.apk@classes.dex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/SharedStorageBackup/arm/SharedStorageBackup.odex' for file location '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/Shell changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/Shell: Signature mismatch for shared user : SharedUserSetting{3346b0a9 android.uid.shell/2000}
+I/PackageManager( 4088): /system/priv-app/SystemUI changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/SystemUI: Signature mismatch for shared user : SharedUserSetting{247b373a android.uid.systemui/10058}
+I/PackageManager( 4088): /system/priv-app/TeleService changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/TeleService: Signature mismatch for shared user : SharedUserSetting{1c217efc android.uid.phone/1001}
+I/PackageManager( 4088): /system/priv-app/Telecom changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/priv-app/Telecom: Signature mismatch for shared user : SharedUserSetting{1c217efc android.uid.phone/1001}
+I/PackageManager( 4088): /system/priv-app/TelephonyProvider changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecTelephonyProvider_Candy to /system/priv-app/TelephonyProvider
+W/PackageManager( 4088): Failed to parse /system/priv-app/TelephonyProvider: Signature mismatch for shared user : SharedUserSetting{1c217efc android.uid.phone/1001}
+I/PackageManager( 4088): /system/priv-app/ThemeChooser changed; collecting certs
+I/PackageManager( 4088): New shared user org.cyanogenmod.themes: id=10219
+I/PackageManager( 4088): SELinux relabeling of org.cyanogenmod.theme.chooser issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemeChooser@ThemeChooser.apk@classes.dex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemeChooser/arm/ThemeChooser.odex' for file location '/system/priv-app/ThemeChooser/ThemeChooser.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/ThemesProvider changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of org.cyanogenmod.themes.provider issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@ThemesProvider@ThemesProvider.apk@classes.dex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/ThemesProvider/arm/ThemesProvider.odex' for file location '/system/priv-app/ThemesProvider/ThemesProvider.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/Trebuchet changed; collecting certs
+W/PackageManager( 4088): Package com.cyanogenmod.trebuchet at /system/priv-app/Trebuchet reverting from /data/app/com.cyanogenmod.trebuchet-1: new version 1000 better than installed 1000
+I/PackageManager( 4088): Package com.cyanogenmod.trebuchet codePath changed from /data/app/com.cyanogenmod.trebuchet-1 to /system/priv-app/Trebuchet; Retaining data and using new
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.trebuchet issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@Trebuchet@Trebuchet.apk@classes.dex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/Trebuchet/arm/Trebuchet.odex' for file location '/system/priv-app/Trebuchet/Trebuchet.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.cyanogenmod.trebuchet changing from /data/app/com.cyanogenmod.trebuchet-1 to /system/priv-app/Trebuchet
+W/PackageManager( 4088): Resource path for pkg : com.cyanogenmod.trebuchet changing from /data/app/com.cyanogenmod.trebuchet-1 to /system/priv-app/Trebuchet
+W/PackageManager( 4088): Permission com.android.launcher.permission.INSTALL_SHORTCUT from package com.cyanogenmod.trebuchet ignored: no group null
+W/PackageManager( 4088): Permission com.android.launcher.permission.UNINSTALL_SHORTCUT from package com.cyanogenmod.trebuchet ignored: no group null
+W/PackageManager( 4088): Permission com.android.launcher3.permission.READ_SETTINGS from package com.cyanogenmod.trebuchet ignored: no group null
+W/PackageManager( 4088): Permission com.android.launcher3.permission.WRITE_SETTINGS from package com.cyanogenmod.trebuchet ignored: no group null
+I/PackageManager( 4088): /system/priv-app/VpnDialogs changed; collecting certs
+W/PackageManager( 4088): System package com.android.vpndialogs signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.vpndialogs issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@VpnDialogs@VpnDialogs.apk@classes.dex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/VpnDialogs/arm/VpnDialogs.odex' for file location '/system/priv-app/VpnDialogs/VpnDialogs.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/priv-app/WallpaperCropper changed; collecting certs
+W/PackageManager( 4088): System package com.android.wallpapercropper signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.wallpapercropper issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@priv-app@WallpaperCropper@WallpaperCropper.apk@classes.dex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/priv-app/WallpaperCropper/arm/WallpaperCropper.odex' for file location '/system/priv-app/WallpaperCropper/WallpaperCropper.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/BasicDreams changed; collecting certs
+W/PackageManager( 4088): System package com.android.dreams.basic signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.dreams.basic issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@BasicDreams@BasicDreams.apk@classes.dex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/BasicDreams/arm/BasicDreams.odex' for file location '/system/app/BasicDreams/BasicDreams.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4088): No actions in intent filter at /system/app/Bluetooth/Bluetooth.apk Binary XML file line #229
+I/PackageManager( 4088): /system/app/Bluetooth changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/Bluetooth: Signature mismatch for shared user : SharedUserSetting{a005e20 android.uid.bluetooth/1002}
+I/PackageManager( 4088): /system/app/Browser changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.browser issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Browser@Browser.apk@classes.dex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Browser/arm/Browser.odex' for file location '/system/app/Browser/Browser.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4088): No actions in intent filter at /system/app/CMFileManager/CMFileManager.apk Binary XML file line #155
+I/PackageManager( 4088): /system/app/CMFileManager changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.filemanager issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMFileManager@CMFileManager.apk@classes.dex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMFileManager/arm/CMFileManager.odex' for file location '/system/app/CMFileManager/CMFileManager.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/CMWallpapers changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.wallpapers issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CMWallpapers@CMWallpapers.apk@classes.dex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/CMWallpapers/arm/CMWallpapers.odex' for file location '/system/app/CMWallpapers/CMWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/Calculator changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.calculator2 issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calculator@Calculator.apk@classes.dex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calculator/arm/Calculator.odex' for file location '/system/app/Calculator/Calculator.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/Calendar changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/app/SPlanner_OS_UPG to /system/app/Calendar
+W/PackageManager( 4088): System package com.android.calendar signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.calendar issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Calendar@Calendar.apk@classes.dex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Calendar/arm/Calendar.odex' for file location '/system/app/Calendar/Calendar.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.calendar changing from /system/app/SPlanner_OS_UPG to /system/app/Calendar
+W/PackageManager( 4088): Resource path for pkg : com.android.calendar changing from /system/app/SPlanner_OS_UPG to /system/app/Calendar
+I/PackageManager( 4088): /system/app/Camera2 changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=46410384754)
+I/PackageManager( 4088): SELinux relabeling of com.android.camera2 issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Camera2@Camera2.apk@classes.dex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Camera2/arm/Camera2.odex' for file location '/system/app/Camera2/Camera2.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/CaptivePortalLogin changed; collecting certs
+W/PackageManager( 4088): System package com.android.captiveportallogin signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.captiveportallogin issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CaptivePortalLogin@CaptivePortalLogin.apk@classes.dex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/CaptivePortalLogin/arm/CaptivePortalLogin.odex' for file location '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/CertInstaller changed; collecting certs
+W/PackageManager( 4088): System package com.android.certinstaller signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.certinstaller issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@CertInstaller@CertInstaller.apk@classes.dex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/CertInstaller/arm/CertInstaller.odex' for file location '/system/app/CertInstaller/CertInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/DeskClock changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.deskclock issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DeskClock@DeskClock.apk@classes.dex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/DeskClock/arm/DeskClock.odex' for file location '/system/app/DeskClock/DeskClock.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/Development changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/Development: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/app/DocumentsUI changed; collecting certs
+W/PackageManager( 4088): System package com.android.documentsui signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.documentsui issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@DocumentsUI@DocumentsUI.apk@classes.dex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/DocumentsUI/arm/DocumentsUI.odex' for file location '/system/app/DocumentsUI/DocumentsUI.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/DownloadProviderUi changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/DownloadProviderUi: Signature mismatch for shared user : SharedUserSetting{17935a5b android.media/10047}
+I/PackageManager( 4088): /system/app/Eleven changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.eleven issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Eleven@Eleven.apk@classes.dex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Eleven/arm/Eleven.odex' for file location '/system/app/Eleven/Eleven.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/Email changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/app/SecEmail_K to /system/app/Email
+W/PackageManager( 4088): System package com.android.email signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.email issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Email@Email.apk@classes.dex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Email/arm/Email.odex' for file location '/system/app/Email/Email.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.email changing from /system/app/SecEmail_K to /system/app/Email
+W/PackageManager( 4088): Resource path for pkg : com.android.email changing from /system/app/SecEmail_K to /system/app/Email
+W/PackageManager( 4088): Permission com.android.email.permission.READ_ATTACHMENT from package com.android.email ignored: no group null
+I/PackageManager( 4088): /system/app/Exchange2 changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=49820147546)
+W/PackageManager( 4088): Trying to update system app code path from /system/app/SecExchange to /system/app/Exchange2
+W/PackageManager( 4088): System package com.android.exchange signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.exchange issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Exchange2@Exchange2.apk@classes.dex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Exchange2/arm/Exchange2.odex' for file location '/system/app/Exchange2/Exchange2.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.exchange changing from /system/app/SecExchange to /system/app/Exchange2
+W/PackageManager( 4088): Resource path for pkg : com.android.exchange changing from /system/app/SecExchange to /system/app/Exchange2
+I/PackageManager( 4088): /system/app/Galaxy4 changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.galaxy4 issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Galaxy4@Galaxy4.apk@classes.dex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Galaxy4/arm/Galaxy4.odex' for file location '/system/app/Galaxy4/Galaxy4.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageParser( 4088): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #273
+W/PackageParser( 4088): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #276
+I/PackageManager( 4088): /system/app/Gallery2 changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.gallery3d issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Gallery2@Gallery2.apk@classes.dex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Gallery2/arm/Gallery2.odex' for file location '/system/app/Gallery2/Gallery2.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/HTMLViewer changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/app/SecHTMLViewer to /system/app/HTMLViewer
+W/PackageManager( 4088): System package com.android.htmlviewer signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.htmlviewer issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HTMLViewer@HTMLViewer.apk@classes.dex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/HTMLViewer/arm/HTMLViewer.odex' for file location '/system/app/HTMLViewer/HTMLViewer.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.htmlviewer changing from /system/app/SecHTMLViewer to /system/app/HTMLViewer
+W/PackageManager( 4088): Resource path for pkg : com.android.htmlviewer changing from /system/app/SecHTMLViewer to /system/app/HTMLViewer
+I/PackageManager( 4088): /system/app/HoloSpiralWallpaper changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.wallpaper.holospiral issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@HoloSpiralWallpaper@HoloSpiralWallpaper.apk@classes.dex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/HoloSpiralWallpaper/arm/HoloSpiralWallpaper.odex' for file location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/InCallUI changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/app/LegacyInCallUI to /system/app/InCallUI
+W/PackageManager( 4088): Package com.android.incallui shared user changed from android.uid.phone to com.android.dialer; replacing with new
+I/PackageManager( 4088): SELinux relabeling of com.android.incallui issued.
+I/PackageManager( 4088): /system/app/KeyChain changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/KeyChain: Signature mismatch for shared user : SharedUserSetting{382a913e android.uid.system/1000}
+I/PackageManager( 4088): /system/app/LatinIME changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=53280174297)
+I/PackageManager( 4088): SELinux relabeling of com.android.inputmethod.latin issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LatinIME@LatinIME.apk@classes.dex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/LatinIME/arm/LatinIME.odex' for file location '/system/app/LatinIME/LatinIME.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/LiveWallpapers changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.wallpaper issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapers@LiveWallpapers.apk@classes.dex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapers/arm/LiveWallpapers.odex' for file location '/system/app/LiveWallpapers/LiveWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/LiveWallpapersPicker changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/SecLiveWallpapersPicker to /system/app/LiveWallpapersPicker
+W/PackageManager( 4088): System package com.android.wallpaper.livepicker signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.wallpaper.livepicker issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LiveWallpapersPicker@LiveWallpapersPicker.apk@classes.dex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/LiveWallpapersPicker/arm/LiveWallpapersPicker.odex' for file location '/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.wallpaper.livepicker changing from /system/priv-app/SecLiveWallpapersPicker to /system/app/LiveWallpapersPicker
+W/PackageManager( 4088): Resource path for pkg : com.android.wallpaper.livepicker changing from /system/priv-app/SecLiveWallpapersPicker to /system/app/LiveWallpapersPicker
+I/PackageManager( 4088): /system/app/LockClock changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.cyanogenmod.lockclock issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@LockClock@LockClock.apk@classes.dex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/LockClock/arm/LockClock.odex' for file location '/system/app/LockClock/LockClock.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/NoiseField changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/NoiseField to /system/app/NoiseField
+W/PackageManager( 4088): System package com.android.noisefield signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.noisefield issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@NoiseField@NoiseField.apk@classes.dex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/NoiseField/arm/NoiseField.odex' for file location '/system/app/NoiseField/NoiseField.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.noisefield changing from /system/priv-app/NoiseField to /system/app/NoiseField
+W/PackageManager( 4088): Resource path for pkg : com.android.noisefield changing from /system/priv-app/NoiseField to /system/app/NoiseField
+I/PackageManager( 4088): /system/app/PacProcessor changed; collecting certs
+W/PackageManager( 4088): System package com.android.pacprocessor signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.pacprocessor issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PacProcessor@PacProcessor.apk@classes.dex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PacProcessor/arm/PacProcessor.odex' for file location '/system/app/PacProcessor/PacProcessor.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/PackageInstaller changed; collecting certs
+W/PackageManager( 4088): System package com.android.packageinstaller signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.packageinstaller issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PackageInstaller@PackageInstaller.apk@classes.dex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PackageInstaller/arm/PackageInstaller.odex' for file location '/system/app/PackageInstaller/PackageInstaller.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/PhaseBeam changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/priv-app/PhaseBeam to /system/app/PhaseBeam
+W/PackageManager( 4088): System package com.android.phasebeam signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.phasebeam issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhaseBeam@PhaseBeam.apk@classes.dex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhaseBeam/arm/PhaseBeam.odex' for file location '/system/app/PhaseBeam/PhaseBeam.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.phasebeam changing from /system/priv-app/PhaseBeam to /system/app/PhaseBeam
+W/PackageManager( 4088): Resource path for pkg : com.android.phasebeam changing from /system/priv-app/PhaseBeam to /system/app/PhaseBeam
+I/PackageManager( 4088): /system/app/PhotoPhase changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of org.cyanogenmod.wallpapers.photophase issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoPhase@PhotoPhase.apk@classes.dex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoPhase/arm/PhotoPhase.odex' for file location '/system/app/PhotoPhase/PhotoPhase.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/PhotoTable changed; collecting certs
+W/PackageManager( 4088): System package com.android.dreams.phototable signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.dreams.phototable issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PhotoTable@PhotoTable.apk@classes.dex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PhotoTable/arm/PhotoTable.odex' for file location '/system/app/PhotoTable/PhotoTable.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/PicoTts changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.svox.pico issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PicoTts@PicoTts.apk@classes.dex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PicoTts/arm/PicoTts.odex' for file location '/system/app/PicoTts/PicoTts.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/PrintSpooler changed; collecting certs
+W/PackageManager( 4088): Trying to update system app code path from /system/app/SPrintSpooler to /system/app/PrintSpooler
+W/PackageManager( 4088): System package com.android.printspooler signature changed; retaining data.
+I/PackageManager( 4088): SELinux relabeling of com.android.printspooler issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@PrintSpooler@PrintSpooler.apk@classes.dex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/PrintSpooler/arm/PrintSpooler.odex' for file location '/system/app/PrintSpooler/PrintSpooler.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Code path for pkg : com.android.printspooler changing from /system/app/SPrintSpooler to /system/app/PrintSpooler
+W/PackageManager( 4088): Resource path for pkg : com.android.printspooler changing from /system/app/SPrintSpooler to /system/app/PrintSpooler
+I/PackageManager( 4088): /system/app/Provision changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.provision issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Provision@Provision.apk@classes.dex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Provision/arm/Provision.odex' for file location '/system/app/Provision/Provision.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/SoundRecorder changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.soundrecorder issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@SoundRecorder@SoundRecorder.apk@classes.dex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/SoundRecorder/arm/SoundRecorder.odex' for file location '/system/app/SoundRecorder/SoundRecorder.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/Stk changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/Stk: Signature mismatch for shared user : SharedUserSetting{1c217efc android.uid.phone/1001}
+I/PackageManager( 4088): /system/app/Terminal changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.terminal issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@Terminal@Terminal.apk@classes.dex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/Terminal/arm/Terminal.odex' for file location '/system/app/Terminal/Terminal.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/UserDictionaryProvider changed; collecting certs
+W/PackageManager( 4088): Failed to parse /system/app/UserDictionaryProvider: Signature mismatch for shared user : SharedUserSetting{2ac1d6b2 android.uid.shared/10020}
+I/PackageManager( 4088): /system/app/VisualizationWallpapers changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.musicvis issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@VisualizationWallpapers@VisualizationWallpapers.apk@classes.dex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/VisualizationWallpapers/arm/VisualizationWallpapers.odex' for file location '/system/app/VisualizationWallpapers/VisualizationWallpapers.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/WAPPushManager changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.smspush issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WAPPushManager@WAPPushManager.apk@classes.dex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/WAPPushManager/arm/WAPPushManager.odex' for file location '/system/app/WAPPushManager/WAPPushManager.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /system/app/WhisperPush changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of org.whispersystems.whisperpush issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@WhisperPush@WhisperPush.apk@classes.dex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/WhisperPush/arm/WhisperPush.odex' for file location '/system/app/WhisperPush/WhisperPush.apk': Failed to open oat filename for reading: No such file or directory
+W/PackageManager( 4088): Failed to parse /system/app/mcRegistry: Missing base APK in /system/app/mcRegistry
+I/PackageManager( 4088): /system/app/webview changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.android.webview issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@app@webview@webview.apk@classes.dex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/system/app/webview/arm/webview.odex' for file location '/system/app/webview/webview.apk': Failed to open oat filename for reading: No such file or directory
+D/PackageManager( 4088): No files in app dir /system/vendor/app
+D/PackageManager( 4088): No files in app dir /oem/app
+D/PackageManager( 4088): No files in app dir /vendor/bundled-app
+W/PackageManager( 4088): System package com.sec.esdk.elm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.esdk.elm: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.taskmanager no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.taskmanager: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.sbrowsertry no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.sbrowsertry: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.mmapp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.mmapp: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.service.health no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.service.health: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.soundalive no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.soundalive: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.chromecustomizations no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.chromecustomizations: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.userdictionary no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.userdictionary: No such file or directory
+W/PackageManager( 4088): System package com.dsi.ant.server no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.dsi.ant.server: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.FileShareClient no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.FileShareClient: No such file or directory
+W/PackageManager( 4088): System package com.android.apps.tag no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.apps.tag: No such file or directory
+W/PackageManager( 4088): System package com.google.android.apps.docs.editors.docs no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.apps.docs.editors.docs: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.GeoLookout no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.GeoLookout: No such file or directory
+W/PackageManager( 4088): System package com.sec.enterprise.knox.cloudmdm.smdms no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.enterprise.knox.cloudmdm.smdms: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.securitylogagent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.securitylogagent: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.filtermanager no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.filtermanager: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.easylauncher no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.easylauncher: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.partnerbookmarks no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.partnerbookmarks: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.sbrowser no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.sbrowser: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.RilServiceModeApp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.RilServiceModeApp: No such file or directory
+W/PackageManager( 4088): System package com.samsung.app.video no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.app.video: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.FlashBarService no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.FlashBarService: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.quota no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.quota: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.nearby.mediaserver no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.nearby.mediaserver: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.emergencylauncher no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.emergencylauncher: No such file or directory
+W/PackageManager( 4088): System package com.google.android.feedback no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.feedback: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.assistantmenu no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.assistantmenu: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.sounddetector no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.sounddetector: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.service.sm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.service.sm: No such file or directory
+W/PackageManager( 4088): System package com.sec.dsm.system no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.dsm.system: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.snsimagecache no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.snsimagecache: No such file or directory
+W/PackageManager( 4088): System package com.google.android.onetimeinitializer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.onetimeinitializer: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.storycam no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.storycam: No such file or directory
+W/PackageManager( 4088): System package com.android.inputdevices no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.inputdevices: No such file or directory
+W/PackageManager( 4088): System package com.blurb.checkout no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.blurb.checkout: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.switcher no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.switcher: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.beaconmanager no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.beaconmanager: No such file or directory
+W/PackageManager( 4088): System package com.android.bluetooth no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.bluetooth: No such file or directory
+W/PackageManager( 4088): System package com.sec.allsharecastplayer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.allsharecastplayer: No such file or directory
+W/PackageManager( 4088): System package com.fmm.dm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.fmm.dm: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.gestureservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.gestureservice: No such file or directory
+W/PackageManager( 4088): System package com.sec.enterprise.mdm.services.simpin no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.enterprise.mdm.services.simpin: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.servicemodeapp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.servicemodeapp: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.easyonehand no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.easyonehand: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.mt no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.mt: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.MtpApplication no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.MtpApplication: No such file or directory
+W/PackageManager( 4088): System package com.lifevibes.trimapp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.lifevibes.trimapp: No such file or directory
+W/PackageManager( 4088): System package com.android.contacts no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.contacts: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.providers.context no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.providers.context: No such file or directory
+W/PackageManager( 4088): System package com.sec.phone no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.phone: No such file or directory
+W/PackageManager( 4088): System package com.sec.hearingadjust no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.hearingadjust: No such file or directory
+W/PackageManager( 4088): System package com.android.server.telecom no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.server.telecom: No such file or directory
+W/PackageManager( 4088): System package com.sec.bcservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.bcservice: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.stub.paywithpaypal no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.stub.paywithpaypal: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.sdk.spenv10 no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.sdk.spenv10: No such file or directory
+W/PackageManager( 4088): System package com.monotype.android.font.rosemary no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.monotype.android.font.rosemary: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.provider.emergencymode no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.provider.emergencymode: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.videoplayer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.videoplayer: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.Kies no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.Kies: No such file or directory
+W/PackageManager( 4088): System package com.android.systemui no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.systemui: No such file or directory
+W/PackageManager( 4088): System package com.android.nfc no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.nfc: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.shortcutsms no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.shortcutsms: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.safetyassurance no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.safetyassurance: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.calendar no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.calendar: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.downloads no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.downloads: No such file or directory
+W/PackageManager( 4088): System package com.google.android.gsf no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.gsf: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.factorykeystring no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.factorykeystring: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.colorblind no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.colorblind: No such file or directory
+W/PackageManager( 4088): System package com.sec.app.RilErrorNotifier no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.app.RilErrorNotifier: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.backup no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.backup: No such file or directory
+W/PackageManager( 4088): System package com.android.location.fused no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.location.fused: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.automotive.drivelink no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.automotive.drivelink: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.airwakeupview no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.airwakeupview: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.proxy.memo no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.proxy.memo: No such file or directory
+W/PackageManager( 4088): System package com.dropbox.android no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.dropbox.android: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.contacts no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.contacts: No such file or directory
+W/PackageManager( 4088): System package com.sec.automation no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.automation: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.mimage.photoretouching no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.mimage.photoretouching: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.activeapplicationwidget no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.activeapplicationwidget: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.FileShareServer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.FileShareServer: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.proxy.calendar no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.proxy.calendar: No such file or directory
+W/PackageManager( 4088): System package com.google.android.apps.magazines no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.apps.magazines: No such file or directory
+W/PackageManager( 4088): System package com.google.android.setupwizard no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.setupwizard: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.bluetoothtest no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.bluetoothtest: No such file or directory
+W/PackageManager( 4088): System package com.sec.pcw.device no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.pcw.device: No such file or directory
+W/PackageManager( 4088): System package com.sec.usbsettings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.usbsettings: No such file or directory
+W/PackageManager( 4088): System package com.sec.providers.settingsearch no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.providers.settingsearch: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.provider.shootingmodeprovider no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.provider.shootingmodeprovider: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.shareaccessibilitysettings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.shareaccessibilitysettings: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.mimage.sstudio no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.mimage.sstudio: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.containeragent2 no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.containeragent2: No such file or directory
+W/PackageManager( 4088): System package com.monotype.android.font.cooljazz no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.monotype.android.font.cooljazz: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.wlantest no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.wlantest: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.proxy.contacts no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.proxy.contacts: No such file or directory
+W/PackageManager( 4088): System package com.gd.mobicore.pa no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.gd.mobicore.pa: No such file or directory
+W/PackageManager( 4088): System package com.google.android.configupdater no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.configupdater: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.bridge no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.bridge: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.magnifier no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.magnifier: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.personalpage.service no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.personalpage.service: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.emergencymode.service no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.emergencymode.service: No such file or directory
+W/PackageManager( 4088): System package com.wsomacp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.wsomacp: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.headlines no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.headlines: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.proxy.snote3 no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.proxy.snote3: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.bcocr no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.bcocr: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.tourviewer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.tourviewer: No such file or directory
+W/PackageManager( 4088): System package com.sec.app.samsungprintservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.app.samsungprintservice: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.preloadinstaller no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.preloadinstaller: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.billing no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.billing: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.launcher no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.launcher: No such file or directory
+W/PackageManager( 4088): System package com.arcsoft.magicshotstudio no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.arcsoft.magicshotstudio: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.providers.security no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.providers.security: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.clockpackage no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.clockpackage: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.hwmoduletest no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.hwmoduletest: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.service.travel no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.service.travel: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.Preconfig no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.Preconfig: No such file or directory
+W/PackageManager( 4088): System package com.android.stk no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.stk: No such file or directory
+W/PackageManager( 4088): System package com.google.android.gsf.login no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.gsf.login: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.voicenote no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.voicenote: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.diagmonagent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.diagmonagent: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.provider.badge no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.provider.badge: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.sconnect no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.sconnect: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.ofviewer no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.ofviewer: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.mdm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.mdm: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.gallery3d no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.gallery3d: No such file or directory
+W/PackageManager( 4088): System package com.sec.smartcard.manager no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.smartcard.manager: No such file or directory
+W/PackageManager( 4088): System package com.wssyncmldm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.wssyncmldm: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.sdk.professionalaudio.app.audioconnectionservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.sdk.professionalaudio.app.audioconnectionservice: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.provider.filterprovider no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.provider.filterprovider: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.easymodecontactswidget no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.easymodecontactswidget: No such file or directory
+W/PackageManager( 4088): System package com.sec.factory.camera no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.factory.camera: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.directconnect no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.directconnect: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.packageverifier no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.packageverifier: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.providers.tasks no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.providers.tasks: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.samsungapps no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.samsungapps: No such file or directory
+W/PackageManager( 4088): System package com.monotype.android.font.samsungsans no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.monotype.android.font.samsungsans: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.DataCreate no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.DataCreate: No such file or directory
+W/PackageManager( 4088): System package com.android.shell no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.shell: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.cloudagent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.cloudagent: No such file or directory
+W/PackageManager( 4088): System package com.samsung.klmsagent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.klmsagent: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.dictionary no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.dictionary: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.ringtoneBR no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.ringtoneBR: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.wfdbroker no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.wfdbroker: No such file or directory
+W/PackageManager( 4088): System package com.osp.app.signin no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.osp.app.signin: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.sysscope no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.sysscope: No such file or directory
+W/PackageManager( 4088): System package com.android.keychain no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.keychain: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.directshare no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.directshare: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.personalization no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.personalization: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.parser no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.parser: No such file or directory
+W/PackageManager( 4088): System package com.sec.tcpdumpservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.tcpdumpservice: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.galaxyfinder no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.galaxyfinder: No such file or directory
+W/PackageManager( 4088): System package com.android.browser.provider no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.browser.provider: No such file or directory
+W/PackageManager( 4088): System package com.sec.factory no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.factory: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.minimode.res no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.minimode.res: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.filter no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.filter: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.gallery3d.panorama360view no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.gallery3d.panorama360view: No such file or directory
+W/PackageManager( 4088): System package com.dsi.ant.sample.acquirechannels no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.dsi.ant.sample.acquirechannels: No such file or directory
+W/PackageManager( 4088): System package com.sec.enterprise.knox.attestation no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.enterprise.knox.attestation: No such file or directory
+W/PackageManager( 4088): System package com.samsung.everglades.video no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.everglades.video: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.easysettings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.easysettings: No such file or directory
+W/PackageManager( 4088): System package com.fixmo.isa no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.fixmo.isa: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.myfiles no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.myfiles: No such file or directory
+W/PackageManager( 4088): System package com.policydm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.policydm: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.allshare.service.mediashare no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.allshare.service.mediashare: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.digitalclock no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.digitalclock: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.fotaclient no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.fotaclient: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.auth no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.auth: No such file or directory
+W/PackageManager( 4088): System package com.android.phone no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.phone: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.provider.logsprovider no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.provider.logsprovider: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.digitalclockeasy no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.digitalclockeasy: No such file or directory
+W/PackageManager( 4088): System package android no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/android: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widget.samsungapps no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widget.samsungapps: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.telephony no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.telephony: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.sync no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.sync: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.mediasync no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.mediasync: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.pagebuddynotisvc no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.pagebuddynotisvc: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.wallpaperchooser no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.wallpaperchooser: No such file or directory
+W/PackageManager( 4088): System package com.sec.knox.knoxsetupwizardclient no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.knox.knoxsetupwizardclient: No such file or directory
+W/PackageManager( 4088): System package com.samsung.groupcast no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.groupcast: No such file or directory
+W/PackageManager( 4088): System package com.samsung.location no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.location: No such file or directory
+W/PackageManager( 4088): System package com.samsung.clipboardsaveservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.clipboardsaveservice: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.clipboarduiservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.clipboarduiservice: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.fingerprint.service no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.fingerprint.service: No such file or directory
+W/PackageManager( 4088): System package com.samsung.knox.rcp.components no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.knox.rcp.components: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.filterinstaller no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.filterinstaller: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.scloud.proxy.sbrowser no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.scloud.proxy.sbrowser: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.visualeffect.res no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.visualeffect.res: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.dualclockdigital no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.dualclockdigital: No such file or directory
+W/PackageManager( 4088): System package com.samsung.safetyinformation no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.safetyinformation: No such file or directory
+W/PackageManager( 4088): System package com.sec.setdefaultlauncher no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.setdefaultlauncher: No such file or directory
+W/PackageManager( 4088): System package eu.chainfire.supersu no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/eu.chainfire.supersu: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.popupcalculator no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.popupcalculator: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.webmanual no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.webmanual: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.soagent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.soagent: No such file or directory
+W/PackageManager( 4088): System package com.vlingo.midas no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.vlingo.midas: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.camera no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.camera: No such file or directory
+W/PackageManager( 4088): System package com.android.settings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.settings: No such file or directory
+W/PackageManager( 4088): System package org.simalliance.openmobileapi.service no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/org.simalliance.openmobileapi.service: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.watchmanagerstub no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.watchmanagerstub: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.allshare.service.fileshare no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.allshare.service.fileshare: No such file or directory
+W/PackageManager( 4088): System package com.samsung.sec.android.application.csc no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.sec.android.application.csc: No such file or directory
+W/PackageManager( 4088): System package com.sec.msc.nts.android.proxy no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.msc.nts.android.proxy: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.daemonapp no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.daemonapp: No such file or directory
+W/PackageManager( 4088): System package com.LocalFota no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.LocalFota: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.SamsungContentsAgent no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.SamsungContentsAgent: No such file or directory
+W/PackageManager( 4088): System package com.google.android.syncadapters.contacts no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.syncadapters.contacts: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.settings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.settings: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.SecSetupWizard no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.SecSetupWizard: No such file or directory
+W/PackageManager( 4088): System package com.google.android.syncadapters.calendar no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.syncadapters.calendar: No such file or directory
+W/PackageManager( 4088): System package com.sec.enterprise.mdm.vpn no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.enterprise.mdm.vpn: No such file or directory
+W/PackageManager( 4088): System package com.google.android.backuptransport no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.backuptransport: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.cloudagent.dropboxoobe no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.cloudagent.dropboxoobe: No such file or directory
+W/PackageManager( 4088): System package com.wssnps no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.wssnps: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.music no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.music: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.inputmethod no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.inputmethod: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.memo no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.memo: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.automotive.drivelinkremote no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.automotive.drivelinkremote: No such file or directory
+W/PackageManager( 4088): System package com.monotype.android.font.chococooky no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.monotype.android.font.chococooky: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.app.sns3 no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.app.sns3: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.app.accesscontrol no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.app.accesscontrol: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.sdk.professionalaudio.utility.jammonitor no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.sdk.professionalaudio.utility.jammonitor: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.SPlannerAppWidget no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.SPlannerAppWidget: No such file or directory
+W/PackageManager( 4088): System package com.visionobjects.resourcemanager no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.visionobjects.resourcemanager: No such file or directory
+W/PackageManager( 4088): System package com.samsung.dcm no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.dcm: No such file or directory
+W/PackageManager( 4088): System package com.android.mms.service no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.mms.service: No such file or directory
+W/PackageManager( 4088): System package com.sec.modem.settings no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.modem.settings: No such file or directory
+W/PackageManager( 4088): System package com.android.providers.media no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.android.providers.media: No such file or directory
+W/PackageManager( 4088): System package com.fmm.ds no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.fmm.ds: No such file or directory
+W/PackageManager( 4088): System package com.samsung.helphub no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.helphub: No such file or directory
+W/PackageManager( 4088): System package com.samsung.android.intelligenceservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.android.intelligenceservice: No such file or directory
+W/PackageManager( 4088): System package com.sec.android.widgetapp.ap.hero.accuweather no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.sec.android.widgetapp.ap.hero.accuweather: No such file or directory
+W/PackageManager( 4088): System package com.google.android.partnersetup no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.google.android.partnersetup: No such file or directory
+W/PackageManager( 4088): System package com.samsung.indexservice no longer exists; wiping its data
+E/installd( 3691): Couldn't opendir /data/data/com.samsung.indexservice: No such file or directory
+I/PackageManager( 4088): /data/app/com.mobeam.barcodeService-1 changed; collecting certs
+W/PackageManager( 4088): Failed to parse /data/app/com.mobeam.barcodeService-1: Cannot install platform packages to user storage!
+I/PackageManager( 4088): /data/app/ar.com.personal-2 changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=61755219464)
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=64675314632)
+I/PackageManager( 4088): SELinux relabeling of ar.com.personal issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@ar.com.personal-2@base.apk@classes.dex' for file location '/data/app/ar.com.personal-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/ar.com.personal-2/arm/base.odex' for file location '/data/app/ar.com.personal-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@ar.com.personal-2@base.apk@classes.dex' for file location '/data/app/ar.com.personal-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/ar.com.personal-2/arm/base.odex' for file location '/data/app/ar.com.personal-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /data/app/com.cgollner.flashify-1 changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=70685103841)
+I/PackageManager( 4088): SELinux relabeling of com.cgollner.flashify issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.cgollner.flashify-1@base.apk@classes.dex' for file location '/data/app/com.cgollner.flashify-1/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.cgollner.flashify-1/arm/base.odex' for file location '/data/app/com.cgollner.flashify-1/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.cgollner.flashify-1@base.apk@classes.dex' for file location '/data/app/com.cgollner.flashify-1/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.cgollner.flashify-1/arm/base.odex' for file location '/data/app/com.cgollner.flashify-1/base.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /data/app/com.oasisfeng.greenify-2 changed; collecting certs
+W/SurfaceFlinger( 3673): Ignoring duplicate VSYNC event from HWC (t=72255058841)
+I/PackageManager( 4088): SELinux relabeling of com.oasisfeng.greenify issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.oasisfeng.greenify-2@base.apk@classes.dex' for file location '/data/app/com.oasisfeng.greenify-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.oasisfeng.greenify-2/arm/base.odex' for file location '/data/app/com.oasisfeng.greenify-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.oasisfeng.greenify-2@base.apk@classes.dex' for file location '/data/app/com.oasisfeng.greenify-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.oasisfeng.greenify-2/arm/base.odex' for file location '/data/app/com.oasisfeng.greenify-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /data/app/com.google.android.marvin.talkback-2 changed; collecting certs
+I/PackageManager( 4088): SELinux relabeling of com.google.android.marvin.talkback issued.
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.google.android.marvin.talkback-2@base.apk@classes.dex' for file location '/data/app/com.google.android.marvin.talkback-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.google.android.marvin.talkback-2/arm/base.odex' for file location '/data/app/com.google.android.marvin.talkback-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/data@app@com.google.android.marvin.talkback-2@base.apk@classes.dex' for file location '/data/app/com.google.android.marvin.talkback-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4088): DexFile_isDexOptNeeded failed to open oat file '/data/app/com.google.android.marvin.talkback-2/arm/base.odex' for file location '/data/app/com.google.android.marvin.talkback-2/base.apk': Failed to open oat filename for reading: No such file or directory
+I/PackageManager( 4088): /data/app/com.tumblr-2 changed; collecting certs
