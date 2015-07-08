@@ -1,0 +1,376 @@
+adb server is out of date.  killing...
+* daemon started successfully *
+--------- beginning of main
+I/McDaemon(    0): Daemon starting up...
+W/auditd  ( 3685): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3685): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+I/McDaemon(    0): Checking version of <t-base
+I/McDaemon(    0): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+W/auditd  ( 3685): type=1305 audit(0.0:11): audit_pid=3656 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+W/auditd  ( 3685): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3685):  res=1
+I/lowmemorykiller( 3658): Using in-kernel low memory killer interface
+I/cm      ( 3663): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+I/cm      ( 3675): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/DEBUG   ( 3674): debuggerd: Jul  3 2015 03:58:19
+--------- beginning of system
+I/auditd  ( 3672): Starting up
+I/cm      ( 3687): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/macloader( 3682): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3682): Change permissions of /data/.cid.info
+I/installd( 3679): installd firing up
+I/cm      ( 3699): Welcome to Android 5.0.2 / CyanogenMod-12-20150707-UNOFFICIAL-k3gxx 
+I/PrProvisioning( 3696): successfully - provisioning start !
+I/audit_log( 3672): Previous audit logfile detected, rotating
+W/libaudit( 3672): Expected sequence number between user space and kernel space is out of skew, expected 2 got 0
+E/audit_rules( 3672): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/PrProvisioning( 3696): provisioning already done
+I/Vold    ( 3660): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3660): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3660): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3660): Check if PFE is activated on Boot
+E/Cryptfs ( 3660): Bad magic for real block device /dev/block/platform/12200000.dwmmc0/by-name/USERDATA
+E/Cryptfs ( 3660): Error getting crypt footer and key
+I/keystore( 3680): SELinux: Keystore SELinux is disabled.
+I/Netd    ( 3673): Netd 1.0 starting
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3673): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3661): SurfaceFlinger is starting
+I/SurfaceFlinger( 3661): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gpsd    ( 3681): WakeLock(Release,GPSD)
+D/gpsd    ( 3681): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3681): GNSS: 219420
+D/wrapperGPS( 3681): wrapperOpenClient_RILD
+E/wrapperGPS( 3681): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3681): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3681): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6b1b6e9)
+D/wrapperGPS( 3681): wrapperRegisterErrorCallback
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/libEGL  ( 3661): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3661): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3661): using (id=)
+I/gralloc ( 3661): xres         = 1080 px
+I/gralloc ( 3661): yres         = 1920 px
+I/gralloc ( 3661): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3661): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3661): refresh rate = 60.00 Hz
+D/WVMDrmPlugIn( 3677): WVMDrmPlugin::onGetSupportInfo : 0
+D/hwcomposer( 3661): using
+D/hwcomposer( 3661): xres         = 1080 px
+D/hwcomposer( 3661): yres         = 1920 px
+D/hwcomposer( 3661): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3661): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3661): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3661): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3661): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3661): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3661): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3661): Using composer version 1.3
+I/SurfaceFlinger( 3661): EGL information:
+I/SurfaceFlinger( 3661): vendor    : Android
+I/SurfaceFlinger( 3661): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3661): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3661): Client API: OpenGL_ES
+I/SurfaceFlinger( 3661): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/AndroidRuntime( 3683): 
+D/AndroidRuntime( 3683): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/SurfaceFlinger( 3661): OpenGL ES informations:
+I/SurfaceFlinger( 3661): vendor    : ARM
+I/SurfaceFlinger( 3661): renderer  : Mali-T628
+I/SurfaceFlinger( 3661): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3661): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3661): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3661): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3661): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3661): unblank ioctl failed (display already unblanked)
+D/AndroidRuntime( 3683): CheckJNI is OFF
+I/art     ( 3683): option[0]=-Xzygote
+I/art     ( 3683): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3683): option[2]=exit
+I/art     ( 3683): option[3]=vfprintf
+I/art     ( 3683): option[4]=sensitiveThread
+I/art     ( 3683): option[5]=-verbose:gc
+I/art     ( 3683): option[6]=-Xms16m
+I/art     ( 3683): option[7]=-Xmx512m
+I/art     ( 3683): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3683): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3683): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3683): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3683): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3683): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3683): option[14]=-Xlockprofthreshold:500
+I/art     ( 3683): option[15]=-Ximage-compiler-option
+I/art     ( 3683): option[16]=--runtime-arg
+I/art     ( 3683): option[17]=-Ximage-compiler-option
+I/art     ( 3683): option[18]=-Xms64m
+I/art     ( 3683): option[19]=-Ximage-compiler-option
+I/art     ( 3683): option[20]=--runtime-arg
+I/art     ( 3683): option[21]=-Ximage-compiler-option
+I/art     ( 3683): option[22]=-Xmx64m
+I/art     ( 3683): option[23]=-Ximage-compiler-option
+I/art     ( 3683): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3683): option[25]=-Ximage-compiler-option
+I/art     ( 3683): option[26]=--image-classes=preloaded-classes
+I/art     ( 3683): option[27]=-Xcompiler-option
+I/art     ( 3683): option[28]=--runtime-arg
+I/art     ( 3683): option[29]=-Xcompiler-option
+I/art     ( 3683): option[30]=-Xms64m
+I/art     ( 3683): option[31]=-Xcompiler-option
+I/art     ( 3683): option[32]=--runtime-arg
+I/art     ( 3683): option[33]=-Xcompiler-option
+I/art     ( 3683): option[34]=-Xmx512m
+I/art     ( 3683): option[35]=-Duser.language=es
+I/art     ( 3683): option[36]=-Duser.region=US
+W/art     ( 3683): Invalid image header in '/data/dalvik-cache/arm/system@framework@boot.art'
+I/art     ( 3683): Pruning dalvik-cache since we are generating an image and will need to recompile
+W/art     ( 3683): Unexpected file type of 
+W/art     ( 3683):  encountered.
+D/SurfaceFlinger( 3661): SF. shader cache generated - 26 shaders in 79.836792 ms
+D/libEGL  ( 3838): loaded /vendor/lib/egl/libGLES_mali.so
+I/art     ( 3683): Using an offset of 0xf31000 from default art base address of 0x70000000
+I/art     ( 3683): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70f31000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --image-classes-zip=/system/framework/framework.jar --image-classes=preloaded-classes
+I/        ( 3838): PLATFORM VERSION : JB-MR-2
+E/dex2oat ( 3859): Failed to create oat file: /data/dalvik-cache/arm/system@framework@boot.oat: No such file or directory
+W/art     ( 3683): Unexpected file type of 
+W/art     ( 3683):  encountered.
+W/art     ( 3683): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Failed to generate image '/data/dalvik-cache/arm/system@framework@boot.art': Failed execv(/system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70f31000 --runtime-arg -Xms64
+E/BootAnimation( 3838): couldn't find audio_conf.txt
+D/BootAnimation( 3838): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3681): wrapperConnect_RILD
+V/NatController( 3673): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3673): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3673): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3673): runCmd(/system/bin/iptables -t nat -F natctrl_nat_PREROUTING) res=0
+V/NatController( 3673): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3673): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3673): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController( 3673): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+D/wrapperGPS( 3681): wrapperConnect_RILD
+E/memtrack( 3683): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3683): failed to load memtrack module: -2
+D/MDnsDS  ( 3673): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 3673): MDnsSdListener starting to monitor
+I/SamplingProfilerIntegration( 3683): Profiling disabled.
+D/MDnsDS  ( 3673): Going to poll with pollCount 1
+D/Zygote  ( 3683): begin preload
+I/Zygote  ( 3683): Preloading classes...
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 4379(640KB) AllocSpace objects, 0(0B) LOS objects, 41% free, 5MB/9MB, paused 93us total 17.099ms
+I/art     ( 3683): Counter: 1
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/BootAnimation( 3838): Use save memory method, maybe small fps in actual.
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3683): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+D/wrapperGPS( 3681): wrapperConnect_RILD
+I/art     ( 3683): Thread[1,tid=3683,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI( 3683): register_android_mtp_MtpDevice
+I/art     ( 3683): Thread[1,tid=3683,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     ( 3683): Thread[1,tid=3683,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12f06560,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+I/System  ( 3683): Loaded time zone names for "" in 58ms (40ms in ICU)
+I/System  ( 3683): Loaded time zone names for "en_US" in 51ms (23ms in ICU)
+I/System  ( 3683): Loaded time zone names for "es_US" in 54ms (27ms in ICU)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 759(51KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 14MB/21MB, paused 134us total 47.490ms
+I/Zygote  ( 3683): ...preloaded 3005 classes in 5645ms.
+I/art     ( 3683): VMRuntime.preloadDexCaches starting
+I/art     ( 3683): VMRuntime.preloadDexCaches strings total=217316 before=8974 after=8974
+I/art     ( 3683): VMRuntime.preloadDexCaches types total=18704 before=7488 after=9178
+I/art     ( 3683): VMRuntime.preloadDexCaches fields total=87408 before=31755 after=42301
+I/art     ( 3683): VMRuntime.preloadDexCaches methods total=154031 before=60846 after=75556
+I/art     ( 3683): VMRuntime.preloadDexCaches finished
+I/art     ( 3683): Counter: 0
+I/art     ( 3683): Counter: 1
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 31(14KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 14MB/23MB, paused 142us total 47.769ms
+D/idmap   ( 4099): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3683): Preloading resources...
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 5496(203KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 209us total 51.628ms
+I/Zygote  ( 3683): ...preloaded 430 resources in 639ms.
+D/wrapperGPS( 3681): wrapperConnect_RILD
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 962(49KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 207us total 50.962ms
+I/Zygote  ( 3683): ...preloaded 41 resources in 74ms.
+I/art     ( 3683): Counter: 0
+D/libEGL  ( 3683): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3683): Preloading shared libraries...
+D/Zygote  ( 3683): end preload
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 463(21KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 210us total 51.238ms
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 209us total 50.301ms
+I/art     ( 3683): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 210us total 50.282ms
+I/Zygote  ( 3683): System server process 4102 has been created
+I/Zygote  ( 3683): Accepting command socket connections
+I/art     ( 4102): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4102): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/org.cyanogenmod.hardware.odex' for file location '/system/framework/org.cyanogenmod.hardware.jar': Failed to open oat filename for reading: No such file or directory
+I/InstallerConnection( 4102): connecting...
+I/installd( 3679): new connection
+I/dex2oat ( 4122): /system/bin/dex2oat --zip-fd=5 --zip-location=/system/framework/org.cyanogenmod.hardware.jar --oat-fd=6 --oat-location=/data/dalvik-cache/arm/system@framework@org.cyanogenmod.hardware.jar@classes.dex --instruction-set=arm --instruction-set-features=div --runtime-arg -Xms64m --runtime-arg -Xmx512m
+W/dex2oat ( 4122): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+E/installd( 3679): DexInv: --- END '/system/framework/org.cyanogenmod.hardware.jar' --- status=0x000b, process failed
+I/art     ( 4102): DexFile_isDexOptNeeded failed to open oat file '/data/dalvik-cache/arm/system@framework@services.jar@classes.dex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/art     ( 4102): DexFile_isDexOptNeeded failed to open oat file '/system/framework/arm/services.odex' for file location '/system/framework/services.jar': Failed to open oat filename for reading: No such file or directory
+I/dex2oat ( 4124): /system/bin/dex2oat --zip-fd=5 --zip-location=/system/framework/services.jar --oat-fd=6 --oat-location=/data/dalvik-cache/arm/system@framework@services.jar@classes.dex --instruction-set=arm --instruction-set-features=div --runtime-arg -Xms64m --runtime-arg -Xmx512m
+W/dex2oat ( 4124): Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+F/dex2oat ( 4124): art/runtime/runtime.cc:820] Check failed: options->boot_class_path_ != nullptr 
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] Runtime aborting...
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] Aborting thread:
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] "main" prio=5 tid=1 Runnable (still starting up)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xb6507400
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | sysTid=4124 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb6facec8
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | state=R schedstat=( 21536376 235625 2 ) utm=0 stm=2 core=5 HZ=100
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | stack=0xbe091000-0xbe093000 stackSize=8MB
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | held mutexes= "abort lock" "mutator lock"(shared held)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #00 pc 000045b4  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #01 pc 00002e1d  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #02 pc 002516d5  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+84)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #03 pc 00235453  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+162)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #04 pc 00225111  /system/lib/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, art::Thread*)+32)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #05 pc 0022537b  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+354)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #06 pc 00225573  /system/lib/libart.so (art::Runtime::Abort()+82)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #07 pc 000a6819  /system/lib/libart.so (art::LogMessage::~LogMessage()+1360)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #08 pc 00227a73  /system/lib/libart.so (art::Runtime::Init(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+5046)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #09 pc 002286e3  /system/lib/libart.so (art::Runtime::Create(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+58)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #10 pc 0000afd1  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #11 pc 0000e5b3  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #12 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #13 pc 00006518  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   (no managed stack frames)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] Dumping all threads without appropriate locks held: thread list lock
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] All threads:
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] DALVIK THREADS (1):
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] "main" prio=5 tid=1 Runnable (still starting up)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xb6507400
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | sysTid=4124 nice=0 cgrp=apps/bg_non_interactive sched=0/0 handle=0xb6facec8
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | state=R schedstat=( 32706917 235625 3 ) utm=0 stm=2 core=5 HZ=100
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | stack=0xbe091000-0xbe093000 stackSize=8MB
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   | held mutexes= "abort lock" "mutator lock"(shared held)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #00 pc 000045b4  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #01 pc 00002e1d  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #02 pc 002516d5  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+84)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #03 pc 00235453  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+162)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #04 pc 0023e345  /system/lib/libart.so (art::ThreadList::DumpLocked(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+120)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #05 pc 00225329  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+272)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #06 pc 00225573  /system/lib/libart.so (art::Runtime::Abort()+82)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #07 pc 000a6819  /system/lib/libart.so (art::LogMessage::~LogMessage()+1360)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #08 pc 00227a73  /system/lib/libart.so (art::Runtime::Init(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+5046)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #09 pc 002286e3  /system/lib/libart.so (art::Runtime::Create(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+58)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #10 pc 0000afd1  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #11 pc 0000e5b3  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #12 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   native: #13 pc 00006518  /system/bin/dex2oat (???)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284]   (no managed stack frames)
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] 
+F/dex2oat ( 4124): art/runtime/runtime.cc:284] 
+--------- beginning of crash
+F/libc    ( 4124): Fatal signal 6 (SIGABRT), code -6 in tid 4124 (main)
+I/DEBUG   ( 3674): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3674): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/643eb72e6b:userdebug/test-keys'
+I/DEBUG   ( 3674): Revision: '10'
+I/DEBUG   ( 3674): ABI: 'arm'
+I/DEBUG   ( 3674): pid: 4124, tid: 4124, name: main  >>> /system/bin/dex2oat <<<
+I/DEBUG   ( 3674): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 3674): Abort message: 'art/runtime/runtime.cc:820] Check failed: options->boot_class_path_ != nullptr '
+I/DEBUG   ( 3674):     r0 00000000  r1 0000101c  r2 00000006  r3 00000000
+I/DEBUG   ( 3674):     r4 b6fad114  r5 00000006  r6 00000002  r7 0000010c
+I/DEBUG   ( 3674):     r8 00000001  r9 b654f490  sl b6507400  fp b65501c0
+I/DEBUG   ( 3674):     ip 0000101c  sp be890010  lr b6f377b9  pc b6f5b4e4  cpsr 600f0010
+I/DEBUG   ( 3674): 
+I/DEBUG   ( 3674): backtrace:
+I/DEBUG   ( 3674):     #00 pc 000384e4  /system/lib/libc.so (tgkill+12)
+I/DEBUG   ( 3674):     #01 pc 000147b5  /system/lib/libc.so (pthread_kill+52)
+I/DEBUG   ( 3674):     #02 pc 0001550b  /system/lib/libc.so (raise+10)
+I/DEBUG   ( 3674):     #03 pc 00011c35  /system/lib/libc.so (__libc_android_abort+36)
+I/DEBUG   ( 3674):     #04 pc 0000fcb8  /system/lib/libc.so (abort+4)
+I/DEBUG   ( 3674):     #05 pc 002255cb  /system/lib/libart.so (art::Runtime::Abort()+170)
+I/DEBUG   ( 3674):     #06 pc 000a6819  /system/lib/libart.so (art::LogMessage::~LogMessage()+1360)
+I/DEBUG   ( 3674):     #07 pc 00227a73  /system/lib/libart.so (art::Runtime::Init(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+5046)
+I/DEBUG   ( 3674):     #08 pc 002286e3  /system/lib/libart.so (art::Runtime::Create(std::__1::vector<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, void const*> > > const&, bool)+58)
+I/DEBUG   ( 3674):     #09 pc 0000afd1  /system/bin/dex2oat
+I/DEBUG   ( 3674):     #10 pc 0000e5b3  /system/bin/dex2oat
+I/DEBUG   ( 3674):     #11 pc 0000fb75  /system/lib/libc.so (__libc_init+44)
+I/DEBUG   ( 3674):     #12 pc 00006518  /system/bin/dex2oat
+I/DEBUG   ( 3674): 
+I/DEBUG   ( 3674): Tombstone written to: /data/tombstones/tombstone_00
+I/DEBUG   ( 3674): ********************************************************
+I/DEBUG   ( 3674): * Process 4124 has been suspended while crashing.
+I/DEBUG   ( 3674): * To attach gdbserver for a gdb connection on port 5039
+I/DEBUG   ( 3674): * and start gdbclient:
+I/DEBUG   ( 3674): *
+I/DEBUG   ( 3674): *     gdbclient /system/bin/dex2oat :5039 4124
+I/DEBUG   ( 3674): * or
+I/DEBUG   ( 3674): *     dddclient /system/bin/dex2oat :5039 4124
+I/DEBUG   ( 3674): *
+I/DEBUG   ( 3674): * Wait for gdb to start, then press the VOLUME DOWN key
+I/DEBUG   ( 3674): * to let the process continue crashing.
+I/DEBUG   ( 3674): ********************************************************
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=17215058542)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=17485142876)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=19510210584)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=19645242501)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=20590261709)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=22295086043)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=23105145751)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=26295143293)
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperConnect_RILD
+D/wrapperGPS( 3681): wrapperCloseClient_RILD
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=30295152335)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=37215068586)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=44405291754)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=62545129214)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=62815242423)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=62950128839)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=63085137298)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=66915080756)
+W/SurfaceFlinger( 3661): Ignoring duplicate VSYNC event from HWC (t=77325062674)
