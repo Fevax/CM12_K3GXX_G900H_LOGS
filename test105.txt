@@ -1,0 +1,353 @@
+--------- beginning of main
+I/immvibed( 3595): immvibed started, version is 3.7.10.5
+W/immvibed( 3595): immvibed: Service not running with 'root' privileges.
+E/immvibed( 3595): immvibed: Failed to create lock file "/tmp//immvibed.lck".
+W/immvibed( 3595): immvibed: Failed to change scheduling policy
+I/immvibed( 3595): immvibed: parent with pid=3601 will exit.
+I/McDaemon( 3594): Daemon starting up...
+I/McDaemon( 3594): Socket interface version is 0.2
+I/McDaemon( 3594): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon( 3594): Build timestamp is Apr  2 2015 22:53:33
+I/McDaemon( 3594): Checking version of <t-base
+I/lowmemorykiller( 3591): Using in-kernel low memory killer interface
+I/McDaemon( 3594): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon( 3594): (null)
+I/McDaemon( 3594): (null)
+I/McDaemon( 3594): (null)
+I/McDaemon( 3594): (null)
+D/DataRouter( 3625): Main entered
+D/DataRouter( 3625): switchUser
+D/DataRouter( 3625): monitor_usb_thread
+D/DataRouter( 3625): Initialise USB and start the thread
+D/DataRouter( 3625): dr_usb_init
+E/DataRouter( 3625): USB Interface is open with 0x9
+D/DataRouter( 3625): USB interface is now configured for usb_fd = 0x9
+D/DataRouter( 3625): monitor_data_of_usb
+D/DataRouter( 3625): USB monitor thread launched, usb_fd= 0x9
+D/DataRouter( 3625): Before the usb select
+I/        ( 3616): debuggerd: Apr  2 2015 22:53:31
+I/installd( 3629): installd firing up
+W/USB     ( 3620): [CSSVC	][Connsvc_USB_GetInfo:1293	] Usb Device Speed is 0
+E/USB     ( 3620): [CSSVC	][Connsvc_USB_GetValueFromGadgetAttribute:1352	] read attribute /f_conn_gadget/in_max_packet_size failed
+E/USB     ( 3620): [CSSVC	][Connsvc_USB_GetMaxPacketSize:1379	] Connsvc_USB_GetValueFromGadgetAttribute(in_max_packet_size) failed -12
+W/USB     ( 3620): [CSSVC	][Connsvc_USB_GetInfo:1297	] Usb Device MaxPacketSize is 0
+I/Netd    ( 3615): Netd 1.0 starting
+E/USB     ( 3620): [CSSVC	][Connsvc_USB_GetValueFromGadgetAttribute:1352	] read attribute /f_conn_gadget/out_max_packet_size failed
+E/USB     ( 3620): [CSSVC	][Connsvc_USB_GetMaxPacketSize:1386	] Connsvc_USB_GetValueFromGadgetAttribute(out_max_packet) failed -12
+W/USB     ( 3620): [CSSVC	][Connsvc_USB_GetInfo:1301	] Usb Device MaxPacketSize is 0
+W/USB     ( 3620): [CSSVC	][Connsvc_USB_GetInfo:1305	] Usb Device iSerialNumber is 4d00f7f34f945137     
+D/SideSyncNativeKeyService( 3621): Server : wating connection request
+I/NPS_MOBEX( 3632): Feature_Init
+I/NPS_MOBEX( 3632): task Start
+I/NPS_MOBEX( 3632): wscMessageGet msgid:4097
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceStartThread
+I/NPS_MOBEX( 3632): wifi_wscDataServiceStart
+W/Validity_service_main( 3659): Validity service start up
+I/NPS_MOBEX( 3632): wifi Create server_sockid: 7
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceThread
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceStart
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceConnect
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceConnect START
+I/NPS_MOBEX( 3632): wscSerialOverMTPServiceConnect accept
+I/NPS_MOBEX( 3632): wifi_wscDataServiceConnect
+I/NPS_MOBEX( 3632): wifi_wscDataServiceConnect START
+I/ValidityLIB( 3659): ThreadBase.cpp 49 4
+I/ValidityLIB( 3659): palSynchronization.c 1169 4
+I/ValidityLIB( 3659): WorkerThreadBase.cpp 42 4
+I/ValidityLIB( 3659): vcsServer.cpp 84 4
+I/ValidityLIB( 3659): APIHandlerServer.cpp 109 4
+I/ValidityLIB( 3659): ThreadBase.cpp 112 4
+I/ValidityLIB( 3659): APIHandlerServer.cpp 125 4
+D/SensorHubService( 3638): nuSensorHubService starting...
+I/PrProvisioning( 3666): successfully - provisioning start !
+I/CSTORAGE( 3665): ================================================
+I/CSTORAGE( 3665):  CSTORAGE v1.0.15
+I/CSTORAGE( 3665): ================================================
+I/CSTORAGE( 3665): ================================================
+I/CSTORAGE( 3665):  CSTORAGE_SKM_LIB v1.0.15
+I/CSTORAGE( 3665): ================================================
+I/PrProvisioning( 3666): provisioning already done
+I/keystore( 3631): started...
+I/keystore( 3631): isNormalKeystore 1
+I/keystore( 3631): MDPP ready...
+I/ValidityLIB( 3659): APIHandlerVfm.cpp 88 4
+I/ValidityLIB( 3659): vfmEx.c 375 4
+I/keystore( 3631): property_value() : Ready
+I/keystore( 3631): Get [sys.qseecomd.enable]:[]
+I/keystore( 3631): Get [sys.mobicoredaemon.enable]:[true]
+I/keystore( 3631): tzdaemon is enabled
+D/AT_Distributor( 3651): SERIALNO: R21F628DB4W
+D/AT_Distributor( 3651): ril.serialnumber: R21F628DB4W
+I/tlcFingerPrint( 3659): vfmTZDeviceOpen;186
+I/tlc_communication( 3659): device_open() called;24
+I/tlc_communication( 3659): Opening MobiCore device;28
+I/tlc_communication( 3659): device_open() successed;40
+I/tlcFingerPrint( 3659): vfmTZDeviceOpen Success;195
+D/AT_Distributor( 3651): gUartPath = /dev/ttySAC2
+D/AT_Distributor( 3651): UART ttySAC2 is not used by console
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon is preparing to run
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon successfully binded a socket
+D/AT_Distributor( 3651): MakeLocalServer(): FactoryClientRecv Communication: Server_socket 7
+D/AT_Distributor( 3651): InitSocketAcceptHandler(): FactoryClientRecv, id(0), fd(7)
+D/AT_Distributor( 3651): MakeLocalServer(): FactoryClientSend Communication: Server_socket 9
+D/AT_Distributor( 3651): InitSocketAcceptHandler(): FactoryClientSend, id(1), fd(9)
+D/AT_Distributor( 3651): MakeLocalServer(): ATDMultiClient Communication: Server_socket 10
+D/AT_Distributor( 3651): InitSocketAcceptHandler(): ATDMultiClient, id(6), fd(10)
+D/AT_Distributor( 3651): MakeLocalServer(): ReactiveService Communication: Server_socket 11
+D/AT_Distributor( 3651): InitSocketAcceptHandler(): ReactiveService, id(10), fd(11)
+D/AT_Distributor( 3651): first start
+D/CSTORAGE( 3665): init_service_key: performing initialization of service key, serviceName=KNOX
+D/CSTORAGE( 3665): preload finished
+I/SurfaceFlinger( 3619): SurfaceFlinger is starting
+I/SurfaceFlinger( 3619): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/SecExternalDisplay( 3641): SecExternalDisplayService Service start!
+I/keystore( 3631): SKMM Loaded
+D/SecurityManager( 3631): Failed to open f : Permission denied
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon successfully connected to TA or driver
+I/JAM     ( 3628): JackService is created
+I/main_jackservice( 3628): JackService is starting now
+I/main_APAservice( 3627): APA Service is starting now
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon successfully read the config file
+I/main_androidshmservice( 3693): AndroidShmService is starting now
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon is ready to send config to TA/driver
+D/gpsd    ( 3643): WakeLock(Release,GPSD)
+D/gpsd    ( 3643): WakeLock(Release,SUPL)
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon sent config to TA/driver
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon is initialized
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon starts listening
+I/SecureStorage( 3662): [INFO]: SPID(0x00000001)Secure Storage Daemon successfully started
+I/gpsd_d  ( 3643): GNSS: 219420
+D/wrapperGPS( 3643): wrapperOpenClient_RILD
+E/wrapperGPS( 3643): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3643): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3643): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6b416e9)
+D/wrapperGPS( 3643): wrapperRegisterErrorCallback
+D/wrapperGPS( 3643): wrapperConnect_RILD
+D/libEGL  ( 3619): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3619): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3619): using (id=)
+I/gralloc ( 3619): xres         = 1080 px
+I/gralloc ( 3619): yres         = 1920 px
+I/gralloc ( 3619): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3619): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3619): refresh rate = 60.00 Hz
+I/ValidityLIB( 3659): ThreadBase.cpp 127 4
+I/ValidityLIB( 3659): WorkerThreadBase.cpp 128 4
+W/linker  ( 3626): libarcsoft_magicshot_common_T.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+W/linker  ( 3626): libarccamera.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+I/Sensorhubs( 3638): GestureSensor flags 1, mEnabled 0
+E/Sensorhubs( 3638): Gesture old sensor_state 0, new sensor_state : 64 en : 1
+I/Sensorhubs( 3638): GestureSensor flags 0, mEnabled 1
+E/Sensorhubs( 3638): Gesture old sensor_state 64, new sensor_state : 0 en : 0
+I/SensorHubService( 3638): HardwareSensorHub
+I/SensorHubService( 3638): HardwareSensorHub
+D/SensorHubService( 3638): nuSensorHubService thread starting...
+W/linker  ( 3626): libarcsoft_selfie_camera_lite.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+I/sensorhubservice( 3638): SensorHubService is starting now........................................
+I/PrGenericPlugin( 3623): (START) TZ Generic PR Plugin Version : [V_0.1_08012013][2014.09.30]
+I/PrGenericPlugin( 3623): PrGenericPlugin 
+D/WVMDrmPlugIn( 3623): WVMDrmPlugin::onGetSupportInfo : 0
+I/PrGenericPlugin( 3623): [A] ENTER onGetSupportInfo : 0
+I/PrGenericPlugin( 3623): [A] LEAVE onGetSupportInfo : 0
+D/hwcomposer( 3619): using
+D/hwcomposer( 3619): xres         = 1080 px
+D/hwcomposer( 3619): yres         = 1920 px
+D/hwcomposer( 3619): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3619): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3619): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3619): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3619): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3619): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3619): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3619): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3619): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3619): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3619): Using composer version 1.3
+I/SurfaceFlinger( 3619): EGL information:
+I/SurfaceFlinger( 3619): vendor    : Android
+I/SurfaceFlinger( 3619): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3619): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3619): Client API: OpenGL_ES
+I/SurfaceFlinger( 3619): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 3619): OpenGL ES informations:
+I/SurfaceFlinger( 3619): vendor    : ARM
+I/SurfaceFlinger( 3619): renderer  : Mali-T628
+I/SurfaceFlinger( 3619): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3619): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3619): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3619): GL_MAX_VIEWPORT_DIMS = 8192
+W/linker  ( 3626): libsthmb.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+D/SurfaceFlinger( 3619): Set power mode=2, type=0 flinger=0xb6962000
+I/hwcomposer( 3619): int exynos5_blank(hwc_composer_device_1*, int, int):: disp(0), blank(0)
+I/hwcomposer( 3619): unblank ioctl failed (display already unblanked)
+W/linker  ( 3626): lib_SoundAlive_ver118t.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+W/linker  ( 3863): libsthmb.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+W/linker  ( 3863): lib_SoundAlive_ver118t.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+D/SurfaceFlinger( 3619): shader cache generated - 24 shaders in 114.579834 ms
+V/SamsungPowerSound( 3863): ++++++++ SamsungPowerSoundPlayer Constuctor ++++++++
+I/ServiceManager( 3863): Waiting for service media.audio_policy...
+I/mediaserver( 3626): ServiceManager: 0xb2a50720
+I/ValidityLIB( 3659): palDevConfig.c 355 4
+I/ValidityLIB( 3659): palDevConfig.c 370 4
+I/AudioFlinger( 3626): Using default 3000 mSec as standby time.
+I/ValidityLIB( 3659): palSynchronization.c 1169 4
+I/ValidityLIB( 3659): vfmEx.c 4934 4
+V/MediaPlayerService( 3626): MediaPlayerService created
+D/NTSCoreInstanceManager( 3626): NTS Stack - 15/02/2014
+I/CameraService( 3626): CameraService started (pid=3626)
+I/BootAnimationLoader( 3862): ret=2, fps:12, interval:83333
+I/BootAnimationLoader( 3862): createSurface RGB565
+I/SurfaceFlinger( 3619): id=1 createSurf (1080x1920),4 flag=0, samsungani565
+I/CameraService( 3626): Loaded "Exynos Camera HAL1" camera module
+D/ExynosCameraInterface( 3626): DEBUG:duration time(    0 msec):(HAL_getNumberOfCameras)
+W/ExynosCameraInterface( 3626): WRN(HAL_set_callbacks): not supported API level 1.0
+I/ValidityLIB( 3659): storageSqliteSS.c 153 4
+I/tlcFingerPrint( 3659): vfmTZSessionOpen;217
+I/tlc_communication( 3659): tlc_open() called;85
+I/tlc_communication( 3659): Allocating WSM for TCI;102
+I/tlc_communication( 3659): Opening the session;119
+I/SurfaceFlinger( 3619): Disp[0] Orientation 0=>0
+E/BootAnimation( 3862): /sys/class/sec/led/led_pattern: open error, fd = -1
+W/BootAnimationLoader( 3862): resolution w=1080, h=1920
+W/BootAnimationLoader( 3862): original qmg w=1080, h=1920
+I/AudioPolicyService( 3626): AudioPolicyService CSTOR in new mode
+V/AudioPolicyManager( 3626): loadHwModules() loading module primary
+V/AudioPolicyManager( 3626): loadHwModule() loading output primary
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_24_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_EARPIECE
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00000001
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_SPEAKER
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00000003
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_WIRED_HEADSET
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00000007
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_WIRED_HEADPHONE
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 0000000f
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_ALL_SCO
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 0000007f
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_OUTPUT_FLAG_PRIMARY
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 007f, mFlags 0002
+V/AudioPolicyManager( 3626): loadHwModule() loading output hdmi
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadOutChannels() dynamic
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_AUX_DIGITAL
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00000400
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_OUTPUT_FLAG_MULTI_CH
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 0400, mFlags 0080
+V/AudioPolicyManager( 3626): loadHwModule() loading input primary
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 8000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 11025
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 16000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 22050
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 24000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 32000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadInChannels() AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 0010
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 000c
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_VOICE_UPLINK
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 4000
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_VOICE_DNLINK
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 8000
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_BUILTIN_MIC
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 80000004
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_BACK_MIC
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 80000084
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_WIRED_HEADSET
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 80000094
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 8000009c
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_VOICE_CALL
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 800000dc
+V/AudioPolicyManager( 3626): loadInput() adding input Supported Devices 800000dc
+V/AudioPolicyManager( 3626): loadHwModules() loading module a2dp
+V/AudioPolicyManager( 3626): loadHwModule() loading output a2dp
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_ALL_A2DP
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00000380
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 0380, mFlags 0000
+V/AudioPolicyManager( 3626): loadHwModule() loading input a2dp
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadInChannels() AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 0010
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 000c
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_BLUETOOTH_A2DP
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 80020000
+V/AudioPolicyManager( 3626): loadInput() adding input Supported Devices 80020000
+V/AudioPolicyManager( 3626): loadHwModules() loading module usb
+V/AudioPolicyManager( 3626): loadHwModule() loading output usb_accessory
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_USB_ACCESSORY
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00002000
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 2000, mFlags 0000
+V/AudioPolicyManager( 3626): loadHwModule() loading output usb_device
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadOutChannels() dynamic
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_USB_DEVICE
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00004000
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 00005000
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 5000, mFlags 0000
+V/AudioPolicyManager( 3626): loadHwModule() loading input usb_device
+V/AudioPolicyManager( 3626): loadInChannels() AUDIO_CHANNEL_IN_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 000c
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_USB_DEVICE
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 80001000
+V/AudioPolicyManager( 3626): loadInput() adding input Supported Devices 80001000
+V/AudioPolicyManager( 3626): loadHwModules() loading module tms
+V/AudioPolicyManager( 3626): loadHwModule() loading output tms
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 8000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 11025
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 12000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 16000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 22050
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 24000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 32000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadOutChannels() AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_OUT_STEREO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_OUT_EXTERNAL_TMS
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 01000000
+V/AudioPolicyManager( 3626): loadOutput() adding output Supported Devices 1000000, mFlags 0000
+V/AudioPolicyManager( 3626): loadHwModule() loading input tms
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 8000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 11025
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 12000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 16000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 22050
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 24000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 32000
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 44100
+V/AudioPolicyManager( 3626): loadSamplingRates() adding rate 48000
+V/AudioPolicyManager( 3626): loadInChannels() AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_MONO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 0010
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_CHANNEL_IN_STEREO
+V/AudioPolicyManager( 3626): loadInChannels() adding channelMask 000c
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_FORMAT_PCM_16_BIT
+V/AudioPolicyManager( 3626): stringToEnum() found AUDIO_DEVICE_IN_EXTERNAL_TMS
+V/AudioPolicyManager( 3626): DeviceVector::refreshTypes() mDeviceTypes 801000
