@@ -1,0 +1,176 @@
+--------- beginning of main
+I/McDaemon(    0): Daemon starting up...
+W/auditd  ( 3693): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3693): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+I/McDaemon(    0): Checking version of <t-base
+I/McDaemon(    0): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/McDaemon(    0): (null)
+I/cm      (    0): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+W/auditd  ( 3693): type=1305 audit(0.0:11): audit_pid=3656 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3693):  res=1
+W/auditd  ( 3693): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3693):  res=1
+--------- beginning of system
+I/auditd  ( 3670): Starting up
+I/cm      ( 3669): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+I/lowmemorykiller( 3658): Using in-kernel low memory killer interface
+I/DEBUG   ( 3672): debuggerd: Jul  3 2015 03:58:19
+I/cm      ( 3690): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+I/audit_log( 3670): Previous audit logfile detected, rotating
+E/audit_rules( 3670): Could not read audit rules /data/misc/audit/audit.rules: No such file or directory
+I/macloader( 3679): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3679): Change permissions of /data/.cid.info
+I/PrProvisioning( 3696): successfully - provisioning start !
+I/installd( 3676): installd firing up
+I/cm      ( 3697): Welcome to Android 5.0.2 / CyanogenMod-12-20150712-UNOFFICIAL-k3gxx 
+I/PrProvisioning( 3696): provisioning already done
+I/Vold    ( 3660): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3660): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3660): Volume usbdisk state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3660): Check if PFE is activated on Boot
+E/Cryptfs ( 3660): Bad magic for real block device /dev/block/platform/12200000.dwmmc0/by-name/USERDATA
+E/Cryptfs ( 3660): Error getting crypt footer and key
+I/keystore( 3677): SELinux: Keystore SELinux is disabled.
+I/Netd    ( 3671): Netd 1.0 starting
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/rmnet0/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/rmnet1/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/rmnet2/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/rmnet3/accept_ra_rt_table: No such file or directory
+E/Netd    ( 3671): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+I/SurfaceFlinger( 3661): SurfaceFlinger is starting
+I/SurfaceFlinger( 3661): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/gpsd    ( 3678): WakeLock(Release,GPSD)
+D/gpsd    ( 3678): WakeLock(Release,SUPL)
+I/gpsd_d  ( 3678): GNSS: 219420
+D/wrapperGPS( 3678): wrapperOpenClient_RILD
+E/wrapperGPS( 3678): wrapperOpenClient_RILD: RegisterUnsolicitedHandler() UNSOL_GPS_NOTI (20009)
+D/wrapperGPS( 3678): wrapperRegisterRequestCompleteHandler
+D/wrapperGPS( 3678): wrapperRegisterUnsolicitedHandler id(12009), handler(0xb6b676e9)
+D/wrapperGPS( 3678): wrapperRegisterErrorCallback
+D/wrapperGPS( 3678): wrapperConnect_RILD
+D/libEGL  ( 3661): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3661): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3661): using (id=)
+I/gralloc ( 3661): xres         = 1080 px
+I/gralloc ( 3661): yres         = 1920 px
+I/gralloc ( 3661): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3661): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3661): refresh rate = 60.00 Hz
+D/WVMDrmPlugIn( 3674): WVMDrmPlugin::onGetSupportInfo : 0
+D/hwcomposer( 3661): using
+D/hwcomposer( 3661): xres         = 1080 px
+D/hwcomposer( 3661): yres         = 1920 px
+D/hwcomposer( 3661): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3661): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3661): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev0, minor: 28
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev1, minor: 29
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev2, minor: 30
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev3, minor: 31
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev4, minor: 32
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev5, minor: 33
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+D/libexynosv4l2-subdev( 3661): try node: /dev/v4l-subdev6, minor: 34
+E/libexynosv4l2-subdev( 3661): failed to open sysfs entry for subdev
+E/libexynosv4l2-subdev( 3661): no subdev device found
+E/EXTERDISPLAY_LEGACY( 3661): failed to open hdmi mixer0 subdev
+E/hwcomposer( 3661): openHdmi fail
+I/hwcomposer( 3661): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3661): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3661): Using composer version 1.3
+I/SurfaceFlinger( 3661): EGL information:
+I/SurfaceFlinger( 3661): vendor    : Android
+I/SurfaceFlinger( 3661): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3661): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3661): Client API: OpenGL_ES
+I/SurfaceFlinger( 3661): EGLSurface: 8-8-8-8, config=0xb69cf2ac
+I/SurfaceFlinger( 3661): OpenGL ES informations:
+I/SurfaceFlinger( 3661): vendor    : ARM
+I/SurfaceFlinger( 3661): renderer  : Mali-T628
+I/SurfaceFlinger( 3661): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3661): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3661): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3661): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 3661): Set power mode=2, type=0 flinger=0xb6962000
+I/hwcomposer( 3661): unblank ioctl failed (display already unblanked)
+D/AndroidRuntime( 3680): 
+D/AndroidRuntime( 3680): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 3680): CheckJNI is OFF
+I/art     ( 3680): option[0]=-Xzygote
+I/art     ( 3680): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3680): option[2]=exit
+I/art     ( 3680): option[3]=vfprintf
+I/art     ( 3680): option[4]=sensitiveThread
+I/art     ( 3680): option[5]=-verbose:gc
+I/art     ( 3680): option[6]=-Xms16m
+I/art     ( 3680): option[7]=-Xmx512m
+I/art     ( 3680): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3680): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3680): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3680): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3680): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3680): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3680): option[14]=-Xlockprofthreshold:500
+I/art     ( 3680): option[15]=-Ximage-compiler-option
+I/art     ( 3680): option[16]=--runtime-arg
+I/art     ( 3680): option[17]=-Ximage-compiler-option
+I/art     ( 3680): option[18]=-Xms64m
+I/art     ( 3680): option[19]=-Ximage-compiler-option
+I/art     ( 3680): option[20]=--runtime-arg
+I/art     ( 3680): option[21]=-Ximage-compiler-option
+I/art     ( 3680): option[22]=-Xmx64m
+I/art     ( 3680): option[23]=-Ximage-compiler-option
+I/art     ( 3680): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3680): option[25]=-Ximage-compiler-option
+I/art     ( 3680): option[26]=--image-classes=preloaded-classes
+I/art     ( 3680): option[27]=-Xcompiler-option
+I/art     ( 3680): option[28]=--runtime-arg
+I/art     ( 3680): option[29]=-Xcompiler-option
+I/art     ( 3680): option[30]=-Xms64m
+I/art     ( 3680): option[31]=-Xcompiler-option
+I/art     ( 3680): option[32]=--runtime-arg
+I/art     ( 3680): option[33]=-Xcompiler-option
+I/art     ( 3680): option[34]=-Xmx512m
+I/art     ( 3680): option[35]=-Duser.language=es
+I/art     ( 3680): option[36]=-Duser.region=US
+I/art     ( 3680): Pruning dalvik-cache since we are relocating an image and will need to recompile
+W/art     ( 3680): Unexpected file type of 
+W/art     ( 3680):  encountered.
+D/SurfaceFlinger( 3661): SF. shader cache generated - 26 shaders in 83.025665 ms
+D/libEGL  ( 3833): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3833): PLATFORM VERSION : JB-MR-2
+I/art     ( 3680): RelocateImage: /system/bin/patchoat --input-image-location=/system/framework/boot.art --output-image-file=/data/dalvik-cache/arm/system@framework@boot.art --input-oat-location=/system/framework/boot.oat --output-oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --base-offset-delta=14000128
+E/BootAnimation( 3833): couldn't find audio_conf.txt
+D/BootAnimation( 3833): Use save memory method, maybe small fps in actual.
+D/wrapperGPS( 3678): wrapperConnect_RILD
+V/NatController( 3671): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 3671): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 3671): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 3671): runCmd(/system/bin/iptables -t nat -F natctrl_nat_PREROUTING) res=0
+V/NatController( 3671): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 3671): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 3671): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+D/wrapperGPS( 3678): wrapperConnect_RILD
+V/NatController( 3671): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+E/mem
