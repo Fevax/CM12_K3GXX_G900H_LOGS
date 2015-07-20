@@ -1,0 +1,642 @@
+--------- beginning of main
+I/cm      (    0): Welcome to Android 5.0.2 / CyanogenMod-12-20150717-UNOFFICIAL-k3gxx 
+W/auditd  ( 3689): type=1325 audit(0.0:2): table=filter family=2 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:3): table=mangle family=2 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:4): table=nat family=2 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:5): table=raw family=2 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:6): table=security family=2 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:7): table=filter family=3 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:8): table=filter family=10 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:9): table=mangle family=10 entries=0
+W/auditd  ( 3689): type=1325 audit(0.0:10): table=raw family=10 entries=0
+I/McDaemon(    0): Daemon starting up...
+I/McDaemon(    0): Socket interface version is 0.2
+I/McDaemon(    0): *** t-base-300-Ares-2-Android-V004_P3 ###
+I/McDaemon(    0): Build timestamp is Jan 20 2015 11:49:09
+W/auditd  ( 3689): type=1305 audit(0.0:11): audit_pid=3669 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3689):  res=1
+W/auditd  ( 3689): type=1305 audit(0.0:12): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295
+W/auditd  ( 3689):  res=1
+I/lowmemorykiller( 3671): Using in-kernel low memory killer interface
+I/McDaemon( 3675): Checking version of <t-base
+I/McDaemon( 3675): Product ID is tbase-300_EXYNOS_5422_V004_P3
+I/McDaemon( 3675): (null)
+I/McDaemon( 3675): (null)
+I/McDaemon( 3675): (null)
+I/McDaemon( 3675): (null)
+--------- beginning of system
+I/Vold    ( 3673): Vold 2.1 (the revenge) firing up
+D/Vold    ( 3673): Volume extSdCard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveA state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveB state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveC state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveD state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveE state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 3673): Volume UsbDriveF state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs ( 3673): Check if PFE is activated on Boot
+E/Cryptfs ( 3673): Bad magic for real block device /dev/block/platform/12200000.dwmmc0/by-name/USERDATA
+E/Cryptfs ( 3673): Error getting crypt footer and key
+I/DEBUG   ( 3687): debuggerd: Jul 17 2015 15:16:32
+E/sdcard  ( 3702): usage: sdcard [OPTIONS] <source_path> <dest_path>
+E/sdcard  ( 3702):     -u: specify UID to run as
+E/sdcard  ( 3702):     -g: specify GID to run as
+E/sdcard  ( 3702):     -w: specify GID required to write (default sdcard_rw, requires -d or -l)
+E/sdcard  ( 3702):     -t: specify number of threads to use (default 2)
+E/sdcard  ( 3702):     -d: derive file permissions based on path
+E/sdcard  ( 3702):     -l: derive file permissions based on legacy internal layout
+E/sdcard  ( 3702):     -s: split derived permissions for pics, av
+E/sdcard  ( 3702): 
+I/installd( 3695): installd firing up
+I/PrProvisioning( 3714): successfully - provisioning start !
+I/PrProvisioning( 3714): provisioning already done
+I/macloader( 3700): Settting wifi type to wisol in /data/.cid.info
+D/macloader( 3700): Change permissions of /data/.cid.info
+D/SensorHubService( 3697): nuSensorHubService starting...
+I/keystore( 3696): SELinux: Keystore SELinux is disabled.
+I/SurfaceFlinger( 3690): SurfaceFlinger is starting
+I/SurfaceFlinger( 3690): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 3690): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3690): PLATFORM VERSION : JB-MR-2
+I/gralloc ( 3690): using (id=)
+I/gralloc ( 3690): xres         = 1080 px
+I/gralloc ( 3690): yres         = 1920 px
+I/gralloc ( 3690): width        = 65 mm (422.030762 dpi)
+I/gralloc ( 3690): height       = 115 mm (424.069580 dpi)
+I/gralloc ( 3690): refresh rate = 60.00 Hz
+I/mediaserver( 3693): ServiceManager: 0xb61500c0
+I/AudioFlinger( 3693): Using default 3000 mSec as standby time.
+I/ServiceManager( 3693): Waiting for service batterystats...
+D/hwcomposer( 3690): using
+D/hwcomposer( 3690): xres         = 1080 px
+D/hwcomposer( 3690): yres         = 1920 px
+D/hwcomposer( 3690): width        = 65 mm (422.030000 dpi)
+D/hwcomposer( 3690): height       = 115 mm (424.069000 dpi)
+D/hwcomposer( 3690): refresh rate = 60 Hz
+D/libexynosv4l2-subdev( 3690): try node: /dev/v4l-subdev0
+D/libexynosv4l2-subdev( 3690): try node: /dev/v4l-subdev1
+D/libexynosv4l2-subdev( 3690): try node: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3690): node found for device s5p-mixer0: /dev/v4l-subdev2
+I/libexynosv4l2-subdev( 3690): open subdev device /dev/v4l-subdev2
+I/hwcomposer( 3690): PSR info devname = /sys/devices/14400000.fimd_fb/psr_info
+I/hwcomposer( 3690): PSR mode is 2(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+I/SurfaceFlinger( 3690): Using composer version 1.3
+I/SurfaceFlinger( 3690): EGL information:
+I/SurfaceFlinger( 3690): vendor    : Android
+I/SurfaceFlinger( 3690): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 3690): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 3690): Client API: OpenGL_ES
+I/SurfaceFlinger( 3690): EGLSurface: 8-8-8-8, config=0xb6acf2ac
+D/WVMDrmPlugIn( 3692): WVMDrmPlugin::onGetSupportInfo : 0
+I/SurfaceFlinger( 3690): OpenGL ES informations:
+I/SurfaceFlinger( 3690): vendor    : ARM
+I/SurfaceFlinger( 3690): renderer  : Mali-T628
+I/SurfaceFlinger( 3690): version   : OpenGL ES 3.0
+I/SurfaceFlinger( 3690): extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_ARM_mali_program_binary 
+I/SurfaceFlinger( 3690): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 3690): GL_MAX_VIEWPORT_DIMS = 8192
+D/AndroidRuntime( 3701): 
+D/AndroidRuntime( 3701): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/SurfaceFlinger( 3690): Set power mode=2, type=0 flinger=0xb6a62000
+I/hwcomposer( 3690): unblank ioctl failed (display already unblanked)
+D/AndroidRuntime( 3701): CheckJNI is OFF
+I/art     ( 3701): option[0]=-Xzygote
+I/art     ( 3701): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     ( 3701): option[2]=exit
+I/art     ( 3701): option[3]=vfprintf
+I/art     ( 3701): option[4]=sensitiveThread
+I/art     ( 3701): option[5]=-verbose:gc
+I/art     ( 3701): option[6]=-Xms16m
+I/art     ( 3701): option[7]=-Xmx512m
+I/art     ( 3701): option[8]=-XX:mainThreadStackSize=24K
+I/art     ( 3701): option[9]=-XX:HeapGrowthLimit=192m
+I/art     ( 3701): option[10]=-XX:HeapMinFree=2m
+I/art     ( 3701): option[11]=-XX:HeapMaxFree=8m
+I/art     ( 3701): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     ( 3701): option[13]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     ( 3701): option[14]=-Xlockprofthreshold:500
+I/art     ( 3701): option[15]=-Ximage-compiler-option
+I/art     ( 3701): option[16]=--runtime-arg
+I/art     ( 3701): option[17]=-Ximage-compiler-option
+I/art     ( 3701): option[18]=-Xms64m
+I/art     ( 3701): option[19]=-Ximage-compiler-option
+I/art     ( 3701): option[20]=--runtime-arg
+I/art     ( 3701): option[21]=-Ximage-compiler-option
+I/art     ( 3701): option[22]=-Xmx64m
+I/art     ( 3701): option[23]=-Ximage-compiler-option
+I/art     ( 3701): option[24]=--image-classes-zip=/system/framework/framework.jar
+I/art     ( 3701): option[25]=-Ximage-compiler-option
+I/art     ( 3701): option[26]=--image-classes=preloaded-classes
+I/art     ( 3701): option[27]=-Xcompiler-option
+I/art     ( 3701): option[28]=--runtime-arg
+I/art     ( 3701): option[29]=-Xcompiler-option
+I/art     ( 3701): option[30]=-Xms64m
+I/art     ( 3701): option[31]=-Xcompiler-option
+I/art     ( 3701): option[32]=--runtime-arg
+I/art     ( 3701): option[33]=-Xcompiler-option
+I/art     ( 3701): option[34]=-Xmx512m
+I/art     ( 3701): option[35]=-Duser.language=es
+I/art     ( 3701): option[36]=-Duser.region=ES
+D/SurfaceFlinger( 3690): SF. shader cache generated - 26 shaders in 58.554585 ms
+D/libEGL  ( 3794): loaded /vendor/lib/egl/libGLES_mali.so
+I/        ( 3794): PLATFORM VERSION : JB-MR-2
+E/BootAnimation( 3794): couldn't find audio_conf.txt
+W/BootAnimation( 3794): Audio service is not initiated.
+D/BootAnimation( 3794): Use save memory method, maybe small fps in actual.
+I/Sensorhubs( 3697): GestureSensor flags 1, mEnabled 0
+E/Sensorhubs( 3697): Gesture old sensor_state 0, new sensor_state : 64 en : 1
+I/Sensorhubs( 3697): GestureSensor flags 0, mEnabled 1
+E/Sensorhubs( 3697): Gesture old sensor_state 64, new sensor_state : 0 en : 0
+I/SensorHubService( 3697): HardwareSensorHub
+I/SensorHubService( 3697): HardwareSensorHub
+D/SensorHubService( 3697): nuSensorHubService thread starting...
+I/sensorhubservice( 3697): SensorHubService is starting now........................................
+E/memtrack( 3701): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3701): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 3701): Profiling disabled.
+D/Zygote  ( 3701): begin preload
+I/Zygote  ( 3701): Preloading classes...
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 994(55KB) AllocSpace objects, 0(0B) LOS objects, 98% free, 70KB/4MB, paused 123us total 13.974ms
+I/art     ( 3701): Counter: 1
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin ( 3701): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+I/ServiceManager( 3693): Waiting for service batterystats...
+I/art     ( 3701): Thread[1,tid=3701,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12c330e0,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI( 3701): register_android_mtp_MtpDevice
+I/art     ( 3701): Thread[1,tid=3701,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12c330e0,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     ( 3701): Thread[1,tid=3701,WaitingForJniOnLoad,Thread*=0xb5007800,peer=0x12c330e0,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/System  ( 3701): Loaded time zone names for "" in 44ms (40ms in ICU)
+I/System  ( 3701): Loaded time zone names for "en_US" in 29ms (24ms in ICU)
+I/System  ( 3701): Loaded time zone names for "es_ES" in 29ms (25ms in ICU)
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 32122(1932KB) AllocSpace objects, 0(0B) LOS objects, 71% free, 1612KB/5MB, paused 129us total 12.809ms
+I/Zygote  ( 3701): ...preloaded 3005 classes in 1008ms.
+I/art     ( 3701): VMRuntime.preloadDexCaches starting
+I/art     ( 3701): VMRuntime.preloadDexCaches strings total=217316 before=40338 after=40338
+I/art     ( 3701): VMRuntime.preloadDexCaches types total=18704 before=6337 after=6380
+I/art     ( 3701): VMRuntime.preloadDexCaches fields total=87408 before=32543 after=32871
+I/art     ( 3701): VMRuntime.preloadDexCaches methods total=154031 before=66779 after=67657
+I/art     ( 3701): VMRuntime.preloadDexCaches finished
+I/art     ( 3701): Counter: 0
+I/art     ( 3701): Counter: 1
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 169(19KB) AllocSpace objects, 0(0B) LOS objects, 72% free, 1592KB/5MB, paused 127us total 6.819ms
+D/idmap   ( 3819): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  ( 3701): Preloading resources...
+I/ServiceManager( 3693): Waiting for service batterystats...
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 4532(159KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 190us total 8.516ms
+I/Zygote  ( 3701): ...preloaded 430 resources in 419ms.
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 560(31KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 192us total 8.207ms
+I/Zygote  ( 3701): ...preloaded 41 resources in 18ms.
+I/art     ( 3701): Counter: 0
+D/libEGL  ( 3701): loaded /vendor/lib/egl/libGLES_mali.so
+I/Zygote  ( 3701): Preloading shared libraries...
+D/Zygote  ( 3701): end preload
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 461(21KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 317us total 8.334ms
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 187us total 7.870ms
+I/art     ( 3701): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 40% free, 16MB/28MB, paused 185us total 7.943ms
+I/Zygote  ( 3701): System server process 3820 has been created
+I/Zygote  ( 3701): Accepting command socket connections
+I/InstallerConnection( 3820): disconnecting...
+I/SystemServer( 3820): Entered the Android system server!
+V/Fingerprint-JNI( 3820): FingerprintManager JNI ready.
+I/        ( 3820): System server: starting sensor init.
+D/SensorService( 3820): nuSensorService starting...
+E/Sensors ( 3820): GeoMagneticSensor, ERROR dev_num = -19
+I/Sensors ( 3820): Proximity old sensor_state 0, new sensor_state : 128 en : 1
+I/SystemServiceManager( 3820): Starting com.android.server.pm.Installer
+I/Installer( 3820): Waiting for installd to be ready.
+I/InstallerConnection( 3820): connecting...
+I/installd( 3695): new connection
+I/SystemServiceManager( 3820): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/Sensors ( 3820): Light old sensor_state 128, new sensor_state : 640 en : 1
+E/Sensors ( 3820): UncalMagneticSensor, ERROR dev_num = -19
+I/Sensors ( 3820): SigMotionSensor old sensor_state 640, new sensor_state : 8832 en : 1
+E/Sensors ( 3820): UncalGyroSensor, ERROR dev_num = -19
+E/Sensors ( 3820): GameRotationVector, ERROR dev_num = -19
+I/Sensors ( 3820): StepCounterSensor old sensor_state 8832, new sensor_state : 139904 en : 1
+D/Sensors ( 3820): HrmSpO2Sensor::HrmSpO2Sensor: Shared version Registered 
+E/SensorService( 3820): >>>> WARNING <<< Upgrade sensor HAL to version 1_3
+I/Sensors ( 3820): Proximity old sensor_state 139904, new sensor_state : 139776 en : 0
+I/Sensors ( 3820): Light old sensor_state 139776, new sensor_state : 139264 en : 0
+I/Sensors ( 3820): StepCounterSensor old sensor_state 139264, new sensor_state : 8192 en : 0
+I/Sensors ( 3820): SigMotionSensor old sensor_state 8192, new sensor_state : 0 en : 0
+I/Sensors ( 3820): HrmSpO2Sensor::enable, handle(16), en(0), what(1/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 3820): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 3820): HrmSpO2Sensor::enable, handle(17), en(0), what(0/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 3820): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/Sensors ( 3820): HrmSpO2Sensor::enable, handle(18), en(0), what(2/0:aosphrm,1:sshrm, old enabled : 0)
+I/Sensors ( 3820): HrmSpO2Sensor is already disabled or have to keep enabled, mEnabled : 0x0, en : 0
+I/        ( 3820): System server: sensor init done.
+D/SensorService( 3820): nuSensorService thread starting...
+I/Sensors ( 3820): ProximitySensor - 8(cm)
+D/SensorService( 3820): new thread SensorEventAckReceiver
+I/ActivityManager( 3820): Memory class: 192
+I/ServiceThread( 3820): Enabled StrictMode logging for ActivityManager looper.
+I/IntentFirewall( 3820): Read new rules (A:0 B:0 S:0)
+I/ServiceThread( 3820): Enabled StrictMode logging for android.ui looper.
+I/ServiceThread( 3820): Enabled StrictMode logging for android.display looper.
+D/AppOps  ( 3820): AppOpsService published
+I/SystemServiceManager( 3820): Starting com.android.server.power.PowerManagerService
+I/ServiceThread( 3820): Enabled StrictMode logging for PowerManagerService looper.
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/timer_rate: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/timer_slack: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/min_sample_time: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/target_loads: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration: No such file or directory
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/io_is_busy: No such file or directory
+W/libsuspend( 3820): Error writing 'on' to /sys/power/state: Invalid argument
+I/libsuspend( 3820): Selected wakeup count
+E/Universal5422 PowerHAL( 3820): Error opening /sys/class/input/input1/enabled: Permission denied
+E/Universal5422 PowerHAL( 3820): Error opening /sys/class/input/input19/enabled: Permission denied
+E/Universal5422 PowerHAL( 3820): Error opening /sys/class/input/input17/enabled: Permission denied
+E/Universal5422 PowerHAL( 3820): Error opening /sys/class/input/input18/enabled: Permission denied
+I/SystemServiceManager( 3820): Starting com.android.server.display.DisplayManagerService
+I/SystemServiceManager( 3820): Starting phase 100
+I/DisplayManagerService( 3820): Display device added: DisplayDeviceInfo{"Pantalla integrada": 1080 x 1920, 60.000004 fps, supportedRefreshRates [60.000004], density 480, 422.03 x 424.069 dpi, appVsyncOff 0, presDeadline 17666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 3820): Package Manager
+W/PackageManager( 3820): No security bridge jar found, using default
+W/SystemConfig( 3820): No directory /system/etc/sysconfig, skipping
+D/SELinuxMMAC( 3820): Using policy file /system/etc/security/mac_permissions.xml
+E/MediaPlayerFactory( 3693): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 3693): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+I/CameraService( 3693): CameraService started (pid=3693)
+I/CameraService( 3693): Loaded "Exynos5422 Camera Wrapper" camera module
+E/CameraWrapper( 3693): failed to open vendor camera module
+I/AudioPolicyService( 3693): AudioPolicyService CSTOR in new mode
+W/AudioPolicyManager( 3693): loadOutput() invalid supported devices
+W/AudioPolicyManager( 3693): loadInput() invalid supported devices
+I/AudioPolicyManager( 3693): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+E/audio_route( 3693): Unable to open the mixer, aborting.
+I/AudioFlinger( 3693): loadHwModule() Loaded primary audio interface from JA audio HW HAL (audio) handle 1
+I/AudioFlinger( 3693): HAL output buffer size 240 frames, normal sink buffer size 960 frames
+W/EffectsFactory( 3693): loadLibrary() failed to open /system/lib/libmysound.so
+W/EffectsFactory( 3693): loadLibrary() failed to open /system/lib/libaudiosa.so
+W/EffectsFactory( 3693): loadLibrary() failed to open /system/lib/soundfx/libaudiosa_sec.so
+W/EffectsFactory( 3693): loadEffect() could not get library soundalive_sec
+W/EffectsFactory( 3693): loadEffect() could not get library soundalive
+W/EffectsFactory( 3693): loadEffect() could not get library soundalive
+W/EffectsFactory( 3693): loadEffect() could not get library soundalive
+W/EffectsFactory( 3693): loadEffect() could not get library mysound
+I/AudioMixer( 3693): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+E/MonoPipe( 3693): Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+E/art     ( 3820): DexFile_isDexOptNeeded file '/system/framework/com.android.nfc_extras.jar' does not exist
+W/PackageManager( 3820): Library not found: /system/framework/com.android.nfc_extras.jar
+D/PackageManager( 3820): No files in app dir /vendor/overlay
+W/PackageManager( 3820): Failed to parse /system/framework/arm: Missing base APK in /system/framework/arm
+W/ResourceType( 3820): Failure getting entry for 0x7f0b023e (t=10 e=574) (error -75)
+W/PackageParser( 3820): No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #362
+W/PackageParser( 3820): No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #185
+W/PackageParser( 3820): No actions in intent filter at /system/app/Bluetooth/Bluetooth.apk Binary XML file line #229
+W/PackageParser( 3820): No actions in intent filter at /system/app/CMFileManager/CMFileManager.apk Binary XML file line #155
+W/PackageParser( 3820): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #273
+W/PackageParser( 3820): Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #276
+W/PackageManager( 3820): Failed to parse /system/app/mcRegistry: Missing base APK in /system/app/mcRegistry
+D/PackageManager( 3820): No files in app dir /system/vendor/app
+D/PackageManager( 3820): No files in app dir /oem/app
+D/PackageManager( 3820): No files in app dir /vendor/bundled-app
+W/PackageManager( 3820): Failed to parse /data/app/mcRegistry: No packages found in split
+D/PackageManager( 3820): No files in app dir /data/app-private
+W/PackageManager( 3820): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+W/PackageManager( 3820): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+E/PackageManager( 3820): updateAllSharedLibrariesLPw failed: Package com.android.dialer requires unavailable shared library com.qualcomm.qti.smartsearch; failing!
+W/PackageManager( 3820): Package com.android.calculator2 desires unavailable shared library com.sec.android.app.multiwindow; ignoring!
+W/PackageManager( 3820): Package com.android.mms desires unavailable shared library com.qrd.wappush; ignoring!
+I/PackageManager( 3820): Adjusting ABI for : com.android.inputdevices to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.cyanogenmod.setupwizard to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.android.settings to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.android.providers.settings to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.android.keychain to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.android.location.fused to armeabi-v7a
+I/PackageManager( 3820): Adjusting ABI for : com.android.development to armeabi-v7a
+I/PackageManager( 3820): Time to scan packages: 1.716 seconds
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager( 3820): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.dialer
+W/PackageManager( 3820): Unknown permission android.permission.ACCESS_SUPERUSER in package com.cyanogenmod.filemanager
+W/PackageManager( 3820): Unknown permission com.cyanogenmod.filemanager.permissions.READ_THEME in package com.cyanogenmod.filemanager
+W/PackageManager( 3820): Unknown permission com.cyngn.cmstats.SEND_ANALYTICS in package com.cyanogenmod.setupwizard
+W/PackageManager( 3820): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 3820): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 3820): Unknown permission com.google.android.c2dm.permission.RECEIVE in package org.whispersystems.whisperpush
+W/PackageManager( 3820): Not granting permission android.permission.BIND_WALLPAPER to package com.android.camera2 (protectionLevel=18 flags=0x58bc45)
+W/PackageManager( 3820): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 3820): Unknown permission com.google.android.c2dm.permission.RECEIVE in package com.cyanogenmod.account
+W/PackageManager( 3820): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager( 3820): Unknown permission com.android.deskclock.worldclock.permissions.WRITE_DATABASE in package com.android.deskclock
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager( 3820): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.soundrecorder (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 3820): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager( 3820): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.mms
+W/PackageManager( 3820): Not granting permission android.permission.MANAGE_DOCUMENTS to package com.android.mms (protectionLevel=2 flags=0x4049be65)
+W/PackageManager( 3820): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x49be45)
+W/PackageManager( 3820): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 3820): Unknown permission android.permission.CANCEL_NOTIFICATIONS in package org.cyanogenmod.theme.chooser
+V/PackageManager( 3820): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+W/PackageManager( 3820): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+V/PackageManager( 3820): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+W/PackageManager( 3820): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+V/PackageManager( 3820): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver
+W/PackageManager( 3820): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver
+V/PackageManager( 3820): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity
+W/PackageManager( 3820): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity
+V/PackageManager( 3820): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$Receiver
+W/PackageManager( 3820): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$Receiver
+V/PackageManager( 3820): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$ActiveReceiver
+W/PackageManager( 3820): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$ActiveReceiver
+V/PackageManager( 3820): Disabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService$SecretCodeReceiver
+W/PackageManager( 3820): Unable to disable com.google.android.gms/com.google.android.gms.update.SystemUpdateService$SecretCodeReceiver
+V/PackageManager( 3820): Enabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+W/PackageManager( 3820): Unable to enable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+V/PackageManager( 3820): Enabling com.google.android.gms/com.google.android.gms.update.SystemUpdateService
+W/PackageManager( 3820): Unable to enable com.google.android.gms/com.google.android.gms.update.SystemUpdateService
+I/art     ( 3820): Explicit concurrent mark sweep GC freed 114679(6MB) AllocSpace objects, 50(893KB) LOS objects, 33% free, 18MB/28MB, paused 1.681ms total 51.696ms
+I/SystemServer( 3820): User Service
+I/lowmemorykiller( 3671): ActivityManager connected
+I/SystemServiceManager( 3820): Starting com.android.server.lights.LightsService
+I/SystemServiceManager( 3820): Starting com.android.server.BatteryService
+I/SystemServiceManager( 3820): Starting com.android.server.usage.UsageStatsService
+I/SystemServiceManager( 3820): Starting com.android.server.webkit.WebViewUpdateService
+I/SystemServer( 3820): Reading configuration...
+I/SystemServer( 3820): Scheduling Policy
+I/SystemServer( 3820): Telephony Registry
+I/SystemServer( 3820): Entropy Mixer
+I/EntropyMixer( 3820): Added HW RNG output to entropy pool
+I/EntropyMixer( 3820): Writing entropy...
+I/SystemServer( 3820): Account Manager
+I/SystemServer( 3820): Content Manager
+I/SystemServer( 3820): System Content Providers
+W/ActivityManager( 3820): Can't addPackageDependency on system process
+W/CoreSettingsObserver( 3820): Cannot find setting "debug_view_attributes"
+W/CoreSettingsObserver( 3820): android.provider.Settings$SettingNotFoundException: debug_view_attributes
+W/CoreSettingsObserver( 3820): 	at android.provider.Settings$Global.getInt(Settings.java:8060)
+W/CoreSettingsObserver( 3820): 	at com.android.server.am.CoreSettingsObserver.populateSettings(CoreSettingsObserver.java:129)
+W/CoreSettingsObserver( 3820): 	at com.android.server.am.CoreSettingsObserver.sendCoreSettings(CoreSettingsObserver.java:82)
+W/CoreSettingsObserver( 3820): 	at com.android.server.am.CoreSettingsObserver.<init>(CoreSettingsObserver.java:65)
+W/CoreSettingsObserver( 3820): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:9976)
+W/CoreSettingsObserver( 3820): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:482)
+W/CoreSettingsObserver( 3820): 	at com.android.server.SystemServer.run(SystemServer.java:284)
+W/CoreSettingsObserver( 3820): 	at com.android.server.SystemServer.main(SystemServer.java:185)
+W/CoreSettingsObserver( 3820): 	at java.lang.reflect.Method.invoke(Native Method)
+W/CoreSettingsObserver( 3820): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/CoreSettingsObserver( 3820): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+W/CoreSettingsObserver( 3820): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+I/SystemServer( 3820): Vibrator Service
+I/SystemServer( 3820): Consumer IR Service
+I/SystemServiceManager( 3820): Starting com.android.server.AlarmManagerService
+D/AlarmManagerService( 3820): Kernel timezone updated to 180 minutes west of GMT
+I/SystemServer( 3820): Init Watchdog
+I/SystemServer( 3820): Input Manager
+I/InputManager( 3820): Initializing input manager, mUseDevInputEventForAudioJack=false
+I/SystemServer( 3820): Window Manager
+I/WindowManager( 3820): No existing display settings /data/system/display_settings.xml; starting empty
+D/PermissionCache( 3690): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (975 us)
+W/Settings( 3820): Setting dev_force_show_navbar has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning Secure URI.
+I/AudioFlinger( 3693): Using module 1 has the primary audio interface
+I/AudioFlinger( 3693): AudioFlinger's thread 0xb619b000 ready to run
+V/audio_hw_primary( 3693): do_out_standby: output standby: 1
+V/audio_hw_primary( 3693): out_set_parameters: key value pairs: routing=2
+--------- beginning of crash
+F/libc    ( 3693): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 3864 (AudioOut_2)
+I/InputManager( 3820): Starting input manager
+I/SystemServer( 3820): Bluetooth Manager Service
+D/EventHub( 3820): No input device configuration file found for device 'hrm_sensor'.
+D/BluetoothManagerService( 3820): Loading stored name and address
+D/BluetoothManagerService( 3820): Stored bluetooth Name=SM-G900H,Address=14:B4:84:6F:66:79
+I/SystemServer( 3820): Input Method Service
+W/InputMethodManagerService( 3820): Couldn't create dir.: /data/system/inputmethod
+D/EventHub( 3820): No input device configuration file found for device 'ssp_context'.
+I/SystemServer( 3820): Accessibility Manager
+D/EventHub( 3820): No input device configuration file found for device 'meta_event'.
+I/ActivityManager( 3820): Config changes=1df8 {1.0 ?mcc?mnc es_ES ldltr sw360dp w360dp h640dp 480dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.2 themeResource=null}
+I/DEBUG   ( 3687): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3687): Build fingerprint: 'samsung/cm_k3gxx/k3gxx:5.0.2/LRX22G/cebecded7a:userdebug/test-keys'
+I/DEBUG   ( 3687): Revision: '10'
+I/DEBUG   ( 3687): ABI: 'arm'
+I/DEBUG   ( 3687): pid: 3693, tid: 3864, name: AudioOut_2  >>> /system/bin/mediaserver <<<
+I/DEBUG   ( 3687): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+D/EventHub( 3820): No input device configuration file found for device 'step_cnt_sensor'.
+I/ActivityManager( 3820): Config changes=400 {1.0 ?mcc?mnc es_ES ldltr sw360dp w360dp h615dp 480dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h s.3 themeResource=null}
+I/SystemServer( 3820): Mount Service
+D/MountService( 3820): got storage path: /storage/sdcard0 description: Almacenamiento interno primary: true removable: false emulated: true mtpReserve: 100 allowMassStorage: false maxFileSize: 0
+D/MountService( 3820): addVolumeLocked() StorageVolume:
+D/MountService( 3820):     mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040999 
+D/MountService( 3820):     mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=100 
+D/MountService( 3820):     mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+D/MountService( 3820):     mUserLabel=null mState=null 
+D/MountService( 3820): got storage path: /storage/sdcard1 description: Tarjeta SD primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: true maxFileSize: 0
+D/MountService( 3820): addVolumeLocked() StorageVolume:
+D/MountService( 3820):     mStorageId=0 mPath=/storage/sdcard1 mDescriptionId=17041000 mPrimary=false 
+D/MountService( 3820):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=true 
+D/MountService( 3820):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+D/MountService( 3820): got storage path: /storage/usbdisk description: Almacenamiento USB primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+I/UsageStatsService( 3820): User[0] Rollover scheduled @ 2015-07-17 21:00:00(1437177600000)
+D/MountService( 3820): addVolumeLocked() StorageVolume:
+D/MountService( 3820):     mStorageId=0 mPath=/storage/usbdisk mDescriptionId=17041001 mPrimary=false 
+D/MountService( 3820):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+D/MountService( 3820):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+I/SystemServer( 3820): LockSettingsService
+I/DEBUG   ( 3687):     r0 00000000  r1 00000000  r2 00000020  r3 00000000
+I/DEBUG   ( 3687):     r4 00000000  r5 00000000  r6 00000006  r7 00000014
+I/DEBUG   ( 3687):     r8 b61731e4  r9 00000001  sl b580f050  fp b6fc8e04
+I/DEBUG   ( 3687):     ip b633df70  sp b5a01b80  lr b6339f8f  pc b6330368  cpsr 20070030
+I/DEBUG   ( 3687): 
+I/DEBUG   ( 3687): backtrace:
+I/DEBUG   ( 3687):     #00 pc 00001368  /system/lib/libaudioroute.so (audio_route_reset+7)
+I/DEBUG   ( 3687):     #01 pc 00001f8b  /system/lib/hw/audio.primary.universal5422.so
+I/DEBUG   ( 3687):     #02 pc 00002f2f  /system/lib/hw/audio.primary.universal5422.so
+I/DEBUG   ( 3687):     #03 pc 0002a9bb  /system/lib/libaudioflinger.so
+I/DEBUG   ( 3687):     #04 pc 00024a0b  /system/lib/libaudioflinger.so
+I/DEBUG   ( 3687):     #05 pc 0002644d  /system/lib/libaudioflinger.so
+I/DEBUG   ( 3687):     #06 pc 0000eeb5  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+I/DEBUG   ( 3687):     #07 pc 0000ea25  /system/lib/libutils.so
+I/DEBUG   ( 3687):     #08 pc 00013fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+I/DEBUG   ( 3687):     #09 pc 00011f93  /system/lib/libc.so (__start_thread+6)
+I/SystemServiceManager( 3820): Starting com.android.server.devicepolicy.DevicePolicyManagerService$Lifecycle
+E/MountService( 3820): Error processing initial volume state
+E/MountService( 3820): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.storage.StorageVolume.getPath()' on a null object reference
+E/MountService( 3820): 	at com.android.server.MountService.updatePublicVolumeState(MountService.java:752)
+E/MountService( 3820): 	at com.android.server.MountService.access$1700(MountService.java:119)
+E/MountService( 3820): 	at com.android.server.MountService$3.run(MountService.java:860)
+D/EventHub( 3820): No input device configuration file found for device 'uncal_gyro_sensor'.
+I/SystemServer( 3820): Status Bar
+I/PackageManager( 3820): No secure containers found
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager( 3820): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.dialer
+W/PackageManager( 3820): Unknown permission android.permission.ACCESS_SUPERUSER in package com.cyanogenmod.filemanager
+W/PackageManager( 3820): Unknown permission com.cyanogenmod.filemanager.permissions.READ_THEME in package com.cyanogenmod.filemanager
+W/PackageManager( 3820): Unknown permission com.cyngn.cmstats.SEND_ANALYTICS in package com.cyanogenmod.setupwizard
+W/PackageManager( 3820): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 3820): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 3820): Unknown permission com.google.android.c2dm.permission.RECEIVE in package org.whispersystems.whisperpush
+W/PackageManager( 3820): Not granting permission android.permission.BIND_WALLPAPER to package com.android.camera2 (protectionLevel=18 flags=0x58bc45)
+I/SystemServer( 3820): Clipboard Service
+W/PackageManager( 3820): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 3820): Unknown permission com.google.android.c2dm.permission.RECEIVE in package com.cyanogenmod.account
+W/PackageManager( 3820): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager( 3820): Unknown permission com.android.deskclock.worldclock.permissions.WRITE_DATABASE in package com.android.deskclock
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager( 3820): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.soundrecorder (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 3820): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager( 3820): Unknown permission com.qualcomm.permission.USE_PHONE_SERVICE in package com.android.mms
+W/PackageManager( 3820): Not granting permission android.permission.MANAGE_DOCUMENTS to package com.android.mms (protectionLevel=2 flags=0x4049be65)
+W/PackageManager( 3820): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x49be45)
+W/PackageManager( 3820): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager( 3820): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 3820): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 3820): Unknown permission android.permission.CANCEL_NOTIFICATIONS in package org.cyanogenmod.theme.chooser
+W/ClipboardService( 3820): No security bridge jar found, using default
+I/SystemServer( 3820): TorchService
+I/DEBUG   ( 3687): 
+I/DEBUG   ( 3687): Tombstone written to: /data/tombstones/tombstone_01
+I/DEBUG   ( 3687): ********************************************************
+I/DEBUG   ( 3687): * Process 3693 has been suspended while crashing.
+I/DEBUG   ( 3687): * To attach gdbserver for a gdb connection on port 5039
+I/DEBUG   ( 3687): * and start gdbclient:
+I/DEBUG   ( 3687): *
+I/DEBUG   ( 3687): *     gdbclient /system/bin/mediaserver :5039 3864
+I/DEBUG   ( 3687): * or
+I/DEBUG   ( 3687): *     dddclient /system/bin/mediaserver :5039 3864
+I/DEBUG   ( 3687): *
+I/DEBUG   ( 3687): * Wait for gdb to start, then press the VOLUME DOWN key
+I/DEBUG   ( 3687): * to let the process continue crashing.
+I/DEBUG   ( 3687): ********************************************************
+D/EventHub( 3820): No input device configuration file found for device 'sig_motion_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'uncal_geomagnetic_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'geomagnetic_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'gesture_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'temp_humidity_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'proximity_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'light_sensor'.
+D/EventHub( 3820): No input device configuration file found for device 'sii8240_rcp'.
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+I/EventHub( 3820): New device: id=13, fd=94, path='/dev/input/event0', name='sii8240_rcp', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+E/EventHub( 3820): could not get driver version for /dev/input/mice, Not a typewriter
+D/EventHub( 3820): No input device configuration file found for device 'hall'.
+D/EventHub( 3820): No input device configuration file found for device 'gpio_keys.16'.
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event16: Function not implemented
+I/EventHub( 3820): New device: id=15, fd=95, path='/dev/input/event16', name='gpio_keys.16', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 3820): No input device configuration file found for device 'voicecontrol'.
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event14: Function not implemented
+I/EventHub( 3820): New device: id=16, fd=96, path='/dev/input/event14', name='voicecontrol', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 3820): No input device configuration file found for device 'Headset'.
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event15: Function not implemented
+I/EventHub( 3820): New device: id=17, fd=97, path='/dev/input/event15', name='Headset', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 3820): No input device configuration file found for device 'sec_touchkey'.
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event17: Function not implemented
+I/EventHub( 3820): New device: id=18, fd=98, path='/dev/input/event17', name='sec_touchkey', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/sec_touchkey.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+D/EventHub( 3820): No input device configuration file found for device 'w1'.
+E/EventHub( 3820): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub( 3820): Unable to disable kernel key repeat for /dev/input/event1: Function not implemented
+I/EventHub( 3820): New device: id=20, fd=99, path='/dev/input/event1', name='sec_touchscreen', classes=0x15, configuration='/system/usr/idc/sec_touchscreen.idc', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+I/InputReader( 3820): Device added: id=-1, name='Virtual', sources=0x00000301
+I/InputReader( 3820):   Touch device 'sec_touchscreen' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader( 3820): Device added: id=20, name='sec_touchscreen', sources=0x00005103
+I/InputReader( 3820): Device added: id=18, name='sec_touchkey', sources=0x00000101
+I/InputReader( 3820): Device added: id=17, name='Headset', sources=0x00000101
+I/InputReader( 3820): Device added: id=16, name='voicecontrol', sources=0x00000101
+I/InputReader( 3820): Device added: id=15, name='gpio_keys.16', sources=0x00000101
+I/InputReader( 3820): Device added: id=13, name='sii8240_rcp', sources=0x00000101
+I/InputReader( 3820): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 3820): Device reconfigured: id=20, name='sec_touchscreen', size 1080x1920, orientation 0, mode 1, display id 0
+I/ActivityManager( 3820): Config changes=8 {1.0 ?mcc?mnc es_ES ldltr sw360dp w360dp h615dp 480dpi nrml long port ?uimode ?night finger -keyb/v/h -nav/h s.4 themeResource=null}
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=12770116167)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=12905151500)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=13680899833)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=13950934125)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=14120309167)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=18390838834)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=18830623042)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=19505764126)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=27810796668)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=27945800502)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=36215146961)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=37700796711)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=42695941045)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=42965951879)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=43100983920)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=43235982129)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=45531242796)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=61076040089)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=63101277506)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=67860749757)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=67995674173)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=74190803591)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=75000845424)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=75676075007)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=75946099174)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=76216072716)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=76486088133)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=82560694425)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=102811349094)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=109950681303)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=110760633637)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=111301031553)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=117241096429)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=123736116847)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=128071343014)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=128341266930)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=129556107972)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=129691066889)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=136456270015)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=136726170765)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=137671124182)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=140926127224)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=148771123433)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=149985665141)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=159601267226)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=159871236268)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=164191017810)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=164866118893)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=166350878852)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=172291044394)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=175935622478)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=177690676561)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=177960687103)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=178365449853)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=178500420353)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=184996087062)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=185671044812)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=186075892062)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=192840775938)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=193650760438)
+W/SurfaceFlinger( 3690): Ignoring duplicate VSYNC event from HWC (t=194730686813)
+I/InputDispatcher( 3820): Dropped event because input dispatch is disabled.
+E/Universal5422 PowerHAL( 3820): Error opening /sys/devices/system/cpu/cpufreq/interactive/boostpulse: No such file or directory
+I/InputDispatcher( 3820): Dropped event because input dispatch is disabled.
